@@ -15,8 +15,14 @@
     "build": "webpack --config webpack.production.js",
     "build:all": "npm-run-all prestart build",
     "postbuild": "python3 utils/postbuild.py",
-    "wikisync": "python3 wikisync.py",
-    "publish": "npm-run-all build:all wikisync"
+    "wikisync": "python3.7 wikisync.py",
+    "publish": "npm-run-all build:all wikisync",
+    "preprocess:win": "python utils/preprocess.py",
+    "nav:win": "python utils/nav.py",
+    "citations:win": "python utils/citations.py",
+    "custom_tests:win": "python utils/test.py",
+    "server:win": "webpack-dev-server --config webpack.development.js --open --host 0.0.0.0",
+    "start:win": "npm-run-all preprocess:win nav:win citations:win custom_tests:win server:win"
   },
   "repository": {
     "type": "git",
