@@ -1,12 +1,13 @@
-/** 
-* Navbar 
+/**
+* Navbar
 **/
 
-$navBG: #2c3e50;
+$navBG: #000000;
 $navItem: white;
 $navItemHover: #18bc9c;
 
-$navBG-dark: #375A7F;
+$navBG-dark: #ffffff;
+$navItem-dark: black;
 $body-dark: #222222;
 $dropdown-border-dark: rgb(68, 68, 68);
 
@@ -24,14 +25,14 @@ $dropdown-border-dark: rgb(68, 68, 68);
     position: relative;
     z-index: 200;
     transition: transform 0.3s;
-    color: white;
+    color: $navItem;
 
     span {
       font-weight: 600;
     }
 
     &:hover {
-      color: white;
+      color: $navItemHover;
     }
   }
 
@@ -73,9 +74,21 @@ $dropdown-border-dark: rgb(68, 68, 68);
 // dark mode
 body.dark {
   .navbar {
-    background-color: $navBG-dark
+    background-color: $navBG-dark;
+
+    .navbar-brand {
+      color: $navItem-dark;
+    }
+
+    a {
+      color: $navItem-dark;
+
+      &:hover {
+        color: $navItemHover;
+      }
+    }
   }
-  
+
   .navbar-collapse {
     background-color: $navBG-dark;
   }
