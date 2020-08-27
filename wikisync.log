@@ -1,0 +1,56 @@
+2020-08-26 21:02:46,675 : INFO : iGEM_login : Successfully logged in as xinhexing.
+2020-08-26 21:02:46,678 : ERROR : cache_files : index.pug has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,679 : ERROR : cache_files : nav.yml has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,870 : ERROR : cache_files : citations\cache.yml has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,870 : ERROR : cache_files : citations\Sample.yml has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,870 : ERROR : cache_files : css\content.scss has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,870 : ERROR : cache_files : css\fix-bootstrap.scss has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,871 : ERROR : cache_files : css\igem-reset.scss has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,871 : ERROR : cache_files : css\index.scss has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,871 : ERROR : cache_files : css\team.scss has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,872 : ERROR : cache_files : css\_fonts.scss has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,872 : ERROR : cache_files : css\_footer.scss has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,872 : ERROR : cache_files : css\_main.scss has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,872 : ERROR : cache_files : css\_media_queries.scss has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,872 : ERROR : cache_files : css\_nav.scss has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,873 : ERROR : cache_files : pages\Description.pug has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,873 : ERROR : cache_files : pages\Sample.pug has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,873 : ERROR : cache_files : pages\Team.pug has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,874 : ERROR : cache_files : templates\contents.pug has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,874 : ERROR : cache_files : templates\footer.pug has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,874 : ERROR : cache_files : templates\mixins.pug has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,874 : ERROR : cache_files : templates\nav.pug has an unsupported file extension. Skipping.
+2020-08-26 21:02:46,874 : ERROR : cache_files : templates\nav_list.pug has an unsupported file extension. Skipping.
+2020-08-26 21:02:47,937 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-300.eot to https://2020.igem.org/wiki/images/2/24/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-300.eot.
+2020-08-26 21:02:49,198 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-300.svg to https://2020.igem.org/wiki/images/8/89/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-300.svg.
+2020-08-26 21:02:50,070 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-300.ttf to https://2020.igem.org/wiki/images/7/75/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-300.ttf.
+2020-08-26 21:02:50,938 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-300.woff to https://2020.igem.org/wiki/images/2/21/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-300.woff.
+2020-08-26 21:02:51,838 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-700.eot to https://2020.igem.org/wiki/images/f/fd/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-700.eot.
+2020-08-26 21:02:53,132 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-700.svg to https://2020.igem.org/wiki/images/2/20/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-700.svg.
+2020-08-26 21:02:54,034 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-700.ttf to https://2020.igem.org/wiki/images/3/3e/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-700.ttf.
+2020-08-26 21:02:54,912 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-700.woff to https://2020.igem.org/wiki/images/0/06/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-700.woff.
+2020-08-26 21:02:55,789 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-regular.eot to https://2020.igem.org/wiki/images/a/a5/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-regular.eot.
+2020-08-26 21:02:57,049 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-regular.svg to https://2020.igem.org/wiki/images/f/f4/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-regular.svg.
+2020-08-26 21:02:57,930 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-regular.ttf to https://2020.igem.org/wiki/images/7/75/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-regular.ttf.
+2020-08-26 21:02:58,823 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-regular.woff to https://2020.igem.org/wiki/images/a/ae/T--Stockholm--fonts--lato-v16-latin--lato-v16-latin-regular.woff.
+2020-08-26 21:02:59,684 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot to https://2020.igem.org/wiki/images/f/f5/T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot.
+2020-08-26 21:03:00,774 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg to https://2020.igem.org/wiki/images/b/b3/T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg.
+2020-08-26 21:03:01,663 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf to https://2020.igem.org/wiki/images/d/d7/T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf.
+2020-08-26 21:03:02,535 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff to https://2020.igem.org/wiki/images/6/6d/T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff.
+2020-08-26 21:03:03,427 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot to https://2020.igem.org/wiki/images/3/34/T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot.
+2020-08-26 21:03:04,420 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg to https://2020.igem.org/wiki/images/b/bf/T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg.
+2020-08-26 21:03:05,314 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf to https://2020.igem.org/wiki/images/6/69/T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf.
+2020-08-26 21:03:06,181 : INFO : iGEM_upload_file : Uploaded T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff to https://2020.igem.org/wiki/images/e/e9/T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff.
+2020-08-26 21:03:07,919 : INFO : iGEM_upload_file : Uploaded T--Stockholm--icons--link-solid.svg to https://2020.igem.org/wiki/images/0/0d/T--Stockholm--icons--link-solid.svg.
+2020-08-26 21:03:10,181 : INFO : iGEM_upload_file : Uploaded T--Stockholm--icons--moon.svg to https://2020.igem.org/wiki/images/4/49/T--Stockholm--icons--moon.svg.
+2020-08-26 21:03:11,946 : INFO : iGEM_upload_file : Uploaded T--Stockholm--icons--sun.svg to https://2020.igem.org/wiki/images/f/f3/T--Stockholm--icons--sun.svg.
+2020-08-26 21:03:17,336 : INFO : iGEM_upload_file : Uploaded T--Stockholm--img--Description--josh-withers.jpg to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg.
+2020-08-26 21:03:18,356 : INFO : iGEM_upload_file : Uploaded T--Stockholm--img--Home--design.jpeg to https://2020.igem.org/wiki/images/b/bf/T--Stockholm--img--Home--design.jpeg.
+2020-08-26 21:03:19,631 : INFO : iGEM_upload_file : Uploaded T--Stockholm--img--Home--human-practices.jpg to https://2020.igem.org/wiki/images/3/32/T--Stockholm--img--Home--human-practices.jpg.
+2020-08-26 21:03:20,628 : INFO : iGEM_upload_file : Uploaded T--Stockholm--img--Home--model.jpeg to https://2020.igem.org/wiki/images/7/74/T--Stockholm--img--Home--model.jpeg.
+2020-08-26 21:03:21,751 : INFO : iGEM_upload_file : Uploaded T--Stockholm--img--Team--member.jpeg to https://2020.igem.org/wiki/images/4/48/T--Stockholm--img--Team--member.jpeg.
+2020-08-26 21:03:24,134 : INFO : iGEM_upload_file : Uploaded T--Stockholm--img--Team.jpg to https://2020.igem.org/wiki/images/6/68/T--Stockholm--img--Team.jpg.
+2020-08-26 21:03:25,012 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:Stockholm/indexJS&action=edit.
+2020-08-26 21:03:25,874 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:Stockholm/js\contentJS&action=edit.
+2020-08-26 21:03:26,714 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:Stockholm/js\mainJS&action=edit.
+2020-08-26 21:03:27,543 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:Stockholm/js\teamJS&action=edit.
