@@ -16,7 +16,7 @@
     "build:all": "npm-run-all prestart build",
     "postbuild": "python3 utils/postbuild.py",
     "wikisync": "python3.7 wikisync.py",
-    "publish": "npm-run-all build:all wikisync",
+    "publish": "npm-run-all build:all:win wikisync:win",
     "preprocess:win": "python utils/preprocess.py",
     "nav:win": "python utils/nav.py",
     "citations:win": "python utils/citations.py",
@@ -26,8 +26,7 @@
     "build:win": "webpack --config webpack.production.js",
     "build:all:win": "npm-run-all prestart:win build:win",
     "postbuild:win": "python utils/postbuild.py",
-    "wikisync:win": "python wikisync.py",
-    "publish": "npm-run-all build:all:win wikisync:win"
+    "wikisync:win": "python wikisync.py"
   },
   "repository": {
     "type": "git",
@@ -76,5 +75,7 @@
     "webpack-merge": "^4.2.2"
   },
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "wavify": "^1.0.0"
+  }
 }

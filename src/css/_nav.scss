@@ -2,14 +2,12 @@
 * Navbar
 **/
 
-$navBG: #000000;
-$navItem: white;
+$navBG: white;
+$navItem: black;
 $navItemHover: #18bc9c;
 
-$navBG-dark: #ffffff;
-$navItem-dark: black;
-$body-dark: #222222;
-$dropdown-border-dark: rgb(68, 68, 68);
+$navBG-dark: black;
+$navItem-dark: white;
 
 .navbar {
   height: 70px;
@@ -60,12 +58,13 @@ $dropdown-border-dark: rgb(68, 68, 68);
   }
 
   .dropdown-menu {
+    border: 0;
     a {
-      color: $navBG;
+      color: $navItem;
 
       &:hover {
         background-color: $navBG;
-        color: white;
+        color: $navItemHover;
       }
     }
   }
@@ -94,14 +93,13 @@ body.dark {
   }
 
   .dropdown-menu {
-    background-color: $body-dark;
-    border: 1px solid $dropdown-border-dark;
+    background-color: $navBG-dark;
     a {
-      color: white;
+      color: $navItem-dark;
 
       &:hover {
         background-color: $navBG-dark;
-        color: white;
+        color: $navItemHover;
       }
     }
   }

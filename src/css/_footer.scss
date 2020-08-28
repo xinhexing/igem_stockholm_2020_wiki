@@ -17,6 +17,17 @@ footer {
   font-family: "Lato";
   font-size: 1rem;
 
+  .social_media {
+    text-align: center;
+    margin: 2rem 0;
+
+    a {
+      font-size: 3rem;
+      margin: 1rem;
+    }
+
+  }
+
   p {
     margin: 0;
   }

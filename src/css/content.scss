@@ -34,6 +34,8 @@ $tableBorder-dark: #4e4e4e;
 header {
   margin: 10rem 0 0 0;
   font-family: "Lato", sans-serif;
+  text-align: center;
+  height: 50vh;
 
   h1 {
     font-weight: 300;
@@ -50,6 +52,7 @@ header {
   hr {
     background: #e2e2e3;
   }
+
 }
 
 @include respond-below(lg) {

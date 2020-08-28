@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="wave.svg"
+   id="svg4"
+   version="1.1"
+   viewBox="0 0 1440 320">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg4"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="321.65742"
+     inkscape:cx="918.26573"
+     inkscape:zoom="0.60202286"
+     inkscape:snap-page="true"
+     showgrid="false"
+     id="namedview6"
+     inkscape:window-height="1001"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <path
+     style="fill:#000000;stroke-width:0.92151"
+     sodipodi:nodetypes="csscccccccccccccc"
+     fill="#0099ff"
+     fill-opacity="1"
+     d="m 0,265.6523 47.5847,5.80813 c 50.0818,6.11289 112.85504,24.9508 208.85504,11.36387 96,-13.58692 158.77866,-42.83903 254.77866,-51.92529 96,-8.7466 261.7648,23.334 357.7648,37.17568 96,13.33217 187.0168,-38.18062 283.0168,-38.43538 96,0.25476 192,26.67198 240,31.51232 l 48,4.50067 V 320 H 1392 1152 864 576 288 48 0 Z"
+     id="path2-2" />
+</svg>
