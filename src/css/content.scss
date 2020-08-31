@@ -101,8 +101,8 @@ header {
       display: flex;
 
       svg {
-        margin-top: 4px;
-        height: 15px;
+        margin-top: 8px;
+        height: 7px;
       }
       a {
         margin-left: 10px;
@@ -114,47 +114,6 @@ header {
         color: black;
 
         // from https://codepen.io/devilishalchemist/pen/ZYLZay
-
-        $duration: 0.2s;
-        $distance: 6px;
-        $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
-        &:before,
-        &:after {
-          content: "";
-          position: absolute;
-          bottom: 6px;
-          left: 0;
-          right: 0;
-          height: 2px;
-          background-color: $linkHover;
-        }
-        &:before {
-          opacity: 0;
-          transform: translateY(-$distance);
-          transition: transform 0s $easeOutBack, opacity 0s;
-        }
-        &:after {
-          opacity: 0;
-          transform: translateY($distance/2);
-          transition: transform $duration $easeOutBack, opacity $duration;
-          width: 100%;
-        }
-        &:hover,
-        &:focus {
-          &:before,
-          &:after {
-            opacity: 1;
-            transform: translateY(0);
-          }
-          &:before {
-            transition: transform $duration $easeOutBack, opacity $duration;
-          }
-          &:after {
-            transition: transform 0s $duration $easeOutBack,
-              opacity 0s $duration;
-          }
-        }
       }
     }
   }

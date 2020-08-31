@@ -6,13 +6,13 @@ $('.content h1, .content h2').each(function () {
     var text = $(this).text();
     $(this).text(text + ' ');
     var id = text.trim().replace(/ /g, '');
-    
+
     if ($(this).prop('tagName') == 'H2') {
         id = $(this).prevAll('h1:first').attr('id') + "-" + id;
     }
-    
+
     $(this).attr('id', id);
-    
+
     var height = $(this).height();
     var link = document.createElement('a');
     link.classList.add('anchor');
@@ -26,9 +26,9 @@ $('.content h1, .content h2').each(function () {
 
         var icon = document.createElement('i');
         icon.classList.add("fas");
-        icon.classList.add("fa-chevron-right");
+        icon.classList.add("fa-circle");
         item.append(icon);
-        
+
         var a = document.createElement('a');
         $(a).attr('href', '#' + id);
         $(a).text(text);
