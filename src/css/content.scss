@@ -4,27 +4,28 @@
  * Header
  ******************************/
 
-$whitey: #f0f0f0;
-$pink: #ea178c;
 $green: #0fc488;
 $green-background: #11d694;
 $dark-green: #12bc84;
 $white: #ffffff;
-$yellow: #ffdb59;
-$orange: #ffb454;
+
 $black: #3d3d3d;
-$grey: #dadada;
-$light-grey: #f7f7f7;
+
 $dark-grey: #8e8e8e;
 $selection-color: rgba(255, 233, 0, 0.4);
 
 $darkBlue: #2c3e50;
-$darkerBlue: #1e2b37;
 $linkHover: #18bc9c;
+
+$text_light: #dadada;
+$body_light: #dadada;
+$splash_light: #313131;
 $tableBorder: #dee2e6;
 
 // dark mode
-$dark-body: #313131;
+$text_dark: #313131;
+$body_dark: #313131;
+$splash_dark: #dadada;
 $tableBorder-dark: #4e4e4e;
 
 ::selection {
@@ -32,10 +33,12 @@ $tableBorder-dark: #4e4e4e;
 }
 
 header {
-  margin: 10rem 0 0 0;
+  position: relative;
   font-family: "Lato", sans-serif;
   text-align: center;
-  height: 50vh;
+  height: 75vh;
+  background-color: $splash_light;
+  color: $text_light;
 
   h1 {
     font-weight: 300;
@@ -51,6 +54,23 @@ header {
 
   hr {
     background: #e2e2e3;
+  }
+
+  .wave {
+    position: absolute; left: 0; bottom: 0;
+    width: 100%; height: 200px;
+    background: url("../assets/img/wave_light.svg") left bottom/1000px repeat-x;
+    transition: background-image 0.3s;
+  }
+
+  .wave1 {opacity: 1; animation: slide 7.44s linear infinite;}
+  .wave2 {opacity: 0.5; animation: slide 9.83s linear infinite;}
+  .wave3 {opacity: 0.5; animation: slide 4.27s linear infinite}
+
+  @keyframes slide {
+    0% {background-position: 0 0;}
+    50% {background-position: 500px -10px;}
+    100% {background-position: 1000px 0;}
   }
 
 }
@@ -73,57 +93,63 @@ header {
 /******************************
 * Main
 ******************************/
+body {
+  background-color: $body_light;
 
-.sidebar {
-  margin-top: 1rem;
-  padding: 2rem 5rem 0 1rem;
+  .row {
+    margin-top: 2rem;
 
-  h5 {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
-    text-transform: uppercase;
-  }
+    .sidebar {
+      padding: 2rem 5rem 0 1rem;
 
-  #contents {
-    position: sticky;
-    top: 150px;
-    font-size: 1.2rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    height: auto;
-    transition: none;
-
-    li {
-      margin: 15px 0;
-      justify-content: left;
-      list-style: none;
-      display: flex;
-      transition: color 0.2s, transform 0.2s;
-      transform-origin: left;
-
-      &:hover {
-        color: $linkHover;
-        transform: scale(1.3);
+      h5 {
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        text-transform: uppercase;
       }
 
-      svg {
-        margin-top: 8px;
-        height: 7px;
-      }
-      a {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        position: relative;
-        text-decoration: none;
-        padding-bottom: 6px;
-        transition: color 0.2s;
-        color: black;
+      #contents {
+        position: sticky;
+        top: 150px;
+        font-size: 1.2rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        height: auto;
+        transition: none;
 
-        &:hover {
-          color: $linkHover;
+        li {
+          margin: 15px 0;
+          justify-content: left;
+          list-style: none;
+          display: flex;
+          transition: color 0.2s, transform 0.2s;
+          transform-origin: left;
+
+          &:hover {
+            color: $linkHover;
+            transform: scale(1.3);
+          }
+
+          svg {
+            margin-top: 8px;
+            height: 7px;
+          }
+          a {
+            margin-left: 10px;
+            font-size: 1.1rem;
+            position: relative;
+            text-decoration: none;
+            padding-bottom: 6px;
+            transition: color 0.2s;
+            color: black;
+
+            &:hover {
+              color: $linkHover;
+            }
+
+          }
         }
-
       }
     }
   }
@@ -519,7 +545,7 @@ footer {
   main {
     .content {
       article {
-        padding: 0;
+        padding: calc(1rem + 1.2vw)
       }
       h1 {
         font-size: 2rem;
@@ -538,7 +564,6 @@ footer {
 
 @include respond-below(md) {
   header {
-    min-height: 55vh;
     #heading {
       margin-left: 1.75rem;
     }
@@ -559,7 +584,6 @@ footer {
 
 @include respond-below(sm) {
   header {
-    min-height: 40vh;
     #heading {
       margin-left: calc(1.5rem + 0.2vw);
       margin-bottom: calc(1.5rem + 0.2vw);
@@ -634,9 +658,19 @@ footer {
   }
 }
 
+/* DARK MODE */
+
 body.dark {
+
+  background-color: $body_dark;
+
   header {
-    color: white;
+    color: $text_dark;
+    background-color: $splash_dark;
+
+    .wave {
+      background: url("../assets/img/wave_dark.svg") left bottom/1000px repeat-x;
+    }
   }
 
   .sidebar {
