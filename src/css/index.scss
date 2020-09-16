@@ -7,6 +7,13 @@
 $green: #4abf66;
 $whitey: #f0f0f0;
 
+$bg_light: #dadada;
+$bg_dark: #313131;
+
+body {
+  background-color: $bg_light;
+}
+
 header {
   margin: 10rem 0 4rem 0;
 
@@ -35,6 +42,8 @@ header {
 
 // dark mode
 body.dark {
+  background-color: $bg_dark;
+
   header {
     .jumbotron {
       background-color: #303030;
@@ -55,13 +64,9 @@ body.dark {
 /******************************
 * Article
 ******************************/
-$pink: #ea178c;
 $green: #0fc488;
 $green-background: #11d694;
 $white: #ffffff;
-$yellow: #ffdb59;
-// $orange: #FFBA60;
-$orange: #ffb454;
 $black: #3d3d3d;
 
 article {
