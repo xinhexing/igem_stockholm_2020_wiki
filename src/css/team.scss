@@ -1,8 +1,20 @@
 @import "_main.scss";
 
+$item_light: #313131;
+$bg_light: #dadada;
 
+$item_dark: #dadada;
+$bg_dark: #313131;
+
+/*
 #themeSwitchWrapper {
   display: none !important;
+}
+*/
+
+body {
+  color: $item_light;
+  background-color: $bg_light;
 }
 
 header {
@@ -49,4 +61,11 @@ main {
     max-width: 100%;
     display: block; /* remove extra space below image */
   }
+}
+
+// DARK MODE
+
+body.dark {
+  color: $item_dark;
+  background-color: $bg_dark;
 }

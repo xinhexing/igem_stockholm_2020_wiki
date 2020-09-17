@@ -70,7 +70,7 @@ $navItem-dark: #dadada;
   }
 }
 
-// dark mode
+// DARK MODE
 body.dark {
   .navbar {
     background-color: $navBG-dark;
@@ -110,6 +110,12 @@ body.dark {
   #themeSwitchWrapper {
     svg {
       color: $navItem-dark;
+    }
+
+    #themeSwitch {
+      .slider.round {
+        background-color: $navItem-dark;
+      }
     }
   }
 }
@@ -246,6 +252,7 @@ Dark Mode Toggle Switch
 
     /* Rounded sliders */
     .slider.round {
+      background-color: $navItem;
       border-radius: 34px;
     }
 
