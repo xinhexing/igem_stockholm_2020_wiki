@@ -4,18 +4,13 @@
  * Header
  ******************************/
 
-$green: #0fc488;
-$green-background: #11d694;
-$dark-green: #12bc84;
 $white: #ffffff;
-
 $black: #3d3d3d;
-
 $dark-grey: #8e8e8e;
 $selection-color: rgba(255, 233, 0, 0.4);
 
 $darkBlue: #2c3e50;
-$linkHover: #18bc9c;
+$linkHover: #ef4f59;
 
 $text_light: #dadada;
 $body_light: #dadada;
@@ -375,7 +370,7 @@ body {
     }
 
     a {
-      color: $dark-green;
+      color: $linkHover;
 
       &:hover {
         text-decoration: underline;
@@ -510,7 +505,7 @@ body {
 
 footer {
   #footerNav {
-    background-color: $green-background;
+    background-color: $linkHover;
 
     h1 {
       color: $black;
