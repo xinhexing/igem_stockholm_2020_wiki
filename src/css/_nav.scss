@@ -14,6 +14,7 @@ $navItem-dark: #dadada;
 }
 
 .navbar {
+  top: 18px; // offset iGEM.org topbar
   height: 70px;
   transition: all 0.3s ease, transform 0.5s ease;
   padding: 0;
