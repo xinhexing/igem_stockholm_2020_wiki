@@ -19,7 +19,6 @@ $navItem-dark: #dadada;
 .navbar {
   top: 18px; // offset iGEM.org topbar
   height: 70px;
-  transition: all 0.3s ease, transform 0.5s ease;
   padding: 0;
 
   .navbar-brand {
@@ -28,16 +27,9 @@ $navItem-dark: #dadada;
     font-weight: 400;
     position: relative;
     z-index: 200;
-    transition: transform 0.3s;
     color: $navItem;
 
-    span {
-      font-weight: 600;
-    }
-
-    &:hover {
-      color: $navItemHover;
-    }
+    span {font-weight: 600;}
   }
 
   .navbar-toggler-icon {
@@ -52,20 +44,16 @@ $navItem-dark: #dadada;
     font-family: "Lato", sans-serif;
     font-size: 1.1rem;
     color: $navItem;
-
-    &:hover {
-      color: $navItemHover;
-    }
   }
 
   .dropdown-menu {
+    background-color: $navBG;
     border: 0;
     a {
       color: $navItem;
-
       &:hover {
-        background-color: $navBG;
         color: $navItemHover;
+        background: none;
       }
     }
   }
@@ -82,22 +70,13 @@ body.dark {
   .navbar {
     .navbar-brand {color: $navItem-dark;}
 
-    a {
-      color: $navItem-dark;
-
-      &:hover {color: $navItemHover;}
-    }
+    a {color: $navItem-dark;}
   }
 
   .dropdown-menu {
     background-color: $navBG-dark;
     a {
       color: $navItem-dark;
-
-      &:hover {
-        background-color: $navBG-dark;
-        color: $navItemHover;
-      }
     }
   }
   #themeSwitchWrapper {
@@ -214,7 +193,6 @@ Dark Mode Toggle Switch
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: #ccc;
       -webkit-transition: 0.4s;
       transition: 0.4s;
     }
