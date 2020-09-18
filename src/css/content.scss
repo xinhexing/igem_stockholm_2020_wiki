@@ -1,6 +1,45 @@
 @import "_main.scss";
 
 /******************************
+ * Navbar Inversion
+ ******************************/
+
+$navBG: #dadada;
+$navItem: #313131;
+$navItemHover: #ef4f59;
+
+$navBG-dark: #313131;
+$navItem-dark: #dadada;
+
+.navbar:not(.nav-colored) {
+  .navbar-brand {color: $navItem-dark;}
+  a {color: $navItem-dark;}
+  #themeSwitchWrapper {
+    svg {color: $navItem-dark;}
+
+    #themeSwitch {
+      .slider.round {background-color: $navItem-dark;}
+      .slider:before {background-color: $navBG-dark;}
+    }
+  }
+}
+
+body.dark {
+  .navbar:not(.nav-colored) {
+    .navbar-brand {color: $navItem;}
+    a {color: $navItem;}
+    #themeSwitchWrapper {
+      svg {color: $navItem;}
+  
+      #themeSwitch {
+        .slider.round {background-color: $navItem;}
+        .slider:before {background-color: $navBG;}
+      }
+    }
+  }
+}
+
+/******************************
  * Header
  ******************************/
 
