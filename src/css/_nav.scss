@@ -13,13 +13,13 @@ $navItem-dark: #dadada;
 
 .nav-colored {
   background: $navBG;
-  .navbar-collapse {background-color: $navBG;}
 }
 
 .navbar {
   top: 18px; // offset iGEM.org topbar
   height: 70px;
   padding: 0;
+  transition: 0.3s;
 
   .navbar-brand {
     font-size: 1.75rem;
@@ -93,6 +93,21 @@ body.dark {
 }
 
 @include respond-below(lg) {
+  // DARK MODE
+  body.dark {
+    .nav-colored {
+      .navbar-collapse {
+        transition: background-color 0.3s;
+        background-color: $navBG-dark;
+      }
+    }
+  }
+  .nav-colored {
+    .navbar-collapse {
+      transition: background-color 0.3s;
+      background-color: $navBG;
+    }
+  }
   .navbar {
     .navbar-brand {
       font-size: 1.5rem;
@@ -113,6 +128,7 @@ body.dark {
     }
 
     .navbar-collapse {
+      transition: background-color 0.3s;
       padding: 0 3rem 1.5rem 3rem;
     }
   }

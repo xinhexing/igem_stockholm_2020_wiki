@@ -73,6 +73,7 @@ header {
   height: 75vh;
   background-color: $splash_light;
   color: $text_light;
+  transition: 0.3s;
 
   h1 {
     font-weight: 300;
@@ -94,6 +95,7 @@ header {
     position: absolute; left: 0; bottom: 0;
     width: 100%; height: 200px;
     background: url("../assets/img/wave_light.svg") left bottom/1000px repeat-x;
+    transition: 0.3s;
   }
 
   .wave1 {opacity: 1; animation: slide 7.44s linear infinite;}

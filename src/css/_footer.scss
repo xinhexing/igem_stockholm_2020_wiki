@@ -11,7 +11,7 @@ $link: #ef4f59;
 
 footer {
   background-color: $background;
-  transition: background-color 0.3s ease;
+  transition: 0.3s;
   padding: 3rem 0 4rem 0;
   color: $item;
   font-family: "Lato";
@@ -34,12 +34,7 @@ footer {
 
   a {
     color: $link;
-    transition: color 0.3s ease;
-
-    &:hover {
-      color: $link;
-      text-decoration: underline;
-    }
+    &:hover {text-decoration: underline;}
   }
 }
 

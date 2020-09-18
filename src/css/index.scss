@@ -14,7 +14,7 @@ body {
 
 header {
   scroll-snap-align: start;
-  background-color: darkmagenta;
+  background: center/110% url("https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?cs=srgb&dl=pexels-francesco-ungaro-2325446.jpg&fm=jpg");
   position: relative;
   height: 90vh;
 
@@ -29,7 +29,13 @@ header {
     height: 3rem; width: 5rem;
     text-align: center; font-size: 3rem;
   }
-  #down {bottom: 1rem;}
+  #down {
+    bottom: 2rem;
+    transition: 0.3s;
+    &:hover {
+      bottom: 1rem;
+    }
+  }
 
 }
 
@@ -99,7 +105,7 @@ article {
     position: relative;
     height: 90vh;
     text-align: center;
-    padding: 2rem;
+    padding: 9rem 4rem 4rem 4rem;
   }
   #design {background-color: red;}
   #model {background-color: blue;}
