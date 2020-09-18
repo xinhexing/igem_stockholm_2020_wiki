@@ -8,6 +8,8 @@ html(lang="en")
   body
     include templates/nav.pug
     header.d-flex.justify-content-center.align-items-center
+      a(href='#design').arrow#down
+        i.fas.fa-chevron-down
     //-
       .container
         .jumbotron
@@ -19,11 +21,11 @@ html(lang="en")
             | All the content on this website is based on the 
             a(href="https://2020.igem.org/Team:Example") example wiki
             |  and has been used for demonstration only.
-          a.btn.btn-primary.btn-lg(href='Description' role='button') Read more 
-
+          a.btn.btn-primary.btn-lg(href='Description' role='button') Read more
     article
       .container
         .page#design
+          p text here
         .page#model
         .page#hp
 

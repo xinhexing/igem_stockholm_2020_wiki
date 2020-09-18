@@ -5,6 +5,7 @@ $bg_dark: #313131;
 
 body {
   background-color: $bg_light;
+  scroll-behavior: smooth;
 }
 
 /******************************
@@ -12,15 +13,24 @@ body {
  ******************************/
 
 header {
-  background-color: darkcyan;
+  scroll-snap-align: start;
+  background-color: darkmagenta;
   position: relative;
-  height: 80vh;
+  height: 95vh;
 
   h1 {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 4.5rem;
   }
+
+  .arrow {
+    position: absolute;
+    height: 3rem; width: 5rem;
+    text-align: center; font-size: 3rem;
+  }
+  #down {bottom: 1rem;}
+
 }
 
 @include respond-below(lg) {
@@ -85,19 +95,15 @@ article {
     font-size: 1rem;
   }
 
-  .container {
-    scroll-behavior: smooth;
-    scroll-snap-type: mandatory;
-
-    .page {
-      position: relative;
-      height: 80vh;
-      scroll-snap-align: start;
-    }
-    #design {background-color: red;}
-    #model {background-color: blue;}
-    #hp {background-color: green;}
+  .page {
+    position: relative;
+    height: 95vh;
+    text-align: center;
+    padding: 2rem;
   }
+  #design {background-color: red;}
+  #model {background-color: blue;}
+  #hp {background-color: green;}
 }
 
 // DARK MODE
