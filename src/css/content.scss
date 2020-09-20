@@ -1,45 +1,6 @@
 @import "_main.scss";
 
 /******************************
- * Navbar Inversion
- ******************************/
-
-$navBG: #dadada;
-$navItem: #313131;
-$navItemHover: #ef4f59;
-
-$navBG-dark: #313131;
-$navItem-dark: #dadada;
-
-.navbar:not(.nav-colored) {
-  .navbar-brand {color: $navItem-dark;}
-  a {color: $navItem-dark;}
-  #themeSwitchWrapper {
-    svg {color: $navItem-dark;}
-    #themeSwitch {
-      .slider.round {background-color: $navItem-dark;}
-      .slider:before {background-color: $navBG-dark;}
-    }
-  }
-  .dropdown-menu {background-color: $navBG-dark;}
-}
-
-body.dark {
-  .navbar:not(.nav-colored) {
-    .navbar-brand {color: $navItem;}
-    a {color: $navItem;}
-    #themeSwitchWrapper {
-      svg {color: $navItem;}
-      #themeSwitch {
-        .slider.round {background-color: $navItem;}
-        .slider:before {background-color: $navBG;}
-      }
-    }
-    .dropdown-menu {background-color: $navBG;}
-  }
-}
-
-/******************************
  * Header
  ******************************/
 
@@ -51,15 +12,15 @@ $selection-color: rgba(255, 233, 0, 0.4);
 $darkBlue: #2c3e50;
 $linkHover: #ef4f59;
 
-$text_light: #dadada;
+$text_light: #313131;
 $body_light: #dadada;
-$splash_light: #313131;
+$splash_light: #a1a1a1;
 $tableBorder: #dee2e6;
 
 // DARK MODE
-$text_dark: #313131;
+$text_dark: #dadada;
 $body_dark: #313131;
-$splash_dark: #dadada;
+$splash_dark: #5c5c5c;
 $tableBorder-dark: #4e4e4e;
 
 ::selection {
@@ -108,6 +69,13 @@ header {
     100% {background-position: 1000px 0;}
   }
 
+  .arrow {
+    z-index: 50;
+    position: absolute; bottom: 3rem; left: calc(50% - 1.5rem);
+    font-size: 3rem;
+    transition: 0.3s;
+    &:hover {bottom: 2.5rem;}
+  }
 }
 
 @include respond-below(lg) {

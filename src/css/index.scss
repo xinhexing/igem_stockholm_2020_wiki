@@ -17,26 +17,13 @@ header {
   background: center/110% url("https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?cs=srgb&dl=pexels-francesco-ungaro-2325446.jpg&fm=jpg");
   position: relative;
   height: 90vh;
+  text-align: center; 
 
   h1 {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 4.5rem;
   }
-
-  .arrow {
-    position: absolute;
-    height: 3rem; width: 5rem;
-    text-align: center; font-size: 3rem;
-  }
-  #down {
-    bottom: 2rem;
-    transition: 0.3s;
-    &:hover {
-      bottom: 1rem;
-    }
-  }
-
 }
 
 @include respond-below(lg) {
