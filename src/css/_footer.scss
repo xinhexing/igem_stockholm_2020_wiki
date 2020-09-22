@@ -2,18 +2,19 @@
  * Footer
  **/
 
-$item: #dadada;
-$background: #313131;
+$item_light: #dadada;
+$bg_light: #313131;
 
-$item-dark: #313131;
-$background-dark: #dadada;
+$item_dark: #313131;
+$bg_dark: #dadada;
+
 $link: #ef4f59;
 
 footer {
-  background-color: $background;
+  color: $item_light;
+  background-color: $bg_light;
   transition: 0.3s;
   padding: 3rem 0 4rem 0;
-  color: $item;
   font-family: "Lato";
   font-size: 1rem;
 
@@ -40,7 +41,7 @@ footer {
 
 body.dark {
   footer {
-    background-color: $background-dark;
-    color: $item-dark;
+    background-color: $bg_dark;
+    color: $item_dark;
   }
 }
