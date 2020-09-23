@@ -62,11 +62,10 @@ main {
       display: block; /* remove extra space below image */
     }
 
-    #info {
+    .info {
+      display: none;
       padding: 0 0.5rem;
-      max-height: 0;
       overflow: hidden;
-      transition: 1s;
 
       p {margin-top: 1rem;}
 
@@ -74,11 +73,6 @@ main {
         max-width: 100%;
         border-radius: 50%;
       }
-    }
-
-    &:hover {
-      backdrop-filter: invert(0.25);
-      #info {max-height: 5000px;}
     }
   }
 }
