@@ -107,6 +107,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/7/74/T--Stockholm--img--Home--model.jpeg
     md5: 8beabd61d7aa41fed7e64af68f6d9ed5
     upload_filename: T--Stockholm--img--Home--model.jpeg
+  assets\img\Home--project_dark.png:
+    link_URL: https://2020.igem.org/wiki/images/e/ef/T--Stockholm--img--Home--project_dark.png
+    md5: b895ffa54f34136dcfa5d2f59b2ee6b4
+    upload_filename: T--Stockholm--img--Home--project_dark.png
   assets\img\Home--project_light.png:
     link_URL: https://2020.igem.org/wiki/images/a/a0/T--Stockholm--img--Home--project_light.png
     md5: b901e2508674a965838b563257eec1b7
@@ -129,7 +133,7 @@ assets:
     upload_filename: T--Stockholm--img--Team.jpg
   assets\img\wave_dark.svg:
     link_URL: https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg
-    md5: 54f23a3e9d3e30255387742918d1db67
+    md5: 465f10ee752a2c98de5582418088e785
     upload_filename: T--Stockholm--img--wave_dark.svg
   assets\img\wave_light.svg:
     link_URL: https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg
@@ -138,13 +142,13 @@ assets:
 css:
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
-    md5: 3566944aabc5ee860a02753866e0dfa0
+    md5: 25ee9b4eaecd5cbc45403c642ccdf1ae
   css\index.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css
-    md5: dfd0555f791e68f6cce870f2c911b68d
+    md5: a1fcf7cf87463e9ef1583d88b87eddd4
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: f02c707c38a0eb9e0eb2530b52b0b552
+    md5: 14b15df780243e549eb3584779b779b9
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -211,7 +215,7 @@ html:
     md5: fc3f3325ddbd588f9e1f5a14a37cbd97
   index.html:
     link_URL: https://2020.igem.org/Team:Stockholm
-    md5: 4cc20bb6b4b90272be83dd6035012c04
+    md5: 36638803b862460ec9633a4fe1d40bf8
 js:
   content.bundle.js:
     link_URL: https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript
