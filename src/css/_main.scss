@@ -7,6 +7,12 @@
 @import "_nav.scss";
 @import "_footer.scss";
 
+// Colors
+$item_light: #dadada;
+$bg_light: #1f1f1f;
+
+$item_dark: #1f1f1f;
+$bg_dark: #dadada;
 
 html {
   overflow-x: hidden;
@@ -17,6 +23,7 @@ html {
 
 body {
   transition: background-color 0.3s;
+  p, h1, h2, h3, h4, h5 {color: $item_light;}
 }
 
 // button from
@@ -45,6 +52,8 @@ a.btn-primary {
 // DARK MODE
 body.dark {
   background-color: $darkBody;
+
+  p, h1, h2, h3, h4, h5 {color: $item_dark;}
 
   a.btn-primary {
     background: $navBG-dark;
