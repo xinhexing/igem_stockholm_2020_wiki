@@ -13,7 +13,7 @@ body {
 ******************************/
 
 .parallax {
-  perspective: 300px;
+  perspective: 100px;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -35,7 +35,7 @@ body {
 // calculate scale factor with 1 + (translateZ * -1) / perspective
 
 .parallax_layer--fore {
-  transform: translateZ(90px);
+  transform: translateZ(30px);
 }
 
 .parallax_layer--base {
@@ -43,7 +43,7 @@ body {
 }
 
 .parallax_layer--back {
-  transform: translateZ(-300px);
+  transform: translateZ(-50px);
 }
 
 // Backgrounds
