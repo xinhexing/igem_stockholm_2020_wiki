@@ -1,14 +1,17 @@
 @import "_main.scss";
 
+$text_light: #1f1f1f;
 $bg_light: #dadada;
-$splash_light: url("https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+$splash_light: url("https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 
-$bg_dark: #313131;
-$splash_dark: url("https://images.pexels.com/photos/2387877/pexels-photo-2387877.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+$text_dark: #dadada;
+$bg_dark: #1f1f1f;
+$splash_dark: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 
 body {
   background-color: $bg_light;
   scroll-behavior: smooth;
+  color: $text_light;
 }
 
 /******************************
@@ -34,38 +37,40 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
+  transition: all 0.3s;
 }
 
 // Layer Transformations
 // calculate scale factor with 1 + (translateZ * -1) / perspective
 
-.parallax_layer-fore {transform: translateZ(30px) scale(0.7);}
+.parallax_layer-fore {transform: translateZ(30px) scale(0.71);}
 .parallax_layer-base {transform: translateZ(0);}
-.parallax_layer-mid {transform: translateZ(-50px) scale(1.5);}
-.parallax_layer-back {transform: translateZ(-100px) scale(2);}
+.parallax_layer-mid {transform: translateZ(-50px) scale(1.51);}
+.parallax_layer-back {transform: translateZ(-100px) scale(2.01);}
 
 // Backgrounds
 
-#group1 .parallax_layer-fore {border: 10rem solid #ff8989;}
-#group3 .parallax_layer-fore {border: 10rem solid #8989ff;}
-#group5 .parallax_layer-fore {border: 10rem solid #93ff89;}
+#group1 .parallax_layer-fore {border: 5rem solid #ff8989;}
+#group3 .parallax_layer-fore {border: 5rem solid #8989ff;}
+#group5 .parallax_layer-fore {border: 5rem solid #93ff89;}
 
-#group1 .parallax_layer-base {background: #a85a5a;}
-#group3 .parallax_layer-base {background: #5656a0;}
-#group5 .parallax_layer-base {background: #5fa158;}
+#group1 .parallax_layer-base, #group3 .parallax_layer-base, #group5 .parallax_layer-base {background: $bg_light;}
 
-#group2 .parallax_layer-mid {border: 10rem solid #f7ff89;}
-#group4 .parallax_layer-mid {border: 10rem solid #ff89d8;}
+#group2 .parallax_layer-mid {border: 5rem solid #f7ff89;}
+#group4 .parallax_layer-mid {border: 5rem solid #ff89d8;}
 
-#group0 .parallax_layer-back {background: $splash_light;}
-#group2 .parallax_layer-back {background: #7c7000;}
-#group4 .parallax_layer-back {background: #770067;}
-
+#group0 .parallax_layer-back {background: $splash_light no-repeat center/auto 100%;}
+#group2 .parallax_layer-back, #group4 .parallax_layer-back {background: $bg_light;}
 
 // Content
 
 #group0 {
   position: relative;
+
+  .logo {
+    height: 40rem; width: 20rem;
+    background: url("../assets/img/Home--project_dark.png") no-repeat center/100%;
+  }
 
   .wave {
     position: absolute; left: 0; bottom: 10vh;
@@ -110,116 +115,19 @@ body {
 #group4 {z-index: 2;}
 #group5 {z-index: 3;}
 
-/******************************
- * Header
-
-
-header {
-  scroll-snap-align: start;
-  position: relative;
-  height: 90vh;
-  text-align: center; 
-  perspective: 100px;
-
-  h1 {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-size: 4.5rem;
-  }
-}
-
-@include respond-below(lg) {
-  header {
-    h1 {
-      font-size: 4rem;
-    }
-  }
-}
-
-@include respond-below(md) {
-  header {
-    h1 {
-      font-size: 3.5rem;
-    }
-  }
-}
- ******************************/
-
-/******************************
-* Article
-
-
-article {
-  font-family: "Lato", sans-serif;
-
-  h1 {
-    font-size: 2.5rem;
-    color: $darkBlue;
-    margin: 1.5rem 0 1rem 0;
-  }
-
-  h2 {
-    margin: 1.5rem 0 1rem 0;
-  }
-
-  h3 {
-    margin: 1.5rem 0 0.7rem 0;
-  }
-
-  p {
-    font-size: 1.1rem;
-  }
-
-  li {
-    margin-left: 1rem;
-  }
-
-  .col {
-    padding: 1.5rem;
-  }
-
-  .card {
-    margin: 0 0 1.5rem 0;
-  }
-  .card-img-top {
-    img {
-      width: 100%;
-    }
-  }
-
-  p.card-text {
-    font-size: 1rem;
-  }
-
-  .page {
-    position: relative;
-    height: 90vh;
-    text-align: center;
-    padding: 9rem 4rem 4rem 4rem;
-  }
-  #design {background: none;}
-  #model {background: none;}
-  #hp {background: none;}
-}
-******************************/
-
 // DARK MODE
 body.dark {
   background-color: $bg_dark;
+  color: $text_dark;
 
-  header {
-    
-    hr {
-      background-color: rgb(90, 90, 90);
-    }
-
-    button {
-      background: $navBG-dark;
-    }
-  }
   #group0 {
+
+    .logo {background: url("../assets/img/Home--project_light.png") no-repeat center/100%;}
     .wave {background: url("../assets/img/wave_dark.svg") left bottom/1000px repeat-x;}
     .waveblock{background: $bg_dark;}
-    .parallax_layer-back {background: $splash_dark;}
+    .parallax_layer-back {background: $splash_dark no-repeat center/auto 100%;}
   }
+  #group1 .parallax_layer-base, #group3 .parallax_layer-base, #group5 .parallax_layer-base {background: $bg_dark;}
+  #group2 .parallax_layer-back, #group4 .parallax_layer-back {background: $bg_dark;}
+
 }

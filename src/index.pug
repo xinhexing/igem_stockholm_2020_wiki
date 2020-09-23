@@ -5,24 +5,24 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     title iGEM Stockholm
-  body
+  body#body
     include templates/nav.pug
     .parallax
       .parallax_group#group0
         .parallax_layer.parallax_layer-back
           .content
-            img(src=require('./assets/img/Home--project_light.png')['default'])
+            .logo
         .wave.wave1
         .wave.wave2
         .wave.wave3
         .waveblock
       .parallax_group#group1
         .parallax_layer.parallax_layer-fore
+        .parallax_layer.parallax_layer-base
           .content
             h1 Group 1 base
             p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             img(src="https://www.flaticon.com/svg/static/icons/svg/2905/2905113.svg")
-        .parallax_layer.parallax_layer-base
       .parallax_group#group2
         .parallax_layer.parallax_layer-mid
           .content
@@ -31,11 +31,11 @@ html(lang="en")
         .parallax_layer.parallax_layer-back
       .parallax_group#group3
         .parallax_layer.parallax_layer-fore
+        .parallax_layer.parallax_layer-base
           .content
             h1 Group 3 base
             p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             img(src="https://www.flaticon.com/svg/static/icons/svg/814/814587.svg")
-        .parallax_layer.parallax_layer-base
       .parallax_group#group4
         .parallax_layer.parallax_layer-mid
           .content
@@ -44,9 +44,9 @@ html(lang="en")
         .parallax_layer.parallax_layer-back
       .parallax_group#group5
         .parallax_layer.parallax_layer-fore
+        .parallax_layer.parallax_layer-base
           .content
             h1 Group 5 base
             p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             img(src="https://www.flaticon.com/svg/static/icons/svg/2942/2942433.svg")
-        .parallax_layer.parallax_layer-base
       include templates/footer.pug
