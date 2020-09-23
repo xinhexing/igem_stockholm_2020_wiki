@@ -9,15 +9,67 @@ body {
 }
 
 /******************************
+ * Parallax
+******************************/
+
+.parallax {
+  perspective: 300px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax_group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+.parallax_layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+// Layers
+// calculate scale factor with 1 + (translateZ * -1) / perspective
+
+.parallax_layer--fore {
+  transform: translateZ(90px);
+}
+
+.parallax_layer--base {
+  transform: translateZ(0);
+}
+
+.parallax_layer--back {
+  transform: translateZ(-300px);
+}
+
+// Backgrounds
+
+#group2 .parallax_layer--fore {background: rgba(0, 4, 255, 0.288);}
+
+#group1 .parallax_layer--base {background: rgba(255, 0, 0, 0.288);}
+#group2 .parallax_layer--base {background: rgba(0, 4, 255, 0.288);}
+
+#group1 .parallax_layer--back {background: red;}
+#group2 .parallax_layer--back {background: rgb(202, 0, 0);}
+
+.title {
+  text-align: center;
+}
+
+/******************************
  * Header
- ******************************/
+
 
 header {
   scroll-snap-align: start;
-  background: center/110% url("https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?cs=srgb&dl=pexels-francesco-ungaro-2325446.jpg&fm=jpg");
   position: relative;
   height: 90vh;
   text-align: center; 
+  perspective: 100px;
 
   h1 {
     font-family: "Lato", sans-serif;
@@ -41,10 +93,11 @@ header {
     }
   }
 }
+ ******************************/
 
 /******************************
 * Article
-******************************/
+
 
 article {
   font-family: "Lato", sans-serif;
@@ -98,6 +151,7 @@ article {
   #model {background: none;}
   #hp {background: none;}
 }
+******************************/
 
 // DARK MODE
 body.dark {
