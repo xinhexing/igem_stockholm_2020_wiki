@@ -132,3 +132,8 @@ body.dark {
   #group2 .parallax_layer-back, #group4 .parallax_layer-back {background: $bg_dark;}
 
 }
+@include respond-below(xs) {
+  #group0 {
+    .logo {width: 15rem;}
+  }
+}
