@@ -20,7 +20,9 @@ footer {
 
   .social_media {
     text-align: center;
-    margin: 2rem 0;
+    margin-bottom: 2rem;
+
+    p {margin: 1.5rem 0;}
 
     a {
       font-size: 3rem;
@@ -29,9 +31,7 @@ footer {
 
   }
 
-  p {
-    margin: 0;
-  }
+  p {margin: 0.5rem 0;}
 
   a {
     color: $link;
