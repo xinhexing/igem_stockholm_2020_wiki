@@ -142,13 +142,13 @@ assets:
 css:
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
-    md5: 25ee9b4eaecd5cbc45403c642ccdf1ae
+    md5: a2f24fca0fdabb7bb915d5c75a7d20b8
   css\index.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css
-    md5: a1fcf7cf87463e9ef1583d88b87eddd4
+    md5: cc29cfea47bf742cdcf565543e41a83b
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 14b15df780243e549eb3584779b779b9
+    md5: 07969daa222b12576cc4643547b8c9a9
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions

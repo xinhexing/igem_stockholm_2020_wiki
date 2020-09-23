@@ -21,8 +21,9 @@ body {
 ******************************/
 
 .parallax {
-  perspective: 100px;
+  position: absolute; top: -18px; width: 100%; // offset iGEM.org topbar
   height: 100vh;
+  perspective: 100px;
   overflow-x: hidden;
   overflow-y: auto;
 }
