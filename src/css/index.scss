@@ -17,7 +17,7 @@ $title_dark: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jp
 // A layer can't be present in two consecutive layers, otherwise there will be clipping issues
 
 .parallax {
-  position: absolute; bottom: 0;
+  position: absolute; top: calc(5rem + 2px);
   height: calc(100vh - 5rem - 18px); width: 100%;
   perspective: 100px;
   overflow-y: auto;
