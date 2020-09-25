@@ -9,18 +9,30 @@ $item_dark: #1f1f1f;
 $bg_dark: #dadada;
 
 $highlight: #ef4f59;
+body{
+  footer {
+    background: $bg_light;
+    padding: 2rem;
+    color: $item_light;
 
-footer {
-  background: $bg_light;
-  padding: 2rem;
+    .social_media {
+      text-align: center;
+      a {
+        font-size: 3rem;
+        margin: 0 0.5rem;
+      }
+    }
 
-  .social_media {
-    text-align: center;
+    a {color: $highlight;}
+
+    p, h1, h2, h3, h4, h5 {color: $item_light;}
   }
-  a {color: $highlight;}
 }
 
 //DARK MODE
 body.dark {
-  footer {background: $bg_dark;}
+  footer {
+    background: $bg_dark;
+    p, h1, h2, h3, h4, h5 {color: $item_dark;}
+  }
 }

@@ -18,13 +18,13 @@ $title_dark: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jp
 
 .parallax {
   position: absolute; bottom: 0;
-  height: calc(100vh - 5rem); width: 100%;
+  height: calc(100vh - 5rem - 18px); width: 100%;
   perspective: 100px;
   overflow-y: auto;
 
   .parallax_group {
     position: relative;
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 5rem - 18px);
     transform-style: preserve-3d;
 
     .parallax_layer {
