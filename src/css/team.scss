@@ -4,81 +4,66 @@
 
 $item_light: #1f1f1f;
 $bg_light: #dadada;
-$splash_light: #a1a1a1;
+$title_light: #a1a1a1;
 
 $item_dark: #dadada;
 $bg_dark: #1f1f1f;
-$splash_dark: #5c5c5c;
+$title_dark: #5c5c5c;
 
-body {
-  color: $item_light;
-  background-color: $bg_light;
-}
+// HEADER
 
 header {
   position: relative;
   padding: 10rem 0 0 0;
-  background: $splash_light;
-
-  // wave
-  .wave {
-    position: absolute; left: 0; bottom: 0;
-    width: 100%; height: 200px;
-    background: url("../assets/img/wave_light.svg") left bottom/1000px repeat-x;
-    transition: 0.3s;
-  }
-
-  .wave1 {opacity: 1; animation: slide 7.44s linear infinite;}
-  .wave2 {opacity: 0.5; animation: slide 9.83s linear infinite;}
-  .wave3 {opacity: 0.5; animation: slide 4.27s linear infinite}
-
-  @keyframes slide {
-    0% {background-position: 0 0;}
-    50% {background-position: 500px -10px;}
-    100% {background-position: 1000px 0;}
-  }
-
+  background: $title_light;
 }
 
-main {
-  text-align: center;
+// MAIN
 
-  h1 {
-    font-weight: 300;
-    font-size: 4.5rem;
-    margin: 2.5rem 0;
-  }
+body {
+  color: $item_light;
+  background-color: $bg_light;
 
-  .card {
-    margin: 1rem; padding: 1rem;
-    background: none;
-    border: none; border-radius: 30px;
+  main {
+    text-align: center;
 
-    .card-title {padding: 1rem 0;}
+    h1 {margin: 2.5rem 0;}
 
-    img {
-      max-width: 70%;
-      margin: auto;
-      display: block; /* remove extra space below image */
-    }
+    .card {
+      margin: 1rem; padding: 1rem;
+      background: none;
+      border: none; border-radius: 40px;
 
-    .info {
-      display: none;
-      padding: 0 0.5rem;
-      overflow: hidden;
+      &:hover{
+        backdrop-filter: invert(10%);
+      }
 
-      p {margin-top: 1rem;}
+      .card-title {padding-top: 2rem;}
 
       img {
-        max-width: 100%;
-        border-radius: 50%;
+        max-width: 70%;
+        margin: auto;
+        display: block; /* remove extra space below image */
+      }
+
+      .info {
+        display: none;
+        padding: 0 0.5rem;
+        overflow: hidden;
+
+        p {margin-top: 1rem;}
+
+        img {
+          max-width: 100%;
+          border-radius: 50%;
+        }
       }
     }
   }
 }
 
-// Random hover
-@keyframes hover {
+// RANDOMIZE FLOATING ANIMATION
+@keyframes floating {
   0% {transform: translateY(0) rotate(0deg);}
   25% {transform: translateY(0.5rem) rotate(3deg)}
   50% {transform: translateY(1rem) rotate(0deg);}
@@ -88,7 +73,7 @@ main {
 @for $i from 1 through 12 {
   $randomspeed: random(5)+2;
   .card#{$i} img {
-    animation: hover $randomspeed+s linear infinite;
+    animation: floating $randomspeed+s linear infinite;
   }
 }
 
@@ -97,7 +82,7 @@ main {
 body.dark {
 
   header {
-    background: $splash_dark;
+    background: $title_dark;
     .wave {background: url("../assets/img/wave_dark.svg") left bottom/1000px repeat-x;}
   }
 

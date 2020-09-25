@@ -8,39 +8,19 @@ $bg_light: #1f1f1f;
 $item_dark: #1f1f1f;
 $bg_dark: #dadada;
 
-$link: #ef4f59;
+$highlight: #ef4f59;
 
 footer {
-  color: $item_light;
-  background-color: $bg_light;
-  transition: 0.3s;
-  padding: 3rem 0 4rem 0;
-  font-size: 1rem;
+  background: $bg_light;
+  padding: 2rem;
 
   .social_media {
     text-align: center;
-    margin-bottom: 2rem;
-
-    p {margin: 1.5rem 0;}
-
-    a {
-      font-size: 3rem;
-      margin: 1rem;
-    }
-
   }
-
-  p {margin: 0.5rem 0;}
-
-  a {
-    color: $link;
-    &:hover {text-decoration: underline;}
-  }
+  a {color: $highlight;}
 }
 
+//DARK MODE
 body.dark {
-  footer {
-    background-color: $bg_dark;
-    color: $item_dark;
-  }
+  footer {background: $bg_dark;}
 }

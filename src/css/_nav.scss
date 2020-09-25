@@ -1,239 +1,69 @@
-/**
-* Navbar
-**/
+// COLORS
 
-// TODO: fix invisible menu on mobile
+$item_light: #1f1f1f;
+$bg_light: #dadada;
 
-$navBG: #dadada;
-$navItem: #1f1f1f;
-$navItemHover: #ef4f59;
+$item_dark: #dadada;
+$bg_dark: #1f1f1f;
 
-$navBG-dark: #1f1f1f;
-$navItem-dark: #dadada;
+$highlight: #ef4f59;
 
-.nav-colored {
-  background: $navBG;
-}
+// LIGHT MODE
 
 .navbar {
-  top: 18px; // offset iGEM.org topbar
-  height: 70px;
-  padding: 0;
-  transition: 0.3s;
+  background: $bg_light;
+  height: 5rem;
+  margin: auto; padding: 0;
 
-  .navbar-brand {
-    font-size: 1.75rem;
-    font-weight: 400;
-    position: relative;
-    z-index: 200;
-    color: $navItem;
-
-    span {font-weight: 600;}
-  }
-
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  }
-
-  li {
-    padding: 0 0.25rem;
-  }
-
-  a {
-    font-size: 1.1rem;
-    color: $navItem;
+  a {color: $item_light;
+    &:hover {
+      color: $highlight;
+      background: none;
+    }
   }
 
   .dropdown-menu {
-    background-color: $navBG;
+    background-color: $bg_light;
     border: 0;
-    a {
-      color: $navItem;
-      &:hover {
-        color: $navItemHover;
-        background: none;
-      }
-    }
   }
+
+  .navbar-collapse {background-color: $bg_light;}
+
+  .navbar-toggler {color: $item_light;}
 }
 
-// DARK MODE
-body.dark {
-
-  .nav-colored {
-    background: $navBG-dark;
-  }
-
-  .navbar {
-    .navbar-brand {color: $navItem-dark;}
-
-    a {color: $navItem-dark;}
-
-    .dropdown-menu {
-      background-color: $navBG-dark;
-      a {
-        color: $navItem-dark;
-      }
-    }
-
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
-  
-  }
-
-  #themeSwitchWrapper {
-    svg {
-      color: $navItem-dark;
-    }
-
-    #themeSwitch {
-      .slider.round {
-        background-color: $navItem-dark;
-      }
-    }
-  }
-}
-
-@include respond-below(lg) {
-  // DARK MODE
-  body.dark {
-    .nav-colored {
-      .navbar-collapse {
-        transition: background-color 0.3s;
-        background-color: $navBG-dark;
-      }
-    }
-  }
-  .nav-colored {
-    .navbar-collapse {
-      transition: background-color 0.3s;
-      background-color: $navBG;
-    }
-  }
-  .navbar {
-    .navbar-brand {
-      font-size: 1.5rem;
-      margin-left: 3rem;
-
-      a {
-        font-size: 1rem;
-      }
-    }
-    .container {
-      max-width: none;
-      height: 100%;
-    }
-
-    button {
-      height: 100%;
-      margin-right: 11rem;
-    }
-
-    .navbar-collapse {
-      transition: background-color 0.3s;
-      padding: 0 3rem 1.5rem 3rem;
-    }
-  }
-  #themeSwitchWrapper {
-    position: absolute;
-    right: 3rem;
-  }
-}
-
-@include respond-below(xs) {
-  .navbar {
-    .navbar-brand {
-      margin-left: 1rem;
-    }
-
-    button {
-      margin-right: 9rem;
-    }
-
-    .navbar-collapse {
-      padding: 0 1rem 1.5rem 1rem;
-    }
-  }
-  #themeSwitchWrapper {
-    right: 1rem;
-  }
-}
-
-@include respond-below(xxs) {
-  .navbar {
-
-    button {
-      margin-right: 1rem;
-    }
-  }
-  #themeSwitchWrapper {
-    margin-right: 3rem;
-  
-    svg {display: none;}
-  }
-}
-
-/**
-Dark Mode Toggle Switch
-**/
+// DARK MODE TOGGLE SWITCH
 
 #themeSwitchWrapper {
+  position: relative;
   margin-left: 1rem;
-  padding-bottom: 20px;
-  height: 20px;
 
   svg {
-    margin-top: 2px;
-    color: $navItem;
+    margin: auto;
+    color: $item_light;
   }
 
   #themeSwitch {
-    display: inline-block;
 
     label.switch {
-      display: inline-block;
       position: relative;
-      width: 50px;
-      height: 20px;
+      width: 50px; height: 20px;
       margin: 0 1rem;
 
-      input {
-        opacity: 0;
-        width: 0;
-        height: 0;
-      }
+      input {opacity: 0; width: 0; height: 0;} // hides checkbox
     }
 
     .slider {
       position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
       cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      -webkit-transition: 0.4s;
-      transition: 0.4s;
     }
 
     .slider:before {
       position: absolute;
-      content: "";
-      height: 14px;
-      width: 14px;
-      left: 3px;
-      top: 3px;
-      background-color: $navBG;
-      -webkit-transition: 0.4s;
-      transition: 0.4s;
-    }
-
-    input:checked + .slider:before {
-      background-color: $navBG-dark;
-    }
-
-    input:focus + .slider {
-      box-shadow: 0 0 1px $navBG-dark;
+      content: ""; // creates the circle
+      height: 14px; width: 14px;
+      left: 3px; top: 3px;
     }
 
     input:checked + .slider:before {
@@ -242,14 +72,65 @@ Dark Mode Toggle Switch
       transform: translateX(29px);
     }
 
-    /* Rounded sliders */
-    .slider.round {
-      background-color: $navItem;
-      border-radius: 34px;
+    // rounded sliders
+    .slider.round {border-radius: 34px;}
+    .slider.round:before {border-radius: 50%;}
+
+    // slider button colors
+    .slider:before {background: $item_dark;}
+    input:checked + .slider:before {background: $item_light;}
+    // slider colors
+    .slider.round {background: $bg_dark;}
+    input:checked + .slider.round {background: $bg_light;}
+  }
+}
+
+// DARK MODE
+
+body.dark {
+  .navbar {
+    background: $bg_dark;
+    a {color: $item_dark;
+      &:hover {background: none;}
+    }
+    .dropdown-menu {background-color: $bg_dark;}
+    .navbar-toggler {color: $item_dark;}
+    .navbar-collapse {background-color: $bg_dark;}
+  }
+  #themeSwitchWrapper {svg {color: $item_dark;}}
+}
+
+// MEDIA QUERIES
+
+@include respond-below(lg) {
+
+  .navbar {
+    .navbar-brand {margin-left: 2rem;}
+
+    .container {
+      max-width: none;
+      height: 100%;
     }
 
-    .slider.round:before {
-      border-radius: 50%;
+    .navbar-toggler {
+      height: 100%;
+      margin-right: 10rem;
     }
+    .navbar-collapse {padding: 0 2rem 2rem 2rem;}
+  }
+  #themeSwitchWrapper {
+    position: absolute;
+    right: 2rem;
+  }
+}
+
+@include respond-below(xxs) {
+  .navbar {
+    .navbar-brand {margin-left: 1.5rem;}
+    .navbar-toggler {margin-right: 1.5rem;}
+  }
+  #themeSwitchWrapper{
+    right: 4rem;
+    svg{display: none;}
   }
 }

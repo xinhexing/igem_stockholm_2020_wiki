@@ -1,148 +1,71 @@
 @import "_main.scss";
 
-/******************************
- * Header
- ******************************/
+// TODO: optimize code (from darkmode onwards)
 
-$white: #ffffff;
-$black: #3d3d3d;
-$dark-grey: #8e8e8e;
-$selection-color: rgba(255, 233, 0, 0.4);
+// COLORS
 
-$darkBlue: #2c3e50;
-$linkHover: #ef4f59;
+$highlight: #ef4f59;
 
-$text_light: #1f1f1f;
+$item_light: #1f1f1f;
 $body_light: #dadada;
-$splash_light: #a1a1a1;
-$tableBorder: #dee2e6;
+$title_light: #a1a1a1;
+$tableborder_light: #2c2c2c;
 
-// DARK MODE
-$text_dark: #dadada;
+$item_dark: #dadada;
 $body_dark: #1f1f1f;
-$splash_dark: #5c5c5c;
-$tableBorder-dark: #4e4e4e;
+$title_dark: #5c5c5c;
+$tableborder_dark: #a7a7a7;
 
-::selection {
-  background-color: $selection-color;
-}
+// HEADER
 
 header {
   position: relative;
   text-align: center;
-  height: 75vh;
-  background-color: $splash_light;
-  color: $text_light;
-  transition: 0.3s;
-
-  h1 {
-    font-weight: 300;
-    font-size: 4.5rem;
-    margin-bottom: 1.7rem;
-  }
-
-  p.lead {
-    font-weight: 400;
-    font-size: 1.4rem;
-  }
-
-  hr {
-    background: #e2e2e3;
-  }
-
-  .wave {
-    position: absolute; left: 0; bottom: 0;
-    width: 100%; height: 200px;
-    background: url("../assets/img/wave_light.svg") left bottom/1000px repeat-x;
-    transition: 0.3s;
-  }
-
-  .wave1 {opacity: 1; animation: slide 7.44s linear infinite;}
-  .wave2 {opacity: 0.5; animation: slide 9.83s linear infinite;}
-  .wave3 {opacity: 0.5; animation: slide 4.27s linear infinite}
-
-  @keyframes slide {
-    0% {background-position: 0 0;}
-    50% {background-position: 500px -10px;}
-    100% {background-position: 1000px 0;}
-  }
+  height: 80vh;
+  background-color: $title_light;
 
   .arrow {
     z-index: 50;
     position: absolute; bottom: 3rem; left: calc(50% - 1.5rem);
     font-size: 3rem;
-    transition: 0.3s;
     &:hover {bottom: 2.5rem;}
   }
 }
 
-@include respond-below(lg) {
-  header {
-    h1 {
-      font-size: 4rem;
-    }
-  }
-}
+// MAIN
 
-@include respond-below(md) {
-  header {
-    margin-bottom: 4rem;
-    min-height: unset !important;
-  }
-}
-
-/******************************
-* Main
-******************************/
 body {
   background-color: $body_light;
 
   .row {
-    margin-top: 2rem;
+    padding: 4rem 0;
 
     .sidebar {
-      padding: 2rem 5rem 0 1rem;
+      padding: 0 6rem 0 0;
 
-      h5 {
-        font-weight: 700;
-        font-size: 1rem;
-        text-transform: uppercase;
-      }
+      h5 {text-transform: uppercase;}
 
       #contents {
         position: sticky;
-        top: 150px;
-        font-size: 1.2rem; font-weight: 500;
+        top: 10vh;
         height: auto;
 
         li {
-          margin: 15px 0;
-          justify-content: left;
-          list-style: none;
+          margin: 1rem 0;
           display: flex;
-          transform-origin: left;
-
-          &:hover {
-            color: $linkHover;
-            transform: scale(1.3);
-          }
+          justify-content: left;
+        
+          &:hover {color: $highlight;}
 
           svg {
-            margin-top: 8px;
-            height: 7px;
+            margin: auto 0.5rem;
+            font-size: 0.4rem;
+            color: $item_light;
           }
           a {
-            margin-left: 10px;
-            font-size: 1.1rem;
-            position: relative;
+            color: $item_light;
             text-decoration: none;
-            padding-bottom: 6px;
-            color: black;
-
-            &:hover {
-              color: $linkHover;
-            }
-
+            &:hover {color: $highlight;}
           }
         }
       }
@@ -150,26 +73,59 @@ body {
   }
 }
 
+// DARK MODE
 
-@keyframes target-fade {
-  0% {
-    background-color: rgba(255, 255, 0, 0.2);
+body.dark {
+  background-color: $body_dark;
+
+  header {
+    color: $item_dark;
+    background: $title_dark;
   }
-  100% {
-    background-color: rgba(0, 0, 0, 0);
+
+  .sidebar {
+    #contents {
+      li {
+        svg {color: $item_dark;}
+        a {color: $item_dark;}
+      }
+    }
+  }
+
+  .content {
+    h1, h2, h3, h4, h5, h6, li, a, strong, p {color: $item_dark;}
+
+    table {
+      border-color: $tableborder_dark;
+      color: $item_dark;
+
+      thead {
+        th, td {border-color: $tableborder_dark;}
+      }
+
+      tbody {
+        th, td {border-color: $tableborder_dark;}
+      }
+
+      th, td {border-color: $tableborder_dark;}
+    }
+  }
+
+  #references {
+    cite, a {color: $item_dark;}
   }
 }
 
+@keyframes target-fade {
+  0% {background: #76dbcc7f;}
+  100% {background: #00000000;}
+}
+
 .content {
-  font-size: 1.1rem; font-weight: 400;
-  line-height: 1.75;
-  word-spacing: 0.1rem;
 
-  article {
-    padding: calc(1rem + 1.2vw);
-  }
-
-  $h1size: 2.15; // rem
+  article {padding: 0 calc(1rem + 1.2vw);}
+ 
+  $h1size: 2.15; // rem, adjust header sizes relative to this
 
   h1,
   h2 {
@@ -193,9 +149,7 @@ body {
       border: 0px transparent solid;
     }
 
-    &:hover .anchor {
-      opacity: 100;
-    }
+    &:hover .anchor {opacity: 100;}
   }
 
   h1 {
@@ -203,7 +157,6 @@ body {
     font-size: $h1size * 1rem;
     margin: 2rem 0 1rem 0;
     word-spacing: 0.3rem;
-    color: $darkBlue;
 
     &:first-of-type {
       margin-top: 0;
@@ -251,7 +204,6 @@ body {
   }
 
   p {
-    color: black;
     text-align: justify;
 
     .MathJax_Display {
@@ -272,10 +224,6 @@ body {
     padding-left: 25px;
   }
 
-  mark {
-    background: $selection-color;
-  }
-
   .image {
     text-align: center;
 
@@ -287,7 +235,6 @@ body {
     p {
       text-align: center;
       font-style: italic;
-      color: $black;
     }
   }
 
@@ -298,13 +245,13 @@ body {
     font-style: italic;
     color: #555555;
     padding: 1.2em 30px 0.7em 60px;
-    border-left: 6px solid $linkHover;
+    border-left: 6px solid $highlight;
     line-height: 1.6;
     position: relative;
 
     &:before {
       content: "\201C";
-      color: $linkHover;
+      color: $highlight;
       font-size: 5rem;
       position: absolute;
       left: 10px;
@@ -325,7 +272,7 @@ body {
   }
   table {
     border: 1px solid;
-    border-color: $tableBorder;
+    border-color: $tableborder_light;
     width: 100%;
     margin-bottom: 1rem;
     border-collapse: collapse;
@@ -335,7 +282,7 @@ body {
       td {
         vertical-align: bottom;
         border-bottom: 2px solid;
-        border-color: $tableBorder;
+        border-color: $tableborder_light;
       }
     }
 
@@ -343,7 +290,7 @@ body {
       th,
       td {
         border: 1px solid;
-        border-color: $tableBorder;
+        border-color: $tableborder_light;
       }
     }
 
@@ -356,11 +303,11 @@ body {
       padding: 0.75rem;
       vertical-align: center;
       border: 1px solid;
-      border-color: $tableBorder;
+      border-color: $tableborder_light;
     }
 
     a {
-      color: $linkHover;
+      color: $highlight;
 
       &:hover {
         text-decoration: underline;
@@ -382,7 +329,6 @@ body {
   }
 
   a.citation {
-    color: $dark-grey;
     scroll-margin-top: 200px;
 
     &:target {
@@ -405,7 +351,6 @@ body {
 .content p,
 #references li {
   a:not(.citation) {
-    color: $black;
     position: relative;
     text-decoration: none;
     display: inline-block;
@@ -415,7 +360,7 @@ body {
     &:after {
       content: "";
       position: absolute;
-      background-color: $linkHover;
+      background-color: $highlight;
       height: 2px;
     }
 
@@ -433,7 +378,6 @@ body {
 
     &:hover {
       text-decoration: none;
-      // color: $black;
 
       &::before {
         width: 100%;
@@ -484,60 +428,6 @@ body {
     &:before,
     &:after {
       height: 2px !important;
-    }
-  }
-}
-
-footer {
-  #footerNav {
-    background-color: $linkHover;
-
-    h1 {
-      color: $black;
-    }
-    a {
-      color: $black;
-    }
-  }
-}
-
-@include respond-below(xxl) {
-  .content {
-    h1 {
-      font-size: 2.25rem;
-    }
-
-    h2 {
-      font-size: 1.75rem;
-    }
-
-    h3 {
-      font-size: 1.5rem;
-    }
-
-    p {
-      font-size: 1rem;
-    }
-  }
-}
-
-@include respond-below(lg) {
-  main {
-    .content {
-      article {
-        padding: calc(1rem + 1.2vw)
-      }
-      h1 {
-        font-size: 2rem;
-      }
-
-      h2 {
-        font-size: 1.5rem;
-      }
-
-      h3 {
-        font-size: 1.25rem;
-      }
     }
   }
 }
@@ -635,75 +525,5 @@ footer {
 @include respond-below(xxxs) {
   header #heading h1 {
     font-size: 2.5rem;
-  }
-}
-
-/* DARK MODE */
-
-body.dark {
-
-  background-color: $body_dark;
-
-  header {
-    color: $text_dark;
-    background-color: $splash_dark;
-
-    .wave {
-      background: url("../assets/img/wave_dark.svg") left bottom/1000px repeat-x;
-    }
-  }
-
-  .sidebar {
-    color: white;
-
-    #contents li a {
-      color: white;
-    }
-  }
-
-  .content {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    li,
-    a,
-    strong,
-    p {
-      color: white;
-    }
-
-    table {
-      border-color: $tableBorder-dark;
-      color: white;
-
-      thead {
-        th,
-        td {
-          border-color: $tableBorder-dark;
-        }
-      }
-
-      tbody {
-        th,
-        td {
-          border-color: $tableBorder-dark;
-        }
-      }
-
-      th,
-      td {
-        border-color: $tableBorder-dark;
-      }
-    }
-  }
-
-  #references {
-    cite,
-    a {
-      color: white;
-    }
   }
 }
