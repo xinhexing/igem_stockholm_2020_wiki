@@ -10,6 +10,36 @@ $item_dark: #dadada;
 $bg_dark: #1f1f1f;
 $title_dark: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 
+
+// LIGHT MODE
+
+body {
+  background-color: $bg_light;
+  color: $item_light;
+
+  #group0 {
+    .logo {background: url("../assets/img/Home--project_dark.png") no-repeat center/100%;}
+    .waveblock{background: $bg_light;}
+    .parallax_layer-back {background: $title_light no-repeat center/auto 100%;}
+  }
+  .parallax_layer-base, .parallax_layer-back {background: red;}
+}
+
+// DARK MODE
+
+body.dark {
+  background-color: $bg_dark;
+  color: $item_dark;
+
+  #group0 {
+    .logo {background: url("../assets/img/Home--project_light.png") no-repeat center/100%;}
+    .waveblock{background: $bg_dark;}
+    .parallax_layer-back {background: $title_dark no-repeat center/auto 100%;}
+  }
+  .parallax_layer-base, .parallax_layer-back {background: red;}
+
+}
+
 // MAIN
 
 // PARALLAX
@@ -42,11 +72,6 @@ $title_dark: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jp
 .parallax_layer-mid {transform: translateZ(-50px);}
 .parallax_layer-back {transform: translateZ(-100px);}
 
-// BACKGROUNDS
-
-#group0 .parallax_layer-back {background: $title_light no-repeat center/auto 100%;}
-.parallax_layer-base, .parallax_layer-back {background: red;}
-
 // FOREGROUND BORDERS
 
 #group1 .parallax_layer-fore {border: 5rem solid #ff8989;}
@@ -60,17 +85,13 @@ $title_dark: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jp
 #group0 {
   position: relative;
 
-  .logo {
-    height: 40rem; width: 20rem;
-    background: url("../assets/img/Home--project_dark.png") no-repeat center/100%;
-  }
+  .logo {height: 40rem; width: 20rem;}
 
   .wave {bottom: 10vh;}
 
   .waveblock {
     position: absolute; left: 0; bottom: 0;
     width: 100%; height: 10vh;
-    background: $bg_light;
   }
 }
 
@@ -91,28 +112,6 @@ $title_dark: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jp
 #group3 {z-index: 4;}
 #group4 {z-index: 2;}
 #group5 {z-index: 3;}
-
-// LIGHT MODE
-
-body {
-  background-color: $bg_light;
-  color: $item_light;
-}
-
-// DARK MODE
-
-body.dark {
-  background-color: $bg_dark;
-  color: $item_dark;
-
-  #group0 {
-    .logo {background: url("../assets/img/Home--project_light.png") no-repeat center/100%;}
-    .waveblock{background: $bg_dark;}
-    .parallax_layer-back {background: $title_dark no-repeat center/auto 100%;}
-  }
-  .parallax_layer-base, .parallax_layer-back {background: red;}
-
-}
 
 // MEDIA QUERIES
 

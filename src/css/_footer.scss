@@ -8,24 +8,13 @@ $bg_dark: #dadada;
 
 $highlight: #ef4f59;
 
-// MAIN
+// LIGHT MODE
 
 body{
   footer {
     background: $bg_light;
-    padding: 2rem;
     color: $item_light;
-
-    .social_media {
-      text-align: center;
-      a {
-        font-size: 3rem;
-        margin: 0 0.5rem;
-      }
-    }
-
     a {color: $highlight;}
-
     p, h1, h2, h3, h4, h5, h6 {color: $item_light;}
   }
 }
@@ -36,5 +25,21 @@ body.dark {
   footer {
     background: $bg_dark;
     p, h1, h2, h3, h4, h5, h6 {color: $item_dark;}
+  }
+}
+
+// MAIN
+
+body{
+  footer {
+    padding: 2rem;
+
+    .social_media {
+      text-align: center;
+      a {
+        font-size: 3rem;
+        margin: 0 0.5rem;
+      }
+    }
   }
 }

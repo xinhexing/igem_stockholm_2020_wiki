@@ -9,27 +9,49 @@ $bg_dark: #1f1f1f;
 $highlight: #ef4f59;
 
 // LIGHT MODE
+body {
+  .navbar {
+    background: $bg_light;
+    a {color: $item_light;
+      &:hover {
+        color: $highlight;
+        background: none;
+      }
+    }
+    .dropdown-menu {background: $bg_light;}
+    .navbar-collapse {background: $bg_light;}
+    .navbar-toggler {color: $item_light;}
+  }
+  #themeSwitchWrapper {svg {color: $item_light;}}
+}
+// DARK MODE
+
+body.dark {
+  .navbar {
+    background: $bg_dark;
+    a {color: $item_dark;
+      &:hover {
+        color: $highlight;
+        background: none;
+      }
+    }
+    .dropdown-menu {background: $bg_dark;}
+    .navbar-collapse {background: $bg_dark;}
+    .navbar-toggler {color: $item_dark;}
+  }
+  #themeSwitchWrapper {svg {color: $item_dark;}}
+}
+
+
+// MAIN
 
 .navbar {
-  background: $bg_light;
   height: 5rem; top: 18px;
   margin: auto; padding: 0;
 
-  a {color: $item_light;
-    &:hover {
-      color: $highlight;
-      background: none;
-    }
-  }
+  a {&:hover {background: none;}}
 
-  .dropdown-menu {
-    background-color: $bg_light;
-    border: 0;
-  }
-
-  .navbar-collapse {background-color: $bg_light;}
-
-  .navbar-toggler {color: $item_light;}
+  .dropdown-menu {border: 0;}
 }
 
 // DARK MODE TOGGLE SWITCH
@@ -38,10 +60,7 @@ $highlight: #ef4f59;
   position: relative;
   margin-left: 1rem;
 
-  svg {
-    margin: auto;
-    color: $item_light;
-  }
+  svg {margin: auto;}
 
   #themeSwitch {
 
@@ -62,18 +81,18 @@ $highlight: #ef4f59;
     .slider:before {
       position: absolute;
       content: ""; // creates the circle
-      height: 14px; width: 14px;
-      left: 3px; top: 3px;
+      height: 15px; width: 15px;
+      left: 2.5px; top: 2.5px;
     }
 
     input:checked + .slider:before {
-      -webkit-transform: translateX(29px);
-      -ms-transform: translateX(29px);
-      transform: translateX(29px);
+      -webkit-transform: translateX(30px);
+      -ms-transform: translateX(30px);
+      transform: translateX(30px);
     }
 
     // rounded sliders
-    .slider.round {border-radius: 34px;}
+    .slider.round {border-radius: 10px;}
     .slider.round:before {border-radius: 50%;}
 
     // slider button colors
@@ -83,21 +102,6 @@ $highlight: #ef4f59;
     .slider.round {background: $bg_dark;}
     input:checked + .slider.round {background: $bg_light;}
   }
-}
-
-// DARK MODE
-
-body.dark {
-  .navbar {
-    background: $bg_dark;
-    a {color: $item_dark;
-      &:hover {background: none;}
-    }
-    .dropdown-menu {background-color: $bg_dark;}
-    .navbar-toggler {color: $item_dark;}
-    .navbar-collapse {background-color: $bg_dark;}
-  }
-  #themeSwitchWrapper {svg {color: $item_dark;}}
 }
 
 // MEDIA QUERIES

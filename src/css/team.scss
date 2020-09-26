@@ -10,19 +10,32 @@ $item_dark: #dadada;
 $bg_dark: #1f1f1f;
 $title_dark: #5c5c5c;
 
+// LIGHT MODE
+
+body {
+  header {background: $title_light;}
+  color: $item_light;
+  background-color: $bg_light;
+}
+
+// DARK MODE
+
+body.dark {
+  header {background: $title_dark;}
+  color: $item_dark;
+  background-color: $bg_dark;
+}
+
 // HEADER
 
 header {
   position: relative;
   padding: 10rem 0 0 0;
-  background: $title_light;
 }
 
 // MAIN
 
 body {
-  color: $item_light;
-  background-color: $bg_light;
 
   main {
     text-align: center;
@@ -71,17 +84,4 @@ body {
   .card#{$i} img {
     animation: floating $randomspeed+s linear infinite;
   }
-}
-
-// DARK MODE
-
-body.dark {
-
-  header {
-    background: $title_dark;
-    .wave {background: url("../assets/img/wave_dark.svg") left bottom/1000px repeat-x;}
-  }
-
-  color: $item_dark;
-  background-color: $bg_dark;
 }
