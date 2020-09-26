@@ -7,24 +7,20 @@
 $highlight: #ef4f59;
 
 $item_light: #1f1f1f;
-$body_light: #dadada;
+$bg_light: #dadada;
 $title_light: #a1a1a1;
 $tableborder_light: #2c2c2c;
 
 $item_dark: #dadada;
-$body_dark: #1f1f1f;
+$bg_dark: #1f1f1f;
 $title_dark: #5c5c5c;
 $tableborder_dark: #a7a7a7;
 
 // LIGHT MODE
 
 body {
-  background: $body_light;
 
-  header {
-    color: $item_light;
-    background: $title_light;
-  }
+  header {background: $title_light;}
 
   .sidebar {
     #contents {
@@ -57,12 +53,8 @@ body {
 // DARK MODE
 
 body.dark {
-  background: $body_dark;
 
-  header {
-    color: $item_dark;
-    background: $title_dark;
-  }
+  header {background: $title_dark;}
 
   .sidebar {
     #contents {

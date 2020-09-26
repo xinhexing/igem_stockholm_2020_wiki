@@ -14,16 +14,12 @@ $title_dark: #5c5c5c;
 
 body {
   header {background: $title_light;}
-  color: $item_light;
-  background-color: $bg_light;
 }
 
 // DARK MODE
 
 body.dark {
   header {background: $title_dark;}
-  color: $item_dark;
-  background-color: $bg_dark;
 }
 
 // HEADER

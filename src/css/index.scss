@@ -10,34 +10,30 @@ $item_dark: #dadada;
 $bg_dark: #1f1f1f;
 $title_dark: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 
-
 // LIGHT MODE
 
 body {
-  background-color: $bg_light;
-  color: $item_light;
 
   #group0 {
     .logo {background: url("../assets/img/Home--project_dark.png") no-repeat center/100%;}
     .waveblock{background: $bg_light;}
     .parallax_layer-back {background: $title_light no-repeat center/auto 100%;}
   }
-  .parallax_layer-base, .parallax_layer-back {background: red;}
+  .parallax_layer-base {background: $bg_light;}
+  .parallax_layer-back {background: red;}
 }
 
 // DARK MODE
 
 body.dark {
-  background-color: $bg_dark;
-  color: $item_dark;
 
   #group0 {
     .logo {background: url("../assets/img/Home--project_light.png") no-repeat center/100%;}
     .waveblock{background: $bg_dark;}
     .parallax_layer-back {background: $title_dark no-repeat center/auto 100%;}
   }
-  .parallax_layer-base, .parallax_layer-back {background: red;}
-
+  .parallax_layer-base {background: $bg_dark;}
+  .parallax_layer-back {background: red;}
 }
 
 // MAIN
@@ -50,7 +46,7 @@ body.dark {
   position: absolute; top: calc(5rem + 2px);
   height: calc(100vh - 5rem - 18px); width: 100%;
   perspective: 100px;
-  overflow-y: auto;
+  overflow-x: hidden; overflow-y: auto;
 
   .parallax_group {
     position: relative;
@@ -67,18 +63,17 @@ body.dark {
 // LAYERS & TRANSFORMATIONS
 // calculate scale factor with 1 + (translateZ * -1) / perspective
 
-.parallax_layer-fore {transform: translateZ(30px);}
-.parallax_layer-base {transform: translateZ(0);}
-.parallax_layer-mid {transform: translateZ(-50px);}
-.parallax_layer-back {transform: translateZ(-100px);}
+.parallax_layer-fore {transform: translateZ(50px) scale(0.51);}
+.parallax_layer-base {transform: translateZ(0) scale(1);}
+.parallax_layer-mid {transform: translateZ(25px) scale(0.76);}
+.parallax_layer-back {transform: translateZ(-50px) scale(1.51);}
 
-// FOREGROUND BORDERS
+// BORDERS
 
-#group1 .parallax_layer-fore {border: 5rem solid #ff8989;}
-#group2 .parallax_layer-mid {border: 5rem solid #f7ff89;}
-#group3 .parallax_layer-fore {border: 5rem solid #8989ff;}
-#group4 .parallax_layer-mid {border: 5rem solid #ff89d8;}
-#group5 .parallax_layer-fore {border: 5rem solid #93ff89;}
+.parallax_layer-fore, .parallax_layer-mid {
+  border-left: 10rem dotted #be5b5b;
+  border-right: 10rem dotted #be5b5b;
+}
 
 // CONTENT
 
