@@ -14,7 +14,7 @@ body{
   footer {
     background: $bg_light;
     color: $item_light;
-    a {color: $highlight;}
+    a, svg {color: $highlight;}
     p, h1, h2, h3, h4, h5, h6 {color: $item_light;}
   }
 }
@@ -24,6 +24,7 @@ body{
 body.dark {
   footer {
     background: $bg_dark;
+    a, svg {color: $highlight;}
     p, h1, h2, h3, h4, h5, h6 {color: $item_dark;}
   }
 }
@@ -35,6 +36,7 @@ body{
     padding: 2rem;
 
     .social_media {
+      margin: 2rem 0;
       text-align: center;
       a {
         font-size: 3rem;

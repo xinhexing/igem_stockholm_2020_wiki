@@ -8,19 +8,24 @@ $title_light: url("https://images.pexels.com/photos/531972/pexels-photo-531972.j
 
 $item_dark: #dadada;
 $bg_dark: #1f1f1f;
-$title_dark: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+$title_dark: url("https://images.pexels.com/photos/4576277/pexels-photo-4576277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 
 // LIGHT MODE
 
 body {
 
   #group0 {
-    .logo {background: url("../assets/img/Home--project_dark.png") no-repeat center/100%;}
+    .logo {background-image: url("../assets/img/Home--project_dark.png");}
     .waveblock{background: $bg_light;}
-    .parallax_layer-back {background: $title_light no-repeat center/auto 100%;}
+    .parallax_layer-back {background-image: $title_light;}
   }
-  .parallax_layer-base {background: $bg_light;}
-  .parallax_layer-back {background: red;}
+  #group1 .parallax_layer-base {background: linear-gradient(darken($bg_light, 0%),  darken($bg_light, 20%));}
+  #group2 .parallax_layer-back {background: linear-gradient(darken($bg_light, 20%), darken($bg_light, 40%));}
+  #group3 .parallax_layer-base {background: linear-gradient(darken($bg_light, 40%), darken($bg_light, 60%));}
+  #group4 .parallax_layer-back {background: linear-gradient(darken($bg_light, 60%), darken($bg_light, 80%));}
+  #group5 .parallax_layer-base {background: linear-gradient(darken($bg_light, 80%), darken($bg_light, 100%));}
+
+  #group4, #group5 {p, h1, h2, h3, h4, h5, h6, svg {color: $item_dark;}}
 }
 
 // DARK MODE
@@ -28,12 +33,15 @@ body {
 body.dark {
 
   #group0 {
-    .logo {background: url("../assets/img/Home--project_light.png") no-repeat center/100%;}
+    .logo {background-image: url("../assets/img/Home--project_light.png");}
     .waveblock{background: $bg_dark;}
-    .parallax_layer-back {background: $title_dark no-repeat center/auto 100%;}
+    .parallax_layer-back {background-image: $title_dark;}
   }
-  .parallax_layer-base {background: $bg_dark;}
-  .parallax_layer-back {background: red;}
+  #group1 .parallax_layer-base {background: linear-gradient(darken($bg_dark, 0%),  darken($bg_dark, 20%));}
+  #group2 .parallax_layer-back {background: linear-gradient(darken($bg_dark, 20%), darken($bg_dark, 40%));}
+  #group3 .parallax_layer-base {background: linear-gradient(darken($bg_dark, 40%), darken($bg_dark, 60%));}
+  #group4 .parallax_layer-back {background: linear-gradient(darken($bg_dark, 60%), darken($bg_dark, 80%));}
+  #group5 .parallax_layer-base {background: linear-gradient(darken($bg_dark, 80%), darken($bg_dark, 100%));}
 }
 
 // MAIN
@@ -68,11 +76,15 @@ body.dark {
 .parallax_layer-mid {transform: translateZ(25px) scale(0.76);}
 .parallax_layer-back {transform: translateZ(-50px) scale(1.51);}
 
-// CONTENT
+// HEADER
 
 #group0 {
-  position: relative;
-  .logo {height: 40rem; width: 20rem;}
+  .logo {
+    margin: auto;
+    height: 50rem; width: 60%; max-width: 20rem;
+    background: no-repeat center/100%;
+  }
+  .parallax_layer-back {background: no-repeat center/100% 100%;}
   .wave {bottom: 10vh;}
   .waveblock {
     position: absolute; left: 0; bottom: 0;
@@ -80,13 +92,16 @@ body.dark {
   }
 }
 
+// CONTENT
+
 .content {
-  text-align: center;
   position: absolute;
+  width: 70%; max-width: 60rem;
   left: 50%; top: 50%;
   transform: translate(-50%, -50%);
-
-  img {width: 50%;}
+  text-align: center;
+  p {text-align: justify;}
+  svg {font-size: 10rem;}
 }
 
 // INDICES
@@ -99,7 +114,3 @@ body.dark {
 #group5 {z-index: 3;}
 
 // MEDIA QUERIES
-
-@include respond-below(xs) {
-  #group0 {.logo {width: 15rem;}}
-}
