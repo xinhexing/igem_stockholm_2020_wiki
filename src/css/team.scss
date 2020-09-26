@@ -40,28 +40,37 @@ body {
 
     .card {
       display: inline-block;
-      width: 15rem;
+      width: 15rem; height: 20rem;
       margin: 1rem; padding: 1rem;
       background: none;
+      overflow: hidden;
       border: none; border-radius: 40px;
-
-      &:hover{backdrop-filter: invert(10%);}
 
       .card-title {margin-top: 2rem;}
 
-      img {max-width: 70%;}
+      .avatar {
+        position: absolute;
+        width: 13rem; height: 18rem;
+        opacity: 1;
+        img {max-width: 70%;}
+      }
 
       .info {
-        display: none;
-        padding: 0 0.5rem;
-        overflow: hidden;
-
-        p {margin-top: 1rem;}
-
+        position: absolute;
+        width: 13rem; height: 18rem;
+        opacity: 0;
+        overflow-y: scroll;
+        &::-webkit-scrollbar {display: none;}
         img {
-          max-width: 100%;
+          max-width: 80%;
           border-radius: 50%;
         }
+      }
+      
+      &:hover {
+        backdrop-filter: invert(10%);
+        .avatar {opacity: 0;}
+        .info {opacity: 1;}
       }
     }
   }

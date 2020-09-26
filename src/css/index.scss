@@ -68,22 +68,12 @@ body.dark {
 .parallax_layer-mid {transform: translateZ(25px) scale(0.76);}
 .parallax_layer-back {transform: translateZ(-50px) scale(1.51);}
 
-// BORDERS
-
-.parallax_layer-fore, .parallax_layer-mid {
-  border-left: 10rem dotted #be5b5b;
-  border-right: 10rem dotted #be5b5b;
-}
-
 // CONTENT
 
 #group0 {
   position: relative;
-
   .logo {height: 40rem; width: 20rem;}
-
   .wave {bottom: 10vh;}
-
   .waveblock {
     position: absolute; left: 0; bottom: 0;
     width: 100%; height: 10vh;
