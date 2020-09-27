@@ -91,6 +91,26 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/f/f3/T--Stockholm--icons--sun.svg
     md5: 6d385f102d5d96a806f2f1dcee79d30c
     upload_filename: T--Stockholm--icons--sun.svg
+  assets\img\Collaborations--submarine1.svg:
+    link_URL: https://2020.igem.org/wiki/images/3/31/T--Stockholm--img--Collaborations--submarine1.svg
+    md5: 7439a8f6ed4dddb651fcbf2930ef2a17
+    upload_filename: T--Stockholm--img--Collaborations--submarine1.svg
+  assets\img\Collaborations--submarine2.svg:
+    link_URL: https://2020.igem.org/wiki/images/0/00/T--Stockholm--img--Collaborations--submarine2.svg
+    md5: e0846717c54c6e31be939e79da239acc
+    upload_filename: T--Stockholm--img--Collaborations--submarine2.svg
+  assets\img\Collaborations--submarine3.svg:
+    link_URL: https://2020.igem.org/wiki/images/7/70/T--Stockholm--img--Collaborations--submarine3.svg
+    md5: 9828ae032ac49c4668d163df2ab7296d
+    upload_filename: T--Stockholm--img--Collaborations--submarine3.svg
+  assets\img\Collaborations--submarine4.svg:
+    link_URL: https://2020.igem.org/wiki/images/f/f7/T--Stockholm--img--Collaborations--submarine4.svg
+    md5: 6e44b243465a4f8d1f0086e0400d0584
+    upload_filename: T--Stockholm--img--Collaborations--submarine4.svg
+  assets\img\Collaborations--submarine5.svg:
+    link_URL: https://2020.igem.org/wiki/images/1/19/T--Stockholm--img--Collaborations--submarine5.svg
+    md5: 23aee8929ad363a8c6ed892238e5199d
+    upload_filename: T--Stockholm--img--Collaborations--submarine5.svg
   assets\img\Description--josh-withers.jpg:
     link_URL: https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg
     md5: 6aee9d03f9e9db58c63912b539f9b66c
@@ -140,6 +160,9 @@ assets:
     md5: 21aebb8024750b0c7e23cf06188a6f7f
     upload_filename: T--Stockholm--img--wave_light.svg
 css:
+  css\collaborations.css:
+    link_URL: https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css
+    md5: 7fe259b674fc89cdd4183c69fb0f7b5b
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
     md5: 76d7e440d22ec8ada76b87892bf190f8
@@ -148,14 +171,14 @@ css:
     md5: 57105538f9490a3de41ce22ca452b93a
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 1f12c6fa83a73c5dce98e4ddb9896578
+    md5: db8d9732b71f9eb3e161ab215cd2c2c7
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
     md5: db1b2e5164489d39488bd40dc721bef2
   Collaborations\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Collaborations
-    md5: 114a598f5fb5e00ba619f33693910376
+    md5: 9b351cf06ef5c0c4ca2f857997089f75
   Contribution\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Contribution
     md5: e7cdfb309a3d9da5c11b526aaf7190ea
@@ -220,6 +243,9 @@ html:
     link_URL: https://2020.igem.org/Team:Stockholm/team_list
     md5: 439799e1066631c215e50c52074ff75f
 js:
+  collaborations.bundle.js:
+    link_URL: https://2020.igem.org/Template:Stockholm/collaborations-bundleJS?action=raw&ctype=text/javascript
+    md5: 6126b5a964f518b895739833c4ec9bbe
   content.bundle.js:
     link_URL: https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript
     md5: 1626f5b18bd1cee86eb0a2889485926e
