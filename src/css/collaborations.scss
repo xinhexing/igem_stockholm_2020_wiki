@@ -88,6 +88,7 @@ body.dark {
 
   img {
     position: absolute;
+    z-index: -1;
     width: 90%; height: 90%;
     opacity: 0.2;
   }
@@ -273,40 +274,6 @@ body {.row {padding: 4rem 0;}}
       font-style: normal;
       font-weight: bold;
       margin-top: 1em;
-    }
-  }
-  table {
-    border: 1px solid;
-    width: 100%;
-    margin-bottom: 1rem;
-    border-collapse: collapse;
-
-    thead {
-      th, td {
-        vertical-align: bottom;
-        border-bottom: 2px solid;
-      }
-    }
-
-    tbody {th, td {border: 1px solid;}}
-
-    tbody tr:nth-of-type(odd) {background-color: rgba(0, 0, 0, 0.05);}
-
-    th, td {
-      padding: 0.75rem;
-      vertical-align: center;
-      border: 1px solid;
-    }
-
-    a {&:hover {text-decoration: underline;}}
-
-    caption {
-      text-align: center;
-      font-style: italic;
-      margin-top: 15px;
-      padding-top: 0.75rem;
-      padding-bottom: 0.75rem;
-      caption-side: bottom;
     }
   }
 
