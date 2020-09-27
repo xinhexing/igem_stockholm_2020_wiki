@@ -8,19 +8,24 @@ $highlight: #ef4f59;
 
 $item_light: #1f1f1f;
 $bg_light: #dadada;
-$title_light: #a1a1a1;
+$celestial_light: "../assets/img/Home--sun.png";
+$sky_light: #84d8d8;
 $tableborder_light: #2c2c2c;
 
 $item_dark: #dadada;
 $bg_dark: #1f1f1f;
-$title_dark: #5c5c5c;
+$celestial_dark: "../assets/img/Home--stars.png";
+$sky_dark: #262449;
 $tableborder_dark: #a7a7a7;
 
 // LIGHT MODE
 
 body {
 
-  header {background: $title_light;}
+  header {
+    background-color: $sky_light;
+    background-image: url($celestial_light);
+  }
 
   .sidebar {
     #contents {
@@ -54,7 +59,10 @@ body {
 
 body.dark {
 
-  header {background: $title_dark;}
+  header {
+    background-color: $sky_dark;
+    background-image: url($celestial_dark);
+  }
 
   .sidebar {
     #contents {
@@ -96,7 +104,7 @@ header {
   position: relative;
   text-align: center;
   height: 80vh;
-  background: $title_light;
+  background: fixed no-repeat center;
 
   .arrow {
     z-index: 50;
