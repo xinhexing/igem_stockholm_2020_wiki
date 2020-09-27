@@ -1,7 +1,5 @@
 @import "_main.scss";
 
-//TODO: click to show bio instead of hover
-
 $item_light: #1f1f1f;
 $bg_light: #dadada;
 $title_light: #a1a1a1;
@@ -14,12 +12,20 @@ $title_dark: #5c5c5c;
 
 body {
   header {background: $title_light;}
+  .info {
+    &::-webkit-scrollbar {background-color: $bg_light;}
+    &::-webkit-scrollbar-thumb {background: darken($bg_light, 25%);}
+  }
 }
 
 // DARK MODE
 
 body.dark {
   header {background: $title_dark;}
+  .info {
+    &::-webkit-scrollbar {background-color: $bg_dark;}
+    &::-webkit-scrollbar-thumb {background: lighten($bg_dark, 25%);}
+  }
 }
 
 // HEADER
@@ -58,13 +64,13 @@ body {
       .info {
         position: absolute;
         width: 13rem; height: 18rem;
+        padding-right: 1rem;
         opacity: 0;
         overflow-y: scroll;
-        &::-webkit-scrollbar {display: none;}
-        img {
-          max-width: 80%;
-          border-radius: 50%;
-        }
+        &::-webkit-scrollbar {width: 8px; height: auto;border-radius: 4px;}
+        &::-webkit-scrollbar-thumb {border-radius: 4px;}
+        img {max-width: 80%; border-radius: 50%;}
+        p {font-size: 0.9rem; text-align: justify;}
       }
       
       &:hover {
