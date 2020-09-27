@@ -90,6 +90,7 @@ body.dark {
   justify-content: center;
   img {
     position: absolute;
+    z-index: -1;
     width: 90%; max-width: 30rem;
     opacity: 0.2;
   }
