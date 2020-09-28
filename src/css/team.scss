@@ -4,16 +4,16 @@
 
 $item_light: #1f1f1f;
 $bg_light: #dadada;
-$title_light: #a1a1a1;
+$sky_light: #84d8d8;
 
 $item_dark: #dadada;
 $bg_dark: #1f1f1f;
-$title_dark: #5c5c5c;
+$sky_dark: #262449;
 
 // LIGHT MODE
 
 body {
-  header {background: $title_light;}
+  header {background: $sky_light;}
   .info {
     &::-webkit-scrollbar {background-color: $bg_light;}
     &::-webkit-scrollbar-thumb {background: darken($bg_light, 25%);}
@@ -23,7 +23,7 @@ body {
 // DARK MODE
 
 body.dark {
-  header {background: $title_dark;}
+  header {background: $sky_dark;}
   .info {
     &::-webkit-scrollbar {background-color: $bg_dark;}
     &::-webkit-scrollbar-thumb {background: lighten($bg_dark, 25%);}
