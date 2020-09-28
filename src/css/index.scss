@@ -15,7 +15,7 @@ $title_dark: url("https://images.pexels.com/photos/4576277/pexels-photo-4576277.
 body {
 
   #group0 {
-    .logo {background-image: url("../assets/img/Home--project_dark.png");}
+    background-image: url("../assets/img/Home--project_dark.png");
     .waveblock{background: $bg_light;}
     .parallax_layer-back {background-image: $title_light;}
   }
@@ -33,7 +33,7 @@ body {
 body.dark {
 
   #group0 {
-    .logo {background-image: url("../assets/img/Home--project_light.png");}
+    background-image: url("../assets/img/Home--project_light.png");
     .waveblock{background: $bg_dark;}
     .parallax_layer-back {background-image: $title_dark;}
   }
@@ -79,12 +79,11 @@ body.dark {
 // HEADER
 
 #group0 {
-  .logo {
-    margin: auto;
-    height: 50rem; width: 60%; max-width: 20rem;
-    background: no-repeat center/100%;
+  background: no-repeat center/auto 60%;
+
+  .parallax_layer-back {
+    background: no-repeat center/100% 100%;
   }
-  .parallax_layer-back {background: no-repeat center/100% 100%;}
   .wave {bottom: 10vh;}
   .waveblock {
     position: absolute; left: 0; bottom: 0;
@@ -96,7 +95,7 @@ body.dark {
 
 .content {
   position: absolute;
-  width: 70%; max-width: 60rem;
+  width: 80%; max-width: 60rem;
   left: 50%; top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
