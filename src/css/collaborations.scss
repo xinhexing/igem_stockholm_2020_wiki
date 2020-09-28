@@ -1,24 +1,10 @@
 @import "_main.scss";
 
-// COLORS
-
-$highlight: #ef4f59;
-
-$item_light: #1f1f1f;
-$bg_light: #dadada;
-$title_light: #a1a1a1;
-$tableborder_light: #2c2c2c;
-
-$item_dark: #dadada;
-$bg_dark: #1f1f1f;
-$title_dark: #5c5c5c;
-$tableborder_dark: #a7a7a7;
-
 // LIGHT MODE
 
 body {
 
-  header {background: $title_light;}
+  header {background: $sky_light;}
 
   .sidebar {
     #contents {
@@ -52,7 +38,7 @@ body {
 
 body.dark {
 
-  header {background: $title_dark;}
+  header {background: $sky_dark;}
 
   .sidebar {
     #contents {
