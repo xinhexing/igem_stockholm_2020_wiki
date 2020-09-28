@@ -1,12 +1,4 @@
-// COLORS
-
-$item_light: #1f1f1f;
-$bg_light: #dadada;
-
-$item_dark: #dadada;
-$bg_dark: #1f1f1f;
-
-$highlight: #ef4f59;
+@import "_colors.scss";
 
 // LIGHT MODE
 body {
