@@ -93,7 +93,7 @@ assets:
     upload_filename: T--Stockholm--icons--sun.svg
   assets\img\Collaborations--submarine1.png:
     link_URL: https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Collaborations--submarine1.png
-    md5: bdc98531370f40cf4d871bf10c7ab3dd
+    md5: b8cc20eb74d79532e8a28bd9a3c8daad
     upload_filename: T--Stockholm--img--Collaborations--submarine1.png
   assets\img\Collaborations--submarine1.svg:
     link_URL: https://2020.igem.org/wiki/images/3/31/T--Stockholm--img--Collaborations--submarine1.svg
@@ -101,7 +101,7 @@ assets:
     upload_filename: T--Stockholm--img--Collaborations--submarine1.svg
   assets\img\Collaborations--submarine2.png:
     link_URL: https://2020.igem.org/wiki/images/9/9f/T--Stockholm--img--Collaborations--submarine2.png
-    md5: 2e2bf86ba05309fdc4f19898d7d90d77
+    md5: add5cca14ce198fd93aef5e884ba28de
     upload_filename: T--Stockholm--img--Collaborations--submarine2.png
   assets\img\Collaborations--submarine2.svg:
     link_URL: https://2020.igem.org/wiki/images/0/00/T--Stockholm--img--Collaborations--submarine2.svg
@@ -109,7 +109,7 @@ assets:
     upload_filename: T--Stockholm--img--Collaborations--submarine2.svg
   assets\img\Collaborations--submarine3.png:
     link_URL: https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Collaborations--submarine3.png
-    md5: 667cbdfe31364f9447fb4fae02de8dd9
+    md5: a02d7929f8372b613afc9e0ff1fa0685
     upload_filename: T--Stockholm--img--Collaborations--submarine3.png
   assets\img\Collaborations--submarine3.svg:
     link_URL: https://2020.igem.org/wiki/images/7/70/T--Stockholm--img--Collaborations--submarine3.svg
@@ -117,7 +117,7 @@ assets:
     upload_filename: T--Stockholm--img--Collaborations--submarine3.svg
   assets\img\Collaborations--submarine4.png:
     link_URL: https://2020.igem.org/wiki/images/9/9e/T--Stockholm--img--Collaborations--submarine4.png
-    md5: c360dd187f02aca194970a1deb2871e9
+    md5: 8d2ca9c44b53e84deae4585f8ebf6ef9
     upload_filename: T--Stockholm--img--Collaborations--submarine4.png
   assets\img\Collaborations--submarine4.svg:
     link_URL: https://2020.igem.org/wiki/images/f/f7/T--Stockholm--img--Collaborations--submarine4.svg
@@ -125,7 +125,7 @@ assets:
     upload_filename: T--Stockholm--img--Collaborations--submarine4.svg
   assets\img\Collaborations--submarine5.png:
     link_URL: https://2020.igem.org/wiki/images/5/5d/T--Stockholm--img--Collaborations--submarine5.png
-    md5: fb12a331a9e4fc91e6994b09bdc325b0
+    md5: 2d4c66fb7b0a590a3572221953e3fc75
     upload_filename: T--Stockholm--img--Collaborations--submarine5.png
   assets\img\Collaborations--submarine5.svg:
     link_URL: https://2020.igem.org/wiki/images/1/19/T--Stockholm--img--Collaborations--submarine5.svg
@@ -190,16 +190,16 @@ assets:
 css:
   css\collaborations.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css
-    md5: dc10ffc8326be1c88472d5d6c47b9dc9
+    md5: 8b5436d8f386b0cf51260816ddbf0eea
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
-    md5: 99d6e2236017747055420279b4cf2be7
+    md5: dfbafa47180a33cc9216b72c5d8ffa49
   css\index.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css
-    md5: 2bc48bfcbf41bc527599b4358acc8fa8
+    md5: c8eaaa313e5f21309261db013b18bb01
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: b5e53a62cc1826e67caa27e3b5622407
+    md5: eb5d8301c2768b25d68495d242859e17
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions

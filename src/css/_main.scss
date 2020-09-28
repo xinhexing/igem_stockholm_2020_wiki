@@ -7,12 +7,15 @@
 @import "_nav.scss";
 @import "_footer.scss";
 @import "_wave.scss";
+@import "_colors.scss";
 
 // LIGHT MODE
 
 body {
   background: $bg_light;
   p, h1, h2, h3, h4, h5, h6, svg {color: $item_light;}
+  &::-webkit-scrollbar {background-color: $bg_light;}
+  &::-webkit-scrollbar-thumb {background-color: $item_light;}
 }
 
 // DARK MODE
@@ -20,7 +23,12 @@ body {
 body.dark {
   background: $bg_dark;
   p, h1, h2, h3, h4, h5, h6, svg {color: $item_dark;}
+  &::-webkit-scrollbar {background-color: $bg_dark;}
+  &::-webkit-scrollbar-thumb {background-color: $item_dark;}
 }
 
 // MAIN
 html {scroll-behavior: smooth;}
+
+// SCROLLBAR
+::-webkit-scrollbar {width: 0.8rem; height: auto;}

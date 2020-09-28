@@ -9,6 +9,11 @@ $title_dark: url("https://images.pexels.com/photos/1146134/pexels-photo-1146134.
 
 body {
 
+  .parallax {
+    &::-webkit-scrollbar {background-color: $bg_light;}
+    &::-webkit-scrollbar-thumb {background-color: $item_light;}
+  }
+
   #group0 {
     background-image: url("../assets/img/Home--project_dark.png");
     .waveblock{background: $bg_light;}
@@ -26,6 +31,11 @@ body {
 // DARK MODE
 
 body.dark {
+
+  .parallax {
+    &::-webkit-scrollbar {background-color: $bg_dark;}
+    &::-webkit-scrollbar-thumb {background-color: $item_dark;}
+  }
 
   #group0 {
     background-image: url("../assets/img/Home--project_light.png");
