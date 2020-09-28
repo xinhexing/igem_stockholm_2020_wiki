@@ -190,7 +190,7 @@ assets:
 css:
   css\collaborations.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css
-    md5: 8c2967b384729cf1d6bbf2b037be26d6
+    md5: b007189f47e6b57611e5fe5666437103
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
     md5: dfbafa47180a33cc9216b72c5d8ffa49
@@ -199,11 +199,11 @@ css:
     md5: 207b32dde0a82c4801e566e6cad9552e
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 0ff86905f7020931cea9b6edcac54553
+    md5: 7aebd3b075809c9acd27f41eed9191d2
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
-    md5: db1b2e5164489d39488bd40dc721bef2
+    md5: 2ccfbba11c1c23337f3bcbeacbd4be74
   Collaborations\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Collaborations
     md5: d57f5e578c270b8d2b6346e5499c2dfa
@@ -215,7 +215,7 @@ html:
     md5: 6365a5f10214da6b0b0fc5bd662a7678
   Design\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Design
-    md5: 62833c35a75982725878e1d3a11144ad
+    md5: f534ca7466955838f72907ccf91c4bfb
   Engineering\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Engineering
     md5: 40d94072149f26b87f116bf089b6ad3d
