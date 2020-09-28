@@ -89,10 +89,10 @@ body.dark {
 
     // slider button colors
     .slider:before {background: $bg_light;}
-    input:checked + .slider:before {background: $bg_dark;}
+    input:checked + .slider:before {background: $item_light;}
     // slider colors
     .slider.round {background: $bg_dark;}
-    input:checked + .slider.round {background: $bg_light;}
+    input:checked + .slider.round {background: $item_dark;}
   }
 }
 
