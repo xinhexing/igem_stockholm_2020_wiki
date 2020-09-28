@@ -2,8 +2,8 @@
 
 // BACKGROUND IMAGES
 
-$title_light: url("https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-$title_dark: url("https://images.pexels.com/photos/4576277/pexels-photo-4576277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+$title_light: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670.jpg&fm=jpg");
+$title_dark: url("https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 
 // LIGHT MODE
 
@@ -78,6 +78,8 @@ body.dark {
 
   .parallax_layer-back {
     background: no-repeat center/100% 100%;
+    filter: blur(1px);
+    transition: background-image 0.3s;
   }
   .wave {bottom: 10vh;}
   .waveblock {
