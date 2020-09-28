@@ -88,7 +88,13 @@ header {
 
 // MAIN
 
-body {.row {padding: 4rem 0;}}
+body {
+  .title {
+    text-align: center;
+    h1 {margin: 2.5rem 0;}
+  }
+  .row {padding: 4rem 0;}
+}
 
 // SIDEBAR
 

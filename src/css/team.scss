@@ -5,7 +5,6 @@
 body {
   header {background: $sky_light;}
   .info {
-    &::-webkit-scrollbar {background-color: $bg_light;}
     &::-webkit-scrollbar-thumb {background: darken($bg_light, 25%);}
   }
 }
@@ -15,7 +14,6 @@ body {
 body.dark {
   header {background: $sky_dark;}
   .info {
-    &::-webkit-scrollbar {background-color: $bg_dark;}
     &::-webkit-scrollbar-thumb {background: lighten($bg_dark, 25%);}
   }
 }
@@ -34,8 +32,8 @@ body {
   main {
     text-align: center;
 
-    h1 {margin: 2.5rem 0;}
-
+    .title {h1 {margin: 2.5rem 0;}}
+    
     .card {
       display: inline-block;
       width: 15rem; height: 20rem;
@@ -55,12 +53,12 @@ body {
 
       .info {
         position: absolute;
-        width: 13rem; height: 18rem;
-        padding-right: 1rem;
+        width: 14rem; height: 18rem;
+        padding-right: 0.5rem;
         opacity: 0;
         overflow-y: scroll;
-        &::-webkit-scrollbar {width: 8px; height: auto;border-radius: 4px;}
-        &::-webkit-scrollbar-thumb {border-radius: 4px;}
+        &::-webkit-scrollbar {width: 0.5rem; border-radius: 0.25rem;}
+        &::-webkit-scrollbar-thumb {border-radius: 0.25rem;}
         img {max-width: 80%; border-radius: 50%;}
         p {font-size: 0.9rem; text-align: justify;}
       }

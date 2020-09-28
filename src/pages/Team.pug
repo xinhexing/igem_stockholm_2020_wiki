@@ -16,7 +16,8 @@ html(lang="en")
 
     main
       .container
-        h1 Meet the Team
+        .title
+          h1 Meet the Team
         each member in teamMembers
           div(class="card card"+teamMembers.indexOf(member))
             .avatar
