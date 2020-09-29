@@ -16,6 +16,8 @@ html(lang="en")
         p.lead.pl-1= tagline
         a(href='#wave').arrow
           i.fas.fa-chevron-down
+        if topimg
+          img(src=require('../assets/img/Contents--topimg' + topimg + '.png')['default']).topimg
         .wave.wave1#wave
         .wave.wave2
         .wave.wave3
