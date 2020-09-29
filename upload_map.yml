@@ -206,7 +206,7 @@ assets:
 css:
   css\collaborations.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css
-    md5: 3a830e769e007e4ac7e55e6b1e7ced74
+    md5: 24868760814d1322a3709af3e4551c99
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
     md5: 3a3dc6db510b741bb89c5bc80dd16702
@@ -215,7 +215,7 @@ css:
     md5: c42b514f7d0483f982c7909dc0512522
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: f27ac51eb45a70d66af202e5c6636200
+    md5: fd2d8fcd1580afc4def1c1f7a5863766
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -241,6 +241,9 @@ html:
   Human_Practices\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Human_Practices
     md5: 8986985545974aacf13c0689daa8fc3c
+  Implementation\index.html:
+    link_URL: https://2020.igem.org/Team:Stockholm/Implementation
+    md5: 64bfa50f5fa4e15e1625d3168409fcb0
   Improve\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Improve
     md5: f8e0ad69e814d10b1de69224df9b0af4
@@ -250,6 +253,9 @@ html:
   Integrated_Human_Practices\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Integrated_Human_Practices
     md5: bd5605bcd6ab3b5a89a0a039e9b9fc76
+  Medal_Criteria\index.html:
+    link_URL: https://2020.igem.org/Team:Stockholm/Medal_Criteria
+    md5: 868455d8d90591c9c1ef7079be7ef297
   Notebook\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Notebook
     md5: 2eb974bd00696a865e8fedf4e5bd0faa
@@ -262,6 +268,9 @@ html:
   Parts\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Parts
     md5: b9bcc93658cad26a6b7dfcd4574e0c1d
+  Primers\index.html:
+    link_URL: https://2020.igem.org/Team:Stockholm/Primers
+    md5: 036c5bfbd29bfb0368a808e8b658f37e
   Proof_of_Concept\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Proof_of_Concept
     md5: 06abef634603c9ab6369de38edb1da96
