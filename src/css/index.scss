@@ -4,7 +4,10 @@
 
 $title_light: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670.jpg&fm=jpg");
 $title_dark: url("https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-
+$groups: 5;
+$reefs: $groups - 1;
+$light_filter: 1.7;
+$dark_filter: 0.24;
 // LIGHT MODE
 
 body {
@@ -19,13 +22,20 @@ body {
     .waveblock{background: $bg_light;}
     .parallax_layer-back {background-image: $title_light;}
   }
-  #group1 .parallax_layer-base {background: linear-gradient(darken($bg_light, 0%),  darken($bg_light, 20%));}
-  #group2 .parallax_layer-back {background: linear-gradient(darken($bg_light, 20%), darken($bg_light, 40%));}
-  #group3 .parallax_layer-base {background: linear-gradient(darken($bg_light, 40%), darken($bg_light, 60%));}
-  #group4 .parallax_layer-back {background: linear-gradient(darken($bg_light, 60%), darken($bg_light, 80%));}
-  #group5 .parallax_layer-base {background: linear-gradient(darken($bg_light, 80%), darken($bg_light, 100%));}
+
+  $gradient: 0;
+  @for $i from 1 through $groups {
+    #group#{$i} .main {background: darken($bg_light, $gradient);}
+    $gradient: $gradient + 100/$groups;
+  }
 
   #group4, #group5 {p, h1, h2, h3, h4, h5, h6, svg {color: $item_dark;}}
+
+  $reef: $light_filter;
+  @for $i from 1 through $reefs {
+    $reef: $reef - 2/$groups;
+    .reef#{$i} {filter: brightness($reef);}
+  }
 }
 
 // DARK MODE
@@ -42,11 +52,17 @@ body.dark {
     .waveblock{background: $bg_dark;}
     .parallax_layer-back {background-image: $title_dark;}
   }
-  #group1 .parallax_layer-base {background: linear-gradient(darken($bg_dark, 0%),  darken($bg_dark, 20%));}
-  #group2 .parallax_layer-back {background: linear-gradient(darken($bg_dark, 20%), darken($bg_dark, 40%));}
-  #group3 .parallax_layer-base {background: linear-gradient(darken($bg_dark, 40%), darken($bg_dark, 60%));}
-  #group4 .parallax_layer-back {background: linear-gradient(darken($bg_dark, 60%), darken($bg_dark, 80%));}
-  #group5 .parallax_layer-base {background: linear-gradient(darken($bg_dark, 80%), darken($bg_dark, 100%));}
+  $gradient: 0;
+  @for $i from 1 through $groups {
+    #group#{$i} .main {background: lighten($bg_dark, $gradient);}
+    $gradient: $gradient + 10/$groups;
+  }
+
+  $reef: $dark_filter;
+  @for $i from 1 through $reefs {
+    $reef: $reef + 0.2/$groups;
+    .reef#{$i} {filter: brightness($reef);}
+  }
 }
 
 // MAIN
@@ -100,6 +116,7 @@ body.dark {
 // CONTENT
 
 .content {
+  z-index: 1;
   position: absolute;
   width: 80%; max-width: 60rem;
   left: 50%; top: 50%;
@@ -107,6 +124,12 @@ body.dark {
   text-align: center;
   p {text-align: justify;}
   svg {font-size: 10rem;}
+}
+
+.reef {
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 100%;
 }
 
 // INDICES
