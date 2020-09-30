@@ -18,9 +18,9 @@ body {
   }
 
   #group0 {
+    background-image: $title_light;
     .logo {background-image: url("../assets/img/Home--project_dark.png");}
     .waveblock{background: $bg_light;}
-    .parallax_layer-back {background-image: $title_light;}
   }
 
   $gradient: 0;
@@ -46,9 +46,9 @@ body.dark {
   }
 
   #group0 {
+    background-image: $title_dark;
     .logo {background-image: url("../assets/img/Home--project_light.png");}
     .waveblock{background: $bg_dark;}
-    .parallax_layer-back {background-image: $title_dark;}
   }
   $gradient: 0;
   @for $i from 1 through $groups {
@@ -98,15 +98,14 @@ body.dark {
 // HEADER
 
 #group0 {
+  background: fixed no-repeat center/100% 100%;
+  filter: blur(1px);
+
   .logo {
     height: 100%; width: 100%;
     background: no-repeat center/auto 60%;
   }
 
-  .parallax_layer-back {
-    background: no-repeat center/100% 100%;
-    filter: blur(1px);
-  }
   .wave {bottom: 10vh;}
   .waveblock {
     position: absolute; left: 0; bottom: 0;
