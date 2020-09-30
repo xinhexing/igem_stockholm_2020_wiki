@@ -18,7 +18,7 @@ body {
   }
 
   #group0 {
-    background-image: url("../assets/img/Home--project_dark.png");
+    .logo {background-image: url("../assets/img/Home--project_dark.png");}
     .waveblock{background: $bg_light;}
     .parallax_layer-back {background-image: $title_light;}
   }
@@ -46,7 +46,7 @@ body.dark {
   }
 
   #group0 {
-    background-image: url("../assets/img/Home--project_light.png");
+    .logo {background-image: url("../assets/img/Home--project_light.png");}
     .waveblock{background: $bg_dark;}
     .parallax_layer-back {background-image: $title_dark;}
   }
@@ -98,7 +98,10 @@ body.dark {
 // HEADER
 
 #group0 {
-  background: no-repeat center/auto 60%;
+  .logo {
+    height: 100%; width: 100%;
+    background: no-repeat center/auto 60%;
+  }
 
   .parallax_layer-back {
     background: no-repeat center/100% 100%;
