@@ -1,0 +1,22 @@
+// MAIN
+
+.parent{
+    position: absolute; top: calc(5rem + 2px);
+    height: calc(100vh - 5rem - 18px); width: 100%;
+    perspective: 100px;
+    overflow-x: hidden; overflow-y: auto;
+}
+
+// LIGHT
+
+body {.parent {
+    &::-webkit-scrollbar {background-color: $bg_light;}
+    &::-webkit-scrollbar-thumb {background-color: $item_light;}
+}}
+
+// DARK
+
+body.dark {.parent {
+    &::-webkit-scrollbar {background-color: $bg_dark;}
+    &::-webkit-scrollbar-thumb {background-color: $item_dark;}
+}}

@@ -8,24 +8,25 @@ html(lang="en")
     title Team | iGEM Stockholm
   body
     include ../templates/nav.pug
-    header.d-flex.justify-content-center.align-items-center
-      .container
-        .wave.wave1
-        .wave.wave2
-        .wave.wave3
+    .parent
+      header.d-flex.justify-content-center.align-items-center
+        .container
+          .wave.wave1
+          .wave.wave2
+          .wave.wave3
 
-    main
-      .container
-        .title
-          h1 Meet the Team
-        each member in teamMembers
-          div(class="card card"+teamMembers.indexOf(member))
-            .avatar
-              img(src=require('../assets/img/Team--member.png')['default'])
-              h5.card-title #{member['name']}
-            .info
-              img(src=require('../assets/img/Team--profile.png')['default'])
-              h5.card-title #{member['name']}
-              p.card-text #{member['desc']}
+      main
+        .container
+          .title
+            h1 Meet the Team
+          each member in teamMembers
+            div(class="card card"+teamMembers.indexOf(member))
+              .avatar
+                img(src=require('../assets/img/Team--member.png')['default'])
+                h5.card-title #{member['name']}
+              .info
+                img(src=require('../assets/img/Team--profile.png')['default'])
+                h5.card-title #{member['name']}
+                p.card-text #{member['desc']}
 
-    include ../templates/footer.pug
+      include ../templates/footer.pug
