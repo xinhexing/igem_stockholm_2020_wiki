@@ -37,7 +37,7 @@ body {
     .card {
       display: inline-block;
       width: 15rem; height: 20rem;
-      margin: 1rem; padding: 1rem;
+      margin: 0.5rem; padding: 1rem;
       background: none;
       overflow: hidden;
       border: none; border-radius: 40px;
@@ -48,7 +48,7 @@ body {
         position: absolute;
         width: 13rem; height: 18rem;
         opacity: 1;
-        img {max-width: 70%;}
+        img {max-width: 100%;}
       }
 
       .info {

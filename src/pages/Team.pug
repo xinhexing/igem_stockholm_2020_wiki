@@ -22,7 +22,7 @@ html(lang="en")
           each member in teamMembers
             div(class="card card"+teamMembers.indexOf(member))
               .avatar
-                img(src=require('../assets/img/Team--member.png')['default'])
+                img(src=require('../assets/img/Team--avatar_'+member['image']+'.png')['default'])
                 h5.card-title #{member['name']}
               .info
                 img(src=require('../assets/img/Team--profile.png')['default'])
