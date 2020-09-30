@@ -1,13 +1,12 @@
 @import "_main.scss";
 
-// BACKGROUND IMAGES
+// VALUES
 
-$title_light: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670.jpg&fm=jpg");
-$title_dark: url("https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 $groups: 5;
 $reefs: $groups - 1;
 $light_filter: 1.7;
 $dark_filter: 0.24;
+
 // LIGHT MODE
 
 body {
@@ -18,7 +17,7 @@ body {
   }
 
   #group0 {
-    background-image: $title_light;
+    background: $sky_light;
     .logo {background-image: url("../assets/img/Home--project_dark.png");}
     .waveblock{background: $bg_light;}
   }
@@ -46,7 +45,7 @@ body.dark {
   }
 
   #group0 {
-    background-image: $title_dark;
+    background: $sky_dark;
     .logo {background-image: url("../assets/img/Home--project_light.png");}
     .waveblock{background: $bg_dark;}
   }
@@ -122,8 +121,7 @@ body.dark {
 // HEADER
 
 #group0 {
-  background: fixed no-repeat center/100% 100%;
-
+  
   .logo {
     height: 100%; width: 100%;
     background: no-repeat center/auto 60%;
