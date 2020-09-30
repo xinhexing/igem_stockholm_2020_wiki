@@ -1,629 +1,629 @@
-2020-09-30 13:19:37,505 : INFO : iGEM_login : Already logged in.
-2020-09-30 13:19:37,654 : INFO : iGEM_URL : css/index.css was changed to https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css in index.html.
-2020-09-30 13:19:37,655 : INFO : iGEM_URL : index.bundle.js was changed to https://2020.igem.org/Template:Stockholm/index-bundleJS?action=raw&ctype=text/javascript in index.html.
-2020-09-30 13:19:37,657 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in index.html.
-2020-09-30 13:19:37,657 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in index.html.
-2020-09-30 13:19:37,657 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in index.html.
-2020-09-30 13:19:37,658 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in index.html.
-2020-09-30 13:19:37,658 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in index.html.
-2020-09-30 13:19:37,658 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in index.html.
-2020-09-30 13:19:37,659 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in index.html.
-2020-09-30 13:19:37,659 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in index.html.
-2020-09-30 13:19:37,659 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in index.html.
-2020-09-30 13:19:37,660 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in index.html.
-2020-09-30 13:19:37,660 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in index.html.
-2020-09-30 13:19:37,661 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in index.html.
-2020-09-30 13:19:37,661 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in index.html.
-2020-09-30 13:19:37,661 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in index.html.
-2020-09-30 13:19:37,662 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in index.html.
-2020-09-30 13:19:37,662 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in index.html.
-2020-09-30 13:19:37,662 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in index.html.
-2020-09-30 13:19:37,663 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in index.html.
-2020-09-30 13:19:37,663 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in index.html.
-2020-09-30 13:19:37,663 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in index.html.
-2020-09-30 13:19:37,671 : INFO : iGEM_URL : assets/img/Home--reef1.png was changed to https://2020.igem.org/wiki/images/e/ec/T--Stockholm--img--Home--reef1.png in index.html.
-2020-09-30 13:19:37,671 : INFO : iGEM_URL : assets/img/Home--reef2.png was changed to https://2020.igem.org/wiki/images/6/66/T--Stockholm--img--Home--reef2.png in index.html.
-2020-09-30 13:19:37,672 : INFO : iGEM_URL : assets/img/Home--reef3.png was changed to https://2020.igem.org/wiki/images/b/b4/T--Stockholm--img--Home--reef3.png in index.html.
-2020-09-30 13:19:37,672 : INFO : iGEM_URL : assets/img/Home--reef4.png was changed to https://2020.igem.org/wiki/images/9/93/T--Stockholm--img--Home--reef4.png in index.html.
-2020-09-30 13:19:38,639 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:Stockholm&action=edit.
-2020-09-30 13:19:38,666 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Attributions\index.html.
-2020-09-30 13:19:38,667 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Attributions\index.html.
-2020-09-30 13:19:38,668 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Attributions\index.html.
-2020-09-30 13:19:38,669 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Attributions\index.html.
-2020-09-30 13:19:38,669 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Attributions\index.html.
-2020-09-30 13:19:38,669 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Attributions\index.html.
-2020-09-30 13:19:38,670 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Attributions\index.html.
-2020-09-30 13:19:38,670 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Attributions\index.html.
-2020-09-30 13:19:38,670 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Attributions\index.html.
-2020-09-30 13:19:38,671 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Attributions\index.html.
-2020-09-30 13:19:38,671 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Attributions\index.html.
-2020-09-30 13:19:38,672 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Attributions\index.html.
-2020-09-30 13:19:38,672 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Attributions\index.html.
-2020-09-30 13:19:38,672 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Attributions\index.html.
-2020-09-30 13:19:38,673 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Attributions\index.html.
-2020-09-30 13:19:38,673 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Attributions\index.html.
-2020-09-30 13:19:38,673 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Attributions\index.html.
-2020-09-30 13:19:38,674 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Attributions\index.html.
-2020-09-30 13:19:38,675 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Attributions\index.html.
-2020-09-30 13:19:38,675 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Attributions\index.html.
-2020-09-30 13:19:38,675 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Attributions\index.html.
-2020-09-30 13:19:38,676 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Attributions\index.html.
-2020-09-30 13:19:38,676 : WARNING : iGEM_URL : dist\Attributions\Link-goes-in-parenthesis\index.html is referenced in dist\Attributions\index.html but was not found.
-2020-09-30 13:19:38,676 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Attributions/Link-goes-in-parenthesis in Attributions\index.html.
-2020-09-30 13:19:38,678 : WARNING : iGEM_URL : dist\Attributions\google.com is referenced in dist\Attributions\index.html but was not found.
-2020-09-30 13:19:38,678 : WARNING : iGEM_URL : google.com is referenced in Attributions\index.html but was not found.
-2020-09-30 13:19:38,690 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Attributions\index.html.
-2020-09-30 13:19:38,708 : INFO : build_and_upload : Contents of Attributions\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:38,725 : INFO : iGEM_URL : ../css/collaborations.css was changed to https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css in Collaborations\index.html.
-2020-09-30 13:19:38,726 : INFO : iGEM_URL : ../collaborations.bundle.js was changed to https://2020.igem.org/Template:Stockholm/collaborations-bundleJS?action=raw&ctype=text/javascript in Collaborations\index.html.
-2020-09-30 13:19:38,727 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Collaborations\index.html.
-2020-09-30 13:19:38,728 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Collaborations\index.html.
-2020-09-30 13:19:38,728 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Collaborations\index.html.
-2020-09-30 13:19:38,729 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Collaborations\index.html.
-2020-09-30 13:19:38,729 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Collaborations\index.html.
-2020-09-30 13:19:38,729 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Collaborations\index.html.
-2020-09-30 13:19:38,730 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Collaborations\index.html.
-2020-09-30 13:19:38,730 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Collaborations\index.html.
-2020-09-30 13:19:38,730 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Collaborations\index.html.
-2020-09-30 13:19:38,731 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Collaborations\index.html.
-2020-09-30 13:19:38,731 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Collaborations\index.html.
-2020-09-30 13:19:38,731 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Collaborations\index.html.
-2020-09-30 13:19:38,732 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Collaborations\index.html.
-2020-09-30 13:19:38,732 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Collaborations\index.html.
-2020-09-30 13:19:38,733 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Collaborations\index.html.
-2020-09-30 13:19:38,733 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Collaborations\index.html.
-2020-09-30 13:19:38,733 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Collaborations\index.html.
-2020-09-30 13:19:38,734 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Collaborations\index.html.
-2020-09-30 13:19:38,734 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Collaborations\index.html.
-2020-09-30 13:19:38,734 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Collaborations\index.html.
-2020-09-30 13:19:38,741 : INFO : iGEM_URL : ../assets/img/Collaborations--submarine1.png was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Collaborations--submarine1.png in Collaborations\index.html.
-2020-09-30 13:19:38,742 : INFO : iGEM_URL : ../assets/img/Collaborations--submarine2.png was changed to https://2020.igem.org/wiki/images/9/9f/T--Stockholm--img--Collaborations--submarine2.png in Collaborations\index.html.
-2020-09-30 13:19:38,742 : INFO : iGEM_URL : ../assets/img/Collaborations--submarine3.png was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Collaborations--submarine3.png in Collaborations\index.html.
-2020-09-30 13:19:38,742 : INFO : iGEM_URL : ../assets/img/Collaborations--submarine4.png was changed to https://2020.igem.org/wiki/images/9/9e/T--Stockholm--img--Collaborations--submarine4.png in Collaborations\index.html.
-2020-09-30 13:19:38,743 : INFO : iGEM_URL : ../assets/img/Collaborations--submarine5.png was changed to https://2020.igem.org/wiki/images/5/5d/T--Stockholm--img--Collaborations--submarine5.png in Collaborations\index.html.
-2020-09-30 13:19:38,753 : INFO : build_and_upload : Contents of Collaborations\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:38,782 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Contribution\index.html.
-2020-09-30 13:19:38,783 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Contribution\index.html.
-2020-09-30 13:19:38,785 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Contribution\index.html.
-2020-09-30 13:19:38,786 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Contribution\index.html.
-2020-09-30 13:19:38,786 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Contribution\index.html.
-2020-09-30 13:19:38,787 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Contribution\index.html.
-2020-09-30 13:19:38,787 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Contribution\index.html.
-2020-09-30 13:19:38,788 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Contribution\index.html.
-2020-09-30 13:19:38,788 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Contribution\index.html.
-2020-09-30 13:19:38,789 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Contribution\index.html.
-2020-09-30 13:19:38,789 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Contribution\index.html.
-2020-09-30 13:19:38,789 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Contribution\index.html.
-2020-09-30 13:19:38,790 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Contribution\index.html.
-2020-09-30 13:19:38,790 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Contribution\index.html.
-2020-09-30 13:19:38,790 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Contribution\index.html.
-2020-09-30 13:19:38,791 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Contribution\index.html.
-2020-09-30 13:19:38,791 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Contribution\index.html.
-2020-09-30 13:19:38,792 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Contribution\index.html.
-2020-09-30 13:19:38,792 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Contribution\index.html.
-2020-09-30 13:19:38,793 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Contribution\index.html.
-2020-09-30 13:19:38,793 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Contribution\index.html.
-2020-09-30 13:19:38,793 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Contribution\index.html.
-2020-09-30 13:19:38,794 : WARNING : iGEM_URL : dist\Contribution\Link-goes-in-parenthesis\index.html is referenced in dist\Contribution\index.html but was not found.
-2020-09-30 13:19:38,795 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Contribution/Link-goes-in-parenthesis in Contribution\index.html.
-2020-09-30 13:19:38,795 : WARNING : iGEM_URL : dist\Contribution\google.com is referenced in dist\Contribution\index.html but was not found.
-2020-09-30 13:19:38,796 : WARNING : iGEM_URL : google.com is referenced in Contribution\index.html but was not found.
-2020-09-30 13:19:38,816 : INFO : iGEM_URL : ../assets/img/Contents--topimg1.png was changed to https://2020.igem.org/wiki/images/d/d6/T--Stockholm--img--Contents--topimg1.png in Contribution\index.html.
-2020-09-30 13:19:38,817 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Contribution\index.html.
-2020-09-30 13:19:38,839 : INFO : build_and_upload : Contents of Contribution\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:38,851 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Description\index.html.
-2020-09-30 13:19:38,852 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Description\index.html.
-2020-09-30 13:19:38,853 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Description\index.html.
-2020-09-30 13:19:38,853 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Description\index.html.
-2020-09-30 13:19:38,853 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Description\index.html.
-2020-09-30 13:19:38,854 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Description\index.html.
-2020-09-30 13:19:38,854 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Description\index.html.
-2020-09-30 13:19:38,854 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Description\index.html.
-2020-09-30 13:19:38,855 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Description\index.html.
-2020-09-30 13:19:38,855 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Description\index.html.
-2020-09-30 13:19:38,856 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Description\index.html.
-2020-09-30 13:19:38,856 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Description\index.html.
-2020-09-30 13:19:38,856 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Description\index.html.
-2020-09-30 13:19:38,857 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Description\index.html.
-2020-09-30 13:19:38,857 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Description\index.html.
-2020-09-30 13:19:38,857 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Description\index.html.
-2020-09-30 13:19:38,858 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Description\index.html.
-2020-09-30 13:19:38,858 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Description\index.html.
-2020-09-30 13:19:38,859 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Description\index.html.
-2020-09-30 13:19:38,859 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Description\index.html.
-2020-09-30 13:19:38,859 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Description\index.html.
-2020-09-30 13:19:38,860 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Description\index.html.
-2020-09-30 13:19:38,866 : INFO : iGEM_URL : ../assets/img/Contents--topimg2.png was changed to https://2020.igem.org/wiki/images/7/74/T--Stockholm--img--Contents--topimg2.png in Description\index.html.
-2020-09-30 13:19:38,866 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Description\index.html.
-2020-09-30 13:19:38,875 : INFO : build_and_upload : Contents of Description\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:38,904 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Design\index.html.
-2020-09-30 13:19:38,906 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Design\index.html.
-2020-09-30 13:19:38,907 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Design\index.html.
-2020-09-30 13:19:38,908 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Design\index.html.
-2020-09-30 13:19:38,908 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Design\index.html.
-2020-09-30 13:19:38,908 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Design\index.html.
-2020-09-30 13:19:38,909 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Design\index.html.
-2020-09-30 13:19:38,909 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Design\index.html.
-2020-09-30 13:19:38,910 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Design\index.html.
-2020-09-30 13:19:38,910 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Design\index.html.
-2020-09-30 13:19:38,910 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Design\index.html.
-2020-09-30 13:19:38,911 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Design\index.html.
-2020-09-30 13:19:38,911 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Design\index.html.
-2020-09-30 13:19:38,911 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Design\index.html.
-2020-09-30 13:19:38,912 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Design\index.html.
-2020-09-30 13:19:38,912 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Design\index.html.
-2020-09-30 13:19:38,913 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Design\index.html.
-2020-09-30 13:19:38,913 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Design\index.html.
-2020-09-30 13:19:38,913 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Design\index.html.
-2020-09-30 13:19:38,914 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Design\index.html.
-2020-09-30 13:19:38,914 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Design\index.html.
-2020-09-30 13:19:38,915 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Design\index.html.
-2020-09-30 13:19:38,915 : WARNING : iGEM_URL : dist\Design\Link-goes-in-parenthesis\index.html is referenced in dist\Design\index.html but was not found.
-2020-09-30 13:19:38,916 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Design/Link-goes-in-parenthesis in Design\index.html.
-2020-09-30 13:19:38,916 : WARNING : iGEM_URL : dist\Design\google.com is referenced in dist\Design\index.html but was not found.
-2020-09-30 13:19:38,917 : WARNING : iGEM_URL : google.com is referenced in Design\index.html but was not found.
-2020-09-30 13:19:38,934 : INFO : iGEM_URL : ../assets/img/Contents--topimg3.png was changed to https://2020.igem.org/wiki/images/0/0d/T--Stockholm--img--Contents--topimg3.png in Design\index.html.
-2020-09-30 13:19:38,935 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Design\index.html.
-2020-09-30 13:19:38,957 : INFO : build_and_upload : Contents of Design\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:38,988 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Engineering\index.html.
-2020-09-30 13:19:38,989 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Engineering\index.html.
-2020-09-30 13:19:38,991 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Engineering\index.html.
-2020-09-30 13:19:38,991 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Engineering\index.html.
-2020-09-30 13:19:38,992 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Engineering\index.html.
-2020-09-30 13:19:38,992 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Engineering\index.html.
-2020-09-30 13:19:38,992 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Engineering\index.html.
-2020-09-30 13:19:38,993 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Engineering\index.html.
-2020-09-30 13:19:38,993 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Engineering\index.html.
-2020-09-30 13:19:38,993 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Engineering\index.html.
-2020-09-30 13:19:38,994 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Engineering\index.html.
-2020-09-30 13:19:38,994 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Engineering\index.html.
-2020-09-30 13:19:38,995 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Engineering\index.html.
-2020-09-30 13:19:38,995 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Engineering\index.html.
-2020-09-30 13:19:38,995 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Engineering\index.html.
-2020-09-30 13:19:38,996 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Engineering\index.html.
-2020-09-30 13:19:38,997 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Engineering\index.html.
-2020-09-30 13:19:38,997 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Engineering\index.html.
-2020-09-30 13:19:38,997 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Engineering\index.html.
-2020-09-30 13:19:38,997 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Engineering\index.html.
-2020-09-30 13:19:38,998 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Engineering\index.html.
-2020-09-30 13:19:38,998 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Engineering\index.html.
-2020-09-30 13:19:38,999 : WARNING : iGEM_URL : dist\Engineering\Link-goes-in-parenthesis\index.html is referenced in dist\Engineering\index.html but was not found.
-2020-09-30 13:19:38,999 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Engineering/Link-goes-in-parenthesis in Engineering\index.html.
-2020-09-30 13:19:39,000 : WARNING : iGEM_URL : dist\Engineering\google.com is referenced in dist\Engineering\index.html but was not found.
-2020-09-30 13:19:39,000 : WARNING : iGEM_URL : google.com is referenced in Engineering\index.html but was not found.
-2020-09-30 13:19:39,016 : INFO : iGEM_URL : ../assets/img/Contents--topimg4.png was changed to https://2020.igem.org/wiki/images/6/60/T--Stockholm--img--Contents--topimg4.png in Engineering\index.html.
-2020-09-30 13:19:39,016 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Engineering\index.html.
-2020-09-30 13:19:39,039 : INFO : build_and_upload : Contents of Engineering\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,073 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Experiments\index.html.
-2020-09-30 13:19:39,074 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Experiments\index.html.
-2020-09-30 13:19:39,077 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Experiments\index.html.
-2020-09-30 13:19:39,078 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Experiments\index.html.
-2020-09-30 13:19:39,078 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Experiments\index.html.
-2020-09-30 13:19:39,079 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Experiments\index.html.
-2020-09-30 13:19:39,079 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Experiments\index.html.
-2020-09-30 13:19:39,080 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Experiments\index.html.
-2020-09-30 13:19:39,080 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Experiments\index.html.
-2020-09-30 13:19:39,080 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Experiments\index.html.
-2020-09-30 13:19:39,081 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Experiments\index.html.
-2020-09-30 13:19:39,081 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Experiments\index.html.
-2020-09-30 13:19:39,082 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Experiments\index.html.
-2020-09-30 13:19:39,082 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Experiments\index.html.
-2020-09-30 13:19:39,082 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Experiments\index.html.
-2020-09-30 13:19:39,083 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Experiments\index.html.
-2020-09-30 13:19:39,083 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Experiments\index.html.
-2020-09-30 13:19:39,083 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Experiments\index.html.
-2020-09-30 13:19:39,084 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Experiments\index.html.
-2020-09-30 13:19:39,084 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Experiments\index.html.
-2020-09-30 13:19:39,085 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Experiments\index.html.
-2020-09-30 13:19:39,086 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Experiments\index.html.
-2020-09-30 13:19:39,087 : WARNING : iGEM_URL : dist\Experiments\Link-goes-in-parenthesis\index.html is referenced in dist\Experiments\index.html but was not found.
-2020-09-30 13:19:39,091 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Experiments/Link-goes-in-parenthesis in Experiments\index.html.
-2020-09-30 13:19:39,092 : WARNING : iGEM_URL : dist\Experiments\google.com is referenced in dist\Experiments\index.html but was not found.
-2020-09-30 13:19:39,093 : WARNING : iGEM_URL : google.com is referenced in Experiments\index.html but was not found.
-2020-09-30 13:19:39,109 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Experiments\index.html.
-2020-09-30 13:19:39,132 : INFO : build_and_upload : Contents of Experiments\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,160 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Human_Practices\index.html.
-2020-09-30 13:19:39,162 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Human_Practices\index.html.
-2020-09-30 13:19:39,163 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Human_Practices\index.html.
-2020-09-30 13:19:39,163 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Human_Practices\index.html.
-2020-09-30 13:19:39,164 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Human_Practices\index.html.
-2020-09-30 13:19:39,164 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Human_Practices\index.html.
-2020-09-30 13:19:39,165 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Human_Practices\index.html.
-2020-09-30 13:19:39,165 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Human_Practices\index.html.
-2020-09-30 13:19:39,165 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Human_Practices\index.html.
-2020-09-30 13:19:39,166 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Human_Practices\index.html.
-2020-09-30 13:19:39,166 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Human_Practices\index.html.
-2020-09-30 13:19:39,167 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Human_Practices\index.html.
-2020-09-30 13:19:39,167 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Human_Practices\index.html.
-2020-09-30 13:19:39,167 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Human_Practices\index.html.
-2020-09-30 13:19:39,168 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Human_Practices\index.html.
-2020-09-30 13:19:39,168 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Human_Practices\index.html.
-2020-09-30 13:19:39,169 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Human_Practices\index.html.
-2020-09-30 13:19:39,169 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Human_Practices\index.html.
-2020-09-30 13:19:39,169 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Human_Practices\index.html.
-2020-09-30 13:19:39,170 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Human_Practices\index.html.
-2020-09-30 13:19:39,170 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Human_Practices\index.html.
-2020-09-30 13:19:39,170 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Human_Practices\index.html.
-2020-09-30 13:19:39,171 : WARNING : iGEM_URL : dist\Human_Practices\Link-goes-in-parenthesis\index.html is referenced in dist\Human_Practices\index.html but was not found.
-2020-09-30 13:19:39,171 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Human_Practices/Link-goes-in-parenthesis in Human_Practices\index.html.
-2020-09-30 13:19:39,172 : WARNING : iGEM_URL : dist\Human_Practices\google.com is referenced in dist\Human_Practices\index.html but was not found.
-2020-09-30 13:19:39,172 : WARNING : iGEM_URL : google.com is referenced in Human_Practices\index.html but was not found.
-2020-09-30 13:19:39,188 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Human_Practices\index.html.
-2020-09-30 13:19:39,210 : INFO : build_and_upload : Contents of Human_Practices\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,240 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Implementation\index.html.
-2020-09-30 13:19:39,241 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Implementation\index.html.
-2020-09-30 13:19:39,242 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Implementation\index.html.
-2020-09-30 13:19:39,243 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Implementation\index.html.
-2020-09-30 13:19:39,243 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Implementation\index.html.
-2020-09-30 13:19:39,244 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Implementation\index.html.
-2020-09-30 13:19:39,244 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Implementation\index.html.
-2020-09-30 13:19:39,244 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Implementation\index.html.
-2020-09-30 13:19:39,245 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Implementation\index.html.
-2020-09-30 13:19:39,245 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Implementation\index.html.
-2020-09-30 13:19:39,246 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Implementation\index.html.
-2020-09-30 13:19:39,246 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Implementation\index.html.
-2020-09-30 13:19:39,246 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Implementation\index.html.
-2020-09-30 13:19:39,247 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Implementation\index.html.
-2020-09-30 13:19:39,247 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Implementation\index.html.
-2020-09-30 13:19:39,248 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Implementation\index.html.
-2020-09-30 13:19:39,248 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Implementation\index.html.
-2020-09-30 13:19:39,248 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Implementation\index.html.
-2020-09-30 13:19:39,249 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Implementation\index.html.
-2020-09-30 13:19:39,249 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Implementation\index.html.
-2020-09-30 13:19:39,250 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Implementation\index.html.
-2020-09-30 13:19:39,250 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Implementation\index.html.
-2020-09-30 13:19:39,250 : WARNING : iGEM_URL : dist\Implementation\Link-goes-in-parenthesis\index.html is referenced in dist\Implementation\index.html but was not found.
-2020-09-30 13:19:39,251 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Implementation/Link-goes-in-parenthesis in Implementation\index.html.
-2020-09-30 13:19:39,251 : WARNING : iGEM_URL : dist\Implementation\google.com is referenced in dist\Implementation\index.html but was not found.
-2020-09-30 13:19:39,252 : WARNING : iGEM_URL : google.com is referenced in Implementation\index.html but was not found.
-2020-09-30 13:19:39,266 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Implementation\index.html.
-2020-09-30 13:19:39,288 : INFO : build_and_upload : Contents of Implementation\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,316 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Medal_Criteria\index.html.
-2020-09-30 13:19:39,318 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Medal_Criteria\index.html.
-2020-09-30 13:19:39,320 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Medal_Criteria\index.html.
-2020-09-30 13:19:39,320 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Medal_Criteria\index.html.
-2020-09-30 13:19:39,320 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Medal_Criteria\index.html.
-2020-09-30 13:19:39,321 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Medal_Criteria\index.html.
-2020-09-30 13:19:39,321 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Medal_Criteria\index.html.
-2020-09-30 13:19:39,321 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Medal_Criteria\index.html.
-2020-09-30 13:19:39,322 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Medal_Criteria\index.html.
-2020-09-30 13:19:39,322 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Medal_Criteria\index.html.
-2020-09-30 13:19:39,323 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Medal_Criteria\index.html.
-2020-09-30 13:19:39,323 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Medal_Criteria\index.html.
-2020-09-30 13:19:39,323 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Medal_Criteria\index.html.
-2020-09-30 13:19:39,324 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Medal_Criteria\index.html.
-2020-09-30 13:19:39,324 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Medal_Criteria\index.html.
-2020-09-30 13:19:39,325 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Medal_Criteria\index.html.
-2020-09-30 13:19:39,325 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Medal_Criteria\index.html.
-2020-09-30 13:19:39,326 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Medal_Criteria\index.html.
-2020-09-30 13:19:39,326 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Medal_Criteria\index.html.
-2020-09-30 13:19:39,327 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Medal_Criteria\index.html.
-2020-09-30 13:19:39,327 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Medal_Criteria\index.html.
-2020-09-30 13:19:39,328 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Medal_Criteria\index.html.
-2020-09-30 13:19:39,328 : WARNING : iGEM_URL : dist\Medal_Criteria\Link-goes-in-parenthesis\index.html is referenced in dist\Medal_Criteria\index.html but was not found.
-2020-09-30 13:19:39,329 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria/Link-goes-in-parenthesis in Medal_Criteria\index.html.
-2020-09-30 13:19:39,329 : WARNING : iGEM_URL : dist\Medal_Criteria\google.com is referenced in dist\Medal_Criteria\index.html but was not found.
-2020-09-30 13:19:39,329 : WARNING : iGEM_URL : google.com is referenced in Medal_Criteria\index.html but was not found.
-2020-09-30 13:19:39,345 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Medal_Criteria\index.html.
-2020-09-30 13:19:39,367 : INFO : build_and_upload : Contents of Medal_Criteria\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,396 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Notebook\index.html.
-2020-09-30 13:19:39,397 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Notebook\index.html.
-2020-09-30 13:19:39,399 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Notebook\index.html.
-2020-09-30 13:19:39,399 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Notebook\index.html.
-2020-09-30 13:19:39,399 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Notebook\index.html.
-2020-09-30 13:19:39,400 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Notebook\index.html.
-2020-09-30 13:19:39,400 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Notebook\index.html.
-2020-09-30 13:19:39,400 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Notebook\index.html.
-2020-09-30 13:19:39,401 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Notebook\index.html.
-2020-09-30 13:19:39,401 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Notebook\index.html.
-2020-09-30 13:19:39,402 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Notebook\index.html.
-2020-09-30 13:19:39,402 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Notebook\index.html.
-2020-09-30 13:19:39,402 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Notebook\index.html.
-2020-09-30 13:19:39,403 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Notebook\index.html.
-2020-09-30 13:19:39,403 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Notebook\index.html.
-2020-09-30 13:19:39,403 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Notebook\index.html.
-2020-09-30 13:19:39,404 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Notebook\index.html.
-2020-09-30 13:19:39,404 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Notebook\index.html.
-2020-09-30 13:19:39,405 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Notebook\index.html.
-2020-09-30 13:19:39,405 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Notebook\index.html.
-2020-09-30 13:19:39,405 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Notebook\index.html.
-2020-09-30 13:19:39,406 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Notebook\index.html.
-2020-09-30 13:19:39,407 : WARNING : iGEM_URL : dist\Notebook\Link-goes-in-parenthesis\index.html is referenced in dist\Notebook\index.html but was not found.
-2020-09-30 13:19:39,407 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Notebook/Link-goes-in-parenthesis in Notebook\index.html.
-2020-09-30 13:19:39,408 : WARNING : iGEM_URL : dist\Notebook\google.com is referenced in dist\Notebook\index.html but was not found.
-2020-09-30 13:19:39,408 : WARNING : iGEM_URL : google.com is referenced in Notebook\index.html but was not found.
-2020-09-30 13:19:39,423 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Notebook\index.html.
-2020-09-30 13:19:39,446 : INFO : build_and_upload : Contents of Notebook\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,475 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Partnership\index.html.
-2020-09-30 13:19:39,476 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Partnership\index.html.
-2020-09-30 13:19:39,478 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Partnership\index.html.
-2020-09-30 13:19:39,478 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Partnership\index.html.
-2020-09-30 13:19:39,479 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Partnership\index.html.
-2020-09-30 13:19:39,479 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Partnership\index.html.
-2020-09-30 13:19:39,479 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Partnership\index.html.
-2020-09-30 13:19:39,480 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Partnership\index.html.
-2020-09-30 13:19:39,480 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Partnership\index.html.
-2020-09-30 13:19:39,480 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Partnership\index.html.
-2020-09-30 13:19:39,481 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Partnership\index.html.
-2020-09-30 13:19:39,481 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Partnership\index.html.
-2020-09-30 13:19:39,482 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Partnership\index.html.
-2020-09-30 13:19:39,482 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Partnership\index.html.
-2020-09-30 13:19:39,482 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Partnership\index.html.
-2020-09-30 13:19:39,483 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Partnership\index.html.
-2020-09-30 13:19:39,483 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Partnership\index.html.
-2020-09-30 13:19:39,483 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Partnership\index.html.
-2020-09-30 13:19:39,484 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Partnership\index.html.
-2020-09-30 13:19:39,484 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Partnership\index.html.
-2020-09-30 13:19:39,485 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Partnership\index.html.
-2020-09-30 13:19:39,485 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Partnership\index.html.
-2020-09-30 13:19:39,485 : WARNING : iGEM_URL : dist\Partnership\Link-goes-in-parenthesis\index.html is referenced in dist\Partnership\index.html but was not found.
-2020-09-30 13:19:39,486 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Partnership/Link-goes-in-parenthesis in Partnership\index.html.
-2020-09-30 13:19:39,486 : WARNING : iGEM_URL : dist\Partnership\google.com is referenced in dist\Partnership\index.html but was not found.
-2020-09-30 13:19:39,487 : WARNING : iGEM_URL : google.com is referenced in Partnership\index.html but was not found.
-2020-09-30 13:19:39,502 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Partnership\index.html.
-2020-09-30 13:19:39,524 : INFO : build_and_upload : Contents of Partnership\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,552 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Parts\index.html.
-2020-09-30 13:19:39,553 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Parts\index.html.
-2020-09-30 13:19:39,555 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Parts\index.html.
-2020-09-30 13:19:39,555 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Parts\index.html.
-2020-09-30 13:19:39,556 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Parts\index.html.
-2020-09-30 13:19:39,556 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Parts\index.html.
-2020-09-30 13:19:39,556 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Parts\index.html.
-2020-09-30 13:19:39,557 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Parts\index.html.
-2020-09-30 13:19:39,557 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Parts\index.html.
-2020-09-30 13:19:39,558 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Parts\index.html.
-2020-09-30 13:19:39,558 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Parts\index.html.
-2020-09-30 13:19:39,558 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Parts\index.html.
-2020-09-30 13:19:39,560 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Parts\index.html.
-2020-09-30 13:19:39,560 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Parts\index.html.
-2020-09-30 13:19:39,560 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Parts\index.html.
-2020-09-30 13:19:39,561 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Parts\index.html.
-2020-09-30 13:19:39,561 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Parts\index.html.
-2020-09-30 13:19:39,561 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Parts\index.html.
-2020-09-30 13:19:39,562 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Parts\index.html.
-2020-09-30 13:19:39,562 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Parts\index.html.
-2020-09-30 13:19:39,563 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Parts\index.html.
-2020-09-30 13:19:39,563 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Parts\index.html.
-2020-09-30 13:19:39,563 : WARNING : iGEM_URL : dist\Parts\Link-goes-in-parenthesis\index.html is referenced in dist\Parts\index.html but was not found.
-2020-09-30 13:19:39,563 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Parts/Link-goes-in-parenthesis in Parts\index.html.
-2020-09-30 13:19:39,563 : WARNING : iGEM_URL : dist\Parts\google.com is referenced in dist\Parts\index.html but was not found.
-2020-09-30 13:19:39,564 : WARNING : iGEM_URL : google.com is referenced in Parts\index.html but was not found.
-2020-09-30 13:19:39,585 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Parts\index.html.
-2020-09-30 13:19:39,606 : INFO : build_and_upload : Contents of Parts\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,635 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Primers\index.html.
-2020-09-30 13:19:39,636 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Primers\index.html.
-2020-09-30 13:19:39,638 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Primers\index.html.
-2020-09-30 13:19:39,639 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Primers\index.html.
-2020-09-30 13:19:39,639 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Primers\index.html.
-2020-09-30 13:19:39,639 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Primers\index.html.
-2020-09-30 13:19:39,640 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Primers\index.html.
-2020-09-30 13:19:39,640 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Primers\index.html.
-2020-09-30 13:19:39,640 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Primers\index.html.
-2020-09-30 13:19:39,641 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Primers\index.html.
-2020-09-30 13:19:39,641 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Primers\index.html.
-2020-09-30 13:19:39,642 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Primers\index.html.
-2020-09-30 13:19:39,642 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Primers\index.html.
-2020-09-30 13:19:39,642 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Primers\index.html.
-2020-09-30 13:19:39,643 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Primers\index.html.
-2020-09-30 13:19:39,643 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Primers\index.html.
-2020-09-30 13:19:39,644 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Primers\index.html.
-2020-09-30 13:19:39,644 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Primers\index.html.
-2020-09-30 13:19:39,644 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Primers\index.html.
-2020-09-30 13:19:39,645 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Primers\index.html.
-2020-09-30 13:19:39,645 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Primers\index.html.
-2020-09-30 13:19:39,646 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Primers\index.html.
-2020-09-30 13:19:39,646 : WARNING : iGEM_URL : dist\Primers\Link-goes-in-parenthesis\index.html is referenced in dist\Primers\index.html but was not found.
-2020-09-30 13:19:39,647 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Primers/Link-goes-in-parenthesis in Primers\index.html.
-2020-09-30 13:19:39,647 : WARNING : iGEM_URL : dist\Primers\google.com is referenced in dist\Primers\index.html but was not found.
-2020-09-30 13:19:39,647 : WARNING : iGEM_URL : google.com is referenced in Primers\index.html but was not found.
-2020-09-30 13:19:39,663 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Primers\index.html.
-2020-09-30 13:19:39,684 : INFO : build_and_upload : Contents of Primers\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,713 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,714 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,716 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,716 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,717 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,717 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,717 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,718 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,718 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,719 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,719 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,719 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,720 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,720 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,720 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,721 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,721 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,721 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,722 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,722 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,723 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,723 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,723 : WARNING : iGEM_URL : dist\Proof_of_Concept\Link-goes-in-parenthesis\index.html is referenced in dist\Proof_of_Concept\index.html but was not found.
-2020-09-30 13:19:39,724 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept/Link-goes-in-parenthesis in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,725 : WARNING : iGEM_URL : dist\Proof_of_Concept\google.com is referenced in dist\Proof_of_Concept\index.html but was not found.
-2020-09-30 13:19:39,725 : WARNING : iGEM_URL : google.com is referenced in Proof_of_Concept\index.html but was not found.
-2020-09-30 13:19:39,740 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Proof_of_Concept\index.html.
-2020-09-30 13:19:39,761 : INFO : build_and_upload : Contents of Proof_of_Concept\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,789 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Public_Engagement\index.html.
-2020-09-30 13:19:39,790 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Public_Engagement\index.html.
-2020-09-30 13:19:39,792 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Public_Engagement\index.html.
-2020-09-30 13:19:39,792 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Public_Engagement\index.html.
-2020-09-30 13:19:39,793 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Public_Engagement\index.html.
-2020-09-30 13:19:39,793 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Public_Engagement\index.html.
-2020-09-30 13:19:39,793 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Public_Engagement\index.html.
-2020-09-30 13:19:39,794 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Public_Engagement\index.html.
-2020-09-30 13:19:39,794 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Public_Engagement\index.html.
-2020-09-30 13:19:39,795 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Public_Engagement\index.html.
-2020-09-30 13:19:39,795 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Public_Engagement\index.html.
-2020-09-30 13:19:39,795 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Public_Engagement\index.html.
-2020-09-30 13:19:39,796 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Public_Engagement\index.html.
-2020-09-30 13:19:39,796 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Public_Engagement\index.html.
-2020-09-30 13:19:39,796 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Public_Engagement\index.html.
-2020-09-30 13:19:39,797 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Public_Engagement\index.html.
-2020-09-30 13:19:39,797 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Public_Engagement\index.html.
-2020-09-30 13:19:39,797 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Public_Engagement\index.html.
-2020-09-30 13:19:39,798 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Public_Engagement\index.html.
-2020-09-30 13:19:39,798 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Public_Engagement\index.html.
-2020-09-30 13:19:39,798 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Public_Engagement\index.html.
-2020-09-30 13:19:39,798 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Public_Engagement\index.html.
-2020-09-30 13:19:39,799 : WARNING : iGEM_URL : dist\Public_Engagement\Link-goes-in-parenthesis\index.html is referenced in dist\Public_Engagement\index.html but was not found.
-2020-09-30 13:19:39,799 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement/Link-goes-in-parenthesis in Public_Engagement\index.html.
-2020-09-30 13:19:39,800 : WARNING : iGEM_URL : dist\Public_Engagement\google.com is referenced in dist\Public_Engagement\index.html but was not found.
-2020-09-30 13:19:39,800 : WARNING : iGEM_URL : google.com is referenced in Public_Engagement\index.html but was not found.
-2020-09-30 13:19:39,815 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Public_Engagement\index.html.
-2020-09-30 13:19:39,838 : INFO : build_and_upload : Contents of Public_Engagement\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,867 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Results\index.html.
-2020-09-30 13:19:39,869 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Results\index.html.
-2020-09-30 13:19:39,870 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Results\index.html.
-2020-09-30 13:19:39,871 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Results\index.html.
-2020-09-30 13:19:39,871 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Results\index.html.
-2020-09-30 13:19:39,872 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Results\index.html.
-2020-09-30 13:19:39,872 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Results\index.html.
-2020-09-30 13:19:39,872 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Results\index.html.
-2020-09-30 13:19:39,873 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Results\index.html.
-2020-09-30 13:19:39,873 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Results\index.html.
-2020-09-30 13:19:39,874 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Results\index.html.
-2020-09-30 13:19:39,874 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Results\index.html.
-2020-09-30 13:19:39,874 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Results\index.html.
-2020-09-30 13:19:39,875 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Results\index.html.
-2020-09-30 13:19:39,875 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Results\index.html.
-2020-09-30 13:19:39,876 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Results\index.html.
-2020-09-30 13:19:39,876 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Results\index.html.
-2020-09-30 13:19:39,876 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Results\index.html.
-2020-09-30 13:19:39,877 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Results\index.html.
-2020-09-30 13:19:39,877 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Results\index.html.
-2020-09-30 13:19:39,878 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Results\index.html.
-2020-09-30 13:19:39,878 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Results\index.html.
-2020-09-30 13:19:39,878 : WARNING : iGEM_URL : dist\Results\Link-goes-in-parenthesis\index.html is referenced in dist\Results\index.html but was not found.
-2020-09-30 13:19:39,879 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Results/Link-goes-in-parenthesis in Results\index.html.
-2020-09-30 13:19:39,879 : WARNING : iGEM_URL : dist\Results\google.com is referenced in dist\Results\index.html but was not found.
-2020-09-30 13:19:39,880 : WARNING : iGEM_URL : google.com is referenced in Results\index.html but was not found.
-2020-09-30 13:19:39,895 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Results\index.html.
-2020-09-30 13:19:39,917 : INFO : build_and_upload : Contents of Results\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:39,946 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Safety\index.html.
-2020-09-30 13:19:39,947 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Safety\index.html.
-2020-09-30 13:19:39,949 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Safety\index.html.
-2020-09-30 13:19:39,949 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Safety\index.html.
-2020-09-30 13:19:39,949 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Safety\index.html.
-2020-09-30 13:19:39,950 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Safety\index.html.
-2020-09-30 13:19:39,950 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Safety\index.html.
-2020-09-30 13:19:39,950 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Safety\index.html.
-2020-09-30 13:19:39,951 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Safety\index.html.
-2020-09-30 13:19:39,951 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Safety\index.html.
-2020-09-30 13:19:39,951 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Safety\index.html.
-2020-09-30 13:19:39,952 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Safety\index.html.
-2020-09-30 13:19:39,952 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Safety\index.html.
-2020-09-30 13:19:39,952 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Safety\index.html.
-2020-09-30 13:19:39,953 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Safety\index.html.
-2020-09-30 13:19:39,953 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Safety\index.html.
-2020-09-30 13:19:39,954 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Safety\index.html.
-2020-09-30 13:19:39,954 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Safety\index.html.
-2020-09-30 13:19:39,954 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Safety\index.html.
-2020-09-30 13:19:39,955 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Safety\index.html.
-2020-09-30 13:19:39,955 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Safety\index.html.
-2020-09-30 13:19:39,955 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Safety\index.html.
-2020-09-30 13:19:39,956 : WARNING : iGEM_URL : dist\Safety\Link-goes-in-parenthesis\index.html is referenced in dist\Safety\index.html but was not found.
-2020-09-30 13:19:39,957 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Safety/Link-goes-in-parenthesis in Safety\index.html.
-2020-09-30 13:19:39,957 : WARNING : iGEM_URL : dist\Safety\google.com is referenced in dist\Safety\index.html but was not found.
-2020-09-30 13:19:39,958 : WARNING : iGEM_URL : google.com is referenced in Safety\index.html but was not found.
-2020-09-30 13:19:39,972 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Safety\index.html.
-2020-09-30 13:19:39,994 : INFO : build_and_upload : Contents of Safety\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:40,021 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Sustainable\index.html.
-2020-09-30 13:19:40,022 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Sustainable\index.html.
-2020-09-30 13:19:40,024 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Sustainable\index.html.
-2020-09-30 13:19:40,024 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Sustainable\index.html.
-2020-09-30 13:19:40,024 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Sustainable\index.html.
-2020-09-30 13:19:40,025 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Sustainable\index.html.
-2020-09-30 13:19:40,025 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Sustainable\index.html.
-2020-09-30 13:19:40,026 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Sustainable\index.html.
-2020-09-30 13:19:40,026 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Sustainable\index.html.
-2020-09-30 13:19:40,026 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Sustainable\index.html.
-2020-09-30 13:19:40,027 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Sustainable\index.html.
-2020-09-30 13:19:40,027 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Sustainable\index.html.
-2020-09-30 13:19:40,028 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Sustainable\index.html.
-2020-09-30 13:19:40,028 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Sustainable\index.html.
-2020-09-30 13:19:40,028 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Sustainable\index.html.
-2020-09-30 13:19:40,029 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Sustainable\index.html.
-2020-09-30 13:19:40,029 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Sustainable\index.html.
-2020-09-30 13:19:40,029 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Sustainable\index.html.
-2020-09-30 13:19:40,030 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Sustainable\index.html.
-2020-09-30 13:19:40,030 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Sustainable\index.html.
-2020-09-30 13:19:40,031 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Sustainable\index.html.
-2020-09-30 13:19:40,031 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Sustainable\index.html.
-2020-09-30 13:19:40,031 : WARNING : iGEM_URL : dist\Sustainable\Link-goes-in-parenthesis\index.html is referenced in dist\Sustainable\index.html but was not found.
-2020-09-30 13:19:40,033 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Sustainable/Link-goes-in-parenthesis in Sustainable\index.html.
-2020-09-30 13:19:40,033 : WARNING : iGEM_URL : dist\Sustainable\google.com is referenced in dist\Sustainable\index.html but was not found.
-2020-09-30 13:19:40,034 : WARNING : iGEM_URL : google.com is referenced in Sustainable\index.html but was not found.
-2020-09-30 13:19:40,048 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Sustainable\index.html.
-2020-09-30 13:19:40,068 : INFO : build_and_upload : Contents of Sustainable\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:40,091 : INFO : iGEM_URL : ../css/team.css was changed to https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css in Team\index.html.
-2020-09-30 13:19:40,093 : INFO : iGEM_URL : ../team.bundle.js was changed to https://2020.igem.org/Template:Stockholm/team-bundleJS?action=raw&ctype=text/javascript in Team\index.html.
-2020-09-30 13:19:40,094 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Team\index.html.
-2020-09-30 13:19:40,094 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Team\index.html.
-2020-09-30 13:19:40,095 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Team\index.html.
-2020-09-30 13:19:40,095 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Team\index.html.
-2020-09-30 13:19:40,096 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Team\index.html.
-2020-09-30 13:19:40,096 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Team\index.html.
-2020-09-30 13:19:40,096 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Team\index.html.
-2020-09-30 13:19:40,097 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Team\index.html.
-2020-09-30 13:19:40,097 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Team\index.html.
-2020-09-30 13:19:40,098 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Team\index.html.
-2020-09-30 13:19:40,098 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Team\index.html.
-2020-09-30 13:19:40,098 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Team\index.html.
-2020-09-30 13:19:40,099 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Team\index.html.
-2020-09-30 13:19:40,099 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Team\index.html.
-2020-09-30 13:19:40,099 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Team\index.html.
-2020-09-30 13:19:40,100 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Team\index.html.
-2020-09-30 13:19:40,100 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Team\index.html.
-2020-09-30 13:19:40,100 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Team\index.html.
-2020-09-30 13:19:40,101 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Team\index.html.
-2020-09-30 13:19:40,101 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Team\index.html.
-2020-09-30 13:19:40,110 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,111 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,111 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,111 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,112 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,112 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,113 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,113 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,113 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,114 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,114 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,115 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,115 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,115 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,116 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,116 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,117 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,117 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,118 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,118 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,118 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,119 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,119 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
-2020-09-30 13:19:40,120 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
-2020-09-30 13:19:40,134 : INFO : build_and_upload : Contents of Team\index.html have been uploaded previously. Skipping.
-2020-09-30 13:19:40,140 : INFO : iGEM_URL : ../assets/img/wave_light.svg was changed to https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg in css\collaborations.css.
-2020-09-30 13:19:40,141 : INFO : iGEM_URL : ../assets/img/wave_dark.svg was changed to https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg in css\collaborations.css.
-2020-09-30 13:19:40,141 : INFO : iGEM_URL : ../assets/icons/link-solid.svg was changed to https://2020.igem.org/wiki/images/0/0d/T--Stockholm--icons--link-solid.svg in css\collaborations.css.
-2020-09-30 13:19:42,530 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:Stockholm/css/collaborationsCSS&action=edit.
-2020-09-30 13:19:42,535 : INFO : iGEM_URL : ../assets/img/wave_light.svg was changed to https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg in css\content.css.
-2020-09-30 13:19:42,536 : INFO : iGEM_URL : ../assets/img/wave_dark.svg was changed to https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg in css\content.css.
-2020-09-30 13:19:42,537 : INFO : iGEM_URL : ../assets/img/Home--sun.png was changed to https://2020.igem.org/wiki/images/3/3b/T--Stockholm--img--Home--sun.png in css\content.css.
-2020-09-30 13:19:42,537 : INFO : iGEM_URL : ../assets/img/Home--stars.png was changed to https://2020.igem.org/wiki/images/e/e4/T--Stockholm--img--Home--stars.png in css\content.css.
-2020-09-30 13:19:42,538 : INFO : iGEM_URL : ../assets/icons/link-solid.svg was changed to https://2020.igem.org/wiki/images/0/0d/T--Stockholm--icons--link-solid.svg in css\content.css.
-2020-09-30 13:19:42,538 : INFO : build_and_upload : Contents of css\content.css have been uploaded previously. Skipping.
-2020-09-30 13:19:42,543 : INFO : iGEM_URL : ../assets/img/wave_light.svg was changed to https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg in css\index.css.
-2020-09-30 13:19:42,544 : INFO : iGEM_URL : ../assets/img/wave_dark.svg was changed to https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg in css\index.css.
-2020-09-30 13:19:42,544 : INFO : iGEM_URL : ../assets/img/Home--project_dark.png was changed to https://2020.igem.org/wiki/images/e/ef/T--Stockholm--img--Home--project_dark.png in css\index.css.
-2020-09-30 13:19:42,545 : INFO : iGEM_URL : ../assets/img/Home--project_light.png was changed to https://2020.igem.org/wiki/images/a/a0/T--Stockholm--img--Home--project_light.png in css\index.css.
-2020-09-30 13:19:44,499 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:Stockholm/css/indexCSS&action=edit.
-2020-09-30 13:19:44,505 : INFO : iGEM_URL : ../assets/img/wave_light.svg was changed to https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg in css\team.css.
-2020-09-30 13:19:44,505 : INFO : iGEM_URL : ../assets/img/wave_dark.svg was changed to https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg in css\team.css.
-2020-09-30 13:19:46,463 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:Stockholm/css/teamCSS&action=edit.
-2020-09-30 13:19:46,602 : INFO : build_and_upload : Contents of collaborations.bundle.js have been uploaded previously. Skipping.
-2020-09-30 13:19:46,737 : INFO : build_and_upload : Contents of content.bundle.js have been uploaded previously. Skipping.
-2020-09-30 13:19:46,872 : INFO : build_and_upload : Contents of index.bundle.js have been uploaded previously. Skipping.
-2020-09-30 13:19:47,007 : INFO : build_and_upload : Contents of team.bundle.js have been uploaded previously. Skipping.
+2020-09-30 13:23:20,206 : INFO : iGEM_login : Already logged in.
+2020-09-30 13:23:20,335 : INFO : iGEM_URL : css/index.css was changed to https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css in index.html.
+2020-09-30 13:23:20,336 : INFO : iGEM_URL : index.bundle.js was changed to https://2020.igem.org/Template:Stockholm/index-bundleJS?action=raw&ctype=text/javascript in index.html.
+2020-09-30 13:23:20,337 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in index.html.
+2020-09-30 13:23:20,337 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in index.html.
+2020-09-30 13:23:20,338 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in index.html.
+2020-09-30 13:23:20,338 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in index.html.
+2020-09-30 13:23:20,339 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in index.html.
+2020-09-30 13:23:20,339 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in index.html.
+2020-09-30 13:23:20,339 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in index.html.
+2020-09-30 13:23:20,340 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in index.html.
+2020-09-30 13:23:20,340 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in index.html.
+2020-09-30 13:23:20,340 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in index.html.
+2020-09-30 13:23:20,341 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in index.html.
+2020-09-30 13:23:20,341 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in index.html.
+2020-09-30 13:23:20,341 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in index.html.
+2020-09-30 13:23:20,342 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in index.html.
+2020-09-30 13:23:20,342 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in index.html.
+2020-09-30 13:23:20,343 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in index.html.
+2020-09-30 13:23:20,343 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in index.html.
+2020-09-30 13:23:20,343 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in index.html.
+2020-09-30 13:23:20,344 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in index.html.
+2020-09-30 13:23:20,344 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in index.html.
+2020-09-30 13:23:20,350 : INFO : iGEM_URL : assets/img/Home--reef1.png was changed to https://2020.igem.org/wiki/images/e/ec/T--Stockholm--img--Home--reef1.png in index.html.
+2020-09-30 13:23:20,351 : INFO : iGEM_URL : assets/img/Home--reef2.png was changed to https://2020.igem.org/wiki/images/6/66/T--Stockholm--img--Home--reef2.png in index.html.
+2020-09-30 13:23:20,351 : INFO : iGEM_URL : assets/img/Home--reef3.png was changed to https://2020.igem.org/wiki/images/b/b4/T--Stockholm--img--Home--reef3.png in index.html.
+2020-09-30 13:23:20,351 : INFO : iGEM_URL : assets/img/Home--reef4.png was changed to https://2020.igem.org/wiki/images/9/93/T--Stockholm--img--Home--reef4.png in index.html.
+2020-09-30 13:23:20,361 : INFO : build_and_upload : Contents of index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:20,384 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Attributions\index.html.
+2020-09-30 13:23:20,385 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Attributions\index.html.
+2020-09-30 13:23:20,386 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Attributions\index.html.
+2020-09-30 13:23:20,387 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Attributions\index.html.
+2020-09-30 13:23:20,387 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Attributions\index.html.
+2020-09-30 13:23:20,387 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Attributions\index.html.
+2020-09-30 13:23:20,388 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Attributions\index.html.
+2020-09-30 13:23:20,388 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Attributions\index.html.
+2020-09-30 13:23:20,388 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Attributions\index.html.
+2020-09-30 13:23:20,389 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Attributions\index.html.
+2020-09-30 13:23:20,389 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Attributions\index.html.
+2020-09-30 13:23:20,389 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Attributions\index.html.
+2020-09-30 13:23:20,390 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Attributions\index.html.
+2020-09-30 13:23:20,390 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Attributions\index.html.
+2020-09-30 13:23:20,391 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Attributions\index.html.
+2020-09-30 13:23:20,391 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Attributions\index.html.
+2020-09-30 13:23:20,391 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Attributions\index.html.
+2020-09-30 13:23:20,392 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Attributions\index.html.
+2020-09-30 13:23:20,392 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Attributions\index.html.
+2020-09-30 13:23:20,392 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Attributions\index.html.
+2020-09-30 13:23:20,393 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Attributions\index.html.
+2020-09-30 13:23:20,393 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Attributions\index.html.
+2020-09-30 13:23:20,394 : WARNING : iGEM_URL : dist\Attributions\Link-goes-in-parenthesis\index.html is referenced in dist\Attributions\index.html but was not found.
+2020-09-30 13:23:20,394 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Attributions/Link-goes-in-parenthesis in Attributions\index.html.
+2020-09-30 13:23:20,394 : WARNING : iGEM_URL : dist\Attributions\google.com is referenced in dist\Attributions\index.html but was not found.
+2020-09-30 13:23:20,395 : WARNING : iGEM_URL : google.com is referenced in Attributions\index.html but was not found.
+2020-09-30 13:23:20,407 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Attributions\index.html.
+2020-09-30 13:23:20,424 : INFO : build_and_upload : Contents of Attributions\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:20,440 : INFO : iGEM_URL : ../css/collaborations.css was changed to https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css in Collaborations\index.html.
+2020-09-30 13:23:20,441 : INFO : iGEM_URL : ../collaborations.bundle.js was changed to https://2020.igem.org/Template:Stockholm/collaborations-bundleJS?action=raw&ctype=text/javascript in Collaborations\index.html.
+2020-09-30 13:23:20,442 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Collaborations\index.html.
+2020-09-30 13:23:20,442 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Collaborations\index.html.
+2020-09-30 13:23:20,443 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Collaborations\index.html.
+2020-09-30 13:23:20,443 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Collaborations\index.html.
+2020-09-30 13:23:20,443 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Collaborations\index.html.
+2020-09-30 13:23:20,444 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Collaborations\index.html.
+2020-09-30 13:23:20,444 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Collaborations\index.html.
+2020-09-30 13:23:20,444 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Collaborations\index.html.
+2020-09-30 13:23:20,445 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Collaborations\index.html.
+2020-09-30 13:23:20,445 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Collaborations\index.html.
+2020-09-30 13:23:20,446 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Collaborations\index.html.
+2020-09-30 13:23:20,446 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Collaborations\index.html.
+2020-09-30 13:23:20,446 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Collaborations\index.html.
+2020-09-30 13:23:20,447 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Collaborations\index.html.
+2020-09-30 13:23:20,447 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Collaborations\index.html.
+2020-09-30 13:23:20,447 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Collaborations\index.html.
+2020-09-30 13:23:20,448 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Collaborations\index.html.
+2020-09-30 13:23:20,448 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Collaborations\index.html.
+2020-09-30 13:23:20,448 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Collaborations\index.html.
+2020-09-30 13:23:20,449 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Collaborations\index.html.
+2020-09-30 13:23:20,455 : INFO : iGEM_URL : ../assets/img/Collaborations--submarine1.png was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Collaborations--submarine1.png in Collaborations\index.html.
+2020-09-30 13:23:20,455 : INFO : iGEM_URL : ../assets/img/Collaborations--submarine2.png was changed to https://2020.igem.org/wiki/images/9/9f/T--Stockholm--img--Collaborations--submarine2.png in Collaborations\index.html.
+2020-09-30 13:23:20,456 : INFO : iGEM_URL : ../assets/img/Collaborations--submarine3.png was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Collaborations--submarine3.png in Collaborations\index.html.
+2020-09-30 13:23:20,456 : INFO : iGEM_URL : ../assets/img/Collaborations--submarine4.png was changed to https://2020.igem.org/wiki/images/9/9e/T--Stockholm--img--Collaborations--submarine4.png in Collaborations\index.html.
+2020-09-30 13:23:20,456 : INFO : iGEM_URL : ../assets/img/Collaborations--submarine5.png was changed to https://2020.igem.org/wiki/images/5/5d/T--Stockholm--img--Collaborations--submarine5.png in Collaborations\index.html.
+2020-09-30 13:23:20,465 : INFO : build_and_upload : Contents of Collaborations\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:20,493 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Contribution\index.html.
+2020-09-30 13:23:20,495 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Contribution\index.html.
+2020-09-30 13:23:20,496 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Contribution\index.html.
+2020-09-30 13:23:20,497 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Contribution\index.html.
+2020-09-30 13:23:20,497 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Contribution\index.html.
+2020-09-30 13:23:20,497 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Contribution\index.html.
+2020-09-30 13:23:20,498 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Contribution\index.html.
+2020-09-30 13:23:20,498 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Contribution\index.html.
+2020-09-30 13:23:20,499 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Contribution\index.html.
+2020-09-30 13:23:20,499 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Contribution\index.html.
+2020-09-30 13:23:20,499 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Contribution\index.html.
+2020-09-30 13:23:20,500 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Contribution\index.html.
+2020-09-30 13:23:20,500 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Contribution\index.html.
+2020-09-30 13:23:20,500 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Contribution\index.html.
+2020-09-30 13:23:20,501 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Contribution\index.html.
+2020-09-30 13:23:20,501 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Contribution\index.html.
+2020-09-30 13:23:20,501 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Contribution\index.html.
+2020-09-30 13:23:20,502 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Contribution\index.html.
+2020-09-30 13:23:20,502 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Contribution\index.html.
+2020-09-30 13:23:20,502 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Contribution\index.html.
+2020-09-30 13:23:20,503 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Contribution\index.html.
+2020-09-30 13:23:20,503 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Contribution\index.html.
+2020-09-30 13:23:20,504 : WARNING : iGEM_URL : dist\Contribution\Link-goes-in-parenthesis\index.html is referenced in dist\Contribution\index.html but was not found.
+2020-09-30 13:23:20,504 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Contribution/Link-goes-in-parenthesis in Contribution\index.html.
+2020-09-30 13:23:20,505 : WARNING : iGEM_URL : dist\Contribution\google.com is referenced in dist\Contribution\index.html but was not found.
+2020-09-30 13:23:20,505 : WARNING : iGEM_URL : google.com is referenced in Contribution\index.html but was not found.
+2020-09-30 13:23:20,519 : INFO : iGEM_URL : ../assets/img/Contents--topimg1.png was changed to https://2020.igem.org/wiki/images/d/d6/T--Stockholm--img--Contents--topimg1.png in Contribution\index.html.
+2020-09-30 13:23:20,519 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Contribution\index.html.
+2020-09-30 13:23:20,539 : INFO : build_and_upload : Contents of Contribution\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:20,555 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Description\index.html.
+2020-09-30 13:23:20,556 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Description\index.html.
+2020-09-30 13:23:20,556 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Description\index.html.
+2020-09-30 13:23:20,557 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Description\index.html.
+2020-09-30 13:23:20,557 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Description\index.html.
+2020-09-30 13:23:20,558 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Description\index.html.
+2020-09-30 13:23:20,558 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Description\index.html.
+2020-09-30 13:23:20,558 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Description\index.html.
+2020-09-30 13:23:20,559 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Description\index.html.
+2020-09-30 13:23:20,559 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Description\index.html.
+2020-09-30 13:23:20,559 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Description\index.html.
+2020-09-30 13:23:20,560 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Description\index.html.
+2020-09-30 13:23:20,560 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Description\index.html.
+2020-09-30 13:23:20,560 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Description\index.html.
+2020-09-30 13:23:20,561 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Description\index.html.
+2020-09-30 13:23:20,561 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Description\index.html.
+2020-09-30 13:23:20,562 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Description\index.html.
+2020-09-30 13:23:20,562 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Description\index.html.
+2020-09-30 13:23:20,562 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Description\index.html.
+2020-09-30 13:23:20,563 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Description\index.html.
+2020-09-30 13:23:20,563 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Description\index.html.
+2020-09-30 13:23:20,564 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Description\index.html.
+2020-09-30 13:23:20,569 : INFO : iGEM_URL : ../assets/img/Contents--topimg2.png was changed to https://2020.igem.org/wiki/images/7/74/T--Stockholm--img--Contents--topimg2.png in Description\index.html.
+2020-09-30 13:23:20,570 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Description\index.html.
+2020-09-30 13:23:20,578 : INFO : build_and_upload : Contents of Description\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:20,605 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Design\index.html.
+2020-09-30 13:23:20,606 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Design\index.html.
+2020-09-30 13:23:20,608 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Design\index.html.
+2020-09-30 13:23:20,608 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Design\index.html.
+2020-09-30 13:23:20,609 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Design\index.html.
+2020-09-30 13:23:20,609 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Design\index.html.
+2020-09-30 13:23:20,609 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Design\index.html.
+2020-09-30 13:23:20,610 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Design\index.html.
+2020-09-30 13:23:20,610 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Design\index.html.
+2020-09-30 13:23:20,611 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Design\index.html.
+2020-09-30 13:23:20,611 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Design\index.html.
+2020-09-30 13:23:20,611 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Design\index.html.
+2020-09-30 13:23:20,612 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Design\index.html.
+2020-09-30 13:23:20,612 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Design\index.html.
+2020-09-30 13:23:20,612 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Design\index.html.
+2020-09-30 13:23:20,613 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Design\index.html.
+2020-09-30 13:23:20,613 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Design\index.html.
+2020-09-30 13:23:20,613 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Design\index.html.
+2020-09-30 13:23:20,614 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Design\index.html.
+2020-09-30 13:23:20,614 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Design\index.html.
+2020-09-30 13:23:20,615 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Design\index.html.
+2020-09-30 13:23:20,615 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Design\index.html.
+2020-09-30 13:23:20,615 : WARNING : iGEM_URL : dist\Design\Link-goes-in-parenthesis\index.html is referenced in dist\Design\index.html but was not found.
+2020-09-30 13:23:20,616 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Design/Link-goes-in-parenthesis in Design\index.html.
+2020-09-30 13:23:20,616 : WARNING : iGEM_URL : dist\Design\google.com is referenced in dist\Design\index.html but was not found.
+2020-09-30 13:23:20,617 : WARNING : iGEM_URL : google.com is referenced in Design\index.html but was not found.
+2020-09-30 13:23:20,630 : INFO : iGEM_URL : ../assets/img/Contents--topimg3.png was changed to https://2020.igem.org/wiki/images/0/0d/T--Stockholm--img--Contents--topimg3.png in Design\index.html.
+2020-09-30 13:23:20,630 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Design\index.html.
+2020-09-30 13:23:20,650 : INFO : build_and_upload : Contents of Design\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:20,678 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Engineering\index.html.
+2020-09-30 13:23:20,679 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Engineering\index.html.
+2020-09-30 13:23:20,681 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Engineering\index.html.
+2020-09-30 13:23:20,681 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Engineering\index.html.
+2020-09-30 13:23:20,682 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Engineering\index.html.
+2020-09-30 13:23:20,682 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Engineering\index.html.
+2020-09-30 13:23:20,682 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Engineering\index.html.
+2020-09-30 13:23:20,683 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Engineering\index.html.
+2020-09-30 13:23:20,683 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Engineering\index.html.
+2020-09-30 13:23:20,683 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Engineering\index.html.
+2020-09-30 13:23:20,684 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Engineering\index.html.
+2020-09-30 13:23:20,684 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Engineering\index.html.
+2020-09-30 13:23:20,684 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Engineering\index.html.
+2020-09-30 13:23:20,685 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Engineering\index.html.
+2020-09-30 13:23:20,685 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Engineering\index.html.
+2020-09-30 13:23:20,686 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Engineering\index.html.
+2020-09-30 13:23:20,686 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Engineering\index.html.
+2020-09-30 13:23:20,686 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Engineering\index.html.
+2020-09-30 13:23:20,687 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Engineering\index.html.
+2020-09-30 13:23:20,687 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Engineering\index.html.
+2020-09-30 13:23:20,687 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Engineering\index.html.
+2020-09-30 13:23:20,688 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Engineering\index.html.
+2020-09-30 13:23:20,688 : WARNING : iGEM_URL : dist\Engineering\Link-goes-in-parenthesis\index.html is referenced in dist\Engineering\index.html but was not found.
+2020-09-30 13:23:20,689 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Engineering/Link-goes-in-parenthesis in Engineering\index.html.
+2020-09-30 13:23:20,689 : WARNING : iGEM_URL : dist\Engineering\google.com is referenced in dist\Engineering\index.html but was not found.
+2020-09-30 13:23:20,690 : WARNING : iGEM_URL : google.com is referenced in Engineering\index.html but was not found.
+2020-09-30 13:23:20,703 : INFO : iGEM_URL : ../assets/img/Contents--topimg4.png was changed to https://2020.igem.org/wiki/images/6/60/T--Stockholm--img--Contents--topimg4.png in Engineering\index.html.
+2020-09-30 13:23:20,704 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Engineering\index.html.
+2020-09-30 13:23:20,724 : INFO : build_and_upload : Contents of Engineering\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:20,751 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Experiments\index.html.
+2020-09-30 13:23:20,753 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Experiments\index.html.
+2020-09-30 13:23:20,754 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Experiments\index.html.
+2020-09-30 13:23:20,755 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Experiments\index.html.
+2020-09-30 13:23:20,755 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Experiments\index.html.
+2020-09-30 13:23:20,755 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Experiments\index.html.
+2020-09-30 13:23:20,756 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Experiments\index.html.
+2020-09-30 13:23:20,756 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Experiments\index.html.
+2020-09-30 13:23:20,756 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Experiments\index.html.
+2020-09-30 13:23:20,757 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Experiments\index.html.
+2020-09-30 13:23:20,757 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Experiments\index.html.
+2020-09-30 13:23:20,758 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Experiments\index.html.
+2020-09-30 13:23:20,758 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Experiments\index.html.
+2020-09-30 13:23:20,758 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Experiments\index.html.
+2020-09-30 13:23:20,759 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Experiments\index.html.
+2020-09-30 13:23:20,759 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Experiments\index.html.
+2020-09-30 13:23:20,759 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Experiments\index.html.
+2020-09-30 13:23:20,760 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Experiments\index.html.
+2020-09-30 13:23:20,760 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Experiments\index.html.
+2020-09-30 13:23:20,761 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Experiments\index.html.
+2020-09-30 13:23:20,761 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Experiments\index.html.
+2020-09-30 13:23:20,761 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Experiments\index.html.
+2020-09-30 13:23:20,762 : WARNING : iGEM_URL : dist\Experiments\Link-goes-in-parenthesis\index.html is referenced in dist\Experiments\index.html but was not found.
+2020-09-30 13:23:20,762 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Experiments/Link-goes-in-parenthesis in Experiments\index.html.
+2020-09-30 13:23:20,763 : WARNING : iGEM_URL : dist\Experiments\google.com is referenced in dist\Experiments\index.html but was not found.
+2020-09-30 13:23:20,763 : WARNING : iGEM_URL : google.com is referenced in Experiments\index.html but was not found.
+2020-09-30 13:23:20,777 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Experiments\index.html.
+2020-09-30 13:23:20,798 : INFO : build_and_upload : Contents of Experiments\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:20,826 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Human_Practices\index.html.
+2020-09-30 13:23:20,827 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Human_Practices\index.html.
+2020-09-30 13:23:20,829 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Human_Practices\index.html.
+2020-09-30 13:23:20,829 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Human_Practices\index.html.
+2020-09-30 13:23:20,830 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Human_Practices\index.html.
+2020-09-30 13:23:20,830 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Human_Practices\index.html.
+2020-09-30 13:23:20,830 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Human_Practices\index.html.
+2020-09-30 13:23:20,831 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Human_Practices\index.html.
+2020-09-30 13:23:20,831 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Human_Practices\index.html.
+2020-09-30 13:23:20,831 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Human_Practices\index.html.
+2020-09-30 13:23:20,832 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Human_Practices\index.html.
+2020-09-30 13:23:20,832 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Human_Practices\index.html.
+2020-09-30 13:23:20,833 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Human_Practices\index.html.
+2020-09-30 13:23:20,833 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Human_Practices\index.html.
+2020-09-30 13:23:20,833 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Human_Practices\index.html.
+2020-09-30 13:23:20,834 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Human_Practices\index.html.
+2020-09-30 13:23:20,834 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Human_Practices\index.html.
+2020-09-30 13:23:20,834 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Human_Practices\index.html.
+2020-09-30 13:23:20,835 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Human_Practices\index.html.
+2020-09-30 13:23:20,835 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Human_Practices\index.html.
+2020-09-30 13:23:20,835 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Human_Practices\index.html.
+2020-09-30 13:23:20,836 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Human_Practices\index.html.
+2020-09-30 13:23:20,836 : WARNING : iGEM_URL : dist\Human_Practices\Link-goes-in-parenthesis\index.html is referenced in dist\Human_Practices\index.html but was not found.
+2020-09-30 13:23:20,837 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Human_Practices/Link-goes-in-parenthesis in Human_Practices\index.html.
+2020-09-30 13:23:20,837 : WARNING : iGEM_URL : dist\Human_Practices\google.com is referenced in dist\Human_Practices\index.html but was not found.
+2020-09-30 13:23:20,838 : WARNING : iGEM_URL : google.com is referenced in Human_Practices\index.html but was not found.
+2020-09-30 13:23:20,852 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Human_Practices\index.html.
+2020-09-30 13:23:20,872 : INFO : build_and_upload : Contents of Human_Practices\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:20,900 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Implementation\index.html.
+2020-09-30 13:23:20,901 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Implementation\index.html.
+2020-09-30 13:23:20,903 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Implementation\index.html.
+2020-09-30 13:23:20,903 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Implementation\index.html.
+2020-09-30 13:23:20,903 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Implementation\index.html.
+2020-09-30 13:23:20,904 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Implementation\index.html.
+2020-09-30 13:23:20,904 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Implementation\index.html.
+2020-09-30 13:23:20,904 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Implementation\index.html.
+2020-09-30 13:23:20,905 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Implementation\index.html.
+2020-09-30 13:23:20,905 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Implementation\index.html.
+2020-09-30 13:23:20,906 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Implementation\index.html.
+2020-09-30 13:23:20,906 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Implementation\index.html.
+2020-09-30 13:23:20,906 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Implementation\index.html.
+2020-09-30 13:23:20,907 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Implementation\index.html.
+2020-09-30 13:23:20,907 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Implementation\index.html.
+2020-09-30 13:23:20,908 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Implementation\index.html.
+2020-09-30 13:23:20,908 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Implementation\index.html.
+2020-09-30 13:23:20,908 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Implementation\index.html.
+2020-09-30 13:23:20,909 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Implementation\index.html.
+2020-09-30 13:23:20,909 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Implementation\index.html.
+2020-09-30 13:23:20,909 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Implementation\index.html.
+2020-09-30 13:23:20,910 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Implementation\index.html.
+2020-09-30 13:23:20,910 : WARNING : iGEM_URL : dist\Implementation\Link-goes-in-parenthesis\index.html is referenced in dist\Implementation\index.html but was not found.
+2020-09-30 13:23:20,911 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Implementation/Link-goes-in-parenthesis in Implementation\index.html.
+2020-09-30 13:23:20,911 : WARNING : iGEM_URL : dist\Implementation\google.com is referenced in dist\Implementation\index.html but was not found.
+2020-09-30 13:23:20,912 : WARNING : iGEM_URL : google.com is referenced in Implementation\index.html but was not found.
+2020-09-30 13:23:20,925 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Implementation\index.html.
+2020-09-30 13:23:20,946 : INFO : build_and_upload : Contents of Implementation\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:20,974 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Medal_Criteria\index.html.
+2020-09-30 13:23:20,975 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Medal_Criteria\index.html.
+2020-09-30 13:23:20,977 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Medal_Criteria\index.html.
+2020-09-30 13:23:20,977 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Medal_Criteria\index.html.
+2020-09-30 13:23:20,978 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Medal_Criteria\index.html.
+2020-09-30 13:23:20,978 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Medal_Criteria\index.html.
+2020-09-30 13:23:20,978 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Medal_Criteria\index.html.
+2020-09-30 13:23:20,979 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Medal_Criteria\index.html.
+2020-09-30 13:23:20,979 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Medal_Criteria\index.html.
+2020-09-30 13:23:20,979 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Medal_Criteria\index.html.
+2020-09-30 13:23:20,981 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Medal_Criteria\index.html.
+2020-09-30 13:23:20,981 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Medal_Criteria\index.html.
+2020-09-30 13:23:20,982 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Medal_Criteria\index.html.
+2020-09-30 13:23:20,982 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Medal_Criteria\index.html.
+2020-09-30 13:23:20,982 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Medal_Criteria\index.html.
+2020-09-30 13:23:20,983 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Medal_Criteria\index.html.
+2020-09-30 13:23:20,983 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Medal_Criteria\index.html.
+2020-09-30 13:23:20,983 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Medal_Criteria\index.html.
+2020-09-30 13:23:20,984 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Medal_Criteria\index.html.
+2020-09-30 13:23:20,984 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Medal_Criteria\index.html.
+2020-09-30 13:23:20,985 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Medal_Criteria\index.html.
+2020-09-30 13:23:20,985 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Medal_Criteria\index.html.
+2020-09-30 13:23:20,985 : WARNING : iGEM_URL : dist\Medal_Criteria\Link-goes-in-parenthesis\index.html is referenced in dist\Medal_Criteria\index.html but was not found.
+2020-09-30 13:23:20,985 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria/Link-goes-in-parenthesis in Medal_Criteria\index.html.
+2020-09-30 13:23:20,985 : WARNING : iGEM_URL : dist\Medal_Criteria\google.com is referenced in dist\Medal_Criteria\index.html but was not found.
+2020-09-30 13:23:20,986 : WARNING : iGEM_URL : google.com is referenced in Medal_Criteria\index.html but was not found.
+2020-09-30 13:23:21,000 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Medal_Criteria\index.html.
+2020-09-30 13:23:21,021 : INFO : build_and_upload : Contents of Medal_Criteria\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,048 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Notebook\index.html.
+2020-09-30 13:23:21,050 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Notebook\index.html.
+2020-09-30 13:23:21,051 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Notebook\index.html.
+2020-09-30 13:23:21,052 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Notebook\index.html.
+2020-09-30 13:23:21,052 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Notebook\index.html.
+2020-09-30 13:23:21,052 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Notebook\index.html.
+2020-09-30 13:23:21,053 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Notebook\index.html.
+2020-09-30 13:23:21,053 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Notebook\index.html.
+2020-09-30 13:23:21,054 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Notebook\index.html.
+2020-09-30 13:23:21,054 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Notebook\index.html.
+2020-09-30 13:23:21,054 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Notebook\index.html.
+2020-09-30 13:23:21,055 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Notebook\index.html.
+2020-09-30 13:23:21,055 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Notebook\index.html.
+2020-09-30 13:23:21,055 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Notebook\index.html.
+2020-09-30 13:23:21,056 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Notebook\index.html.
+2020-09-30 13:23:21,056 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Notebook\index.html.
+2020-09-30 13:23:21,056 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Notebook\index.html.
+2020-09-30 13:23:21,057 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Notebook\index.html.
+2020-09-30 13:23:21,057 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Notebook\index.html.
+2020-09-30 13:23:21,058 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Notebook\index.html.
+2020-09-30 13:23:21,058 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Notebook\index.html.
+2020-09-30 13:23:21,058 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Notebook\index.html.
+2020-09-30 13:23:21,059 : WARNING : iGEM_URL : dist\Notebook\Link-goes-in-parenthesis\index.html is referenced in dist\Notebook\index.html but was not found.
+2020-09-30 13:23:21,059 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Notebook/Link-goes-in-parenthesis in Notebook\index.html.
+2020-09-30 13:23:21,060 : WARNING : iGEM_URL : dist\Notebook\google.com is referenced in dist\Notebook\index.html but was not found.
+2020-09-30 13:23:21,060 : WARNING : iGEM_URL : google.com is referenced in Notebook\index.html but was not found.
+2020-09-30 13:23:21,075 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Notebook\index.html.
+2020-09-30 13:23:21,095 : INFO : build_and_upload : Contents of Notebook\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,123 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Partnership\index.html.
+2020-09-30 13:23:21,124 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Partnership\index.html.
+2020-09-30 13:23:21,126 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Partnership\index.html.
+2020-09-30 13:23:21,126 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Partnership\index.html.
+2020-09-30 13:23:21,126 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Partnership\index.html.
+2020-09-30 13:23:21,127 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Partnership\index.html.
+2020-09-30 13:23:21,127 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Partnership\index.html.
+2020-09-30 13:23:21,127 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Partnership\index.html.
+2020-09-30 13:23:21,128 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Partnership\index.html.
+2020-09-30 13:23:21,128 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Partnership\index.html.
+2020-09-30 13:23:21,129 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Partnership\index.html.
+2020-09-30 13:23:21,129 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Partnership\index.html.
+2020-09-30 13:23:21,129 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Partnership\index.html.
+2020-09-30 13:23:21,130 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Partnership\index.html.
+2020-09-30 13:23:21,130 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Partnership\index.html.
+2020-09-30 13:23:21,130 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Partnership\index.html.
+2020-09-30 13:23:21,131 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Partnership\index.html.
+2020-09-30 13:23:21,131 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Partnership\index.html.
+2020-09-30 13:23:21,131 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Partnership\index.html.
+2020-09-30 13:23:21,132 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Partnership\index.html.
+2020-09-30 13:23:21,132 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Partnership\index.html.
+2020-09-30 13:23:21,133 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Partnership\index.html.
+2020-09-30 13:23:21,133 : WARNING : iGEM_URL : dist\Partnership\Link-goes-in-parenthesis\index.html is referenced in dist\Partnership\index.html but was not found.
+2020-09-30 13:23:21,133 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Partnership/Link-goes-in-parenthesis in Partnership\index.html.
+2020-09-30 13:23:21,134 : WARNING : iGEM_URL : dist\Partnership\google.com is referenced in dist\Partnership\index.html but was not found.
+2020-09-30 13:23:21,134 : WARNING : iGEM_URL : google.com is referenced in Partnership\index.html but was not found.
+2020-09-30 13:23:21,148 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Partnership\index.html.
+2020-09-30 13:23:21,168 : INFO : build_and_upload : Contents of Partnership\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,196 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Parts\index.html.
+2020-09-30 13:23:21,197 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Parts\index.html.
+2020-09-30 13:23:21,199 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Parts\index.html.
+2020-09-30 13:23:21,199 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Parts\index.html.
+2020-09-30 13:23:21,200 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Parts\index.html.
+2020-09-30 13:23:21,200 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Parts\index.html.
+2020-09-30 13:23:21,200 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Parts\index.html.
+2020-09-30 13:23:21,201 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Parts\index.html.
+2020-09-30 13:23:21,201 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Parts\index.html.
+2020-09-30 13:23:21,202 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Parts\index.html.
+2020-09-30 13:23:21,202 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Parts\index.html.
+2020-09-30 13:23:21,202 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Parts\index.html.
+2020-09-30 13:23:21,203 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Parts\index.html.
+2020-09-30 13:23:21,203 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Parts\index.html.
+2020-09-30 13:23:21,203 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Parts\index.html.
+2020-09-30 13:23:21,204 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Parts\index.html.
+2020-09-30 13:23:21,204 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Parts\index.html.
+2020-09-30 13:23:21,204 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Parts\index.html.
+2020-09-30 13:23:21,205 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Parts\index.html.
+2020-09-30 13:23:21,205 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Parts\index.html.
+2020-09-30 13:23:21,205 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Parts\index.html.
+2020-09-30 13:23:21,206 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Parts\index.html.
+2020-09-30 13:23:21,206 : WARNING : iGEM_URL : dist\Parts\Link-goes-in-parenthesis\index.html is referenced in dist\Parts\index.html but was not found.
+2020-09-30 13:23:21,207 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Parts/Link-goes-in-parenthesis in Parts\index.html.
+2020-09-30 13:23:21,207 : WARNING : iGEM_URL : dist\Parts\google.com is referenced in dist\Parts\index.html but was not found.
+2020-09-30 13:23:21,208 : WARNING : iGEM_URL : google.com is referenced in Parts\index.html but was not found.
+2020-09-30 13:23:21,222 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Parts\index.html.
+2020-09-30 13:23:21,243 : INFO : build_and_upload : Contents of Parts\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,271 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Primers\index.html.
+2020-09-30 13:23:21,272 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Primers\index.html.
+2020-09-30 13:23:21,274 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Primers\index.html.
+2020-09-30 13:23:21,274 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Primers\index.html.
+2020-09-30 13:23:21,275 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Primers\index.html.
+2020-09-30 13:23:21,275 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Primers\index.html.
+2020-09-30 13:23:21,275 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Primers\index.html.
+2020-09-30 13:23:21,276 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Primers\index.html.
+2020-09-30 13:23:21,276 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Primers\index.html.
+2020-09-30 13:23:21,276 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Primers\index.html.
+2020-09-30 13:23:21,277 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Primers\index.html.
+2020-09-30 13:23:21,277 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Primers\index.html.
+2020-09-30 13:23:21,278 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Primers\index.html.
+2020-09-30 13:23:21,278 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Primers\index.html.
+2020-09-30 13:23:21,278 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Primers\index.html.
+2020-09-30 13:23:21,279 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Primers\index.html.
+2020-09-30 13:23:21,279 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Primers\index.html.
+2020-09-30 13:23:21,279 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Primers\index.html.
+2020-09-30 13:23:21,280 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Primers\index.html.
+2020-09-30 13:23:21,280 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Primers\index.html.
+2020-09-30 13:23:21,280 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Primers\index.html.
+2020-09-30 13:23:21,281 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Primers\index.html.
+2020-09-30 13:23:21,281 : WARNING : iGEM_URL : dist\Primers\Link-goes-in-parenthesis\index.html is referenced in dist\Primers\index.html but was not found.
+2020-09-30 13:23:21,282 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Primers/Link-goes-in-parenthesis in Primers\index.html.
+2020-09-30 13:23:21,282 : WARNING : iGEM_URL : dist\Primers\google.com is referenced in dist\Primers\index.html but was not found.
+2020-09-30 13:23:21,283 : WARNING : iGEM_URL : google.com is referenced in Primers\index.html but was not found.
+2020-09-30 13:23:21,297 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Primers\index.html.
+2020-09-30 13:23:21,318 : INFO : build_and_upload : Contents of Primers\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,345 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,346 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,348 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,348 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,349 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,349 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,349 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,350 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,350 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,350 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,351 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,351 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,352 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,352 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,352 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,353 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,353 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,353 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,354 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,354 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,354 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,355 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,355 : WARNING : iGEM_URL : dist\Proof_of_Concept\Link-goes-in-parenthesis\index.html is referenced in dist\Proof_of_Concept\index.html but was not found.
+2020-09-30 13:23:21,356 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept/Link-goes-in-parenthesis in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,356 : WARNING : iGEM_URL : dist\Proof_of_Concept\google.com is referenced in dist\Proof_of_Concept\index.html but was not found.
+2020-09-30 13:23:21,357 : WARNING : iGEM_URL : google.com is referenced in Proof_of_Concept\index.html but was not found.
+2020-09-30 13:23:21,371 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Proof_of_Concept\index.html.
+2020-09-30 13:23:21,391 : INFO : build_and_upload : Contents of Proof_of_Concept\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,420 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Public_Engagement\index.html.
+2020-09-30 13:23:21,421 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Public_Engagement\index.html.
+2020-09-30 13:23:21,423 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Public_Engagement\index.html.
+2020-09-30 13:23:21,423 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Public_Engagement\index.html.
+2020-09-30 13:23:21,424 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Public_Engagement\index.html.
+2020-09-30 13:23:21,424 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Public_Engagement\index.html.
+2020-09-30 13:23:21,424 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Public_Engagement\index.html.
+2020-09-30 13:23:21,425 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Public_Engagement\index.html.
+2020-09-30 13:23:21,425 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Public_Engagement\index.html.
+2020-09-30 13:23:21,425 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Public_Engagement\index.html.
+2020-09-30 13:23:21,426 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Public_Engagement\index.html.
+2020-09-30 13:23:21,426 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Public_Engagement\index.html.
+2020-09-30 13:23:21,426 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Public_Engagement\index.html.
+2020-09-30 13:23:21,427 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Public_Engagement\index.html.
+2020-09-30 13:23:21,427 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Public_Engagement\index.html.
+2020-09-30 13:23:21,428 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Public_Engagement\index.html.
+2020-09-30 13:23:21,428 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Public_Engagement\index.html.
+2020-09-30 13:23:21,428 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Public_Engagement\index.html.
+2020-09-30 13:23:21,429 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Public_Engagement\index.html.
+2020-09-30 13:23:21,429 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Public_Engagement\index.html.
+2020-09-30 13:23:21,430 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Public_Engagement\index.html.
+2020-09-30 13:23:21,430 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Public_Engagement\index.html.
+2020-09-30 13:23:21,430 : WARNING : iGEM_URL : dist\Public_Engagement\Link-goes-in-parenthesis\index.html is referenced in dist\Public_Engagement\index.html but was not found.
+2020-09-30 13:23:21,431 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement/Link-goes-in-parenthesis in Public_Engagement\index.html.
+2020-09-30 13:23:21,431 : WARNING : iGEM_URL : dist\Public_Engagement\google.com is referenced in dist\Public_Engagement\index.html but was not found.
+2020-09-30 13:23:21,432 : WARNING : iGEM_URL : google.com is referenced in Public_Engagement\index.html but was not found.
+2020-09-30 13:23:21,446 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Public_Engagement\index.html.
+2020-09-30 13:23:21,467 : INFO : build_and_upload : Contents of Public_Engagement\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,495 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Results\index.html.
+2020-09-30 13:23:21,496 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Results\index.html.
+2020-09-30 13:23:21,498 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Results\index.html.
+2020-09-30 13:23:21,498 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Results\index.html.
+2020-09-30 13:23:21,498 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Results\index.html.
+2020-09-30 13:23:21,499 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Results\index.html.
+2020-09-30 13:23:21,499 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Results\index.html.
+2020-09-30 13:23:21,499 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Results\index.html.
+2020-09-30 13:23:21,500 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Results\index.html.
+2020-09-30 13:23:21,500 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Results\index.html.
+2020-09-30 13:23:21,501 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Results\index.html.
+2020-09-30 13:23:21,501 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Results\index.html.
+2020-09-30 13:23:21,501 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Results\index.html.
+2020-09-30 13:23:21,502 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Results\index.html.
+2020-09-30 13:23:21,502 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Results\index.html.
+2020-09-30 13:23:21,502 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Results\index.html.
+2020-09-30 13:23:21,503 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Results\index.html.
+2020-09-30 13:23:21,503 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Results\index.html.
+2020-09-30 13:23:21,503 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Results\index.html.
+2020-09-30 13:23:21,504 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Results\index.html.
+2020-09-30 13:23:21,504 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Results\index.html.
+2020-09-30 13:23:21,505 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Results\index.html.
+2020-09-30 13:23:21,505 : WARNING : iGEM_URL : dist\Results\Link-goes-in-parenthesis\index.html is referenced in dist\Results\index.html but was not found.
+2020-09-30 13:23:21,506 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Results/Link-goes-in-parenthesis in Results\index.html.
+2020-09-30 13:23:21,506 : WARNING : iGEM_URL : dist\Results\google.com is referenced in dist\Results\index.html but was not found.
+2020-09-30 13:23:21,506 : WARNING : iGEM_URL : google.com is referenced in Results\index.html but was not found.
+2020-09-30 13:23:21,521 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Results\index.html.
+2020-09-30 13:23:21,543 : INFO : build_and_upload : Contents of Results\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,573 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Safety\index.html.
+2020-09-30 13:23:21,575 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Safety\index.html.
+2020-09-30 13:23:21,576 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Safety\index.html.
+2020-09-30 13:23:21,577 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Safety\index.html.
+2020-09-30 13:23:21,577 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Safety\index.html.
+2020-09-30 13:23:21,578 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Safety\index.html.
+2020-09-30 13:23:21,578 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Safety\index.html.
+2020-09-30 13:23:21,578 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Safety\index.html.
+2020-09-30 13:23:21,578 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Safety\index.html.
+2020-09-30 13:23:21,578 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Safety\index.html.
+2020-09-30 13:23:21,579 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Safety\index.html.
+2020-09-30 13:23:21,579 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Safety\index.html.
+2020-09-30 13:23:21,580 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Safety\index.html.
+2020-09-30 13:23:21,580 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Safety\index.html.
+2020-09-30 13:23:21,580 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Safety\index.html.
+2020-09-30 13:23:21,581 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Safety\index.html.
+2020-09-30 13:23:21,581 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Safety\index.html.
+2020-09-30 13:23:21,582 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Safety\index.html.
+2020-09-30 13:23:21,582 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Safety\index.html.
+2020-09-30 13:23:21,582 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Safety\index.html.
+2020-09-30 13:23:21,583 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Safety\index.html.
+2020-09-30 13:23:21,583 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Safety\index.html.
+2020-09-30 13:23:21,584 : WARNING : iGEM_URL : dist\Safety\Link-goes-in-parenthesis\index.html is referenced in dist\Safety\index.html but was not found.
+2020-09-30 13:23:21,584 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Safety/Link-goes-in-parenthesis in Safety\index.html.
+2020-09-30 13:23:21,585 : WARNING : iGEM_URL : dist\Safety\google.com is referenced in dist\Safety\index.html but was not found.
+2020-09-30 13:23:21,585 : WARNING : iGEM_URL : google.com is referenced in Safety\index.html but was not found.
+2020-09-30 13:23:21,601 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Safety\index.html.
+2020-09-30 13:23:21,622 : INFO : build_and_upload : Contents of Safety\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,652 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css in Sustainable\index.html.
+2020-09-30 13:23:21,654 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:Stockholm/content-bundleJS?action=raw&ctype=text/javascript in Sustainable\index.html.
+2020-09-30 13:23:21,655 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Sustainable\index.html.
+2020-09-30 13:23:21,655 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Sustainable\index.html.
+2020-09-30 13:23:21,656 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Sustainable\index.html.
+2020-09-30 13:23:21,656 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Sustainable\index.html.
+2020-09-30 13:23:21,657 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Sustainable\index.html.
+2020-09-30 13:23:21,657 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Sustainable\index.html.
+2020-09-30 13:23:21,657 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Sustainable\index.html.
+2020-09-30 13:23:21,658 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Sustainable\index.html.
+2020-09-30 13:23:21,658 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Sustainable\index.html.
+2020-09-30 13:23:21,659 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Sustainable\index.html.
+2020-09-30 13:23:21,659 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Sustainable\index.html.
+2020-09-30 13:23:21,659 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Sustainable\index.html.
+2020-09-30 13:23:21,660 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Sustainable\index.html.
+2020-09-30 13:23:21,660 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Sustainable\index.html.
+2020-09-30 13:23:21,660 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Sustainable\index.html.
+2020-09-30 13:23:21,661 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Sustainable\index.html.
+2020-09-30 13:23:21,661 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Sustainable\index.html.
+2020-09-30 13:23:21,662 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Sustainable\index.html.
+2020-09-30 13:23:21,662 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Sustainable\index.html.
+2020-09-30 13:23:21,662 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Sustainable\index.html.
+2020-09-30 13:23:21,663 : WARNING : iGEM_URL : dist\Sustainable\Link-goes-in-parenthesis\index.html is referenced in dist\Sustainable\index.html but was not found.
+2020-09-30 13:23:21,664 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:Stockholm/Sustainable/Link-goes-in-parenthesis in Sustainable\index.html.
+2020-09-30 13:23:21,664 : WARNING : iGEM_URL : dist\Sustainable\google.com is referenced in dist\Sustainable\index.html but was not found.
+2020-09-30 13:23:21,665 : WARNING : iGEM_URL : google.com is referenced in Sustainable\index.html but was not found.
+2020-09-30 13:23:21,688 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg in Sustainable\index.html.
+2020-09-30 13:23:21,714 : INFO : build_and_upload : Contents of Sustainable\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,738 : INFO : iGEM_URL : ../css/team.css was changed to https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css in Team\index.html.
+2020-09-30 13:23:21,739 : INFO : iGEM_URL : ../team.bundle.js was changed to https://2020.igem.org/Template:Stockholm/team-bundleJS?action=raw&ctype=text/javascript in Team\index.html.
+2020-09-30 13:23:21,740 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:Stockholm/Description in Team\index.html.
+2020-09-30 13:23:21,741 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:Stockholm/Design in Team\index.html.
+2020-09-30 13:23:21,741 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:Stockholm/Engineering in Team\index.html.
+2020-09-30 13:23:21,741 : INFO : iGEM_URL : /Experiments was changed to https://2020.igem.org/Team:Stockholm/Experiments in Team\index.html.
+2020-09-30 13:23:21,742 : INFO : iGEM_URL : /Notebook was changed to https://2020.igem.org/Team:Stockholm/Notebook in Team\index.html.
+2020-09-30 13:23:21,742 : INFO : iGEM_URL : /Proof_of_Concept was changed to https://2020.igem.org/Team:Stockholm/Proof_of_Concept in Team\index.html.
+2020-09-30 13:23:21,742 : INFO : iGEM_URL : /Results was changed to https://2020.igem.org/Team:Stockholm/Results in Team\index.html.
+2020-09-30 13:23:21,743 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:Stockholm/Contribution in Team\index.html.
+2020-09-30 13:23:21,743 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:Stockholm/Implementation in Team\index.html.
+2020-09-30 13:23:21,743 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:Stockholm/Parts in Team\index.html.
+2020-09-30 13:23:21,744 : INFO : iGEM_URL : /Primers was changed to https://2020.igem.org/Team:Stockholm/Primers in Team\index.html.
+2020-09-30 13:23:21,744 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:Stockholm/Human_Practices in Team\index.html.
+2020-09-30 13:23:21,745 : INFO : iGEM_URL : /Public_Engagement was changed to https://2020.igem.org/Team:Stockholm/Public_Engagement in Team\index.html.
+2020-09-30 13:23:21,745 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:Stockholm/Safety in Team\index.html.
+2020-09-30 13:23:21,745 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:Stockholm/Team in Team\index.html.
+2020-09-30 13:23:21,746 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:Stockholm/Attributions in Team\index.html.
+2020-09-30 13:23:21,746 : INFO : iGEM_URL : /Partnership was changed to https://2020.igem.org/Team:Stockholm/Partnership in Team\index.html.
+2020-09-30 13:23:21,746 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:Stockholm/Collaborations in Team\index.html.
+2020-09-30 13:23:21,747 : INFO : iGEM_URL : /Sustainable was changed to https://2020.igem.org/Team:Stockholm/Sustainable in Team\index.html.
+2020-09-30 13:23:21,747 : INFO : iGEM_URL : /Medal_Criteria was changed to https://2020.igem.org/Team:Stockholm/Medal_Criteria in Team\index.html.
+2020-09-30 13:23:21,756 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,756 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,757 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,757 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,757 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,758 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,758 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,759 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,759 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,759 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,760 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,760 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,760 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,761 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,761 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,761 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,762 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,762 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,763 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,763 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,763 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,764 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,764 : INFO : iGEM_URL : ../assets/img/Team--member.png was changed to https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Team--member.png in Team\index.html.
+2020-09-30 13:23:21,764 : INFO : iGEM_URL : ../assets/img/Team--profile.png was changed to https://2020.igem.org/wiki/images/c/cd/T--Stockholm--img--Team--profile.png in Team\index.html.
+2020-09-30 13:23:21,777 : INFO : build_and_upload : Contents of Team\index.html have been uploaded previously. Skipping.
+2020-09-30 13:23:21,782 : INFO : iGEM_URL : ../assets/img/wave_light.svg was changed to https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg in css\collaborations.css.
+2020-09-30 13:23:21,783 : INFO : iGEM_URL : ../assets/img/wave_dark.svg was changed to https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg in css\collaborations.css.
+2020-09-30 13:23:21,784 : INFO : iGEM_URL : ../assets/icons/link-solid.svg was changed to https://2020.igem.org/wiki/images/0/0d/T--Stockholm--icons--link-solid.svg in css\collaborations.css.
+2020-09-30 13:23:24,179 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:Stockholm/css/collaborationsCSS&action=edit.
+2020-09-30 13:23:24,184 : INFO : iGEM_URL : ../assets/img/wave_light.svg was changed to https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg in css\content.css.
+2020-09-30 13:23:24,185 : INFO : iGEM_URL : ../assets/img/wave_dark.svg was changed to https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg in css\content.css.
+2020-09-30 13:23:24,185 : INFO : iGEM_URL : ../assets/img/Home--sun.png was changed to https://2020.igem.org/wiki/images/3/3b/T--Stockholm--img--Home--sun.png in css\content.css.
+2020-09-30 13:23:24,186 : INFO : iGEM_URL : ../assets/img/Home--stars.png was changed to https://2020.igem.org/wiki/images/e/e4/T--Stockholm--img--Home--stars.png in css\content.css.
+2020-09-30 13:23:24,186 : INFO : iGEM_URL : ../assets/icons/link-solid.svg was changed to https://2020.igem.org/wiki/images/0/0d/T--Stockholm--icons--link-solid.svg in css\content.css.
+2020-09-30 13:23:24,187 : INFO : build_and_upload : Contents of css\content.css have been uploaded previously. Skipping.
+2020-09-30 13:23:24,192 : INFO : iGEM_URL : ../assets/img/wave_light.svg was changed to https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg in css\index.css.
+2020-09-30 13:23:24,192 : INFO : iGEM_URL : ../assets/img/wave_dark.svg was changed to https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg in css\index.css.
+2020-09-30 13:23:24,193 : INFO : iGEM_URL : ../assets/img/Home--project_dark.png was changed to https://2020.igem.org/wiki/images/e/ef/T--Stockholm--img--Home--project_dark.png in css\index.css.
+2020-09-30 13:23:24,193 : INFO : iGEM_URL : ../assets/img/Home--project_light.png was changed to https://2020.igem.org/wiki/images/a/a0/T--Stockholm--img--Home--project_light.png in css\index.css.
+2020-09-30 13:23:26,179 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:Stockholm/css/indexCSS&action=edit.
+2020-09-30 13:23:26,186 : INFO : iGEM_URL : ../assets/img/wave_light.svg was changed to https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg in css\team.css.
+2020-09-30 13:23:26,186 : INFO : iGEM_URL : ../assets/img/wave_dark.svg was changed to https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg in css\team.css.
+2020-09-30 13:23:28,156 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:Stockholm/css/teamCSS&action=edit.
+2020-09-30 13:23:28,291 : INFO : build_and_upload : Contents of collaborations.bundle.js have been uploaded previously. Skipping.
+2020-09-30 13:23:28,424 : INFO : build_and_upload : Contents of content.bundle.js have been uploaded previously. Skipping.
+2020-09-30 13:23:28,555 : INFO : build_and_upload : Contents of index.bundle.js have been uploaded previously. Skipping.
+2020-09-30 13:23:28,693 : INFO : build_and_upload : Contents of team.bundle.js have been uploaded previously. Skipping.
