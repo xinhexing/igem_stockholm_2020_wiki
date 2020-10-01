@@ -205,7 +205,7 @@ assets:
     upload_filename: T--Stockholm--img--Team--avatar_astha.png
   assets\img\Team--avatar_athina.png:
     link_URL: https://2020.igem.org/wiki/images/b/b9/T--Stockholm--img--Team--avatar_athina.png
-    md5: 55c6f59510ec46318a80504142b5bbe1
+    md5: 67662dd2aaceba490e398379ff518ed3
     upload_filename: T--Stockholm--img--Team--avatar_athina.png
   assets\img\Team--avatar_corinna.png:
     link_URL: https://2020.igem.org/wiki/images/e/e9/T--Stockholm--img--Team--avatar_corinna.png
@@ -229,7 +229,7 @@ assets:
     upload_filename: T--Stockholm--img--Team--avatar_richard.png
   assets\img\Team--avatar_sofia.png:
     link_URL: https://2020.igem.org/wiki/images/e/e4/T--Stockholm--img--Team--avatar_sofia.png
-    md5: 55c6f59510ec46318a80504142b5bbe1
+    md5: 66b198d4a4913241733544f9ade3f804
     upload_filename: T--Stockholm--img--Team--avatar_sofia.png
   assets\img\Team--avatar_umme.png:
     link_URL: https://2020.igem.org/wiki/images/b/b5/T--Stockholm--img--Team--avatar_umme.png
@@ -237,7 +237,7 @@ assets:
     upload_filename: T--Stockholm--img--Team--avatar_umme.png
   assets\img\Team--avatar_victoria.png:
     link_URL: https://2020.igem.org/wiki/images/e/ef/T--Stockholm--img--Team--avatar_victoria.png
-    md5: be7d26125dcc25e2878145883f1fac0d
+    md5: 5ed8ce39eeec6c7276c8d49d7285ed9b
     upload_filename: T--Stockholm--img--Team--avatar_victoria.png
   assets\img\Team--avatar_xinhe.png:
     link_URL: https://2020.igem.org/wiki/images/9/9c/T--Stockholm--img--Team--avatar_xinhe.png
@@ -270,7 +270,7 @@ assets:
 css:
   css\collaborations.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css
-    md5: 0a1fe27a67ef5789acb2160c24996b50
+    md5: dcad70d277748e53b29c66316c7c662b
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
     md5: 6e3c9a26d7483a78eb569560336d265e
@@ -279,7 +279,7 @@ css:
     md5: 6c4455050e3626849c705f3e7862b960
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: a7dba965f0937529126a1440a074d419
+    md5: ce2f8ef5bff3c295890bb8ef0081bddc
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
