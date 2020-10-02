@@ -1,0 +1,89 @@
+@import "_main.scss";
+
+// LIGHT MODE
+
+body {
+  header {background: $sky_light;}
+  .content {
+    p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_light;}
+    table {
+      border-color: $tableborder_light;
+      color: $item_light;
+      thead {th, td {border-color: $tableborder_light;}}
+      tbody {th, td {border-color: $tableborder_light;}}
+      th, td {border-color: $tableborder_light;}
+    }
+  }
+}
+
+// DARK MODE
+
+body.dark {
+  header {background: $sky_dark;}
+  .content {
+    p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_dark;}
+    table {
+      border-color: $tableborder_dark;
+      color: $item_dark;
+      thead {th, td {border-color: $tableborder_dark;}}
+      tbody {th, td {border-color: $tableborder_dark;}}
+      th, td {border-color: $tableborder_dark;}
+    }
+  }
+}
+
+// HEADER
+
+header {
+  position: relative;
+  padding: 10rem 0 0 0;
+}
+
+// MAIN
+.container {
+  .title {
+    text-align: center;
+    h1 {margin: 2.5rem 0;}
+  }
+
+  .row {
+    padding: 4rem 0;
+    
+    .content {
+      table {
+        border: 1px solid;
+        width: 100%;
+        margin-bottom: 1rem;
+        border-collapse: collapse;
+
+        thead {
+          th, td {
+            vertical-align: bottom;
+            border-bottom: 2px solid;
+          }
+        }
+
+        tbody {th, td {border: 1px solid;}}
+
+        tbody tr:nth-of-type(odd) {background-color: rgba(0, 0, 0, 0.05);}
+
+        th, td {
+          padding: 0.75rem;
+          vertical-align: center;
+          border: 1px solid;
+        }
+
+        a {&:hover {text-decoration: underline;}}
+
+        caption {
+          text-align: center;
+          font-style: italic;
+          margin-top: 15px;
+          padding-top: 0.75rem;
+          padding-bottom: 0.75rem;
+          caption-side: bottom;
+        }
+      }
+    }
+  }
+}

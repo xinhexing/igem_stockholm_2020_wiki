@@ -24,6 +24,8 @@ module.exports = {
     content: "./src/js/content.js",
     team: "./src/js/team.js",
     collaborations: "./src/js/collaborations.js",
+    parts: "./src/js/parts.js",
+    primers: "./src/js/parts.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -54,6 +56,16 @@ module.exports = {
       filename: "Collaborations/index.html",
       template: "./src/pages/Collaborations.pug",
       chunks: ["collaborations"],
+    }),
+    new HTMLWebpackPlugin({
+      filename: "Parts/index.html",
+      template: "./src/pages/Parts.pug",
+      chunks: ["parts"],
+    }),
+    new HTMLWebpackPlugin({
+      filename: "Primers/index.html",
+      template: "./src/pages/Primers.pug",
+      chunks: ["primers"],
     }),
   ],
   module: {
