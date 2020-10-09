@@ -79,6 +79,166 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/e/e9/T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff
     md5: 8102c4838f9e3d08dad644290a9cb701
     upload_filename: T--Stockholm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300.eot:
+    link_URL: https://2020.igem.org/wiki/images/9/93/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.eot
+    md5: e348323f13ccb18b3b5a72c49f9357d9
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.eot
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300.svg:
+    link_URL: https://2020.igem.org/wiki/images/2/23/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.svg
+    md5: 27ef0b062b2e221df16f3bbd97c2dca8
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.svg
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300.ttf:
+    link_URL: https://2020.igem.org/wiki/images/6/60/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.ttf
+    md5: 73a1b98bb0336703d0801aa1c9e210e3
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.ttf
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300.woff:
+    link_URL: https://2020.igem.org/wiki/images/4/44/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.woff
+    md5: a7622f60c56ddd5301549a786b54e6e6
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.woff
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300italic.eot:
+    link_URL: https://2020.igem.org/wiki/images/2/21/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.eot
+    md5: b3257f90f9e6bcb756a1d172525e39e2
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.eot
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300italic.svg:
+    link_URL: https://2020.igem.org/wiki/images/5/5a/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.svg
+    md5: c0a3320c5a9694ba4e43a880e3de5cf2
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.svg
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300italic.ttf:
+    link_URL: https://2020.igem.org/wiki/images/f/f7/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.ttf
+    md5: a6045fa762ae57a9e40407881fcf7ad7
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.ttf
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300italic.woff:
+    link_URL: https://2020.igem.org/wiki/images/8/8b/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.woff
+    md5: 793b1237017aeacd646fb80911425566
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.woff
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600.eot:
+    link_URL: https://2020.igem.org/wiki/images/5/5e/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.eot
+    md5: ddacaf4a9db58cda27c76ce88c408546
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.eot
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600.svg:
+    link_URL: https://2020.igem.org/wiki/images/e/e2/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.svg
+    md5: e16f375be3c2a73b58255a02f6d3a9ce
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.svg
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600.ttf:
+    link_URL: https://2020.igem.org/wiki/images/3/3a/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.ttf
+    md5: 8f7128145a3c2b83923552a328df7cdc
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.ttf
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600.woff:
+    link_URL: https://2020.igem.org/wiki/images/d/d1/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.woff
+    md5: 449d681cd6006390e1bee3c3a660430b
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.woff
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600italic.eot:
+    link_URL: https://2020.igem.org/wiki/images/5/5b/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.eot
+    md5: 30e948e4f8f022e4aa00fb40aec30c93
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.eot
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600italic.svg:
+    link_URL: https://2020.igem.org/wiki/images/5/5c/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.svg
+    md5: 5eb91803ad12758ca65445a23db09778
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.svg
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600italic.ttf:
+    link_URL: https://2020.igem.org/wiki/images/3/39/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.ttf
+    md5: fa18d9f540e0db87b1587fe8c8b6cafc
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.ttf
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600italic.woff:
+    link_URL: https://2020.igem.org/wiki/images/f/f5/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.woff
+    md5: 56e5756b696615d6164a625e1bcb1a9e
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.woff
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700.eot:
+    link_URL: https://2020.igem.org/wiki/images/6/62/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.eot
+    md5: fc0dbb2edfac9ef855bcc6acd9e3477d
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.eot
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700.svg:
+    link_URL: https://2020.igem.org/wiki/images/0/07/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.svg
+    md5: 2e00b2635b51ba336b4b67a5d0bc03c7
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.svg
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700.ttf:
+    link_URL: https://2020.igem.org/wiki/images/4/44/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.ttf
+    md5: e5111caba5b811a73d995786db3c61ea
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.ttf
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700.woff:
+    link_URL: https://2020.igem.org/wiki/images/2/20/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.woff
+    md5: 1f85e92d8ff443980bc0f83ad7b23b60
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.woff
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700italic.eot:
+    link_URL: https://2020.igem.org/wiki/images/c/c9/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.eot
+    md5: b738a4093d8137498e5b5d1ab1d6bc25
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.eot
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700italic.svg:
+    link_URL: https://2020.igem.org/wiki/images/9/9c/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.svg
+    md5: f445cf25b8e059587318c7ee9014154b
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.svg
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700italic.ttf:
+    link_URL: https://2020.igem.org/wiki/images/c/ce/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.ttf
+    md5: 362461ffa73742ab3b1df586b87523c0
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.ttf
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700italic.woff:
+    link_URL: https://2020.igem.org/wiki/images/8/89/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.woff
+    md5: bf72679ca22e53320beaea090e8bb07d
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.woff
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800.eot:
+    link_URL: https://2020.igem.org/wiki/images/5/5a/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.eot
+    md5: b48d8065f1875ca85f5f694a0397857e
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.eot
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800.svg:
+    link_URL: https://2020.igem.org/wiki/images/7/74/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.svg
+    md5: 926d4d1229e98081302daa52332d62f6
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.svg
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800.ttf:
+    link_URL: https://2020.igem.org/wiki/images/1/15/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.ttf
+    md5: 67a97b77ffd3fc237ea97596d68c6763
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.ttf
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800.woff:
+    link_URL: https://2020.igem.org/wiki/images/1/12/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.woff
+    md5: 05ebdbe10796850f045fcd484f35788d
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.woff
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800italic.eot:
+    link_URL: https://2020.igem.org/wiki/images/0/09/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.eot
+    md5: 26bf7113125fa325f0a0b2f9e0684595
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.eot
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800italic.svg:
+    link_URL: https://2020.igem.org/wiki/images/e/ef/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.svg
+    md5: ca67d5b14355e769f10fd8d0f652b821
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.svg
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800italic.ttf:
+    link_URL: https://2020.igem.org/wiki/images/f/f4/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.ttf
+    md5: 5d6187a1c6fa7f53b789d1f1852764ad
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.ttf
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800italic.woff:
+    link_URL: https://2020.igem.org/wiki/images/a/ae/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.woff
+    md5: 92da6f116d973bd334cf9b3afdb29c4f
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.woff
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-italic.eot:
+    link_URL: https://2020.igem.org/wiki/images/6/6e/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.eot
+    md5: 099f3e08e06bb013cd509183eb4446af
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.eot
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-italic.svg:
+    link_URL: https://2020.igem.org/wiki/images/0/04/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.svg
+    md5: fd2ba7503f70aafcdcc45211a481684d
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.svg
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-italic.ttf:
+    link_URL: https://2020.igem.org/wiki/images/b/b0/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.ttf
+    md5: a038c4d564d9c354a6c45a1da0cc414c
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.ttf
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-italic.woff:
+    link_URL: https://2020.igem.org/wiki/images/6/61/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.woff
+    md5: 06b4bfda4e139eaf3ab9872a6d66f42f
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.woff
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-regular.eot:
+    link_URL: https://2020.igem.org/wiki/images/2/21/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.eot
+    md5: 5f4d4bc11d64b6cb605b7030c1997270
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.eot
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-regular.svg:
+    link_URL: https://2020.igem.org/wiki/images/6/68/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.svg
+    md5: 7aab4c13671282c90669eb6a10357e41
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.svg
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-regular.ttf:
+    link_URL: https://2020.igem.org/wiki/images/9/91/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.ttf
+    md5: 049a929c5d81988b3ae6d2f985ca7aa5
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.ttf
+  assets\fonts\open-sans-v18-latin\open-sans-v18-latin-regular.woff:
+    link_URL: https://2020.igem.org/wiki/images/f/fb/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.woff
+    md5: de0869e324680c99efa1250515b4b41c
+    upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.woff
   assets\icons\link-solid.svg:
     link_URL: https://2020.igem.org/wiki/images/0/0d/T--Stockholm--icons--link-solid.svg
     md5: 6af56728888d9074aaf4d8261a3eceda
@@ -290,22 +450,22 @@ assets:
 css:
   css\collaborations.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css
-    md5: a4ddab9558373198b70e586325ae8333
+    md5: 90da8fe93e44064d5a1ca68f62a62a2f
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
-    md5: 9721abe88ddcef0fdf866b533fb5c7b5
+    md5: e7d7ae131b10fe313b9577f557f6eae8
   css\index.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css
-    md5: 55ed4c07322846a26fdd603aaf78214e
+    md5: 879864aafe49f3140ae161fd33d37e25
   css\parts.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/partsCSS?action=raw&ctype=text/css
-    md5: cda3be3b0e704cc3ace7530d2cab345a
+    md5: c0c55d8e99373bd1383d2f211f2f270f
   css\primers.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/primersCSS?action=raw&ctype=text/css
-    md5: cda3be3b0e704cc3ace7530d2cab345a
+    md5: c0c55d8e99373bd1383d2f211f2f270f
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 3ecd17599c56ca5a0641b3ae87623101
+    md5: 718fd7b41c78ca0b4fb55022b8ab93c8
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions

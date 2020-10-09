@@ -29,7 +29,17 @@ body.dark {
 }
 
 // MAIN
-html {scroll-behavior: smooth;}
+html {
+  scroll-behavior: smooth;
+  p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans';
+    font-weight: 800;
+  }
+}
 
 // SCROLLBAR
 ::-webkit-scrollbar {width: 0.8rem; height: auto;}

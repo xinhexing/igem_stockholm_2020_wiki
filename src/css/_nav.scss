@@ -41,9 +41,15 @@ body.dark {
   height: 5rem; top: 18px;
   margin: auto; padding: 0;
 
-  a {&:hover {background: none;}}
-
-  .dropdown-menu {border: 0;}
+  a {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    &:hover {background: none;}
+  }
+  .dropdown-menu {
+    border: 0;
+    a {font-weight: 300;}
+  }
 }
 
 // DARK MODE TOGGLE SWITCH

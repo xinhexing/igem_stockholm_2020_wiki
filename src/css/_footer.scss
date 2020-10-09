@@ -32,6 +32,11 @@ body.dark {
 body{
   footer {
     padding: 2rem 0;
+
+    p {
+      font-family: 'Open Sans';
+      font-weight: 400;
+    }
     hr {
       height: 3px;
       border-width: 0; border-radius: 1px;
