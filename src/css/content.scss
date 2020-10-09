@@ -109,6 +109,11 @@ header {
   height: 80vh;
   background: fixed no-repeat center;
 
+  h1 {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
   .topimg {
     position: absolute; bottom: 0;
     width: 100%; max-width: 50rem;
@@ -131,11 +136,14 @@ body {.row {padding: 4rem 0;}}
 
 .sidebar {
 
-  h5 {text-transform: uppercase;}
+  h5 {
+    text-transform: uppercase;
+    font-weight: 800;
+  }
 
   #contents {
     position: sticky;
-    top: 10vh;
+    top: 5vh;
     height: auto;
 
     li {
@@ -159,6 +167,8 @@ body {.row {padding: 4rem 0;}}
   article {padding: 0 calc(1rem + 1.2vw);}
  
   $h1size: 2.15; // rem, adjust header sizes relative to this
+
+  h1, h2, h3, h4, h5, h6 {font-weight: 700;}
 
   h1, h2 {
     scroll-margin-top: 120px;
@@ -185,7 +195,6 @@ body {.row {padding: 4rem 0;}}
   }
 
   h1 {
-    font-weight: 400;
     font-size: $h1size * 1rem;
     margin: 2rem 0 1rem 0;
     word-spacing: 0.3rem;

@@ -43,13 +43,18 @@ header {
 .container {
   .title {
     text-align: center;
-    h1 {margin: 2.5rem 0;}
+    h1 {
+      margin: 2.5rem 0;
+      font-size: 4rem;
+      font-weight: 800;
+    }
   }
 
   .row {
-    padding: 4rem 0;
+    padding-bottom: 4rem;
     
     .content {
+      h1, h2, h3, h4, h5, h6 {font-weight: 700;}
       table {
         border: 1px solid;
         width: 100%;

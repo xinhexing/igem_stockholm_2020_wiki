@@ -32,7 +32,13 @@ body {
   main {
     text-align: center;
 
-    .title {h1 {margin: 2.5rem 0;}}
+    .title {
+      h1 {
+        margin: 2.5rem 0;
+        font-size: 4rem;
+        font-weight: 800;
+      }
+    }
     
     .card {
       display: inline-block;

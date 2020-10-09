@@ -98,20 +98,27 @@ header {
 body {
   .title {
     text-align: center;
-    h1 {margin: 2.5rem 0;}
+    h1 {
+      margin: 2.5rem 0;
+      font-size: 4rem;
+      font-weight: 800;
+    }
   }
-  .row {padding: 4rem 0;}
+  .row {padding-bottom: 4rem;}
 }
 
 // SIDEBAR
 
 .sidebar {
 
-  h5 {text-transform: uppercase;}
+  h5 {
+    text-transform: uppercase;
+    font-weight: 800;
+  }
 
   #contents {
     position: sticky;
-    top: 10vh;
+    top: 5vh;
     height: auto;
 
     li {
@@ -133,7 +140,9 @@ body {
 .content {
 
   article {padding: 0 calc(1rem + 1.2vw);}
- 
+
+  h1, h2, h3, h4, h5, h6 {font-weight: 700;}
+
   $h1size: 2.15; // rem, adjust header sizes relative to this
 
   h1, h2 {
@@ -161,7 +170,6 @@ body {
   }
 
   h1 {
-    font-weight: 400;
     font-size: $h1size * 1rem;
     margin: 2rem 0 1rem 0;
     word-spacing: 0.3rem;
