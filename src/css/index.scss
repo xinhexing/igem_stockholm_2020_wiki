@@ -4,8 +4,8 @@
 
 $groups: 5;
 $reefs: $groups - 1;
-$light_filter: 1.7;
-$dark_filter: 0.24;
+$light_filter: 1.66;
+$dark_filter: 0.21;
 
 // LIGHT MODE
 
@@ -30,8 +30,8 @@ body {
 
   $reef: $light_filter;
   @for $i from 1 through $reefs {
-    $reef: $reef - 1/$groups;
     .reef#{$i} {filter: brightness($reef);}
+    $reef: $reef - 1/$groups;
   }
 }
 
@@ -52,13 +52,13 @@ body.dark {
   $gradient: 0;
   @for $i from 1 through $groups {
     #group#{$i} .main {background: lighten($bg_dark, $gradient);}
-    $gradient: $gradient + 10/$groups;
+    $gradient: $gradient + 20/$groups;
   }
 
   $reef: $dark_filter;
   @for $i from 1 through $reefs {
-    $reef: $reef + 0.2/$groups;
     .reef#{$i} {filter: brightness($reef);}
+    $reef: $reef + 0.4/$groups;
   }
 }
 
