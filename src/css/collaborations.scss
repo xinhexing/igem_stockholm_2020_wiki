@@ -9,7 +9,7 @@ body {
   .sidebar {
     #contents {
       li {
-        &:hover {a, svg {color: $highlight;}}
+        &:hover {a, svg {color: $highlight_light;}}
         svg {color: $item_light;}
         a {color: $item_light;}
       }
@@ -19,7 +19,10 @@ body {
   .content {
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_light;}
     .collab{img{filter: brightness(0);}}
-    blockquote {&:before {color: $highlight;}}
+    blockquote {
+      border-color: $highlight_light;
+      &:before {color: $highlight_light;}
+    }
   }
 }
 
@@ -32,7 +35,7 @@ body.dark {
   .sidebar {
     #contents {
       li {
-        &:hover {a, svg {color: $highlight;}}
+        &:hover {a, svg {color: $highlight_dark;}}
         svg {color: $item_dark;}
         a {color: $item_dark;}
       }
@@ -42,6 +45,10 @@ body.dark {
   .content {
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_dark;}
     .collab{img{filter: brightness(2);}}
+    blockquote {
+      border-color: $highlight_dark;
+      &:before {color: $highlight_dark;}
+    }
   }
 }
 
@@ -227,7 +234,7 @@ body {
     margin: 50px auto;
     font-style: italic;
     padding: 1.2em 30px 0.7em 60px;
-    border-left: 6px solid $highlight;
+    border-left: 6px solid;
     line-height: 1.6;
     position: relative;
 

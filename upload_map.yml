@@ -281,31 +281,31 @@ assets:
     upload_filename: T--Stockholm--img--Team.jpg
   assets\img\wave_dark.svg:
     link_URL: https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg
-    md5: 0a4f9778999b941decb156834f23df5a
+    md5: 9122a35766a713090ba86c1521a634d7
     upload_filename: T--Stockholm--img--wave_dark.svg
   assets\img\wave_light.svg:
     link_URL: https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg
-    md5: a5c070deea2d8e17baa56457a3fb9bec
+    md5: d18ac94961c185b8c82c85793206c34a
     upload_filename: T--Stockholm--img--wave_light.svg
 css:
   css\collaborations.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css
-    md5: 0179e0710b4dbe42e34d3b92729b6538
+    md5: a4ddab9558373198b70e586325ae8333
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
-    md5: 5e17b85e0affe85751c0ae0a4d5187d2
+    md5: 9721abe88ddcef0fdf866b533fb5c7b5
   css\index.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css
-    md5: d6134bd0a57b92ee727be63e02f22d43
+    md5: 55ed4c07322846a26fdd603aaf78214e
   css\parts.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/partsCSS?action=raw&ctype=text/css
-    md5: e339bcb1fe15ec3cde3196086ea58261
+    md5: cda3be3b0e704cc3ace7530d2cab345a
   css\primers.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/primersCSS?action=raw&ctype=text/css
-    md5: e339bcb1fe15ec3cde3196086ea58261
+    md5: cda3be3b0e704cc3ace7530d2cab345a
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 889c88a15eff52ad8370912a0ee41a19
+    md5: 3ecd17599c56ca5a0641b3ae87623101
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions

@@ -6,7 +6,7 @@ body {
     background: $bg_light;
     a {color: $item_light;
       &:hover {
-        color: $highlight;
+        color: $highlight_light;
         background: none;
       }
     }
@@ -23,7 +23,7 @@ body.dark {
     background: $bg_dark;
     a {color: $item_dark;
       &:hover {
-        color: $highlight;
+        color: $highlight_dark;
         background: none;
       }
     }

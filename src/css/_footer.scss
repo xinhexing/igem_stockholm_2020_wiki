@@ -19,7 +19,7 @@ body{
 body.dark {
   footer {
     background: $bg_light;
-    a, svg {color: $highlight_light;}
+    a, svg {color: $highlight_dark;}
     p, h1, h2, h3, h4, h5, h6 {color: $item_light;}
     .sponsors{img{filter: brightness(0.25);}}
     hr {background-color: darken($bg_light, 5%);}

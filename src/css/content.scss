@@ -20,7 +20,7 @@ body {
   .sidebar {
     #contents {
       li {
-        &:hover {a, svg {color: $highlight;}}
+        &:hover {a, svg {color: $highlight_light;}}
         svg {color: $item_light;}
         a {color: $item_light;}
       }
@@ -37,8 +37,13 @@ body {
       tbody {th, td {border-color: $tableborder_light;}}
       th, td {border-color: $tableborder_light;}
     }
-    blockquote {&:before {color: $highlight;}}
+    blockquote {
+      border-color: $highlight_light;
+      &:before {color: $highlight_light;}
+    }
   }
+
+  .content p, #references li {a:not(.citation) {&:before, &:after {background-color: $highlight_light;}}}
 
   #references {
     cite, a {color: $item_light;}
@@ -59,7 +64,7 @@ body.dark {
   .sidebar {
     #contents {
       li {
-        &:hover {a, svg {color: $highlight;}}
+        &:hover {a, svg {color: $highlight_dark;}}
         svg {color: $item_dark;}
         a {color: $item_dark;}
       }
@@ -76,7 +81,13 @@ body.dark {
       tbody {th, td {border-color: $tableborder_dark;}}
       th, td {border-color: $tableborder_dark;}
     }
+    blockquote {
+      border-color: $highlight_dark;
+      &:before {color: $highlight_dark;}
+    }
   }
+
+  .content p, #references li {a:not(.citation) {&:before, &:after {background-color: $highlight_dark;}}}
 
   #references {
     cite, a {color: $item_dark;}
@@ -251,7 +262,7 @@ body {.row {padding: 4rem 0;}}
     margin: 50px auto;
     font-style: italic;
     padding: 1.2em 30px 0.7em 60px;
-    border-left: 6px solid $highlight;
+    border-left: 6px solid;
     line-height: 1.6;
     position: relative;
 
@@ -341,7 +352,7 @@ body {.row {padding: 4rem 0;}}
     &:after {
       content: "";
       position: absolute;
-      background-color: $highlight;
+      background-color: $highlight_light;
       height: 2px;
     }
 
