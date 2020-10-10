@@ -85,7 +85,7 @@ assets:
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.eot
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300.svg:
     link_URL: https://2020.igem.org/wiki/images/2/23/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.svg
-    md5: 27ef0b062b2e221df16f3bbd97c2dca8
+    md5: 505d96bd1954c3e75b4b096279c83741
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.svg
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300.ttf:
     link_URL: https://2020.igem.org/wiki/images/6/60/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300.ttf
@@ -101,7 +101,7 @@ assets:
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.eot
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300italic.svg:
     link_URL: https://2020.igem.org/wiki/images/5/5a/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.svg
-    md5: c0a3320c5a9694ba4e43a880e3de5cf2
+    md5: b5065b4ff696163c6ed61f2377843e0a
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.svg
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-300italic.ttf:
     link_URL: https://2020.igem.org/wiki/images/f/f7/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-300italic.ttf
@@ -117,7 +117,7 @@ assets:
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.eot
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600.svg:
     link_URL: https://2020.igem.org/wiki/images/e/e2/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.svg
-    md5: e16f375be3c2a73b58255a02f6d3a9ce
+    md5: b1249dd5f8788e2a52fd73570e827bbd
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.svg
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600.ttf:
     link_URL: https://2020.igem.org/wiki/images/3/3a/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600.ttf
@@ -133,7 +133,7 @@ assets:
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.eot
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600italic.svg:
     link_URL: https://2020.igem.org/wiki/images/5/5c/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.svg
-    md5: 5eb91803ad12758ca65445a23db09778
+    md5: adf9d00302a68409d48613c119e8042b
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.svg
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-600italic.ttf:
     link_URL: https://2020.igem.org/wiki/images/3/39/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-600italic.ttf
@@ -149,7 +149,7 @@ assets:
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.eot
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700.svg:
     link_URL: https://2020.igem.org/wiki/images/0/07/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.svg
-    md5: 2e00b2635b51ba336b4b67a5d0bc03c7
+    md5: 9f5a774538ba87b28526abd3e988eda8
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.svg
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700.ttf:
     link_URL: https://2020.igem.org/wiki/images/4/44/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700.ttf
@@ -165,7 +165,7 @@ assets:
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.eot
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700italic.svg:
     link_URL: https://2020.igem.org/wiki/images/9/9c/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.svg
-    md5: f445cf25b8e059587318c7ee9014154b
+    md5: e8ebd85a67afc08370d9efc453bdbaad
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.svg
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-700italic.ttf:
     link_URL: https://2020.igem.org/wiki/images/c/ce/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-700italic.ttf
@@ -181,7 +181,7 @@ assets:
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.eot
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800.svg:
     link_URL: https://2020.igem.org/wiki/images/7/74/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.svg
-    md5: 926d4d1229e98081302daa52332d62f6
+    md5: 45c95bf967b1b8e9494465806fecc6f0
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.svg
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800.ttf:
     link_URL: https://2020.igem.org/wiki/images/1/15/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800.ttf
@@ -197,7 +197,7 @@ assets:
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.eot
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800italic.svg:
     link_URL: https://2020.igem.org/wiki/images/e/ef/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.svg
-    md5: ca67d5b14355e769f10fd8d0f652b821
+    md5: 130bf843dc6f8fd1bd4dc2702be4e380
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.svg
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-800italic.ttf:
     link_URL: https://2020.igem.org/wiki/images/f/f4/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-800italic.ttf
@@ -213,7 +213,7 @@ assets:
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.eot
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-italic.svg:
     link_URL: https://2020.igem.org/wiki/images/0/04/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.svg
-    md5: fd2ba7503f70aafcdcc45211a481684d
+    md5: 427628806fa443fac21286fb154def5f
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.svg
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-italic.ttf:
     link_URL: https://2020.igem.org/wiki/images/b/b0/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-italic.ttf
@@ -229,7 +229,7 @@ assets:
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.eot
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-regular.svg:
     link_URL: https://2020.igem.org/wiki/images/6/68/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.svg
-    md5: 7aab4c13671282c90669eb6a10357e41
+    md5: ddaaf4901aa3a2fa8805a235a7790f1f
     upload_filename: T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.svg
   assets\fonts\open-sans-v18-latin\open-sans-v18-latin-regular.ttf:
     link_URL: https://2020.igem.org/wiki/images/9/91/T--Stockholm--fonts--open-sans-v18-latin--open-sans-v18-latin-regular.ttf
@@ -355,25 +355,37 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/3/3b/T--Stockholm--img--Home--sun.png
     md5: 50b45733936341e1c34f2bc50a7c9c33
     upload_filename: T--Stockholm--img--Home--sun.png
+  assets\img\Sponsors--benchling.png:
+    link_URL: https://2020.igem.org/wiki/images/9/98/T--Stockholm--img--Sponsors--benchling.png
+    md5: a247d86e7101998c69be5804cbf82eae
+    upload_filename: T--Stockholm--img--Sponsors--benchling.png
   assets\img\Sponsors--bus.png:
     link_URL: https://2020.igem.org/wiki/images/8/81/T--Stockholm--img--Sponsors--bus.png
     md5: 3dc8a6d5e77b1a9e64281474f62af7ae
     upload_filename: T--Stockholm--img--Sponsors--bus.png
+  assets\img\Sponsors--idt.png:
+    link_URL: https://2020.igem.org/wiki/images/4/45/T--Stockholm--img--Sponsors--idt.png
+    md5: 0cd4f4991c4504f3598a8ad56ced5047
+    upload_filename: T--Stockholm--img--Sponsors--idt.png
   assets\img\Sponsors--ki_innovations.png:
     link_URL: https://2020.igem.org/wiki/images/f/f1/T--Stockholm--img--Sponsors--ki_innovations.png
-    md5: a7b23b40adf767817f979b30141e1c31
+    md5: c458f948f829ae9e6dde4e6e87724dca
     upload_filename: T--Stockholm--img--Sponsors--ki_innovations.png
   assets\img\Sponsors--kth.png:
     link_URL: https://2020.igem.org/wiki/images/9/94/T--Stockholm--img--Sponsors--kth.png
-    md5: 9cd73f32c2cfb07c57711cbe8a7483cf
+    md5: 808a6048c6989edfbb3414595178c8ba
     upload_filename: T--Stockholm--img--Sponsors--kth.png
+  assets\img\Sponsors--neb.png:
+    link_URL: https://2020.igem.org/wiki/images/9/9c/T--Stockholm--img--Sponsors--neb.png
+    md5: aa83a1f582801007fee931817b1fef57
+    upload_filename: T--Stockholm--img--Sponsors--neb.png
   assets\img\Sponsors--redbull.png:
     link_URL: https://2020.igem.org/wiki/images/0/03/T--Stockholm--img--Sponsors--redbull.png
-    md5: b067af666f08197a6ea428e29887b5bb
+    md5: dd0ed4938444a682dff1d248aeb6fcee
     upload_filename: T--Stockholm--img--Sponsors--redbull.png
   assets\img\Sponsors--snapgene.png:
     link_URL: https://2020.igem.org/wiki/images/f/f2/T--Stockholm--img--Sponsors--snapgene.png
-    md5: b0badc8b3b04581e9eb9a91a9637fe02
+    md5: a41ee83ae840f63b5db7a09c0a39a6c1
     upload_filename: T--Stockholm--img--Sponsors--snapgene.png
   assets\img\Team--avatar_aditi.png:
     link_URL: https://2020.igem.org/wiki/images/f/f3/T--Stockholm--img--Team--avatar_aditi.png
@@ -441,59 +453,59 @@ assets:
     upload_filename: T--Stockholm--img--Team.jpg
   assets\img\wave_dark.svg:
     link_URL: https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--wave_dark.svg
-    md5: 9122a35766a713090ba86c1521a634d7
+    md5: 672db4f953c0e5cf4eee6c8f8fed5aec
     upload_filename: T--Stockholm--img--wave_dark.svg
   assets\img\wave_light.svg:
     link_URL: https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--wave_light.svg
-    md5: d18ac94961c185b8c82c85793206c34a
+    md5: 7a83d813f0daee49bcb3c45ad757526e
     upload_filename: T--Stockholm--img--wave_light.svg
 css:
   css\collaborations.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css
-    md5: c5e01ece7b11a0b7d8186da53c744b4c
+    md5: dbb0704ccdb7e3e8286ebdca0fe861e6
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
-    md5: f773af533542aa6ad6d1f86c023dd8b3
+    md5: 3af1eefa33d827998a2a0c4a748edfcb
   css\index.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css
-    md5: 2598e67e8fec0cf57cdba9e6c715791d
+    md5: a64b3aaf5745a2a92ade2e48f976a186
   css\parts.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/partsCSS?action=raw&ctype=text/css
-    md5: 9a561f7134e9e8857ebd7429e458a38f
+    md5: 84a081e9c0c9c7f5294a136dfdce4dcd
   css\primers.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/primersCSS?action=raw&ctype=text/css
-    md5: 9a561f7134e9e8857ebd7429e458a38f
+    md5: 84a081e9c0c9c7f5294a136dfdce4dcd
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: ad6df7fc6f4ec689921a2344a8653295
+    md5: 613da1b673ef6692dce18d2c70e81558
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
-    md5: ff4da451b30701e76139c7d3b4862026
+    md5: 3d44b39339b0f7b743c07f4a36954326
   Collaborations\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Collaborations
-    md5: 7f2e6f8487f1391bb4fe0b0d855b3e17
+    md5: 539eac3a136118d109e640edf9116339
   Contribution\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Contribution
-    md5: 0b3360ec04bead76b7315e8b23a896ff
+    md5: 670aa55690c2ee5b97d8c4e450bf738f
   Description\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Description
-    md5: c8377c3aa9daadf05eafc5acd57ccc6f
+    md5: ca6303320b0d72cd2d6d993f9e1707ec
   Design\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Design
-    md5: e2bace630e0e0c4f3b5d285db071fb28
+    md5: 5b7e799678153a80cf63e52c468e6f5f
   Engineering\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Engineering
-    md5: f074306fff7d295cbcb30d7060f1667c
+    md5: 44681b30882b375da90a6dca6673704a
   Experiments\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Experiments
-    md5: 79adc4b4be0f4aa08bc1f48c327f2be8
+    md5: 1290e9e218c9d16835548e2b964c4e97
   Human_Practices\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Human_Practices
-    md5: b1cf80318ef68ce9a5a4b799df422e6f
+    md5: a5d03e7308cbbdfb3338eaa9f8577b47
   Implementation\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Implementation
-    md5: b35c3c16235ff4cb746c0cd9b387a633
+    md5: d9e04923ab71ca1732231c71b8b2b1d1
   Improve\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Improve
     md5: f8e0ad69e814d10b1de69224df9b0af4
@@ -505,10 +517,10 @@ html:
     md5: bd5605bcd6ab3b5a89a0a039e9b9fc76
   Medal_Criteria\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Medal_Criteria
-    md5: 000ea617af8dd04c2c580dd0df629b29
+    md5: 187fe128a77f942269523e9b1132c329
   Notebook\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Notebook
-    md5: 99b10728cd867bac3e4e9d589b143c36
+    md5: e0e23db91a3f96d950504700b3f1e646
   Part_Collection\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Part_Collection
     md5: c88d1cfd9fcc9d37f342f27b91d7d2f1
@@ -517,34 +529,37 @@ html:
     md5: 442cf27c5e4857c9bb9340d6317e8901
   Parts\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Parts
-    md5: c81c41c903dd45559d98855b83bc6c6d
+    md5: d010540fcee4b4864a315437c2c05431
   Primers\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Primers
-    md5: 9d8fe499be7a75aa5d5e3ccfcba91b97
+    md5: fc208bcb5ad428622c28eec5a7824482
   Proof_of_Concept\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Proof_of_Concept
-    md5: ea6357beb89a97f1ce66abb2f750800d
+    md5: 7cc85358f4729c8e663089c732f0fa6c
   Public_Engagement\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Public_Engagement
-    md5: ceeeb5964eac7946f9d591a9721156df
+    md5: 5a39c5930f5d917c9f268cfcfff08660
   Results\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Results
-    md5: 4e5164028b1e968fa8b26c7522aea763
+    md5: 4189a3f30614a5a9135b9d141e2c838c
   Safety\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Safety
-    md5: 7c5c03fbc71f7e6f4cdcddc4df5ac3da
+    md5: 80506e6d829e3758fb95571cdcc7a04f
   Sample\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Sample
     md5: 1c9d89f0308e24a70070c19dd54d53d5
+  Sponsors\index.html:
+    link_URL: https://2020.igem.org/Team:Stockholm/Sponsors
+    md5: 902dcd9bf8d3cff39586bcd0ff7d76f5
   Sustainable\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Sustainable
-    md5: 9ed69fb5f38d0f843eb17f1548ac2ce5
+    md5: 94e105f4f30c103a690e000d45ff52ef
   Team\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Team
-    md5: f8040555ee5bceee0aa4d0a4ad7915f4
+    md5: 4d4cb0c71cd98753dde2539ecbb78d10
   index.html:
     link_URL: https://2020.igem.org/Team:Stockholm
-    md5: 2cf47d87e13a2a7f02a5a22f219e9a2e
+    md5: c0236d72679e03a1e4f37fbd1418dc41
   team_list\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/team_list
     md5: 439799e1066631c215e50c52074ff75f
