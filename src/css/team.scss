@@ -25,6 +25,21 @@ header {
   padding: 10rem 0 0 0;
 }
 
+// GROUP PHOTO
+.group {
+  margin: 2rem 0;
+  width: 100%; max-width: 55rem;
+  animation: sub_swim 20s linear infinite;
+}
+
+@keyframes sub_swim {
+  0%    {transform: translate(-1%) rotate(-1deg);}
+  25%   {transform: translate(1%)  rotate(-1deg);}
+  50%   {transform: translate(-1%) rotate(1deg);}
+  75%   {transform: translate(1%)  rotate(1deg);}
+  100%  {transform: translate(-1%) rotate(-1deg);}
+}
+
 // MAIN
 
 body {
@@ -40,6 +55,12 @@ body {
       }
     }
     
+    h5 {font-weight: 800;}
+    h6 {
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+
     .card {
       display: inline-block;
       width: 15rem; height: 20rem;
@@ -65,7 +86,7 @@ body {
         overflow-y: scroll;
         &::-webkit-scrollbar {width: 0.5rem; border-radius: 0.25rem;}
         &::-webkit-scrollbar-thumb {border-radius: 0.25rem;}
-        img {max-width: 80%; border-radius: 50%;}
+        img {max-width: 100%; border-radius: 50%;}
         p {font-size: 0.9rem; text-align: justify;}
       }
       
@@ -88,7 +109,7 @@ body {
 }
 @for $i from 0 through 11 {
   $randomspeed: random(5)+2;
-  .card#{$i} img {
+  .card#{$i} .avatar img {
     animation: floating $randomspeed+s linear infinite;
   }
 }
