@@ -30,6 +30,8 @@ body {
   .content {
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_light;}
 
+    .mf {filter: brightness(0);}
+
     table {
       border-color: $tableborder_light;
       color: $item_light;
@@ -73,6 +75,12 @@ body.dark {
 
   .content {
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_dark;}
+
+    .neb {filter: invert(0.5) brightness(2);}
+    .mf {filter: brightness(2);}
+    .ki_innovations {filter: brightness(1.5);}
+    .benchling {filter: brightness(2);}
+    .snapgene {filter: brightness(1.2);}
 
     table {
       border-color: $tableborder_dark;
@@ -170,11 +178,13 @@ body {.row {padding: 4rem 0;}}
 
   h1, h2, h3, h4, h5, h6 {font-weight: 700;}
 
-  .nonfigure{
+  .sponsor {
     display: block;
-    margin: 1rem auto;
-    width: 60%; max-width: 20rem;
+    margin: 1.5rem auto;
+    width: 90%; max-width: 20rem;
   }
+  .kth, .bus {max-width: 15rem;}
+  .ki_innovations {max-width: 30rem;}
 
   h1, h2 {
     scroll-margin-top: 120px;

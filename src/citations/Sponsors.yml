@@ -1,0 +1,49 @@
+# 1
+- webpage:
+    title: "An innovative European technical university"
+    accessed: "October 11, 2020"
+    site_name: "KTH"
+    url: 'https://www.kth.se/en/om/fakta'
+# 2
+- webpage:
+    published: "July 02, 2019"
+    title: "About us"
+    accessed: "October 11, 2020"
+    site_name: "KI Innovations"
+    url: 'https://karolinskainnovations.ki.se/en/about-us-2/'
+# 3
+- webpage:
+    title: "About MF"
+    accessed: "October 11, 2020"
+    site_name: "Medicinska Foreningen"
+    url: 'https://medicinskaforeningen.se/en/about-us/'
+# 4
+- webpage:
+    title: "Accelerating Life Sciences R&D"
+    accessed: "October 11, 2020"
+    site_name: "Benchling"
+    url: 'https://www.benchling.com/about-us/'
+# 5
+- webpage:
+    title: "About Integrated DNA Technologies"
+    accessed: "October 11, 2020"
+    site_name: "Integrated DNA Technologies"
+    url: 'https://eu.idtdna.com/pages/about'
+# 6
+- webpage:
+    title: "NEB Overview: NEB"
+    accessed: "October 11, 2020"
+    site_name: "New England Biolabs: Reagents for the Life Sciences Industry"
+    url: 'https://international.neb.com/about-neb/neb-overview'
+# 7
+- webpage:
+    title: "Giving Wings to People and Ideas."
+    accessed: "October 11, 2020"
+    site_name: "Red Bull Energy Drink - Official Website :: Energy Drink :: Red Bull International"
+    url: 'https://www.redbull.com/int-en/energydrink/company-profile'
+# 8
+- webpage:
+    title: "GSL Biotech: The Story of SnapGene"
+    accessed: "October 11, 2020"
+    site_name: "SnapGene"
+    url: 'https://www.snapgene.com/about/'
