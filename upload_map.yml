@@ -466,7 +466,7 @@ assets:
 css:
   css\collaborations.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/collaborationsCSS?action=raw&ctype=text/css
-    md5: 061004e70ce9b9ad35cf2adcc190ebbb
+    md5: 9487dbe7923e764b0aafaae90207712b
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
     md5: ba9f3700e1b40be8c668308b5d0dc4ef
@@ -481,7 +481,7 @@ css:
     md5: 182ff8662c2b5c45dd077b08266da49f
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 5982626edec308d88ed5bfda12a7cbbb
+    md5: 0b10db8efc578d96f7d4938f06fa8967
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -509,7 +509,7 @@ html:
     md5: d52b17d5ac98757ec906a082e9904b4b
   Implementation\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Implementation
-    md5: 7ea43763755a995df416e4ca71cc912d
+    md5: 73471f115645b4a6985af7fd1dad844f
   Improve\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Improve
     md5: f8e0ad69e814d10b1de69224df9b0af4
@@ -522,6 +522,9 @@ html:
   Medal_Criteria\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Medal_Criteria
     md5: f92f0b98c606e4135e1e9dc0c87cf133
+  Model\index.html:
+    link_URL: https://2020.igem.org/Team:Stockholm/Model
+    md5: 1a4a0cb5550de75c8397957e6fbaa978
   Notebook\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Notebook
     md5: 86385fe7dfaf4c5353e6c6609937ddb3
