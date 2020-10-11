@@ -121,12 +121,18 @@ body.dark {
 // HEADER
 
 #group0 {
-  
+  text-align: center;
+
   .logo {
     height: 100%; width: 100%;
-    background: no-repeat center/auto 60%;
+    background: no-repeat center 25%/auto 60%;
   }
-
+  h2 {
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+    bottom: 18vh;
+    font-weight: 100; font-size: 2rem;
+  }
   .wave {bottom: 10vh;}
   .waveblock {
     position: absolute; left: 0; bottom: 0;
@@ -143,7 +149,10 @@ body.dark {
   left: 50%; top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  h1 {font-weight: 800;}
+  h1 {
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+  }
   p {text-align: justify;}
   svg {font-size: 10rem;}
 }
@@ -164,3 +173,10 @@ body.dark {
 #group5 {z-index: 3;}
 
 // MEDIA QUERIES
+@include respond-below(md) {
+  #group0 {.logo {background: no-repeat center 25%/auto 55%;}}
+}
+
+@include respond-below(xs) {
+  #group0 {h2 {font-size: 1.2rem;}}
+}
