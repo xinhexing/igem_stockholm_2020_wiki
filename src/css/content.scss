@@ -33,10 +33,12 @@ body {
     .mf {filter: brightness(0);}
 
     table {
+      background-color: none;
       border-color: $tableborder_light;
       color: $item_light;
       thead {th, td {border-color: $tableborder_light;}}
       tbody {th, td {border-color: $tableborder_light;}}
+      tbody tr:nth-of-type(odd) {background-color: #0000001a;}
       th, td {border-color: $tableborder_light;}
     }
     blockquote {
@@ -83,10 +85,12 @@ body.dark {
     .snapgene {filter: brightness(1.2);}
 
     table {
+      background-color: none;
       border-color: $tableborder_dark;
       color: $item_dark;
       thead {th, td {border-color: $tableborder_dark;}}
       tbody {th, td {border-color: $tableborder_dark;}}
+      tbody tr:nth-of-type(odd) {background-color: #ffffff1a;}
       th, td {border-color: $tableborder_dark;}
     }
     blockquote {
@@ -322,8 +326,6 @@ body {.row {padding: 4rem 0;}}
     }
 
     tbody {th, td {border: 1px solid;}}
-
-    tbody tr:nth-of-type(odd) {background-color: rgba(0, 0, 0, 0.05);}
 
     th, td {
       padding: 0.75rem;

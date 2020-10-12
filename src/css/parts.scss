@@ -7,10 +7,12 @@ body {
   .content {
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_light;}
     table {
+      background-color: none;
       border-color: $tableborder_light;
       color: $item_light;
       thead {th, td {border-color: $tableborder_light;}}
       tbody {th, td {border-color: $tableborder_light;}}
+      tbody tr:nth-of-type(odd) {background-color: #0000001a;}
       th, td {border-color: $tableborder_light;}
     }
   }
@@ -23,10 +25,12 @@ body.dark {
   .content {
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_dark;}
     table {
+      background-color: none;
       border-color: $tableborder_dark;
       color: $item_dark;
       thead {th, td {border-color: $tableborder_dark;}}
       tbody {th, td {border-color: $tableborder_dark;}}
+      tbody tr:nth-of-type(odd) {background-color: #ffffff1a;}
       th, td {border-color: $tableborder_dark;}
     }
   }
@@ -69,8 +73,6 @@ header {
         }
 
         tbody {th, td {border: 1px solid;}}
-
-        tbody tr:nth-of-type(odd) {background-color: rgba(0, 0, 0, 0.05);}
 
         th, td {
           padding: 0.75rem;
