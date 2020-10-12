@@ -24,13 +24,14 @@ body {
 
   $gradient: 0;
   @for $i from 1 through $groups {
-    #group#{$i} .main {background: darken($bg_light, $gradient);}
+    #group#{$i} .parallax_layer-main {background: darken($bg_light, $gradient);}
     $gradient: $gradient + 50/$groups;
+    #group#{$i} .reefblock {background: darken($bg_light, $gradient);}
   }
 
   $reef: $light_filter;
   @for $i from 1 through $reefs {
-    .reef#{$i} {filter: brightness($reef);}
+    #group#{$i} .reef {filter: brightness($reef);}
     $reef: $reef - 1/$groups;
   }
 }
@@ -49,15 +50,17 @@ body.dark {
     .logo {background-image: url("../assets/img/Home--project_light.png");}
     .waveblock{background: $bg_dark;}
   }
+
   $gradient: 0;
   @for $i from 1 through $groups {
-    #group#{$i} .main {background: lighten($bg_dark, $gradient);}
+    #group#{$i} .parallax_layer-main {background: lighten($bg_dark, $gradient);}
     $gradient: $gradient + 20/$groups;
+    #group#{$i} .reefblock {background: lighten($bg_dark, $gradient);}
   }
 
   $reef: $dark_filter;
   @for $i from 1 through $reefs {
-    .reef#{$i} {filter: brightness($reef);}
+    #group#{$i} .reef {filter: brightness($reef);}
     $reef: $reef + 0.4/$groups;
   }
 }
@@ -76,7 +79,7 @@ body.dark {
 
   .parallax_group {
     position: relative;
-    height: calc(100vh - 5rem - 18px);
+    height: 85vh;
     transform-style: preserve-3d;
 
     .parallax_layer {
@@ -86,41 +89,10 @@ body.dark {
   }
 }
 
-// LAYERS & TRANSFORMATIONS
-// calculate scale factor with 1 + (translateZ * -1) / perspective
-
-.parallax_layer-fore {
-  -webkit-transform: translateZ(50px) scale(0.51); /* WebKit */
-  -moz-transform: translateZ(50px) scale(0.51); /* Mozilla */
-  -o-transform: translateZ(50px) scale(0.51); /* Opera */
-  -ms-transform: translateZ(50px) scale(0.51); /* Internet Explorer */
-  transform: translateZ(50px) scale(0.51);
-}
-.parallax_layer-base {
-  -webkit-transform: translateZ(0) scale(1); /* WebKit */
-  -moz-transform: translateZ(0) scale(1); /* Mozilla */
-  -o-transform: translateZ(0) scale(1); /* Opera */
-  -ms-transform: translateZ(0) scale(1); /* Internet Explorer */
-  transform: translateZ(0) scale(1);
-}
-.parallax_layer-mid {
-  -webkit-transform: translateZ(25px) scale(0.76); /* WebKit */
-  -moz-transform: translateZ(25px) scale(0.76); /* Mozilla */
-  -o-transform: translateZ(25px) scale(0.76); /* Opera */
-  -ms-transform: translateZ(25px) scale(0.76); /* Internet Explorer */
-  transform: translateZ(25px) scale(0.76);
-}
-.parallax_layer-back {
-  -webkit-transform: translateZ(-50px) scale(1.51); /* WebKit */
-  -moz-transform: translateZ(-50px) scale(1.51); /* Mozilla */
-  -o-transform: translateZ(-50px) scale(1.51); /* Opera */
-  -ms-transform: translateZ(-50px) scale(1.51); /* Internet Explorer */
-  transform: translateZ(-50px) scale(1.51);
-}
-
-// HEADER
+// TITLE
 
 #group0 {
+  height: calc(100vh - 5rem - 18px);
   text-align: center;
 
   .logo {
@@ -129,6 +101,7 @@ body.dark {
   }
   h2 {
     position: absolute;
+    width: 80%;
     left: 50%; transform: translateX(-50%);
     bottom: 18vh;
     font-weight: 100; font-size: 2rem;
@@ -140,41 +113,64 @@ body.dark {
   }
 }
 
-// CONTENT
-
-.content {
-  z-index: 1;
-  position: absolute;
-  width: 80%; max-width: 60rem;
-  left: 50%; top: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  h1 {
-    font-weight: 800;
-    margin-bottom: 2.5rem;
+// MAIN
+.parallax_layer.parallax_layer-main {
+  .content {
+    position: absolute;
+    left: 50%; top: 40%;
+    transform: translate(-50%, -50%);
+    width: 80%; max-width: 50rem;
+    text-align: center;
+    h1 {
+      font-weight: 800;
+      margin-bottom: 2.5rem;
+    }
+    p {text-align: justify;}
   }
-  p {text-align: justify;}
-  svg {font-size: 10rem;}
 }
 
-.reef {
-  position: absolute;
-  left: 0; bottom: 0;
-  width: 100%;
+// REEF
+.parallax_layer-reef {
+  pointer-events: none;
+  transform: translateZ(40px) scale(0.61);
+
+  .reef {
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 100%;
+  }
+  .reefblock {
+    position: absolute;
+    left: 0; bottom: -100%;
+    height: 100%; width: 100%;
+  }
 }
 
-// INDICES
-// groups must be indiced sequentially in a overlapping way, so 5, 3, 4, 2 etc.
+//FORE
+.parallax_layer-fore {
+  pointer-events: none;
+  transform: translateZ(55px) scale(0.46);
+}
 
-#group1 {z-index: 5;}
-#group2 {z-index: 3;}
-#group3 {z-index: 4;}
-#group4 {z-index: 2;}
-#group5 {z-index: 3;}
+// INDICES & TRANSFORMATIONS
+// calculate scale factor with 1 + (translateZ * -1) / perspective
+
+@for $i from 1 through $groups {
+  #group#{$i} .parallax_layer-main {z-index: #{$i};}
+  #group#{$i} .parallax_layer-reef {z-index: #{$i+1};}
+  #group#{$i} .parallax_layer-fore {z-index: #{$i+2};}
+}
 
 // MEDIA QUERIES
 @include respond-below(md) {
   #group0 {.logo {background: no-repeat center 25%/auto 55%;}}
+  .parallax {
+    perspective: none;
+    .parallax_layer-reef, .parallax_layer-fore {
+      transform: none;
+      .reefblock {display: none;}
+    }
+  }
 }
 
 @include respond-below(xs) {

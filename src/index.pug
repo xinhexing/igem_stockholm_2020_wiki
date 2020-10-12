@@ -16,36 +16,58 @@ html(lang="en")
         .wave.wave3
         .waveblock
       .parallax_group#group1
-        .parallax_layer.parallax_layer-fore.deco
-        .parallax_layer.parallax_layer-base.main
+        .parallax_layer.parallax_layer-main
           .content
-            h1 The Problem
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          img(src=require('./assets/img/Home--reef1.png')['default']).reef.reef1
+            :markdown-it(html)
+              # The Problem
+              After centuries spent using oceans for waste management, we’ve finally realized the
+              impact of water pollution. Persistent Organic Pollutants (POPs), including PFOS
+              (Perfluorooctanesulfonic acid) and PCBs (polychlorinated biphenyls), have been of
+              great concern, due to their toxicity in low concentrations and bioaccumulating
+              properties that lead to alarming concentrations in the ecosystem.
+        .parallax_layer.parallax_layer-reef
+          img(src=require('./assets/img/Home--reef1.png')['default']).reef
+          .reefblock
+        .parallax_layer.parallax_layer-fore
       .parallax_group#group2
-        .parallax_layer.parallax_layer-mid.deco
-        .parallax_layer.parallax_layer-back.main
+        .parallax_layer.parallax_layer-main
           .content
-            h1 Our Project
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          img(src=require('./assets/img/Home--reef2.png')['default']).reef.reef2
+            :markdown-it(html)
+              # Our Project
+              Current detection methods, which are performed by analyzing massive amounts of water
+              samples in the lab, cannot properly measure the low levels of POPs nor differentiate
+              between the various iterations that exist.  Our project S-POP aims to solve this issue
+              by creating a monitor containing two major parts, a modular E. coli biosensor coupled
+              with a Microbial Fuel Cell.
+        .parallax_layer.parallax_layer-reef
+          img(src=require('./assets/img/Home--reef2.png')['default']).reef
+          .reefblock
+        .parallax_layer.parallax_layer-fore
       .parallax_group#group3
-        .parallax_layer.parallax_layer-fore.deco
-        .parallax_layer.parallax_layer-base.main
+        .parallax_layer.parallax_layer-main
           .content
-            h1 Design
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          img(src=require('./assets/img/Home--reef3.png')['default']).reef.reef3
+            :markdown-it(html)
+              # Design
+              When E. coli is activated by the pollutant Quorum sensing (QS) molecule is produced.
+              Upregulated by the QS-molecule, engineered Shewanella oneidensis produces an oscillating
+              electrical signal that corresponds to the type and quantity of pollutants in the sample.
+        .parallax_layer.parallax_layer-reef
+          img(src=require('./assets/img/Home--reef3.png')['default']).reef
+          .reefblock
+        .parallax_layer.parallax_layer-fore
       .parallax_group#group4
-        .parallax_layer.parallax_layer-mid.deco
-        .parallax_layer.parallax_layer-back.main
+        .parallax_layer.parallax_layer-main
           .content
-            h1 Human Practices
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          img(src=require('./assets/img/Home--reef4.png')['default']).reef.reef4
+            :markdown-it(html)
+              # Human Practices
+        .parallax_layer.parallax_layer-reef
+          img(src=require('./assets/img/Home--reef4.png')['default']).reef
+          .reefblock
+        .parallax_layer.parallax_layer-fore
       .parallax_group#group5
-        .parallax_layer.parallax_layer-fore.deco
-        .parallax_layer.parallax_layer-base.main
+        .parallax_layer.parallax_layer-main
           .content
-            h1 Project Promotion Video
+            :markdown-it(html)
+              # Project Promotion Video
+        .parallax_layer.parallax_layer-fore
       include templates/footer.pug
