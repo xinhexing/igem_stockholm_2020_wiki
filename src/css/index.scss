@@ -123,7 +123,7 @@ body.dark {
 .parallax_layer.parallax_layer-main {
   .content {
     position: absolute;
-    left: 50%; top: 20%;
+    left: 50%; top: 10%;
     transform: translateX(-50%);
     width: 80%; max-width: 50rem;
     text-align: center;
@@ -136,25 +136,20 @@ body.dark {
 }
 
 // REEF
+.parallax_layer-reef {
+  pointer-events: none;
+  transform: translateZ(30px) scale(0.71);
+}
 .reef {
+  pointer-events: none;
   position: absolute;
   left: 0; bottom: 0;
   width: 100%;
 }
-.parallax_layer-reef {
-  pointer-events: none;
-  transform: translateZ(40px) scale(0.61);
-
-  .reef {
-    position: absolute;
-    left: 0; bottom: 0;
-    width: 100%;
-  }
-  .reefblock {
-    position: absolute;
-    left: 0; bottom: -100%;
-    height: 100%; width: 100%;
-  }
+.reefblock {
+  position: absolute;
+  left: 0; bottom: -100%;
+  height: 100%; width: 100%;
 }
 
 //FORE
