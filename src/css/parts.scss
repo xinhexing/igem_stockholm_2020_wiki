@@ -7,7 +7,7 @@ body {
   .content {
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_light;}
     table {
-      background-color: none;
+      background: none;
       border-color: $tableborder_light;
       color: $item_light;
       thead {th, td {border-color: $tableborder_light;}}
@@ -25,7 +25,7 @@ body.dark {
   .content {
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_dark;}
     table {
-      background-color: none;
+      background: none;
       border-color: $tableborder_dark;
       color: $item_dark;
       thead {th, td {border-color: $tableborder_dark;}}

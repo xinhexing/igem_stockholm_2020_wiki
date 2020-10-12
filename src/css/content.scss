@@ -33,7 +33,7 @@ body {
     .mf {filter: brightness(0);}
 
     table {
-      background-color: none;
+      background: none;
       border-color: $tableborder_light;
       color: $item_light;
       thead {th, td {border-color: $tableborder_light;}}
@@ -85,7 +85,7 @@ body.dark {
     .snapgene {filter: brightness(1.2);}
 
     table {
-      background-color: none;
+      background: none;
       border-color: $tableborder_dark;
       color: $item_dark;
       thead {th, td {border-color: $tableborder_dark;}}
