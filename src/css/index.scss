@@ -117,8 +117,8 @@ body.dark {
 .parallax_layer.parallax_layer-main {
   .content {
     position: absolute;
-    left: 50%; top: 40%;
-    transform: translate(-50%, -50%);
+    left: 50%; top: 20%;
+    transform: translateX(-50%);
     width: 80%; max-width: 50rem;
     text-align: center;
     h1 {
@@ -166,6 +166,13 @@ body.dark {
   #group0 {.logo {background: no-repeat center 25%/auto 55%;}}
   .parallax {
     perspective: none;
+    .parallax_layer-main {
+      .content {
+        top: 40%; transform: translate(-50%, -50%);
+        h1 {font-size: 2rem;}
+        p {font-size: 0.9rem;}
+      }
+    }
     .parallax_layer-reef, .parallax_layer-fore {
       transform: none;
       .reefblock {display: none;}
