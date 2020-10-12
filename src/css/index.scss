@@ -34,6 +34,9 @@ body {
     #group#{$i} .reef {filter: brightness($reef);}
     $reef: $reef - 1/$groups;
   }
+
+  .reef.bottom {filter: brightness(0.13);}
+
 }
 
 // DARK MODE
@@ -63,6 +66,9 @@ body.dark {
     #group#{$i} .reef {filter: brightness($reef);}
     $reef: $reef + 0.4/$groups;
   }
+
+  .reef.bottom {filter: brightness(1.87);}
+
 }
 
 // MAIN
@@ -130,6 +136,11 @@ body.dark {
 }
 
 // REEF
+.reef {
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 100%;
+}
 .parallax_layer-reef {
   pointer-events: none;
   transform: translateZ(40px) scale(0.61);
