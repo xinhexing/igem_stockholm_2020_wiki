@@ -73,8 +73,9 @@ html(lang="en")
           .content
             :markdown-it(html)
               # Project Promotion Video
-            iframe(src="https://video.igem.org/videos/embed/9b1a796e-6c59-46a0-9fbc-8dcfe68b9484", frameborder="0", allowfullscreen)
-              | Sorry, your browser doesn't support embedded videos
+            .video_wrapper
+              iframe(src="https://video.igem.org/videos/embed/9b1a796e-6c59-46a0-9fbc-8dcfe68b9484", frameborder="0", allowfullscreen)
+                | Sorry, your browser doesn't support embedded videos
           img(src=require('./assets/img/Home--reef5.png')['default']).reef.bottom
         .parallax_layer.parallax_layer-fore
           img(src=require('./assets/img/Home--fore5.png')['default']).fore
