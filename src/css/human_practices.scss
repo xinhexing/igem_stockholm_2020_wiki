@@ -1,0 +1,25 @@
+@import "_main.scss";
+
+// LIGHT MODE
+
+// DARK MODE
+
+// MAIN
+
+.building {
+  position: relative;
+  display: inline-block;
+  width: 25%; height: 30vh;
+}
+
+.building1 {background-color: yellow;}
+.building2 {background-color: green;}
+.building3 {background-color: red;}
+.building4 {background-color: purple;}
+
+.folder {
+  position: relative;
+  height: 60vh;
+  margin: 3rem;
+  background-color: lightblue;
+}

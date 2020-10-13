@@ -172,6 +172,18 @@ body {.row {padding: 4rem 0;}}
   }
 }
 
+// SPONSORS
+
+.content {
+  .sponsor {
+    display: block;
+    margin: 1.5rem auto;
+    width: 90%; max-width: 20rem;
+  }
+  .kth, .bus {max-width: 15rem;}
+  .ki_innovations {max-width: 30rem;}
+}
+
 // CONTENT
 
 .content {
@@ -181,14 +193,6 @@ body {.row {padding: 4rem 0;}}
   $h1size: 2.15; // rem, adjust header sizes relative to this
 
   h1, h2, h3, h4, h5, h6 {font-weight: 700;}
-
-  .sponsor {
-    display: block;
-    margin: 1.5rem auto;
-    width: 90%; max-width: 20rem;
-  }
-  .kth, .bus {max-width: 15rem;}
-  .ki_innovations {max-width: 30rem;}
 
   h1, h2 {
     scroll-margin-top: 120px;
