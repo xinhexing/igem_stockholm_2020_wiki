@@ -401,7 +401,7 @@ assets:
     upload_filename: T--Stockholm--img--Home--title_dark.png
   assets\img\Home--title_light.png:
     link_URL: https://2020.igem.org/wiki/images/b/bb/T--Stockholm--img--Home--title_light.png
-    md5: 0c425613fe8ddb3c76996d2f27d3b4b8
+    md5: 22946be3b2d21d48030b6431d9051234
     upload_filename: T--Stockholm--img--Home--title_light.png
   assets\img\Implementation--business_model.png:
     link_URL: https://2020.igem.org/wiki/images/8/86/T--Stockholm--img--Implementation--business_model.png
@@ -588,7 +588,7 @@ css:
     md5: 2dc55e64058a57304ff7dccf2e1cd5a5
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: d5f3688025f309d047f7fadaf6b84819
+    md5: df0980c1b26ea2c7f3f24304e2012286
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
