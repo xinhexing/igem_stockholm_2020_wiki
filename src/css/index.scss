@@ -132,6 +132,10 @@ body.dark {
       margin-bottom: 2.5rem;
     }
     p {text-align: justify;}
+    iframe {
+      width: 100%    !important;
+      height: 35vh   !important;
+    }
   }
 }
 
@@ -141,7 +145,6 @@ body.dark {
   transform: translateZ(30px) scale(0.71);
 }
 .reef {
-  z-index: -10;
   pointer-events: none;
   position: absolute;
   left: 0; bottom: 0;
@@ -157,6 +160,12 @@ body.dark {
 .parallax_layer-fore {
   pointer-events: none;
   transform: translateZ(55px) scale(0.46);
+}
+.fore {
+  pointer-events: none;
+  position: absolute;
+  left: 0; bottom: 25%;
+  width: 100%;
 }
 
 // INDICES & TRANSFORMATIONS
@@ -183,6 +192,7 @@ body.dark {
     .parallax_layer-reef, .parallax_layer-fore {
       transform: none;
       .reefblock {display: none;}
+      .fore {bottom: 0;}
     }
   }
 }
