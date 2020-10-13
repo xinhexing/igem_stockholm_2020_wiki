@@ -6,6 +6,8 @@ $groups: 5;
 $reefs: $groups - 1;
 $light_filter: 1.66;
 $dark_filter: 0.21;
+$title_light: "../assets/img/Home--title_light.png";
+$title_dark: "../assets/img/Home--title_dark.png";
 
 // LIGHT MODE
 
@@ -17,7 +19,7 @@ body {
   }
 
   #group0 {
-    background: $sky_light;
+    background-image: url($title_light);
     .logo {background-image: url("../assets/img/Home--project_dark.png");}
     .waveblock{background: $bg_light;}
   }
@@ -49,7 +51,7 @@ body.dark {
   }
 
   #group0 {
-    background: $sky_dark;
+    background-image: url($title_dark);
     .logo {background-image: url("../assets/img/Home--project_light.png");}
     .waveblock{background: $bg_dark;}
   }
@@ -100,6 +102,7 @@ body.dark {
 #group0 {
   height: calc(100vh - 5rem - 18px);
   text-align: center;
+  background: fixed no-repeat center/cover;
 
   .logo {
     height: 100%; width: 100%;
