@@ -13,12 +13,12 @@ html(lang="en")
         .container
           .title
             h1 Integrated Human Practices
-            p click on the buildings
+            p Click on the buildings to read more!
           .sectors
             .sector.sector1
               .building.building1
               .name.name1
-                h2 academia
+                h2 Academia
               .info.info1
                 :markdown-it(html)
                   # 1
@@ -31,7 +31,7 @@ html(lang="en")
             .sector.sector2
               .building.building2
               .name.name2
-                h2 healthcare
+                h2 Healthcare
               .info.info2
                 :markdown-it(html)
                   # 2
@@ -44,7 +44,7 @@ html(lang="en")
             .sector.sector3
               .building.building3
               .name.name3
-                h2 government
+                h2 Legislation
               .info.info3
                 :markdown-it(html)
                   # 3
@@ -75,7 +75,7 @@ html(lang="en")
             .sector.sector4
               .building.building4
               .name.name4
-                h2 industry
+                h2 Industry
               .info.info4
                 :markdown-it(html)
                   # 4
@@ -86,5 +86,7 @@ html(lang="en")
                   pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                   deserunt mollit anim id est laborum.
             .folder
-              h1 TOP SECRET
+              .tab
+              .main
+                h1 [TOP SECRET]
       include ../templates/footer.pug
