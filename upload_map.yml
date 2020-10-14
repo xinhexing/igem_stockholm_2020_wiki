@@ -311,6 +311,38 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg
     md5: 6aee9d03f9e9db58c63912b539f9b66c
     upload_filename: T--Stockholm--img--Description--josh-withers.jpg
+  assets\img\HP--building1.png:
+    link_URL: https://2020.igem.org/wiki/images/5/58/T--Stockholm--img--HP--building1.png
+    md5: 231b1740ac0ddc84d91e0b1f69c18a02
+    upload_filename: T--Stockholm--img--HP--building1.png
+  assets\img\HP--building1_selected.png:
+    link_URL: https://2020.igem.org/wiki/images/a/a8/T--Stockholm--img--HP--building1_selected.png
+    md5: 62c7fea186ff0cb865f702c1bcdc8766
+    upload_filename: T--Stockholm--img--HP--building1_selected.png
+  assets\img\HP--building2.png:
+    link_URL: https://2020.igem.org/wiki/images/8/88/T--Stockholm--img--HP--building2.png
+    md5: 4f08c06b257a87026ee602fa4551ccdc
+    upload_filename: T--Stockholm--img--HP--building2.png
+  assets\img\HP--building2_selected.png:
+    link_URL: https://2020.igem.org/wiki/images/e/e5/T--Stockholm--img--HP--building2_selected.png
+    md5: e1a9d022079e11ebd84cd72c9dc621cf
+    upload_filename: T--Stockholm--img--HP--building2_selected.png
+  assets\img\HP--building3.png:
+    link_URL: https://2020.igem.org/wiki/images/a/aa/T--Stockholm--img--HP--building3.png
+    md5: 56f9066eaa9beae06a872eb23817d2a9
+    upload_filename: T--Stockholm--img--HP--building3.png
+  assets\img\HP--building3_selected.png:
+    link_URL: https://2020.igem.org/wiki/images/8/83/T--Stockholm--img--HP--building3_selected.png
+    md5: 88d88a279c01d75aadbf9ef62fdb3525
+    upload_filename: T--Stockholm--img--HP--building3_selected.png
+  assets\img\HP--building4.png:
+    link_URL: https://2020.igem.org/wiki/images/1/1e/T--Stockholm--img--HP--building4.png
+    md5: ea69021890e1154174160c6e747f7162
+    upload_filename: T--Stockholm--img--HP--building4.png
+  assets\img\HP--building4_selected.png:
+    link_URL: https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--HP--building4_selected.png
+    md5: b3eaa918e6d8578b6709b1ee522e58f4
+    upload_filename: T--Stockholm--img--HP--building4_selected.png
   assets\img\Home--design.jpeg:
     link_URL: https://2020.igem.org/wiki/images/b/bf/T--Stockholm--img--Home--design.jpeg
     md5: 45be7036097413b923aca6551c358056
@@ -576,10 +608,10 @@ css:
     md5: ab2dc58f6acb177aceb1c58cbaca22d5
   css\human_practices.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/human_practicesCSS?action=raw&ctype=text/css
-    md5: 0e8fa2d3322ba159bbc81bb1475416d3
+    md5: c6ccba46571b32a75152376ffb42c76d
   css\index.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css
-    md5: f6b48556879c0b71e78db9d28aa6bcb7
+    md5: e1e4605e856da23d3a23ba1cbd655616
   css\parts.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/partsCSS?action=raw&ctype=text/css
     md5: 2dc55e64058a57304ff7dccf2e1cd5a5
@@ -588,7 +620,7 @@ css:
     md5: 2dc55e64058a57304ff7dccf2e1cd5a5
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 1d32f81b1c46d9e3cfc8cff73ad3591b
+    md5: 61447cac1d141a491d0e32f88081c68e
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -613,7 +645,7 @@ html:
     md5: 7a6b1fd107e756fca74136b3d9d8322c
   Human_Practices\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Human_Practices
-    md5: ff8d3c902ceb0b4b05c2c4beaae2d61c
+    md5: 0ff03ba50ad4918c6b50092c119f99a2
   Implementation\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Implementation
     md5: 806e34cf0eb25990a7afa3bffccce57f
@@ -673,7 +705,7 @@ html:
     md5: f8ffe7b299e4d9694b5c5382a2bfb1e8
   index.html:
     link_URL: https://2020.igem.org/Team:Stockholm
-    md5: 554c1af50be908cc66af8fee94cce930
+    md5: ebc47ceda423361438ae672bd0aec001
   team_list\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/team_list
     md5: 439799e1066631c215e50c52074ff75f
@@ -686,7 +718,7 @@ js:
     md5: df0abc7c4bdf6ab97967dc4d737de236
   human_practices.bundle.js:
     link_URL: https://2020.igem.org/Template:Stockholm/human_practices-bundleJS?action=raw&ctype=text/javascript
-    md5: 5a2d7b4a3fc3d65baff3fb7e925c6442
+    md5: b7c0be17652988d02cc01209f24c5c3d
   index.bundle.js:
     link_URL: https://2020.igem.org/Template:Stockholm/index-bundleJS?action=raw&ctype=text/javascript
     md5: 8fe4916d23814f4e355f046a09714d0c

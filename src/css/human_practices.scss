@@ -2,24 +2,121 @@
 
 // LIGHT MODE
 
-// DARK MODE
-
-// MAIN
-
-.building {
-  position: relative;
-  display: inline-block;
-  width: 25%; height: 30vh;
+body {
+  .info {
+    &::-webkit-scrollbar-thumb {background: darken($bg_light, 25%);}
+  }
 }
 
-.building1 {background-color: yellow;}
-.building2 {background-color: green;}
-.building3 {background-color: red;}
-.building4 {background-color: purple;}
+// DARK MODE
 
-.folder {
+body.dark {
+  .info {
+    &::-webkit-scrollbar-thumb {background: lighten($bg_dark, 25%);}
+  }
+}
+
+// HEADER
+.title {
+  margin: 2.5rem 0;
+  text-align: center;
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    font-weight: 800;
+  }
+}
+
+// BUILDINGS
+
+.sectors {
   position: relative;
-  height: 60vh;
-  margin: 3rem;
-  background-color: lightblue;
+  height: calc(75vh - 5rem - 18px);
+  margin-bottom: 4rem;
+
+  .name {
+    position: absolute;
+    top: 25%;
+    width: 25%;
+    text-align: center;
+  }
+
+  .building {
+    position: absolute;
+    width: 25%; height: 25%;
+    background: no-repeat bottom center/contain;
+  }
+
+  @for $i from 1 through 4 {
+    $leftpos: percentage($i*0.25-0.25);
+    .building#{$i} {
+      left: $leftpos;
+      background-image: url("../assets/img/HP--building#{$i}.png");
+      &:hover {backdrop-filter: invert(10%);}
+    }
+    .building#{$i}.selected {background-image: url("../assets/img/HP--building#{$i}_selected.png");}
+    .name#{$i} {left: $leftpos;}
+  }
+
+}
+
+// INFO
+
+.container {
+  .folder, .info {
+    position: absolute;
+    left: 50%; top: 35%;
+    transform: translateX(-50%);
+    height: 45vh; max-height: 30rem;
+  }
+
+  .folder {
+    width: 80%;
+    background-color: lightblue;
+  }
+
+  .info {
+    z-index: 5;
+    display: none;
+    width: 70%;
+    padding: 2rem;
+    text-align: justify;
+    overflow-y: scroll; overflow-y: overlay;
+    &::-webkit-scrollbar {width: 0.75rem; border-radius: 0.5rem;}
+    &::-webkit-scrollbar-thumb {border-radius: 0.5rem;}
+    background-color: white;
+  }
+}
+
+@include respond-below(md) {
+  .sectors {
+    position: relative;
+    height: auto;
+
+    .sector {
+      margin: 2rem 0;
+
+      .name {
+        position: relative;
+        left: 0; top: 0;
+        width: 100%;
+        text-align: center;
+      }
+      .building {
+        position: relative;
+        left: 0;
+        width: 100%; height: 25%;
+      }
+    
+      .info {
+        position: relative;
+        left: 0; top: 1rem;
+        transform: none;
+        width: 100%; height: 40vh;
+      }
+    }
+
+    .folder {display: none;}
+
+  }
 }

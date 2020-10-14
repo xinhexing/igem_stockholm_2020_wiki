@@ -6,16 +6,15 @@ window.jQuery = $;
 window.$ = $;
 
 $(".building").click(function () {
-  if ($(".building").hasClass("selected")) {
-    $(".building").removeClass("selected");
+  $(".building").not(this).removeClass("selected");
+  if ($(this).hasClass("selected")) {
+    $(this).removeClass("selected");
   } else {
-    $(".building").addClass("selected");
+    $(this).addClass("selected");
   }
 });
 
-/*
-$(".card").click(function() {
-    $(".card").not(this).children(".info").slideUp();
-    $(".info", this).slideToggle();
+$(".building").click(function() {
+  $(".building").not(this).parent().children(".info").slideUp();
+  $(this).parent().children(".info").slideToggle();
 });
-*/
