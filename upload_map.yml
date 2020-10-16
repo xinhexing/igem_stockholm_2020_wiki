@@ -441,15 +441,15 @@ assets:
     upload_filename: T--Stockholm--img--Implementation--business_model.png
   assets\img\Medal_Criteria--bronze.png:
     link_URL: https://2020.igem.org/wiki/images/0/04/T--Stockholm--img--Medal_Criteria--bronze.png
-    md5: c7aa7186be7e2663522dfdce9e32004e
+    md5: 8a48ddf025d73dad39e12abcd75c55b2
     upload_filename: T--Stockholm--img--Medal_Criteria--bronze.png
   assets\img\Medal_Criteria--gold.png:
     link_URL: https://2020.igem.org/wiki/images/6/60/T--Stockholm--img--Medal_Criteria--gold.png
-    md5: 4256f888ada83049a78945771528574d
+    md5: 4c097f2d0e4db6d9fbca15d5b95938d6
     upload_filename: T--Stockholm--img--Medal_Criteria--gold.png
   assets\img\Medal_Criteria--silver.png:
     link_URL: https://2020.igem.org/wiki/images/c/c9/T--Stockholm--img--Medal_Criteria--silver.png
-    md5: 5a4e7548daaf4fcb1fde080264527d2a
+    md5: 7f6d8ed60ca8abde3027f521e46dfcd9
     upload_filename: T--Stockholm--img--Medal_Criteria--silver.png
   assets\img\Sponsors--benchling.png:
     link_URL: https://2020.igem.org/wiki/images/9/98/T--Stockholm--img--Sponsors--benchling.png
@@ -635,7 +635,7 @@ css:
     md5: 2dc55e64058a57304ff7dccf2e1cd5a5
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 1e863cbfc2d960e3f4d491ad19266c28
+    md5: a0fa30bc2900b045ade0b2f4f0bc2aa7
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
