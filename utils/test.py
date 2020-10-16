@@ -20,7 +20,7 @@ import sys
 for root, directories, files in os.walk('src/pages'):
     for filename in files:
 
-        if filename in ['Team.pug','Parts.pug','Primers.pug','Notebook.pug','Human_Practices.pug']:
+        if filename in ['Team.pug','Parts.pug','Primers.pug','Notebook.pug','Human_Practices.pug','Medal_Criteria.pug']:
             continue
 
         filename = root + '/' + filename

@@ -26,6 +26,7 @@ module.exports = {
     parts: "./src/js/parts.js",
     primers: "./src/js/parts.js",
     human_practices: "./src/js/human_practices.js",
+    medal_criteria: "./src/js/medal_criteria.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -66,6 +67,11 @@ module.exports = {
       filename: "Human_Practices/index.html",
       template: "./src/pages/Human_Practices.pug",
       chunks: ["human_practices"],
+    }),
+    new HTMLWebpackPlugin({
+      filename: "Medal_Criteria/index.html",
+      template: "./src/pages/Medal_Criteria.pug",
+      chunks: ["medal_criteria"],
     }),
   ],
   module: {

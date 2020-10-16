@@ -439,6 +439,18 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/8/86/T--Stockholm--img--Implementation--business_model.png
     md5: 7aab1526a20030456e3787ab61dbb0f6
     upload_filename: T--Stockholm--img--Implementation--business_model.png
+  assets\img\Medal_Criteria--bronze.png:
+    link_URL: https://2020.igem.org/wiki/images/0/04/T--Stockholm--img--Medal_Criteria--bronze.png
+    md5: c7aa7186be7e2663522dfdce9e32004e
+    upload_filename: T--Stockholm--img--Medal_Criteria--bronze.png
+  assets\img\Medal_Criteria--gold.png:
+    link_URL: https://2020.igem.org/wiki/images/6/60/T--Stockholm--img--Medal_Criteria--gold.png
+    md5: 4256f888ada83049a78945771528574d
+    upload_filename: T--Stockholm--img--Medal_Criteria--gold.png
+  assets\img\Medal_Criteria--silver.png:
+    link_URL: https://2020.igem.org/wiki/images/c/c9/T--Stockholm--img--Medal_Criteria--silver.png
+    md5: 5a4e7548daaf4fcb1fde080264527d2a
+    upload_filename: T--Stockholm--img--Medal_Criteria--silver.png
   assets\img\Sponsors--benchling.png:
     link_URL: https://2020.igem.org/wiki/images/9/98/T--Stockholm--img--Sponsors--benchling.png
     md5: a247d86e7101998c69be5804cbf82eae
@@ -612,6 +624,9 @@ css:
   css\index.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css
     md5: e1e4605e856da23d3a23ba1cbd655616
+  css\medal_criteria.css:
+    link_URL: https://2020.igem.org/Template:Stockholm/css/medal_criteriaCSS?action=raw&ctype=text/css
+    md5: f4f547bfa96e630433f4a269bc594f6d
   css\parts.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/partsCSS?action=raw&ctype=text/css
     md5: 2dc55e64058a57304ff7dccf2e1cd5a5
@@ -620,7 +635,7 @@ css:
     md5: 2dc55e64058a57304ff7dccf2e1cd5a5
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 0752ee9e8810ece2fcacc67fe58719e3
+    md5: 1e863cbfc2d960e3f4d491ad19266c28
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -660,7 +675,7 @@ html:
     md5: bd5605bcd6ab3b5a89a0a039e9b9fc76
   Medal_Criteria\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Medal_Criteria
-    md5: 17c2aa1223fe7e4e733fd22822973f67
+    md5: 5c9c7f6d2e98dc5a2bf75ffdde16c640
   Model\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Model
     md5: 38366b664c70a9882f4248494c30d52b
@@ -734,6 +749,9 @@ js:
   js\team.js:
     link_URL: https://2020.igem.org/Template:Stockholm/js\teamJS?action=raw&ctype=text/javascript
     md5: 1ef8bac1a3f179889e2f52e0e3a8aa1a
+  medal_criteria.bundle.js:
+    link_URL: https://2020.igem.org/Template:Stockholm/medal_criteria-bundleJS?action=raw&ctype=text/javascript
+    md5: 417cf46f5603dbc64a03956fc0cdf519
   parts.bundle.js:
     link_URL: https://2020.igem.org/Template:Stockholm/parts-bundleJS?action=raw&ctype=text/javascript
     md5: 56b9a88813040764ddbf8fc49043eb34

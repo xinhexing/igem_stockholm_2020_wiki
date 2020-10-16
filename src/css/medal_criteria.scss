@@ -1,0 +1,86 @@
+@import "_main.scss";
+
+// LIGHT MODE
+
+body {
+  header {background: $sky_light;}
+  .info {
+    &::-webkit-scrollbar-thumb {background: darken($bg_light, 25%);}
+  }
+}
+
+// DARK MODE
+
+body.dark {
+  header {background: $sky_dark;}
+  .info {
+    &::-webkit-scrollbar-thumb {background: lighten($bg_dark, 25%);}
+  }
+}
+
+// HEADER
+
+header {
+  position: relative;
+  padding: 10rem 0 0 0;
+}
+
+// MAIN
+
+body {
+
+  main {
+    text-align: center;
+
+    .title {
+      margin: 2.5rem 0;
+      text-align: center;
+      h1 {
+        margin-bottom: 1rem;
+        font-size: 4rem;
+        font-weight: 800;
+      }
+    }
+    
+    h5 {font-weight: 800;}
+    h6 {
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+
+    .medal {
+      margin: 3rem 0;
+      img, .content {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      img {width: 40%;}
+      .content {
+        width: 60%; height: auto;
+        text-align: justify;
+      }
+    }
+    .silver {
+      img {position: relative; left: 60%;}
+      .content {position: relative; left: -40%;}
+    }
+  }
+}
+
+// MEDIA QUERIES
+
+@include respond-below(sm) {
+  body {
+    main {
+      .medal {
+        img {position: static; display: inline; width: 80%; max-width: 20rem;}
+        .content {
+          position: static;
+          display: inline;
+          text-align: justify;
+          h1 {text-align: center;}
+        }
+      }
+    }
+  }
+}
