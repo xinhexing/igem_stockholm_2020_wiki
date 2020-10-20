@@ -643,35 +643,38 @@ css:
     md5: 2dc55e64058a57304ff7dccf2e1cd5a5
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 07820256436be4cd627d4fd4c6dad57e
+    md5: 93212040602d679f959c1697e70718b1
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
-    md5: 3735897728b8e453a61d4a240eed3c16
+    md5: 48c3af908df348f3aa2408c39d600212
   Collaborations\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Collaborations
-    md5: 48c046f53bcf360c0a243bcb986c56ce
+    md5: f81f3bee4f956a56419c89296fe6bdd1
   Contribution\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Contribution
-    md5: aebcd5fbc3ce78b427f5c75a48b27af2
+    md5: e73cae21039904badd5f34426a8537ae
   Description\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Description
-    md5: aefc773b9b4fb9098de0de23be052ebc
+    md5: 3915bf0190b5243d9597579fc089197a
   Design\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Design
-    md5: 42ba3bdf1b11c6878993404e09eb2e3c
+    md5: 48e004e01628eae48bf8adffe974d0a4
+  Education\index.html:
+    link_URL: https://2020.igem.org/Team:Stockholm/Education
+    md5: c6c110aa6345cacba8b81fea70962c47
   Engineering\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Engineering
-    md5: b890a46a0b1f02bc31f17a8d4c470ef4
+    md5: 3b1976971ed147fe2b2c832628747c4f
   Experiments\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Experiments
-    md5: 7a6b1fd107e756fca74136b3d9d8322c
+    md5: 069c345e120de5edd0ce3f01beed2a34
   Human_Practices\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Human_Practices
-    md5: e28fcc4ffd4e41c3150fa69308f059a6
+    md5: 26fc31fd28adbf3a0789bc946f1d2eb6
   Implementation\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Implementation
-    md5: 806e34cf0eb25990a7afa3bffccce57f
+    md5: 8cbc8cd2025ec10c9bb9cd1219045d2b
   Improve\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Improve
     md5: f8e0ad69e814d10b1de69224df9b0af4
@@ -683,13 +686,13 @@ html:
     md5: bd5605bcd6ab3b5a89a0a039e9b9fc76
   Medal_Criteria\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Medal_Criteria
-    md5: 5c9c7f6d2e98dc5a2bf75ffdde16c640
+    md5: e43d0cff73db48a057a15a25ed5c59c5
   Model\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Model
-    md5: 95d1c91e023da501e9beebc54024b414
+    md5: 9d21562c71779bf35402ea2a6ee6bfef
   Notebook\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Notebook
-    md5: 5b1502599ad285a7367804e9f4df70d3
+    md5: 1fe74664073e3db05fca02ae382fc38b
   Part_Collection\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Part_Collection
     md5: c88d1cfd9fcc9d37f342f27b91d7d2f1
@@ -698,37 +701,37 @@ html:
     md5: 442cf27c5e4857c9bb9340d6317e8901
   Parts\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Parts
-    md5: d55a52c9b32c8bedefc18b0f86e06671
+    md5: 926d9eb1ec852903be9d334b0462012b
   Primers\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Primers
-    md5: c1af0d602efbf605ea1785d3c24ec27e
+    md5: 7a288648383b324e18b88c16ce15e57d
   Proof_of_Concept\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Proof_of_Concept
-    md5: fcf80111d58664fa69a3aafd74b11b96
+    md5: bed78e6c7198b2b88beb56b75a004e9c
   Public_Engagement\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Public_Engagement
     md5: aa0d865bdb8068a55e27631b099c3c62
   Results\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Results
-    md5: d500cad929bae4d919a541cefe560284
+    md5: db876c6252e6d39ce723ad6e5db99097
   Safety\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Safety
-    md5: 42dccc75b1758ad35b58195c8537b76c
+    md5: 19f5f2218282a4bddf595202eb692624
   Sample\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Sample
     md5: 1c9d89f0308e24a70070c19dd54d53d5
   Sponsors\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Sponsors
-    md5: c180abc795c8873c5c4af3929af6f71d
+    md5: 913ddf4b269be598312acf0e0c810563
   Sustainable\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Sustainable
-    md5: aee54adbe6a5fed8ef4dede8afe36a4c
+    md5: b887f97ffe7eab67bf5902dc816f6827
   Team\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Team
-    md5: c0abc4eaa0dae08bccf0115df268aaf3
+    md5: 3c6588c226e971abb5db58802e993f41
   index.html:
     link_URL: https://2020.igem.org/Team:Stockholm
-    md5: ebc47ceda423361438ae672bd0aec001
+    md5: 9bb9e42fb850a2599cf1e16839de536c
   team_list\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/team_list
     md5: 439799e1066631c215e50c52074ff75f
