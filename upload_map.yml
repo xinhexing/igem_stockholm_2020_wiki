@@ -319,6 +319,14 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/5/59/T--Stockholm--img--Engineering--cycle.png
     md5: 1743ef6194e6845caffc637426a214b1
     upload_filename: T--Stockholm--img--Engineering--cycle.png
+  assets\img\Engineering--division.png:
+    link_URL: https://2020.igem.org/wiki/images/9/94/T--Stockholm--img--Engineering--division.png
+    md5: e204eebe040678b89f3cacfd8d2e9557
+    upload_filename: T--Stockholm--img--Engineering--division.png
+  assets\img\Engineering--mfc.png:
+    link_URL: https://2020.igem.org/wiki/images/7/7b/T--Stockholm--img--Engineering--mfc.png
+    md5: 628f046032f1ec632e81c1e3b5e80ea2
+    upload_filename: T--Stockholm--img--Engineering--mfc.png
   assets\img\HP--building1.png:
     link_URL: https://2020.igem.org/wiki/images/5/58/T--Stockholm--img--HP--building1.png
     md5: 23e8ef3e6acb72b404fe0e6470c44fc2
@@ -699,7 +707,7 @@ css:
     md5: f3e70ac1dfa358c94ba8428af872cedd
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: ccbf8d77893aa73128aa4c7f85e2b2e6
+    md5: d264a5a9f4c01b5c9c514f43cbd3ba2c
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -721,7 +729,7 @@ html:
     md5: 6b62e363379bd30c8266d7e4cd309e95
   Engineering\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Engineering
-    md5: 751f0adcf719127cb1248828478c7230
+    md5: 5e3e5b8fb0fc5a507550de9464a3054b
   Experiments\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Experiments
     md5: 18bbba623bdb8f91fe7e0186839db9b7
