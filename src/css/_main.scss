@@ -35,6 +35,17 @@ html {
   .carousel {
     margin: 1rem 0;
     .carousel-control-next, .carousel-control-prev, .carousel-indicators {filter: invert(100%);}
+  
+    .item {
+      opacity: 0;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+    }
+    .active {opacity: 1;}
+    .active.left, .active.right {opacity: 0;}
+    .next.left, .prev.right {opacity: 1;}
   }
 }
 

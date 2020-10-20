@@ -669,25 +669,25 @@ css:
     md5: 97740d1eff01b52a484b19433a33a73b
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
-    md5: 04e0bbbe0e5f2ff7b85d2873611bec46
+    md5: 29ba03e2886775746441f52e3541d901
   css\human_practices.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/human_practicesCSS?action=raw&ctype=text/css
-    md5: afde35e46e467bada9587839970a04b4
+    md5: cc21df8408d9076ec9db30a81139b53c
   css\index.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css
-    md5: 13a5ed886996fdb70107e9d8d3370d84
+    md5: 4e051eea95150ed5727b6c71f50bc036
   css\medal_criteria.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/medal_criteriaCSS?action=raw&ctype=text/css
-    md5: 59fcecf8802c5b08ead8c2d8861fb774
+    md5: 9fab1b255e4447dce68f8c6fe02e6d91
   css\parts.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/partsCSS?action=raw&ctype=text/css
-    md5: 23e59a9e6dd362f7a708ad7d491069ec
+    md5: f3e70ac1dfa358c94ba8428af872cedd
   css\primers.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/primersCSS?action=raw&ctype=text/css
-    md5: 23e59a9e6dd362f7a708ad7d491069ec
+    md5: f3e70ac1dfa358c94ba8428af872cedd
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: ae5cda45430f96b620e485249f3044a8
+    md5: be8d5b5bf39a61812b4ae5ebc370c9cd
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -733,7 +733,7 @@ html:
     md5: cec24ebd60c5cbfa29b6827db78b6260
   Model\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Model
-    md5: 42a804a5e59e2067a5e614da46bd7600
+    md5: 63ec9338c6dee594b9195c51f8c5a691
   Notebook\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Notebook
     md5: c6b41a3a654213999940c16835dcc9a2
