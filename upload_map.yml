@@ -311,6 +311,14 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg
     md5: 6aee9d03f9e9db58c63912b539f9b66c
     upload_filename: T--Stockholm--img--Description--josh-withers.jpg
+  assets\img\Engineering--biofilm.png:
+    link_URL: https://2020.igem.org/wiki/images/3/35/T--Stockholm--img--Engineering--biofilm.png
+    md5: 3fd3ccd150866ef9599930cf5ca01fb3
+    upload_filename: T--Stockholm--img--Engineering--biofilm.png
+  assets\img\Engineering--cycle.png:
+    link_URL: https://2020.igem.org/wiki/images/5/59/T--Stockholm--img--Engineering--cycle.png
+    md5: 1743ef6194e6845caffc637426a214b1
+    upload_filename: T--Stockholm--img--Engineering--cycle.png
   assets\img\HP--building1.png:
     link_URL: https://2020.igem.org/wiki/images/5/58/T--Stockholm--img--HP--building1.png
     md5: 23e8ef3e6acb72b404fe0e6470c44fc2
@@ -687,7 +695,7 @@ css:
     md5: f3e70ac1dfa358c94ba8428af872cedd
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: be8d5b5bf39a61812b4ae5ebc370c9cd
+    md5: aa56a233d5947ea6f263d67635b4e6bc
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -709,7 +717,7 @@ html:
     md5: 159604e0baa96f749372ef73ffc37af3
   Engineering\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Engineering
-    md5: d257eada900a4318a08612a3e008ab76
+    md5: 52190973e2f9714dc16b04eea4748c78
   Experiments\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Experiments
     md5: 83add5614bf4161c4edcd7c9b0bcf70e
