@@ -126,6 +126,8 @@ header {
     font-weight: 800;
   }
 
+  h1, p {position: relative; z-index: 5;}
+
   .topimg {
     position: absolute; bottom: 0;
     width: 100%; max-width: 50rem;
@@ -448,9 +450,11 @@ body {.row {padding: 4rem 0;}}
 // MEDIA QUERIES
 
 @include respond-below(md) {
-  main {
-    .sidebar {
-      display: none;
-    }
+  header {h1 {font-size: 3rem;}}
+  main {.sidebar {display: none;}
   }
+}
+
+@include respond-below(xs) {
+  header {h1 {font-size: 2rem;}}
 }
