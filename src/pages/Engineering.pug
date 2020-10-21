@@ -8,24 +8,57 @@ block headVars
 
 block article
 
-    :markdown-it(html)
-
-      # Engineering
-
     - var imgpath = "" + require("../assets/img/Engineering--cycle.png")["default"]
         +image(1, imgpath, "Engineering cycle", 100)
+
+    :markdown-it(html)
+      # 1. Problem identification
+      # 2. Gathering information
+      # 3. Defining a goal
+      # 4. Plan and define subtasks
 
     - var imgpath = "" + require("../assets/img/Engineering--division.png")["default"]
         +image(2, imgpath, "Engineering division", 100)
 
     :markdown-it(html)
-      # MFC
+      # 5. Design
+      ## A. Circuit
+  
+    - var imgpath = "" + require("../assets/img/Engineering--pcb_circuit.png")["default"]
+        +image(3, imgpath, "PCB Circuit", 100)
+
+    :markdown-it(html)
+      ## B. MFC
+
+    - var imgpath = "" + require("../assets/img/Engineering--mfc_disassembled.jpg")["default"]
+        +image(4, imgpath, "Disassembled MFC", 100)
+
+    :markdown-it(html)
+      # 6. Model
+      # 7. Build and experiment
+      ## A. Parts
+
+    - var imgpath = "" + require("../assets/img/Engineering--gblock_processing.png")["default"]
+        +image(5, imgpath, "Gblock processing", 100)
+
+    :markdown-it(html)
+      ## B. MFC
 
     - var imgpath = "" + require("../assets/img/Engineering--mfc.png")["default"]
-        +image(3, imgpath, "MFC Setup. 1/green: pump, 2/yellow: water, 3/purple: media, 4/red: resistor, 5/blue: MFC", 100)
+        +image(6, imgpath, "MFC Setup. 1/green: pump, 2/yellow: water, 3/purple: media, 4/red: resistor, 5/blue: MFC", 100)
 
+    :markdown-it(html)
+      # 8. Analyse the results
+
+    - var imgpath = "" + require("../assets/img/Engineering--wt.png")["default"]
+        +image(7, imgpath, "WT", 100)
+    - var imgpath = "" + require("../assets/img/Engineering--ko.png")["default"]
+        +image(8, imgpath, "Knockout", 100)
     - var imgpath = "" + require("../assets/img/Engineering--biofilm.png")["default"]
-        +image(4, imgpath, "A: no biofilm B: with biofilm", 80)
+        +image(9, imgpath, "A: no biofilm B: with biofilm", 100)
+
+    :markdown-it(html)
+      # 9. Discuss and conclude
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
