@@ -28,6 +28,12 @@ body {
   }
 
   .content {
+
+    .MathJax_Display {
+      filter: invert(0);
+      span {color: $item_light;}
+    }
+
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_light;}
 
     .mf {filter: brightness(0);}
@@ -76,6 +82,12 @@ body.dark {
   }
 
   .content {
+
+    .MathJax_Display {
+      filter: invert(1);
+      color: $item_dark;
+    }
+
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_dark;}
 
     .neb {filter: invert(0.5) brightness(2);}
@@ -116,6 +128,7 @@ body.dark {
 // HEADER
 
 header {
+  transition: background-color 0.3s;
   position: relative;
   text-align: center;
   height: 80vh;
@@ -129,12 +142,14 @@ header {
   h1, p {position: relative; z-index: 5;}
 
   .topimg {
+    transition: filter 0.3s;
     position: absolute; bottom: 0;
     width: 100%; max-width: 50rem;
     left: 50%; transform: translateX(-50%);
   }
 
   .arrow {
+    transition: color 0.3s, bottom 0.3s;
     z-index: 50;
     position: absolute; bottom: 3rem; left: calc(50% - 1.5rem);
     font-size: 3rem;
@@ -144,7 +159,10 @@ header {
 
 // MAIN
 
-body {.row {padding: 4rem 0;}}
+body {
+  transition: background-color 0.3s;
+  .row {padding: 4rem 0;}
+}
 
 // SIDEBAR
 
@@ -164,15 +182,22 @@ body {.row {padding: 4rem 0;}}
       margin-top: 2rem;
 
       li {
+        transition: transform 0.3s;
+        transform-origin: center left;
         margin: 1rem 0;
         display: flex;
         justify-content: left;
 
+        &:hover {transform: scale(1.1);}
+
         svg {
           margin: auto 0.5rem;
-          font-size: 0.4rem;
+          font-size: 0.8rem;
         }
-        a {text-decoration: none;}
+        a {
+          text-decoration: none;
+          font-weight: 600;
+        }
       }
     }
   }
@@ -182,6 +207,7 @@ body {.row {padding: 4rem 0;}}
 
 .content {
   .sponsor {
+    transition: filter 0.3s;
     display: block;
     margin: 1.5rem auto;
     width: 90%; max-width: 20rem;
@@ -194,9 +220,9 @@ body {.row {padding: 4rem 0;}}
 
 .content {
 
+  .MathJax_Display {transition: filter 0.3s, color 0.3s;}
+
   article {padding: 0 calc(1rem + 1.2vw);}
- 
-  $h1size: 2.15; // rem, adjust header sizes relative to this
 
   h1, h2, h3, h4, h5, h6 {font-weight: 700;}
 
@@ -363,10 +389,7 @@ body {.row {padding: 4rem 0;}}
     &:target {animation: target-fade 3s 1;}
   }
 
-  dfn {
-    border-bottom: 1px solid black;
-    font-style: normal;
-  }
+  dfn {font-style: normal;}
 }
 
 // TOOLTIP

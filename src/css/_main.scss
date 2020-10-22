@@ -10,11 +10,14 @@
 @import "_colors.scss";
 @import "_parent.scss";
 
+$h1size: 2.15; // rem, adjust header sizes relative to this
+
 // LIGHT MODE
 
 body {
   background: $bg_light;
-  p, h1, h2, h3, h4, h5, h6, svg {color: $item_light;}
+  p, h1, h2, h3, h4, h5, h6, svg, caption {color: $item_light;}
+  dfn {color: $item_light; border-bottom: 1px solid $item_light;}
   &::-webkit-scrollbar {background-color: $bg_light;}
   &::-webkit-scrollbar-thumb {background-color: $item_light;}
 }
@@ -23,15 +26,27 @@ body {
 
 body.dark {
   background: $bg_dark;
-  p, h1, h2, h3, h4, h5, h6, svg {color: $item_dark;}
+  p, h1, h2, h3, h4, h5, h6, svg, caption {color: $item_dark;}
+  dfn {color: $item_dark; border-bottom: 1px solid $item_dark;}
   &::-webkit-scrollbar {background-color: $bg_dark;}
   &::-webkit-scrollbar-thumb {background-color: $item_dark;}
 }
 
 // MAIN
 html {
-  p, a, h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans';}
-  .parent{scroll-behavior: smooth;}
+  body{
+    p, a, h1, h2, h3, h4, h5, h6, path, strong, li, th, td, cite, caption, dfn {
+      transition: color 0.3s;
+      font-family: 'Open Sans';
+    }
+    dfn {transition: border 0.3s, color 0.3s;}
+    table {
+      transition: border-color 0.3s, color 0.3s;
+      thead, tbody {th, td {transition: border-color 0.3s;}}
+      tbody tr:nth-of-type(odd) {transition: background-color 0.3s;}
+      th, td {transition: border-color 0.3s;}
+    }
+  }
   .carousel {
     margin: 1rem 0;
     .carousel-control-next, .carousel-control-prev, .carousel-indicators {filter: invert(100%);}
@@ -47,6 +62,7 @@ html {
     .active.left, .active.right {opacity: 0;}
     .next.left, .prev.right {opacity: 1;}
   }
+  .parent{scroll-behavior: smooth;}
 }
 
 // SCROLLBAR

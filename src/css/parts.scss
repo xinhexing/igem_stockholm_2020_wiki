@@ -38,12 +38,16 @@ body.dark {
 
 // HEADER
 
+body {transition: background-color 0.3s;}
+
 header {
+  transition: background-color 0.3s;
   position: relative;
   padding: 10rem 0 0 0;
 }
 
 // MAIN
+
 .container {
   .title {
     text-align: center;
@@ -93,4 +97,13 @@ header {
       }
     }
   }
+}
+
+// MEDIA QUERIES
+
+@include respond-below(md) {
+  .container{.title {h1 {font-size: 3rem;}}}
+}
+@include respond-below(xs) {
+  .container{.title {h1 {font-size: 2rem;}}}
 }

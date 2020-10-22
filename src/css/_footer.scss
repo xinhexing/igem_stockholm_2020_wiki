@@ -30,11 +30,16 @@ body.dark {
 // MAIN
 
 body{
+
   footer {
+    transition: background-color 0.3s;
     padding: 2rem 0;
 
-    p {font-weight: 400;}
+    p {
+      font-weight: 400;
+    }
     hr {
+      transition: background-color 0.3s;
       height: 3px;
       border-width: 0; border-radius: 1px;
       margin: 0;
@@ -52,6 +57,7 @@ body{
       margin: 1rem;
       text-align: center;
       img {
+        transition: filter 0.3s;
         width: 15%; max-width: 6rem;
         margin: 0.5rem 1rem;
       }

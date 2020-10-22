@@ -91,6 +91,7 @@ body.dark {
     transform-style: preserve-3d;
 
     .parallax_layer {
+      transition: background-color 0.3s;
       position: absolute;
       top: 0; right: 0; bottom: 0; left: 0;
     }
@@ -100,11 +101,13 @@ body.dark {
 // TITLE
 
 #group0 {
+  transition: background-image 0.3s;
   height: calc(100vh - 5rem - 18px);
   text-align: center;
   background: fixed no-repeat center/cover;
 
   .logo {
+    transition: background-image 0.3s;
     height: 100%; width: 100%;
     background: no-repeat center 25%/auto 60%;
   }
@@ -117,6 +120,7 @@ body.dark {
   }
   .wave {bottom: 10vh;}
   .waveblock {
+    transition: background-color 0.3s;
     position: absolute; left: 0; bottom: 0;
     width: 100%; height: 10vh;
   }
@@ -153,12 +157,14 @@ body.dark {
   transform: translateZ(30px) scale(0.71);
 }
 .reef {
+  transition: filter 0.3s;
   pointer-events: none;
   position: absolute;
   left: 0; bottom: 0;
   width: 100%;
 }
 .reefblock {
+  transition: background-color 0.3s;
   position: absolute;
   left: 0; bottom: -100%;
   height: 100%; width: 100%;

@@ -21,6 +21,7 @@ body.dark {
 // HEADER
 
 header {
+  transition: background-color 0.3s;
   position: relative;
   padding: 10rem 0 0 0;
 }
@@ -43,6 +44,7 @@ header {
 // MAIN
 
 body {
+  transition: background-color 0.3s;
 
   main {
     text-align: center;
@@ -64,6 +66,7 @@ body {
     }
 
     .card {
+      transition: backdrop-filter 0.3s;
       display: inline-block;
       width: 15rem; height: 20rem;
       margin: 0.5rem; padding: 1rem;
@@ -74,6 +77,7 @@ body {
       .card-title {margin-top: 2rem;}
 
       .avatar {
+        transition: opacity 0.3s;
         position: absolute;
         width: 13rem; height: 18rem;
         opacity: 1;
@@ -81,6 +85,7 @@ body {
       }
 
       .info {
+        transition: opacity 0.3s;
         position: absolute;
         width: 14rem; height: 18rem;
         padding-right: 0.5rem;
@@ -114,4 +119,13 @@ body {
   .card#{$i} .avatar img {
     animation: floating $randomspeed+s linear infinite;
   }
+}
+
+// MEDIA QUERIES
+
+@include respond-below(md) {
+  .container{.title {h1 {font-size: 3rem;}}}
+}
+@include respond-below(xs) {
+  .container{.title {h1 {font-size: 2rem;}}}
 }

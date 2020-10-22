@@ -22,7 +22,7 @@ nav.navbar.navbar-expand-xl.fixed-top
               a.nav-link.dropdown-toggle(id="navbar"+section['section']+"Dropdown" href="#" role="button" 
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
                 | #{section['section']}
-              .dropdown-menu(aria-labelledby="navbar"+section['section']+"Dropdown")
+              .dropdown-menu.fade-up(aria-labelledby="navbar"+section['section']+"Dropdown")
                 each item in section['items']
                   a.dropdown-item(href= urlPrefix + item.link.replace(/ /g,'_'))= item.title
 

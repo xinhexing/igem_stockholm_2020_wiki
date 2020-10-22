@@ -26,7 +26,7 @@ $('.content h1, .content h2').each(function () {
 
         var icon = document.createElement('i');
         icon.classList.add("fas");
-        icon.classList.add("fa-circle");
+        icon.classList.add("fa-chevron-right");
         item.append(icon);
 
         var a = document.createElement('a');
