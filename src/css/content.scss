@@ -150,26 +150,30 @@ body {.row {padding: 4rem 0;}}
 
 .sidebar {
 
-  h5 {
-    text-transform: uppercase;
-    font-weight: 800;
-  }
-
   #contents {
     position: sticky;
     top: 5vh;
     height: auto;
 
-    li {
-      margin: 1rem 0;
-      display: flex;
-      justify-content: left;
+    h5 {
+      position: absolute;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+    ul {
+      margin-top: 2rem;
 
-      svg {
-        margin: auto 0.5rem;
-        font-size: 0.4rem;
+      li {
+        margin: 1rem 0;
+        display: flex;
+        justify-content: left;
+
+        svg {
+          margin: auto 0.5rem;
+          font-size: 0.4rem;
+        }
+        a {text-decoration: none;}
       }
-      a {text-decoration: none;}
     }
   }
 }

@@ -793,7 +793,7 @@ css:
     md5: 97740d1eff01b52a484b19433a33a73b
   css\content.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/contentCSS?action=raw&ctype=text/css
-    md5: 15e5ac4e292f38b06787077ef28ccb18
+    md5: d87e52553e31c691ef85cabb5525d16e
   css\human_practices.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/human_practicesCSS?action=raw&ctype=text/css
     md5: cc21df8408d9076ec9db30a81139b53c
@@ -811,7 +811,7 @@ css:
     md5: f3e70ac1dfa358c94ba8428af872cedd
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 1b3c5292e2db2618dd9cf10d812870e7
+    md5: 2a22c7b12c79b43e0afe5586c5d0bb3a
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -893,7 +893,7 @@ html:
     md5: 1c9d89f0308e24a70070c19dd54d53d5
   Sponsors\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Sponsors
-    md5: 0fe21ae4d5ec6c535a6f78b5aaf0477c
+    md5: fcdbccf04ced1bd8877afe6038d1d9d8
   Sustainable\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Sustainable
     md5: 7b67a3bdc54a92392d28b3aef02f907b
