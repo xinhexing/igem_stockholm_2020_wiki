@@ -17,6 +17,7 @@ $h1size: 2.15; // rem, adjust header sizes relative to this
 body {
   background: $bg_light;
   p, h1, h2, h3, h4, h5, h6, svg, caption {color: $item_light;}
+  a {color: $highlight_light;}
   dfn {color: $item_light; border-bottom: 1px solid $item_light;}
   &::-webkit-scrollbar {background-color: $bg_light;}
   &::-webkit-scrollbar-thumb {background-color: $item_light;}
@@ -27,6 +28,7 @@ body {
 body.dark {
   background: $bg_dark;
   p, h1, h2, h3, h4, h5, h6, svg, caption {color: $item_dark;}
+  a {color: $highlight_dark;}
   dfn {color: $item_dark; border-bottom: 1px solid $item_dark;}
   &::-webkit-scrollbar {background-color: $bg_dark;}
   &::-webkit-scrollbar-thumb {background-color: $item_dark;}

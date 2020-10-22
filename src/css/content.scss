@@ -34,7 +34,8 @@ body {
       span {color: $item_light;}
     }
 
-    p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_light;}
+    p, h1, h2, h3, h4, h5, h6, li, strong {color: $item_light;}
+    a {color: $highlight_light;}
 
     .mf {filter: brightness(0);}
 
@@ -89,6 +90,7 @@ body.dark {
     }
 
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_dark;}
+    a {color: $highlight_dark;}
 
     .neb {filter: invert(0.5) brightness(2);}
     .mf {filter: brightness(2);}
