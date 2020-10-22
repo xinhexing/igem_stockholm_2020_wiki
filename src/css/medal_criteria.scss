@@ -72,6 +72,10 @@ body {
 
 .content {
 
+  .MathJax_Display {transition: filter 0.3s, color 0.3s;}
+
+  article {padding: 0 calc(1rem + 1.2vw);}
+
   h1, h2, h3, h4, h5, h6 {font-weight: 700;}
 
   h1, h2 {
@@ -139,6 +143,7 @@ body {
   }
 
   p {
+    margin: 0.5rem 0;
     text-align: justify;
 
     .MathJax_Display {
@@ -152,7 +157,36 @@ body {
       &:target {animation: target-fade 3s 1;}
     }
   }
+
+  ul {padding-left: 25px;}
+
+  .image {
+    text-align: center;
+
+    img {
+      padding: 20px;
+      width: 90%;
+    }
+
+    p {
+      text-align: center;
+      font-style: italic;
+    }
+  }
+
+  blockquote {
+    margin: 0.5rem 2rem;
+  }
+
+  span.in-text:hover {cursor: pointer;}
+
+  a.citation {
+    scroll-margin-top: 200px;
+
+    &:target {animation: target-fade 3s 1;}
+  }
 }
+
 
 // MEDIA QUERIES
 
