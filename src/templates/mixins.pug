@@ -40,7 +40,7 @@ mixin image(n, url, caption, width)
             img(src=url alt=caption)
         p= "Figure " + n + ": " + caption
 
-mixin imagenorm(url, width)
+mixin imgNorm(url, width)
     .image
         if width
             img(src=url style="width: " + width + "%")
