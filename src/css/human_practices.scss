@@ -6,12 +6,6 @@ body {
   .info {
     background-color: darken($bg_light, 3);
     &::-webkit-scrollbar-thumb {background: darken($bg_light, 25%);}
-  }
-  .folder {.tab, .main {
-    background-color: darken($bg_light, 20);
-    h1 {color: lighten($item_light, 60);
-    }}}
-  .content {
 
     .MathJax_Display {
       filter: invert(0);
@@ -40,9 +34,13 @@ body {
 
   .content p, #references li {a:not(.citation) {&:before, &:after {background-color: $highlight_light;}}}
 
-  #references {
-    cite, a {color: $item_light;}
-  }
+  #references {cite, a {color: $item_light;}}
+
+  .folder {.tab, .main {
+    background-color: darken($bg_light, 20);
+    h1 {color: lighten($item_light, 60);
+    }
+  }}
 }
 
 // DARK MODE
@@ -51,12 +49,6 @@ body.dark {
   .info {
     background-color: lighten($bg_dark, 7);
     &::-webkit-scrollbar-thumb {background: lighten($bg_dark, 25%);}
-  }
-  .folder {.tab, .main {
-    background-color: lighten($bg_dark, 20);
-    h1 {color: darken($item_dark, 70);}
-  }}
-  .content {
 
     .MathJax_Display {
       filter: invert(1);
@@ -89,9 +81,12 @@ body.dark {
 
   .content p, #references li {a:not(.citation) {&:before, &:after {background-color: $highlight_dark;}}}
 
-  #references {
-    cite, a {color: $item_dark;}
-  }
+  #references {cite, a {color: $item_dark;}}
+
+  .folder {.tab, .main {
+    background-color: lighten($bg_dark, 20);
+    h1 {color: darken($item_dark, 70);}
+  }}
 }
 
 // HEADER
