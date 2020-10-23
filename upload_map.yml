@@ -367,6 +367,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/6/63/T--Stockholm--img--Contents--topimg_engineer.png
     md5: b174206797184a5cc8f59b546654e8d0
     upload_filename: T--Stockholm--img--Contents--topimg_engineer.png
+  assets\img\Contents--topimg_entrepeneurship.png:
+    link_URL: https://2020.igem.org/wiki/images/4/4a/T--Stockholm--img--Contents--topimg_entrepeneurship.png
+    md5: 25ffc1af5b2677df76e5d477deea101f
+    upload_filename: T--Stockholm--img--Contents--topimg_entrepeneurship.png
   assets\img\Contents--topimg_experiments.png:
     link_URL: https://2020.igem.org/wiki/images/1/15/T--Stockholm--img--Contents--topimg_experiments.png
     md5: d9f56e2274d58a6beb3645683fa388f9
@@ -908,7 +912,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 2769aa264ba537773ca73f89fa8a6675
+    md5: bf18d55d0b2e716be2cdffee5d65b3f9
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -933,7 +937,7 @@ html:
     md5: 58f0f8da5058f128a3e63b59e8ff0ba7
   Entrepreneurship\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Entrepreneurship
-    md5: 7d4d9a96122ca125cc6c1b3eb19a5802
+    md5: cefd0b4fe96ccdc188bf8c9b8bb3440e
   Experiments\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Experiments
     md5: 102fa79cbaf17296c63a2ffc0205823f
