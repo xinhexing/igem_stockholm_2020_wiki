@@ -10,134 +10,102 @@ block article
 
     :markdown-it(html)
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+      # June
+      
+      ##### 18/06 - 19/06
+      - Acquired Shewanella Oneidensis, Shewanella Putrefaciens, Escherichia coli MFDpir for conjugation and Escherichia coli DH5α containing the pSRK-Km plasmid for Shewanella expression
+      - Prepared glycerol stocks of obtained strains
 
-        # Emphasis
-        This is regular text.
+      ##### 25/06 - 26/06
+      - Purified pSRK-Km from E coli DH5α
 
-        **This is bold text.**
-        __This is also bold text.__
+      # July
+      
+      ##### 01/07 - 03/07
+      - Created chemically competent E coli MFDpir for transformation
+      - Performed test transformations of MFDpir and TOP10 chemically competent E coli
+      - Amplified BioBricks from Uppsala iGEM 2020 team
+      
+      ##### 06/07 - 11/07
+      - Acquired Shewanella Oneidensis wildtype (WT) and MtrB knockout strains, and Chromobacterium Violaceum CV026 for biological AHL assays
+      - Prepared glycerol stocks of obtained strains
+      - Amplified BioBricks from Stockholm iGEM 2019 team
+      - Transformed and amplified BioBricks in vivo
+      - Electroporation of electrocompetent cells
+      
+      ##### 15/07 - 17/07
+      - Assembly of BioBricks was attempted, but incomplete digestion gave too high background or no successful ligations
+      
+      ##### 23/07
+      - Restriction digest troubleshooting
+      
+      ##### 27/07 - 31/07
+      - Acquired gBlocks of constructs or partial constructs
+      - PCR amplified gBlocks
+      - Purification of pSB1C3 for ligating gBlocks into
 
-        *This is italic text.*
-        _This is also italix text.*
+      # August
+      
+      ##### 03/08 - 07/08
+      - Transformed to amplify gBlocks in vivo
+      
+      ##### 10/08 - 14/08
+      - Colony PCR to select successful constructs
+      - Amplified gBlocks in vivo
+      
+      ##### 17/08-21/08
+      - Started MFC with Shewanella oneidensis WT
+      - PCR amplified gBlocks
+      - Colony PCR to select successful constructs
+      - Transformed to amplify gBlocks in vivo
+      - Attempted to assemble construct from partial constructs
+      
+      ##### 24/08-31/08
+      - Colony PCR to select successful constructs
+      - Chromobacterium assay to check for presence of AHL
+      - Ran Western blot to check for protein expression in constructs
 
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
+      # September
+      
+      ##### 01/09-05/09
+      - Transformed to amplify gBlocks in vivo
+      - Ran Western blot
+      - Colony PCR to select successful constructs
+      - Added LB media to MFC
+      - Replaced MFC media with M9 minimal media with lactate
+      
+      ##### 07/09-13/09
+      - Stopped running MFC
+      - Measured fluorescence intensity of constructs to check leakiness of promoters
+      - Chromobacterium assay
+      - Ran Western blot
+      - Attempted to assemble oscillation constructs
+      - Acquired PFOS and 1,1-biphenyl, prepared stock solutions
+      
+      ##### 15/09-17/09
+      - Colony PCR to select successful constructs
+      
+      ##### 22/09-27/09
+      - Ran viability test with pollutants
+      - Prepared positive control (Ftsh1-Myc) for Western blot
+      - Ran Western blot
+      
+      ##### 28/09-30/09
+      - Measured fluorescence intensity of constructs induced with pollutants
 
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
-
-    :markdown-it(html)
-        Back to regular text.
-
-        # Tables
-
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
-
-    :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
-
-    :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
-
-    :markdown-it(html)
-        **Example 3:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
-
-    :markdown-it(html)
-
-        # Definitions
-
-        <dfn>Term ~ Definition</dfn>
-
-        This can come <dfn>anywhere in ~ the text</dfn>.
-
-        # MathJax
-
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
-
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
-
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
-
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
-
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
-
-//- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
-
-prepend citations
-    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
+      # October
+      
+      ##### 01/10-04/10
+      - Measured fluorescence intensity of constructs when induced with constructs producing AHL synthases and/or pollutants
+      - Ran Western blot
+      - Ran viability tests with higher pollutant concentrations
+      
+      ##### 05/10-11/10
+      - Started MFC with Shewanella oneidensis MtrB KO
+      - Repeated viability test with higher pollutant concentrations
+      - Chromobacterium assay with constructs producing AHL synthases
+      
+      ##### 12/10-17/10
+      - Ran Western blot
+      - Measured fluorescence intensity of constructs when induced with QS molecules and/or pollutants
+      - Chromobacterium assay for AHL
