@@ -13,38 +13,39 @@ block article
         # Image Carousel
 
     +carnival('Model--Osc_New_Induced.png','Model--Osc_New_T50.png','Model--Osc_New_T100.png')
+    :markdown-it(html)
         # Molecular Dynamics
         Molecular dynamics computations were used in order to estimate the binding energy of several N-acyl homoserine lactones (AHLs) to AiiA. AHLs are targeted by lactonases such as AiiA (originally found in bBacillus thuringiensis), which hydrolases their lactone bond upon binding. This results in quenching of quorum sensing signaling.  AutoDock [1] was used to determine different binding positions and their respective docking energies. The conformation with the lowest binding energy was selected for comparison.
         
-    In these computations, we investigated the affinity of C4-HSL (noted HL4_ideal), C8-HSL (noted HTF), C6-oxo-HSL (noted HL6-ideal) for AiiA (PDB entry 2a7m, 10.2210/pdb2A7M/pdb). 
+        In these computations, we investigated the affinity of C4-HSL (noted HL4_ideal), C8-HSL (noted HTF), C6-oxo-HSL (noted HL6-ideal) for AiiA (PDB entry 2a7m, 10.2210/pdb2A7M/pdb). 
 
-    Because AiiA is a metalloenzyme containing two Zinc atoms the default autodock software does not assign any partial charge and is not appropriate (the Zn coordination sphere does not give explicit bonds, which is a problem for the algorithm), a tetrahedral Zn specific force field (with directional potentials) was used to modelize the enzyme [ref] instead of the default forcefield. The Lamarckian Genetic Algorithm was chosen as the docking algorithm, with a maximum of 2500000 energy evaluations. Molecular dynamics algorithms take into account the geometric constraints of both molecules and determine the best binding position by varying atoms’ positions when possible and minimizing the free-energy of binding. The free-energy of binding is calculated thanks to an Amber force field by adding contributions that are intermolecular (Van der Waals, hydrogen bonds, desolvation and electrostatic energies) and intramolecular (torsional change in energy).
-    - HL4-ideal (N-[(3S)-2-oxotetrahydrofuran-3-yl]butanamid)
-    
-    A grid centered on (12.736, 33.873, 28.824) was created, with 76 points in the x-direction, 72 in the y-direction and 58 in the z-direction. The distance between two points was 0,542Å.
+        Because AiiA is a metalloenzyme containing two Zinc atoms the default autodock software does not assign any partial charge and is not appropriate (the Zn coordination sphere does not give explicit bonds, which is a problem for the algorithm), a tetrahedral Zn specific force field (with directional potentials) was used to modelize the enzyme [ref] instead of the default forcefield. The Lamarckian Genetic Algorithm was chosen as the docking algorithm, with a maximum of 2500000 energy evaluations. Molecular dynamics algorithms take into account the geometric constraints of both molecules and determine the best binding position by varying atoms’ positions when possible and minimizing the free-energy of binding. The free-energy of binding is calculated thanks to an Amber force field by adding contributions that are intermolecular (Van der Waals, hydrogen bonds, desolvation and electrostatic energies) and intramolecular (torsional change in energy).
+        - HL4-ideal (N-[(3S)-2-oxotetrahydrofuran-3-yl]butanamid)
+        
+        A grid centered on (12.736, 33.873, 28.824) was created, with 76 points in the x-direction, 72 in the y-direction and 58 in the z-direction. The distance between two points was 0,542Å.
 
-    The best binding position gave a free energy of binding of -5,06kcal/mol and inhibition constant of 195.69 µM at 298.15 K.
+        The best binding position gave a free energy of binding of -5,06kcal/mol and inhibition constant of 195.69 µM at 298.15 K.
 
     - var imgpath = "" + require("../assets/img/Model--inthl4.png")["default"]
     +image(1, imgpath, "Caption", 100)
 
     :markdown-it(html)
     
-    - HL6-ideal (N-[(3S)-2-oxotetrahydrofuran-3-yl]hexanamide)
-    
-    A grid centered on (12.736, 33.873, 28.824) was created, with 112 points in the x-direction, 78 in the y-direction and 66 in the z-direction. The distance between two points was 0,386Å.
+      - HL6-ideal (N-[(3S)-2-oxotetrahydrofuran-3-yl]hexanamide)
+      
+      A grid centered on (12.736, 33.873, 28.824) was created, with 112 points in the x-direction, 78 in the y-direction and 66 in the z-direction. The distance between two points was 0,386Å.
 
-    The best binding position gave a free energy of binding of -5,16kcal/mol and inhibition constant of 164,60 µM at 298.15 K.
+      The best binding position gave a free energy of binding of -5,16kcal/mol and inhibition constant of 164,60 µM at 298.15 K.
 
     - var imgpath = "" + require("../assets/img/Model--inthl6.png")["default"]
     +image(2, imgpath, "Caption", 100)
     
     :markdown-it(html)
-    - HTF-ideal (N-(2-OXOTETRAHYDROFURAN-3-YL)OCTANAMIDE)
-    
-    A grid centered on (12.736, 33.873, 28.824) was created, with 112 points in the x-direction, 78 in the y-direction and 66 in the z-direction. The distance between two points was 0,386Å.
+      - HTF-ideal (N-(2-OXOTETRAHYDROFURAN-3-YL)OCTANAMIDE)
+      
+      A grid centered on (12.736, 33.873, 28.824) was created, with 112 points in the x-direction, 78 in the y-direction and 66 in the z-direction. The distance between two points was 0,386Å.
 
-    The best binding position gave a free energy of binding of -5.25 kcal/mol and inhibition constant of 140.75 µM at 298.15 K.
+      The best binding position gave a free energy of binding of -5.25 kcal/mol and inhibition constant of 140.75 µM at 298.15 K.
 
 
     - var imgpath = "" + require("../assets/img/Model--inthl8.png")["default"]
@@ -52,7 +53,7 @@ block article
 
     :markdown-it(html)
     
-     The binding energies and inhibition constants are summarized in table 1 below. From this molecular dynamics analysis, we can conclude that there are crosstalks between different types of AHLs and AiiA, which might be a problem in our circuit given that both C6 and C4 are present. For further improvement, C4 could be modified so that its interactions with AiiA are improved and favored compared to other lactones.  Another option would be to change the pair for other more specific molecules.    
+      The binding energies and inhibition constants are summarized in table 1 below. From this molecular dynamics analysis, we can conclude that there are crosstalks between different types of AHLs and AiiA, which might be a problem in our circuit given that both C6 and C4 are present. For further improvement, C4 could be modified so that its interactions with AiiA are improved and favored compared to other lactones.  Another option would be to change the pair for other more specific molecules.    
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
