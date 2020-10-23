@@ -15,3 +15,12 @@ https://doi.org/10.1016/j.ijid.2019.08.003:
   title: Investigating the impact of influenza on excess mortality in all ages in
     Italy during recent seasons (2013/14-2016/17 seasons).
   type: article
+https://doi.org/10.1371/journal.pcbi.1000822:
+  authors: 'Pinchuk, G. E., Hill, E. A., Geydebrekht, O. V., De Ingeniis, J., Zhang,
+    X., Osterman, A., ... & Reed, J. L. (2010). '
+  doi: https://doi.org/10.1371/journal.pcbi.1000822
+  journal: PLoS Computational Biology
+  numbers: '6(6), e1000822. '
+  title: 'Constraint-Based Model of Shewanella oneidensis MR-1 Metabolism: A Tool
+    for Data Analysis and Hypothesis Generation.'
+  type: article
