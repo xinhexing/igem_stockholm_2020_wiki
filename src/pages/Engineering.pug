@@ -7,8 +7,13 @@ block headVars
     - var topimg = "engineer"
 
 block article
+
     :markdown-it(html)
-    iGEM Stockholm 2020 presents its engineering cycle (figure 1).
+
+      # Overview
+
+      iGEM Stockholm 2020 presents its engineering cycle (Figure 1).
+
     - var imgpath = "" + require("../assets/img/Engineering--cycle.png")["default"]
         +image(1, imgpath, "Engineering cycle", 100)
 
@@ -36,16 +41,12 @@ block article
 
       Since our project is by essence modular, it was easy to divide the tasks: we had to work in parallel on
       - engineering E. coli so that it detects pollutants and emits quorum sensing (QS) molecules as a result;
-
-      - engineering a Shewanella oneidensis MtrB knockout strain (unable to produce electricity in normal conditions) so that the       received QS signal from E. coli activates a conditional electrical pathway (production of electricity only if a pollutant is detected);
-
+      - engineering a Shewanella oneidensis MtrB knockout strain (unable to produce electricity in normal conditions) so that the received QS signal from E. coli activates a conditional electrical pathway (production of electricity only if a pollutant is detected);
       - designing a genetic circuit that gives a unique oscillating output when a certain pollutant is detected;
-
       - building a functional microbial fuel cell in which the strains could perform their activities.
 
-
     - var imgpath = "" + require("../assets/img/Engineering--division.png")["default"]
-        +image(2, imgpath, "Engineering division", 100)
+    +image(2, imgpath, "Engineering division", 100)
 
     :markdown-it(html)
 
@@ -55,6 +56,7 @@ block article
       We used the SnapGene software to design the following parts and circuits using the Biobrick format.
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
+
       |Biobrick|Code|Construct|Aim|
       | ------  | --------- | ---------- |-------|
       |BBa_K3440000|A|Pconst-RBS-LuxI-Myc-DT|Show that LuxI can be expressed under constitutive promoter|
@@ -79,25 +81,28 @@ block article
       |BBa_K3440019|Osc1|Pconst-RBS-LuxR-DT-Plux-RBS-mtrb-DT|Show that mtrb can be expressed under Plux in the presence of AHL.|
       |BBa_K3440020|Osc2|Pconst-RBS-RhlR-DT-Prhl-RBS-RhlI-RBS-AiiA-RBS-GFP-DT|GFP reporter of oscillation in E.coli|
       |BBa_K3440021|Osc3|Plux-RBS-Mtrb-DT-Pconst-RBS-RhlR-DT-Prhl-RBS-RhlI-RBS-AiiA-RBS-LuxR-DT|Electricity production under oscillatory circuit in *Shewanella*.|
-       [Table 1: List of constructs.]
+      [Table 1: List of constructs.]
 
     :markdown-it(html)
-       Because many of these constructs were long and would each require many days of assembling biobricks, we decided to order most of them from IDT Technologies as gene blocks with convenient restriction sites in optimal positions and tags to allow characterisation. We used those gene blocks as a starting point for our experiments.
 
-The full circuit we designed for detection of PCB (it is similar for PFOA) is the following (figure X): the first construct produces bphR2 constitutively. bphR2 can form a complex with the PCB pollutant, which can activate the bphR1 promoter. LuxI is placed under this promoter and produces a QS molecule. The fourth construct produces RhlR constitutively, and RhlR can bind to C4-HSL to induce Prhl promoter in the third construct, which induces expression of LuxR, RhlI and AiiA. RhlI produces C4-HSL, which creates a positive feedback loop. On the contrary, AiiA degrades C4-HSL, creating the oscillations. LuxR binds to the 3OC6-HSL produced upon detection of PCB by the first construct. The complex can activate Plux promoter, which controls the expression of mtrb, the gene responsible for electricity production in *Shewanella*.
+      Because many of these constructs were long and would each require many days of assembling biobricks, we decided to order most of them from IDT Technologies as gene blocks with convenient restriction sites in optimal positions and tags to allow characterisation. We used those gene blocks as a starting point for our experiments.
 
-    - var imgpath = "" + require("../assets/img/Engineering--pcb_circuit.png")["default"]
-        +image(3, imgpath, "PCB Circuit", 100)
+      The full circuit we designed for detection of PCB (it is similar for PFOA) is the following (Figure X): the first construct produces bphR2 constitutively. bphR2 can form a complex with the PCB pollutant, which can activate the bphR1 promoter. LuxI is placed under this promoter and produces a QS molecule. The fourth construct produces RhlR constitutively, and RhlR can bind to C4-HSL to induce Prhl promoter in the third construct, which induces expression of LuxR, RhlI and AiiA. RhlI produces C4-HSL, which creates a positive feedback loop. On the contrary, AiiA degrades C4-HSL, creating the oscillations. LuxR binds to the 3OC6-HSL produced upon detection of PCB by the first construct. The complex can activate Plux promoter, which controls the expression of mtrb, the gene responsible for electricity production in *Shewanella*.
+
+    - var imgpath = "" + require("../assets/img/Engineering--PCB circuit.png")["default"]
+    +image(3, imgpath, "PCB Circuit", 100)
 
     :markdown-it(html)
+
       ## B. MFC
 
-      The MFC set-up was designed thanks to literature and discussions with Amirreza Khataee from the Applied Electrochemistry department at KTH. We decided to go for a liquid-air hybrid set-up, with one reservoir filled with media and another filled with air. Circulation between the MFC and the reservoirs is created by a pump at 0.1rpm. The chosen electrodes were each made of 2 squares of graphite papers stacked together. The cation exchange membrane used was a NafionTM. The disassembled microbial fuel cell is shown in figure X. The circuit was assembled as shown in figure X.
+      The MFC set-up was designed thanks to literature and discussions with Amirreza Khataee from the Applied Electrochemistry department at KTH. We decided to go for a liquid-air hybrid set-up, with one reservoir filled with media and another filled with air. Circulation between the MFC and the reservoirs is created by a pump at 0.1rpm. The chosen electrodes were each made of 2 squares of graphite papers stacked together. The cation exchange membrane used was a NafionTM. The disassembled microbial fuel cell is shown in Figure X. The circuit was assembled as shown in Figure X.
 
     - var imgpath = "" + require("../assets/img/Engineering--mfc_disassembled.jpg")["default"]
-        +image(4, imgpath, "Disassembled MFC", 100)
+    +image(4, imgpath, "Disassembled MFC", 100)
 
     :markdown-it(html)
+
       # 6. Model
 
       The circuits were designed with the aim of creating a unique oscillatory electrical output when a certain pollutant is detected by *E. coli*. To prove that the constructs could give an oscillatory circuit, mathematical simulations were performed. The obtained models confirmed that the design was theoretically capable of giving oscillations when pollutants are present.
@@ -105,70 +110,72 @@ The full circuit we designed for detection of PCB (it is similar for PFOA) is th
       # 7. Build and experiment
       ## A. Parts
       
-      For each G-block, we performed (with regards to each particular construct’s requirements) the following series of experiments and characterisations (figure X). We first resuspended the G-blocks, PCR amplified them, and then proceeded to insert them in the pSB1C3 plasmid via restriction digestion with EcoRI and PstI enzymes. We ran gels to check the sizes of restriction digested parts, then ligated overnight with pSB1C3. All of this was possible because the G-blocks were designed with predetermined, specific restriction sites. We then transformed *E. coli* TOP 10 cells with the plasmids. We picked colonies on plates, ran PCR amplification and gels to check if the sizes were as expected and sent the potentially correct ones for sequencing at Microsynth AG. The selected colonies were used to make glycerol stocks and plasmid preparations. OD600 measurements were made for all, and then characterization experiments were performed. For parts containing GFP or mCherry genes, fluorescence measurements were made with a plate reader. For those with a Myc-tag, Western blots were made. We used *Chromobacterium violaceum* as a marker of AHL production (colonies turning violet when AHLs are detected). Finally, expression was compared between situations with and without pollutants (after viability tests in the presence of pollutants).
+      For each G-block, we performed (with regards to each particular construct’s requirements) the following series of experiments and characterisations (Figure X). We first resuspended the G-blocks, PCR amplified them, and then proceeded to insert them in the pSB1C3 plasmid via restriction digestion with EcoRI and PstI enzymes. We ran gels to check the sizes of restriction digested parts, then ligated overnight with pSB1C3. All of this was possible because the G-blocks were designed with predetermined, specific restriction sites. We then transformed *E. coli* TOP 10 cells with the plasmids. We picked colonies on plates, ran PCR amplification and gels to check if the sizes were as expected and sent the potentially correct ones for sequencing at Microsynth AG. The selected colonies were used to make glycerol stocks and plasmid preparations. OD600 measurements were made for all, and then characterization experiments were performed. For parts containing GFP or mCherry genes, fluorescence measurements were made with a plate reader. For those with a Myc-tag, Western blots were made. We used *Chromobacterium violaceum* as a marker of AHL production (colonies turning violet when AHLs are detected). Finally, expression was compared between situations with and without pollutants (after viability tests in the presence of pollutants).
 
     - var imgpath = "" + require("../assets/img/Engineering--gblock_processing.png")["default"]
-        +image(5, imgpath, "Gblock processing", 100)
+    +image(5, imgpath, "Gblock processing", 100)
 
     :markdown-it(html)
+
       ## B. MFC
 
       We determined from literature on *Shewanella oneidensis*’ metabolism that *S. oneidensis* could grow, using lactate as a carbon source to optimise electricity production ([5]). As a result, we chose lactate as an additive to our minimal M9 medium. We decided to check that *Shewanella oneidensis* MR1 could be used in our MFC set-up to give an electrical output thanks to its mtrb gene. In order to do so, we had to prove that a biofilm could grow on the anode and that this biofilm did not grow when the mtrb gene was knocked out. Thus, we acquired two strains of *S. oneidensis* MR1; a wild type from Ute Römling’s lab at Karolinska Institutet, Stockholm, Sweden, and a mtrb knockout strain from Johannes Gescher, Karlsruhe Institute of Technology, Germany. We decided to monitor *S. oneidensis* biofilm growth by measuring the open cell voltage of the circuit with an imposed resistance of 1kΩ. Thanks to Ohm’s law U=RI, the current could then be determined.
 
-      Our first experiment consisted in putting the wild type strain on the electrodes, then assembling the MFC with LB broth in a reservoir, and finally assembling the final circuit (figure X) and measuring the voltage continuously. After a few days, we changed the media for fresh LB and continued to monitor the voltage. We then changed the media for minimal M9 media with lactate as a carbon source and tried to check that the biofilm growth was enhanced after a period of adaptation to the new media.
-Our second experiment was a control to check the necessity of having the mtrb gene for electricity production. We assembled the circuit with the mtrb knockout on the electrodes this time and measured current with LB as media.
+      Our first experiment consisted in putting the wild type strain on the electrodes, then assembling the MFC with LB broth in a reservoir, and finally assembling the final circuit (Figure X) and measuring the voltage continuously. After a few days, we changed the media for fresh LB and continued to monitor the voltage. We then changed the media for minimal M9 media with lactate as a carbon source and tried to check that the biofilm growth was enhanced after a period of adaptation to the new media.
+      Our second experiment was a control to check the necessity of having the mtrb gene for electricity production. We assembled the circuit with the mtrb knockout on the electrodes this time and measured current with LB as media.
 
     - var imgpath = "" + require("../assets/img/Engineering--mfc.png")["default"]
-        +image(6, imgpath, "MFC Setup. 1/green: pump, 2/yellow: air, 3/purple: media, 4/red: resistor, 5/blue: MFC", 100)
+    +image(6, imgpath, "MFC Setup. 1/green: pump, 2/yellow: air, 3/purple: media, 4/red: resistor, 5/blue: MFC", 100)
 
     :markdown-it(html)
+
       # 8. Analyse the results
       
       Most of our constructs were successfully designed and transformed into *E. coli* TOP 10 cells. The sequencing results confirmed what our gels predicted for fifteen of our colonies. The specific results for each experiment (viability, transformation, Western blots, fluorescence) are presented in Results. We decided to focus on the MFC engineering results here.
       
-      First, we observed with the open cell voltage over time curves that a biofilm could grow when *S.oneidensis*, wild-type was inoculated in the MFC and fed with an LB media (figure X). The voltage increased slowly and then underwent a high increase when the LB media was renewed. Seeing that the biofilm had grown, we changed the media to a minimal M9 media with regular lactate addition. As expected, the biofilm managed to adapt to this new media. At first, the voltage dropped and then it slowly grew back as it adapted. When we disassembled the MFC, we observed the biofilm directly on the membrane (figure X).
+      First, we observed with the open cell voltage over time curves that a biofilm could grow when *S.oneidensis*, wild-type was inoculated in the MFC and fed with an LB media (Figure X). The voltage increased slowly and then underwent a high increase when the LB media was renewed. Seeing that the biofilm had grown, we changed the media to a minimal M9 media with regular lactate addition. As expected, the biofilm managed to adapt to this new media. At first, the voltage dropped and then it slowly grew back as it adapted. When we disassembled the MFC, we observed the biofilm directly on the membrane (Figure X).
       
-      Those results were compared to the curves for the mtrb knockout strain (figure X). The figure shows that the mtrb knockout could not produce a biofilm because it was unable to produce electricity, as predicted by literature. This result was confirmed when we disassembled the MFC and the membrane was free from any biofilm (figure X).
-
-    - var imgpath = "" + require("../assets/img/Engineering--wt.png")["default"]
-        +image(7, imgpath, "WT", 100)
-    - var imgpath = "" + require("../assets/img/Engineering--ko.png")["default"]
-        +image(8, imgpath, "Knockout", 100)
+      Those results were compared to the curves for the mtrb knockout strain (Figure X). The Figure shows that the mtrb knockout could not produce a biofilm because it was unable to produce electricity, as predicted by literature. This result was confirmed when we disassembled the MFC and the membrane was free from any biofilm (Figure X).
+    - var imgpath = "" + require("../assets/img/Engineering--Shewanella Oneidensis MR-1 Wildtype.png")["default"]
+    +image(7, imgpath, "WT", 100)
+    - var imgpath = "" + require("../assets/img/Engineering--Shewanella Oneidensis MR-1 MtrB Knockout.png")["default"]
+    +image(8, imgpath, "Knockout", 100)
     - var imgpath = "" + require("../assets/img/Engineering--biofilm.png")["default"]
-        +image(9, imgpath, "A: no biofilm B: with biofilm", 100)
+    +image(9, imgpath, "A: no biofilm B: with biofilm", 100)
 
     :markdown-it(html)
+
       # 9. Discuss and conclude
-    ___An example of engineering success: our MFC success story___
-    We managed to create and assemble a fully functional microbial fuel cell in which we have proved that a *Shewanella oneidensis* strain can form a biofilm on the anode when it is equipped with the mtrb gene. We have optimised electricity production by cultivating this biofilm with a minimal media to which we regularly added lactate to favour the electrical pathway. Finally, we have proved that this biofilm cannot grow without the gene. Thus, our biosensor cannot give a signal without pollutants, but will be able to give an electrical output when pollutants are detected and a construct expressing in an oscillatory manner the mtrb gene can be induced when pollutants are present thanks to the design of appropriate synthetic circuits.
+      ___An example of engineering success: our MFC success story___
+      We managed to create and assemble a fully functional microbial fuel cell in which we have proved that a *Shewanella oneidensis* strain can form a biofilm on the anode when it is equipped with the mtrb gene. We have optimised electricity production by cultivating this biofilm with a minimal media to which we regularly added lactate to favour the electrical pathway. Finally, we have proved that this biofilm cannot grow without the gene. Thus, our biosensor cannot give a signal without pollutants, but will be able to give an electrical output when pollutants are detected and a construct expressing in an oscillatory manner the mtrb gene can be induced when pollutants are present thanks to the design of appropriate synthetic circuits.
+
       # 10. Identify a problem to solve at i+1 = troubleshooting
       
       During the summer, we had to optimise all types of experiments, from restriction digestions to Western blots. The key to troubleshooting is to find the origin of the problem. Most often, using positive and negative controls can both help you prove that your results are scientifically correct and help you find where problems occurred in an experiment. However, you might still encounter problems even with proper controls. We faced many problems with Western Blots, so we decided to share with you our very own troubleshooting checklist for Western Blots.
       __Quick troubleshooting list to help you when a protein does not appear on a Western blot:__
       
-      1.       Optimize your Western Blot protocol
-        a.       Make sure that you have appropriate positive and negative controls
-        b.       Optimize your cell lysis
-        c.       Think that your intensity might be too low if you have several products on the same blot, and one is overexpressed compared to the others. In that case you can either have separate gels or stop exposing the overexpressed product.
-        d.       If your protein might be expressed in another growth phase, adjust the timing.
-        e.       In our case, some proteins were expressed in the presence of AHLs and contaminants (under inducible promoters). If such is the case for you, try to increase the levels of inducers.
-        
-    2.       For cells that express GFP or mCherry or any colored/fluorescent protein, you might want to quickly check to the naked eye with a microscope under the right wavelength that expression occurs. Fluorescence measurements should also be performed and calibrated based on OD600.
-    
-    3.       Check your sequence. Sequencing your part is necessary, and you might as well do it before starting your Western Blots. The reason for this is that even if you have a band at the right size, it might still be another protein due to a substitution. Finally, if your western blot does not work, you can use sequencing to see if the problem is at the DNA level (a mutation to a stop codon could be an explanation).
-    
-    4.       Check your mRNA. If your DNA sequence is correct and you still don’t have results on your blot, then you can try to see if the problem is at the RNA level by performing an RNA extraction.
-    
-    5.       Run a background check on your proteins to understand how they are expressed in their original host, and if possible find a paper in which it was expressed in your host. In particular, check the location of the product and the level of expression obtained in literature.
-    
-    6.       Check your cells. It might be that the protein product is toxic for the cell or that E. coli does not prefer its presence. The product might be easily degraded by protease. Thus, you might want to test growth with and without the construct and observe the number of colonies to see how your host reacts to the product. If that is the problem, then you need to change your host.
-    
-    7.       Coomassie staining can also help you to check your cells by counting total protein expression.
-    
-    8.       To increase expression of the protein, you can clone your plasmid on a low copy number plasmid or under an inducible promoter.
+      1. Optimize your Western Blot protocol
+          1. Make sure that you have appropriate positive and negative controls
+          2. Optimize your cell lysis
+          3. Think that your intensity might be too low if you have several products on the same blot, and one is overexpressed compared to the others. In that case you can either have separate gels or stop exposing the overexpressed product.
+          4. If your protein might be expressed in another growth phase, adjust the timing.
+          5. In our case, some proteins were expressed in the presence of AHLs and contaminants (under inducible promoters). If such is the case for you, try to increase the levels of inducers.
 
-      
+      2. For cells that express GFP or mCherry or any colored/fluorescent protein, you might want to quickly check to the naked eye with a microscope under the right wavelength that expression occurs. Fluorescence measurements should also be performed and calibrated based on OD600.
+    
+      3. Check your sequence. Sequencing your part is necessary, and you might as well do it before starting your Western Blots. The reason for this is that even if you have a band at the right size, it might still be another protein due to a substitution. Finally, if your western blot does not work, you can use sequencing to see if the problem is at the DNA level (a mutation to a stop codon could be an explanation).
+    
+      4. Check your mRNA. If your DNA sequence is correct and you still don’t have results on your blot, then you can try to see if the problem is at the RNA level by performing an RNA extraction.
+    
+      5. Run a background check on your proteins to understand how they are expressed in their original host, and if possible find a paper in which it was expressed in your host. In particular, check the location of the product and the level of expression obtained in literature.
+    
+      6. Check your cells. It might be that the protein product is toxic for the cell or that E. coli does not prefer its presence. The product might be easily degraded by protease. Thus, you might want to test growth with and without the construct and observe the number of colonies to see how your host reacts to the product. If that is the problem, then you need to change your host.
+    
+      7. Coomassie staining can also help you to check your cells by counting total protein expression.
+    
+      8. To increase expression of the protein, you can clone your plasmid on a low copy number plasmid or under an inducible promoter.
+
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
 prepend citations
-    - var citations = [{"authors": "Undeman, E.,(2020). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
+    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
