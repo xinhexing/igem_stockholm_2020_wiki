@@ -192,21 +192,30 @@ body.dark {
 }
 
 // MEDIA QUERIES
-@include respond-below(md) {
+@include respond-below(lg) {
   #group0 {.logo {background: no-repeat center 25%/auto 55%;}}
   .parallax {
     perspective: none;
     .parallax_layer-main {
       .content {
         top: 40%; transform: translate(-50%, -50%);
-        h1 {font-size: 2rem;}
-        p {font-size: 0.9rem;}
       }
     }
     .parallax_layer-reef, .parallax_layer-fore {
       transform: none;
       .reefblock {display: none;}
       .fore {bottom: 0;}
+    }
+  }
+}
+
+@include respond-below(md) {
+  .parallax {
+    .parallax_layer-main {
+      .content {
+        h1 {font-size: 2rem;}
+        p {font-size: 0.9rem;}
+      }
     }
   }
 }
