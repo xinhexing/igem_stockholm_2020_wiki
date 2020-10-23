@@ -8,33 +8,24 @@ block headVars
 
 block article
     :markdown-it(html)
-
-        # What should this page contain?
-
-        * A clear and concise description of your project.
-        * A detailed wuhu explanation of why your team chose to work on this particular project.
-        * References and sources to document your research.
-        * Use illustrations asdfkjsdkfj kjh more random text and other visual resources to explain your project.
-
-        # Advice on writing your Project Description
-        
-        We encourage you to put up a lot of information and content on your wiki, but we also encourage
-        you to include summaries as much as possible. If you think of the sections in your project 
-        description as the sections in a publication, you should try to be concise, accurate, and
-        unambiguous in your achievements. Your Project Description should include more information 
-        than your project abstract. Test 123.
-
+        # Baltic Sea
     - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
-    +image(1, imgpath, "Picture by Josh Withers on Unsplash")
+    +imgNorm(imgpath, 100)
 
-    :markdown-it
-        # Recording References
+    :markdown-it(html)
+        # POPs
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
+    +imgNorm(imgpath, 100)
 
-        iGEM teams are encouraged to record references you use during the course of your research. They
-        should be posted somewhere on your wiki so that judges and other visitors can see how you thought 
-        about your project and what works inspired you.
+    :markdown-it(html)
+        # Water pollution monitoring + problem
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
+    +imgNorm(imgpath, 100)
 
-
+    :markdown-it(html)
+        # Our project
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
+    +imgNorm(imgpath, 100)
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
 prepend citations
