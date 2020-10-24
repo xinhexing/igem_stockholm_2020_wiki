@@ -504,6 +504,14 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/9/9a/T--Stockholm--img--Experiments--mfc.png
     md5: 695754b8caaf4769983c82dd0bbd4397
     upload_filename: T--Stockholm--img--Experiments--mfc.png
+  assets\img\HP--Industry- SARA.png:
+    link_URL: https://2020.igem.org/wiki/images/6/6f/T--Stockholm--img--HP--Industry-_SARA.png
+    md5: dd383647eee85dab4ddf2440335f0a92
+    upload_filename: T--Stockholm--img--HP--Industry- SARA.png
+  assets\img\HP--Society-Nordic team.png:
+    link_URL: https://2020.igem.org/wiki/images/0/0b/T--Stockholm--img--HP--Society-Nordic_team.png
+    md5: 809d991de7cd3d0f636fbf4e0b71f442
+    upload_filename: T--Stockholm--img--HP--Society-Nordic team.png
   assets\img\HP--building1.png:
     link_URL: https://2020.igem.org/wiki/images/5/58/T--Stockholm--img--HP--building1.png
     md5: 23e8ef3e6acb72b404fe0e6470c44fc2
@@ -544,6 +552,46 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/4/43/T--Stockholm--img--HP--building5_selected.png
     md5: 1da36771651b49ed5eb5acee7a6713b0
     upload_filename: T--Stockholm--img--HP--building5_selected.png
+  assets\img\HP--emma vincent.png:
+    link_URL: https://2020.igem.org/wiki/images/4/45/T--Stockholm--img--HP--emma_vincent.png
+    md5: f995b9f70c9eb6c0e6c5c93f92235b69
+    upload_filename: T--Stockholm--img--HP--emma vincent.png
+  assets\img\HP--industry-Kristina.png:
+    link_URL: https://2020.igem.org/wiki/images/8/87/T--Stockholm--img--HP--industry-Kristina.png
+    md5: 3422e080f190d24352de39c14da6ed99
+    upload_filename: T--Stockholm--img--HP--industry-Kristina.png
+  assets\img\HP--joao.png:
+    link_URL: https://2020.igem.org/wiki/images/f/ff/T--Stockholm--img--HP--joao.png
+    md5: ab7dad6a9875a4a6cd5b7aa8e326e2be
+    upload_filename: T--Stockholm--img--HP--joao.png
+  assets\img\HP--jonathan.png:
+    link_URL: https://2020.igem.org/wiki/images/d/df/T--Stockholm--img--HP--jonathan.png
+    md5: 7801689928112b7e57b284fdc6fb3c61
+    upload_filename: T--Stockholm--img--HP--jonathan.png
+  assets\img\HP--legislation (natursver).png:
+    link_URL: https://2020.igem.org/wiki/images/0/08/T--Stockholm--img--HP--legislation_%28natursver%29.png
+    md5: 972d749d3443753a06d371aad62bf11c
+    upload_filename: T--Stockholm--img--HP--legislation (natursver).png
+  assets\img\HP--rakel.png:
+    link_URL: https://2020.igem.org/wiki/images/3/3f/T--Stockholm--img--HP--rakel.png
+    md5: b9034ce73ef91d3cc129664b6f80b6f0
+    upload_filename: T--Stockholm--img--HP--rakel.png
+  assets\img\HP--steffan.png:
+    link_URL: https://2020.igem.org/wiki/images/9/99/T--Stockholm--img--HP--steffan.png
+    md5: 8425d12ff3ec446be080b3da526cf1d4
+    upload_filename: T--Stockholm--img--HP--steffan.png
+  assets\img\HP--sudhansu.png:
+    link_URL: https://2020.igem.org/wiki/images/5/5a/T--Stockholm--img--HP--sudhansu.png
+    md5: dd3a6d352e7543a016b4ba7849b8c7f7
+    upload_filename: T--Stockholm--img--HP--sudhansu.png
+  assets\img\HP-Amireza.png:
+    link_URL: https://2020.igem.org/wiki/images/a/a7/T--Stockholm--img--HP-Amireza.png
+    md5: 0d380fe295171c214159f4fe1d62a88d
+    upload_filename: T--Stockholm--img--HP-Amireza.png
+  assets\img\HP-academia-martin.png:
+    link_URL: https://2020.igem.org/wiki/images/2/24/T--Stockholm--img--HP-academia-martin.png
+    md5: 30d597dc2f942c4aee7b280cdc5a8b83
+    upload_filename: T--Stockholm--img--HP-academia-martin.png
   assets\img\Home--design.jpeg:
     link_URL: https://2020.igem.org/wiki/images/b/bf/T--Stockholm--img--Home--design.jpeg
     md5: 45be7036097413b923aca6551c358056
@@ -980,7 +1028,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 015c262ef6fcfb62555efcc01309532a
+    md5: 84171678d7dcf0a24ee53eeb0f153de3
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1011,7 +1059,7 @@ html:
     md5: a4b2baf225ef9801b96091bf3dd78499
   Human_Practices\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Human_Practices
-    md5: cd3dad64d5a3253625d034626690ff5d
+    md5: 039c4272d4838f09ebee5b125b42819f
   Implementation\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Implementation
     md5: 5fa57621cb86d491c24300de1b33e7f1
