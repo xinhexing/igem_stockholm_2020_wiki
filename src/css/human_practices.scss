@@ -6,16 +6,18 @@ body {
   .info {
     background-color: darken($bg_light, 3);
     &::-webkit-scrollbar-thumb {background: darken($bg_light, 25%);}
+  }
 
-    .MathJax_Display {
-      filter: invert(0);
-      span {color: $item_light;}
+  .folder {.tab, .main {
+    background-color: darken($bg_light, 20);
+    h1 {color: lighten($item_light, 60);
     }
+  }}
+
+  .info, #references {
 
     p, h1, h2, h3, h4, h5, h6, li, strong {color: $item_light;}
     a {color: $highlight_light;}
-
-    .mf {filter: brightness(0);}
 
     table {
       background: none;
@@ -34,13 +36,9 @@ body {
 
   .content p, #references li {a:not(.citation) {&:before, &:after {background-color: $highlight_light;}}}
 
-  #references {cite, a {color: $item_light;}}
-
-  .folder {.tab, .main {
-    background-color: darken($bg_light, 20);
-    h1 {color: lighten($item_light, 60);
-    }
-  }}
+  #references {
+    cite, a {color: $item_light;}
+  }
 }
 
 // DARK MODE
@@ -49,20 +47,16 @@ body.dark {
   .info {
     background-color: lighten($bg_dark, 7);
     &::-webkit-scrollbar-thumb {background: lighten($bg_dark, 25%);}
+  }
 
-    .MathJax_Display {
-      filter: invert(1);
-      color: $item_dark;
-    }
+  .folder {.tab, .main {
+    background-color: lighten($bg_dark, 20);
+    h1 {color: darken($item_dark, 70);}
+  }}
 
+  .info, #references {
     p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_dark;}
     a {color: $highlight_dark;}
-
-    .neb {filter: invert(0.5) brightness(2);}
-    .mf {filter: brightness(2);}
-    .ki_innovations {filter: brightness(1.5);}
-    .benchling {filter: brightness(2);}
-    .snapgene {filter: brightness(1.2);}
 
     table {
       background: none;
@@ -81,12 +75,9 @@ body.dark {
 
   .content p, #references li {a:not(.citation) {&:before, &:after {background-color: $highlight_dark;}}}
 
-  #references {cite, a {color: $item_dark;}}
-
-  .folder {.tab, .main {
-    background-color: lighten($bg_dark, 20);
-    h1 {color: darken($item_dark, 70);}
-  }}
+  #references {
+    cite, a {color: $item_dark;}
+  }
 }
 
 // HEADER
@@ -109,8 +100,8 @@ body {
 
 .sectors {
   position: relative;
-  height: 70vh; min-height: 50rem;
-  margin-bottom: 4rem;
+  height: 65vh; min-height: 50rem;
+  margin-bottom: 1rem;
   .name {
     position: absolute;
     top: 22%;
@@ -148,7 +139,7 @@ body {
     position: absolute;
     left: 50%; top: 32%;
     transform: translateX(-50%);
-    height: 60vh; max-height: 30rem;
+    height: 30rem;
   }
 
   .folder {
@@ -187,9 +178,9 @@ body {
   }
 }
 
-.info {
+// STYLES
 
-  .MathJax_Display {transition: filter 0.3s, color 0.3s;}
+.info, #references {
 
   article {padding: 0 calc(1rem + 1.2vw);}
 
@@ -290,6 +281,16 @@ body {
     }
   }
 
+  .carousel {
+    p {
+      position: relative;
+      top: 1rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      font-style: italic;
+    }
+  }
+
   blockquote {
     font-size: 1.15em;
     width: 75%;
@@ -359,6 +360,82 @@ body {
   }
 
   dfn {font-style: normal;}
+}
+
+// REFERENCES
+
+.content p, #references li {
+  a:not(.citation) {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 1px;
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      background-color: $highlight_light;
+      height: 2px;
+    }
+
+    &:before {
+      width: 0%;
+      left: 0;
+      bottom: 0;
+    }
+
+    &:after {
+      width: 100%;
+      left: 0;
+      bottom: 0;
+    }
+
+    &:hover {
+      text-decoration: none;
+
+      &::before {
+        width: 100%;
+      }
+
+      &::after {
+        left: 100%;
+        width: 0%;
+      }
+    }
+  }
+}
+
+#references {
+  position: relative;
+  ol {padding-inline-start: 30px;}
+
+  li {
+    padding: 0 0 20px 10px;
+    scroll-margin-top: 100px;
+
+    &:target {animation: target-fade 3s 1;}
+  }
+
+  p {
+    text-align: left;
+    margin-bottom: 0.2rem;
+
+    .journalTitle {font-style: italic;}
+  }
+
+  cite {
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    word-spacing: 0.1rem;
+  }
+  a {
+    margin-right: 15px;
+    &:before, &:after {height: 2px !important;}
+  }
 }
 
 // MEDIA QUERIES
