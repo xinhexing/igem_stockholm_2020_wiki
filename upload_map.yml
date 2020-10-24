@@ -355,6 +355,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/0/03/T--Stockholm--img--Contents--topimg_contribution.png
     md5: 28a54634d5726cb678dadfeccd4155c6
     upload_filename: T--Stockholm--img--Contents--topimg_contribution.png
+  assets\img\Contents--topimg_description.png:
+    link_URL: https://2020.igem.org/wiki/images/7/77/T--Stockholm--img--Contents--topimg_description.png
+    md5: 0b18eec1f2bcac35cd28e53d963412a9
+    upload_filename: T--Stockholm--img--Contents--topimg_description.png
   assets\img\Contents--topimg_design.png:
     link_URL: https://2020.igem.org/wiki/images/7/7e/T--Stockholm--img--Contents--topimg_design.png
     md5: 5b929ae0d8a7bd7cfdf8466b521b35ce
@@ -912,7 +916,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: d46822275b8b1db550420346470985da
+    md5: 9be4557edb5c707391385924982ed346
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -925,7 +929,7 @@ html:
     md5: fddef4cf24572b16317420bc58afd2a5
   Description\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Description
-    md5: bd68bd3d75b24c358dfba1a5d5496d85
+    md5: e1d275b347f4f65fe139370a4acf1ffb
   Design\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Design
     md5: 71cdf12e8ec433ee8b846fbfd2c8d72b
