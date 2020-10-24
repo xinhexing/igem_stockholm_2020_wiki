@@ -89,12 +89,12 @@ mixin citation_book(citation, count)
         a.in-text(href="#intext" + counter) Back to text    
 
 mixin carousel(n, caption, first, ...slides)
-    #carouselExampleIndicators.carousel.slide.carousel-fade(data-ride='carousel', data-interval="false")
+    div(id="carousel"+n class="carousel slide carousel-fade" data-ride="carousel" data-interval="false")
       ol.carousel-indicators
-        li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+        li.active(data-target='#carousel'+n, data-slide-to='0')
         - var dataslide = 1;
         each slide in slides
-          li(data-target='#carouselExampleIndicators', data-slide-to=dataslide)
+          li(data-target='#carousel'+n, data-slide-to=dataslide)
           - dataslide += 1;
       .carousel-inner
         .carousel-item.active
@@ -102,10 +102,10 @@ mixin carousel(n, caption, first, ...slides)
         each slide in slides
           .carousel-item
             img.d-block.w-100(src=require('../assets/img/'+slide)['default'])
-      a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+      a.carousel-control-prev(href='#carousel'+n, role='button', data-slide='prev')
         span.carousel-control-prev-icon(aria-hidden='true')
         span.sr-only Previous
-      a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+      a.carousel-control-next(href='#carousel'+n, role='button', data-slide='next')
         span.carousel-control-next-icon(aria-hidden='true')
         span.sr-only Next
       p= "Figure " + n + ": " + caption
