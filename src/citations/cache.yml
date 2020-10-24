@@ -24,6 +24,13 @@ https://doi.org/10.1016/j.ijid.2019.08.003:
   title: Investigating the impact of influenza on excess mortality in all ages in
     Italy during recent seasons (2013/14-2016/17 seasons).
   type: article
+https://doi.org/10.1016/j.mbs.2012.01.001:
+  authors: 'O-Brien, E. L., Van Itallie, E., & Bennett, M. R. (2012). '
+  doi: https://doi.org/10.1016/j.mbs.2012.01.001
+  journal: Mathematical Biosciences
+  numbers: '236(1), 1-15. '
+  title: Modeling synthetic gene oscillators.
+  type: article
 https://doi.org/10.1021/ci500209e:
   authors: 'Santos-Martins, D., Forli, S., Ramos, M. J., & Olson, A. J. (2014). '
   doi: https://doi.org/10.1021/ci500209e
@@ -31,6 +38,28 @@ https://doi.org/10.1021/ci500209e:
   numbers: '54(8), 2371-2379. '
   title: 'AutoDock4Zn: An Improved AutoDock Force Field for Small-Molecule Docking
     to Zinc Metalloproteins.'
+  type: article
+https://doi.org/10.1038/35002125:
+  authors: 'Elowitz, M. B., & Leibler, S. (2000). '
+  doi: https://doi.org/10.1038/35002125
+  journal: Nature
+  numbers: '403(6767), 335-338. '
+  title: A synthetic oscillatory network of transcriptional regulators.
+  type: article
+https://doi.org/10.1038/nature07389:
+  authors: 'Stricker, J., Cookson, S., Bennett, M. R., Mather, W. H., Tsimring, L.
+    S., & Hasty, J. (2008). '
+  doi: https://doi.org/10.1038/nature07389
+  journal: Nature
+  numbers: '456(7221), 516-519. '
+  title: A fast, robust and tunable synthetic gene oscillator.
+  type: article
+https://doi.org/10.1038/nature08753:
+  authors: 'Danino, T., Mondrag  n-Palomino, O., Tsimring, L., & Hasty, J. (2010). '
+  doi: https://doi.org/10.1038/nature08753
+  journal: Nature
+  numbers: '463(7279), 326-330. '
+  title: A synchronized quorum of genetic clocks.
   type: article
 https://doi.org/10.1371/journal.pcbi.1000822:
   authors: 'Pinchuk, G. E., Hill, E. A., Geydebrekht, O. V., De Ingeniis, J., Zhang,
