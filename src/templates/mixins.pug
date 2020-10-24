@@ -90,24 +90,24 @@ mixin citation_book(citation, count)
 
 mixin carousel(n, autoplay, caption, first, ...slides)
     div(id="carousel"+n class="carousel slide carousel-fade" data-ride="carousel" data-interval=autoplay)
-      ol.carousel-indicators
-        li.active(data-target='#carousel'+n, data-slide-to='0')
-        - var dataslide = 1;
-        each slide in slides
-          li(data-target='#carousel'+n, data-slide-to=dataslide)
-          - dataslide += 1;
       .carousel-inner
         .carousel-item.active
           img.d-block.w-100(src=require('../assets/img/'+first)['default'])
         each slide in slides
           .carousel-item
             img.d-block.w-100(src=require('../assets/img/'+slide)['default'])
-      a.carousel-control-prev(href='#carousel'+n, role='button', data-slide='prev')
-        span.carousel-control-prev-icon(aria-hidden='true')
-        span.sr-only Previous
-      a.carousel-control-next(href='#carousel'+n, role='button', data-slide='next')
-        span.carousel-control-next-icon(aria-hidden='true')
-        span.sr-only Next
+        a.carousel-control-prev(href='#carousel'+n, role='button', data-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+          span.sr-only Previous
+        a.carousel-control-next(href='#carousel'+n, role='button', data-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
+          span.sr-only Next
+        ol.carousel-indicators
+          li.active(data-target='#carousel'+n, data-slide-to='0')
+          - var dataslide = 1;
+          each slide in slides
+            li(data-target='#carousel'+n, data-slide-to=dataslide)
+            - dataslide += 1;
       p= "Figure " + n + ": " + caption
 
 // # TODO: #6 Fix table caption font
