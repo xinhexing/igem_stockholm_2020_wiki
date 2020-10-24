@@ -10,7 +10,7 @@ block article
 
     :markdown-it(html)
 
-      # Overview
+      # Engineering Cycle
 
       iGEM Stockholm 2020 presents its engineering cycle (Figure 1).
 
@@ -21,11 +21,11 @@ block article
 
       In order to build a scientifically rigorous project, iGEM Stockholm proceeded by following the engineering cycle and improving little by little each and every experiment performed during the summer. We started by finding a problem we wanted to solve and gathering information about it until a clear goal could be defined. Then we divided our project into subtasks and modules. We designed experiments that would help us build and prove the viability and success of our Microbial Fuel Cell (MFC) biosensor. We modelled our main goal, the oscillatory circuit that would help detect and identify different pollutants, in-silico. We built a MFC and assembled and tested our constructs in parallel. We characterized the MFC and the constructs, analysed the results and drew conclusions for each. For each problem encountered, we followed the cycle again to optimize our experiments and get better results.
 
-      # 1. Problem identification
+      # Problem identification
 
       In the first few months of iGEM, we gathered to find a project that was interesting and meaningful to the full team. In April-June, it became clear that we wanted a project related to the pollution of the Baltic sea, as this was a problem which we had all heard of and that directly affects the area where we live.
 
-      # 2. Gathering information
+      # Gathering information
 
       We dived into the problem of sea pollution by reading literature and contacting researchers that worked both in the field of microbiology and pollution. We looked for reports on pollution in the Baltic sea to see what pollutants were the most problematic and what their origin was. In particular, the Helsinki Commission published in the spring a  series of reports [Undeman, 2020](#citation1), [McLachlan & Undeman,2020](#citation2), [Undeman & Johansson,2020](#citation3), [Johansson & Undeman, 2020](#citation4) highlighting the levels and effects of dioxins, polychlorinated biphenyls (PCBs), flame retardants such as polybrominated diphenyl ethers and polybrominated biphenyls, diclofenac, perfluorooctanesulfonic acid (PFOS) and polyfluoroalkyl substances (PFASs). We chose to focus on two types of pollutants PCBs and PFOA, for which we found promoter parts engineered and/or studied by previous iGEM teams (BBa_K2911000 and BBa_K1155001).
 
@@ -33,11 +33,11 @@ block article
 
       *Shewanella oneidensis MR-1* is commonly used in microbial fuel cells for electricity production thanks to its mtrb gene. However, most iGEM teams create parts that work in *E. coli* and we wanted to contribute to the creation of new parts that could be used by as many teams as possible in the future. Besides, most microbiology techniques and protocols are easily adapted and troubleshooted in *E. coli*. Thus, we developed the idea of having a modular system: a system where most of the synthetic biology work of pollutant detection would be performed on *E. coli*, and where the electrical output would be given by *Shewanella oneidensis MR-1*. To connect these two modules, we chose to take advantage of quorum sensing molecules, molecules that can transmit signals between different cells.
 
-      # 3. Defining a goal
+      # Defining a goal
 
       The final goal of our project was to engineer *E. coli* and *S. oneidensis* strains so that their growth in MFC, in the presence of pollutants could give an oscillating electrical output that would be unique for each pollutant.
 
-      # 4. Plan and define subtasks
+      # Plan and define subtasks
 
       Since our project is by essence modular, it was easy to divide the tasks: we had to work in parallel on
       - engineering E. coli so that it detects pollutants and emits quorum sensing (QS) molecules as a result;
@@ -50,8 +50,8 @@ block article
 
     :markdown-it(html)
 
-      # 5. Design
-      ## A. Circuit
+      # Design
+      ## Circuit
 
       We used the SnapGene software to [design](https://2020.igem.org/Team:Stockholm/Design) the following [parts](https://2020.igem.org/Team:Stockholm/Parts) and circuits using the Biobrick format.
 
@@ -94,7 +94,7 @@ block article
 
     :markdown-it(html)
 
-      ## B. MFC
+      ## MFC
 
       The MFC set-up was designed thanks to literature and discussions with Amirreza Khataee from the Applied Electrochemistry department at KTH. We decided to go for a liquid-air hybrid set-up, with one reservoir filled with media and another filled with air. Circulation between the MFC and the reservoirs is created by a pump at 0.1rpm. The chosen electrodes were each made of 2 squares of graphite papers stacked together. The cation exchange membrane used was a NafionTM. The disassembled microbial fuel cell is shown in Figure X. The circuit was assembled as shown in Figure 4.
 
@@ -103,12 +103,12 @@ block article
 
     :markdown-it(html)
 
-      # 6. Model
+      # Model
 
       The circuits were designed with the aim of creating a unique oscillatory electrical output when a certain pollutant is detected by *E. coli*. To prove that the constructs could give an oscillatory circuit, mathematical simulations were performed. An initial design inspired from literature was tested in silico and found to be unable to give unsynchronised oscillations for different pollutants. Therefore, the circuit had to be changed and improved for our purpose. The obtained [models](https://2020.igem.org/Team:Stockholm/Model) confirmed that the design was theoretically capable of giving oscillations when pollutants are present.
 
-      # 7. Build and experiment
-      ## A. Parts
+      # Build and experiment
+      ## Parts
       
       For each G-block, we performed (with regards to each particular construct’s requirements) the following series of [experiments](https://2020.igem.org/Team:Stockholm/Experiments) and characterisations (Figure 5). We first resuspended the G-blocks, PCR amplified them, and then proceeded to insert them in the pSB1C3 plasmid via restriction digestion with EcoRI and PstI enzymes. We ran gels to check the sizes of restriction digested parts, then ligated overnight with pSB1C3. All of this was possible because the G-blocks were designed with predetermined, specific restriction sites. We then transformed *E. coli* TOP 10 cells with the plasmids. We picked colonies on plates, ran PCR amplification and gels to check if the sizes were as expected and sent the potentially correct ones for sequencing at Microsynth AG. The selected colonies were used to make glycerol stocks and plasmid preparations. OD600 measurements were made for all, and then characterization experiments were performed. For parts containing GFP or mCherry genes, fluorescence measurements were made with a plate reader. For those with a Myc-tag, Western blots were made. We used *Chromobacterium violaceum* as a marker of AHL production (colonies turning violet when AHLs are detected). Finally, expression was compared between situations with and without pollutants (after viability tests in the presence of pollutants).
 
@@ -117,7 +117,7 @@ block article
 
     :markdown-it(html)
 
-      ## B. MFC
+      ## MFC
 
       We determined from literature on *Shewanella oneidensis*’ metabolism that *S. oneidensis* could grow, using lactate as a carbon source to optimise electricity production [Pinchuk, 2010](#citation5). As a result, we chose lactate as an additive to our minimal M9 medium. We decided to check that *Shewanella oneidensis* MR1 could be used in our MFC set-up to give an electrical output thanks to its mtrb gene. In order to do so, we had to prove that a biofilm could grow on the anode and that this biofilm did not grow when the mtrb gene was knocked out. Thus, we acquired two strains of *S. oneidensis* MR1; a wild type from Ute Römling’s lab at Karolinska Institutet, Stockholm, Sweden, and a mtrb knockout strain from Johannes Gescher, Karlsruhe Institute of Technology, Germany. We decided to monitor *S. oneidensis* biofilm growth by measuring the open cell voltage of the circuit with an imposed resistance of 1kΩ. Thanks to Ohm’s law U=RI, the current could then be determined.
 
@@ -129,7 +129,7 @@ block article
 
     :markdown-it(html)
 
-      # 8. Analyse the results
+      # Analyse the results
       
       Most of our constructs were successfully designed and transformed into *E. coli* TOP 10 cells. The sequencing results confirmed what our gels predicted for fifteen of our colonies. The specific results for each experiment (viability, transformation, Western blots, fluorescence) are presented in Results. We decided to focus on the MFC engineering [Results](https://2020.igem.org/Team:Stockholm/Results) here.
       
@@ -145,11 +145,11 @@ block article
 
     :markdown-it(html)
 
-      # 9. Discuss and conclude
+      # Discuss and conclude
       ___An example of engineering success: our MFC success story___
       We managed to create and assemble a fully functional microbial fuel cell in which we have proved that a *Shewanella oneidensis* strain can form a biofilm on the anode when it is equipped with the mtrb gene. We have optimised electricity production by cultivating this biofilm with a minimal media to which we regularly added lactate to favour the electrical pathway. Finally, we have proved that this biofilm cannot grow without the gene. Thus, our biosensor cannot give a signal without pollutants, but will be able to give an electrical output when pollutants are detected and a construct expressing in an oscillatory manner the mtrb gene can be induced when pollutants are present thanks to the design of appropriate synthetic circuits.
 
-      # 10. Identify a problem to solve at i+1 = troubleshooting
+      # Identify a problem to solve at i+1 = troubleshooting
       
       During the summer, we had to optimise all types of experiments, from restriction digestions to Western blots. The key to troubleshooting is to find the origin of the problem. Most often, using positive and negative controls can both help you prove that your results are scientifically correct and help you find where problems occurred in an experiment. However, you might still encounter problems even with proper controls. We faced many problems with Western Blots, so we decided to share with you our very own troubleshooting checklist for Western Blots.
       
