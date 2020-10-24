@@ -423,6 +423,26 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/2/20/T--Stockholm--img--Description--josh-withers.png
     md5: 2cde6d8d60fa34f83844aa1b7976860f
     upload_filename: T--Stockholm--img--Description--josh-withers.png
+  assets\img\Education--Amphiox games.png:
+    link_URL: https://2020.igem.org/wiki/images/d/d1/T--Stockholm--img--Education--Amphiox_games.png
+    md5: bd89be39b112a6ed64e98dcd827d43cb
+    upload_filename: T--Stockholm--img--Education--Amphiox games.png
+  assets\img\Education--Finn and Chewi.png:
+    link_URL: https://2020.igem.org/wiki/images/f/fc/T--Stockholm--img--Education--Finn_and_Chewi.png
+    md5: d75921de3c8180005419ccceb1cc53dc
+    upload_filename: T--Stockholm--img--Education--Finn and Chewi.png
+  assets\img\Education--Lab on Screens - Episode 2.png:
+    link_URL: https://2020.igem.org/wiki/images/2/2a/T--Stockholm--img--Education--Lab_on_Screens_-_Episode_2.png
+    md5: 1393b3e2d734492c5ed8c016ae3d6f3a
+    upload_filename: T--Stockholm--img--Education--Lab on Screens - Episode 2.png
+  assets\img\Education--Lab on screen.png:
+    link_URL: https://2020.igem.org/wiki/images/a/aa/T--Stockholm--img--Education--Lab_on_screen.png
+    md5: 9e7ae4d76c00118780cbf6b0817d17b5
+    upload_filename: T--Stockholm--img--Education--Lab on screen.png
+  assets\img\Education--toxinoff games.png:
+    link_URL: https://2020.igem.org/wiki/images/0/0d/T--Stockholm--img--Education--toxinoff_games.png
+    md5: 4b6be234fb5b6901e87a28d9fafcf594
+    upload_filename: T--Stockholm--img--Education--toxinoff games.png
   assets\img\Engineering--PCB circuit.png:
     link_URL: https://2020.igem.org/wiki/images/3/3e/T--Stockholm--img--Engineering--PCB_circuit.png
     md5: 997d00d12f626df43943a6afc0e830d8
@@ -1028,7 +1048,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 84171678d7dcf0a24ee53eeb0f153de3
+    md5: 2dffb17711613f953aef0ef5f41d1ad4
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1047,7 +1067,7 @@ html:
     md5: e733aac24143971643e87a37870a5189
   Education\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Education
-    md5: dd5e8b2bb175632663bc6785951320f9
+    md5: c8d80da4e0f676761b989babe0e7bd2a
   Engineering\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Engineering
     md5: baf1fa47c482a04652b3d34c9b8795b1
