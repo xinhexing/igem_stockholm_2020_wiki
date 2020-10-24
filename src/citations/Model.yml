@@ -23,3 +23,18 @@
     accessed: "June 22, 2020"
     site_name: "TNAU Agritech Portal"
     url: 'https://google.com'
+# 6
+- doi: https://doi.org/10.1038/nature08753
+# 7
+- doi: https://doi.org/10.1016/j.mbs.2012.01.001
+# 8
+- doi: https://doi.org/10.1038/nature07389
+# 10
+- doi: https://doi.org/10.1038/35002125
+# 11
+- webpage:
+    title: "NYMU Taipei 2015"
+    authors: "Michael, Sigmund, Amy, Jessica, Carryll, Albert, Emily, Eric, Kevin, Jane, Kathleen, Golden, Raymond, Shoi-Yi, Alvin, Huiru, Fiona"
+    accessed: "May 4, 2020"
+    site_name: "Fight the Blight: Defending the potatoes"
+    url: 'http://2015.igem.org/Team:NYMU-Taipei'
