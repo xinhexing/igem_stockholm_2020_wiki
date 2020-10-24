@@ -756,6 +756,42 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/b/b4/T--Stockholm--img--Model--Osc2_NotInduced.png
     md5: d6129498581ea492e1abb3316278ffa2
     upload_filename: T--Stockholm--img--Model--Osc2_NotInduced.png
+  assets\img\Model--Osc_Ani1.png:
+    link_URL: https://2020.igem.org/wiki/images/4/40/T--Stockholm--img--Model--Osc_Ani1.png
+    md5: 3d013144d7b88ff42bff8964656e7827
+    upload_filename: T--Stockholm--img--Model--Osc_Ani1.png
+  assets\img\Model--Osc_Ani2.png:
+    link_URL: https://2020.igem.org/wiki/images/2/29/T--Stockholm--img--Model--Osc_Ani2.png
+    md5: 16983eb7903873529d2a3175ca21859a
+    upload_filename: T--Stockholm--img--Model--Osc_Ani2.png
+  assets\img\Model--Osc_Ani3.png:
+    link_URL: https://2020.igem.org/wiki/images/b/b9/T--Stockholm--img--Model--Osc_Ani3.png
+    md5: d44e52fec03c8c7409f183a79966e911
+    upload_filename: T--Stockholm--img--Model--Osc_Ani3.png
+  assets\img\Model--Osc_Ani4.png:
+    link_URL: https://2020.igem.org/wiki/images/2/22/T--Stockholm--img--Model--Osc_Ani4.png
+    md5: 1c1feed0a9ec80b1187881dc90fc590d
+    upload_filename: T--Stockholm--img--Model--Osc_Ani4.png
+  assets\img\Model--Osc_Ani5.png:
+    link_URL: https://2020.igem.org/wiki/images/b/b9/T--Stockholm--img--Model--Osc_Ani5.png
+    md5: 937ceff36be41c4e3de3c5064cdd06d1
+    upload_filename: T--Stockholm--img--Model--Osc_Ani5.png
+  assets\img\Model--Osc_Ani6.png:
+    link_URL: https://2020.igem.org/wiki/images/b/bd/T--Stockholm--img--Model--Osc_Ani6.png
+    md5: 9919bc761b5fb7a81cec0c5dae9707ef
+    upload_filename: T--Stockholm--img--Model--Osc_Ani6.png
+  assets\img\Model--Osc_Ani7.png:
+    link_URL: https://2020.igem.org/wiki/images/8/88/T--Stockholm--img--Model--Osc_Ani7.png
+    md5: 157f9ef9c22cb05cf6b34e8f741a75c5
+    upload_filename: T--Stockholm--img--Model--Osc_Ani7.png
+  assets\img\Model--Osc_Ani8.png:
+    link_URL: https://2020.igem.org/wiki/images/3/34/T--Stockholm--img--Model--Osc_Ani8.png
+    md5: ecb9c9ce6b3350b734ab913f764b04dd
+    upload_filename: T--Stockholm--img--Model--Osc_Ani8.png
+  assets\img\Model--Osc_Ani9.png:
+    link_URL: https://2020.igem.org/wiki/images/7/72/T--Stockholm--img--Model--Osc_Ani9.png
+    md5: 26ce1c7f058c77eff745a9ad7fdd2d71
+    upload_filename: T--Stockholm--img--Model--Osc_Ani9.png
   assets\img\Model--Osc_New_Induced.png:
     link_URL: https://2020.igem.org/wiki/images/7/73/T--Stockholm--img--Model--Osc_New_Induced.png
     md5: 8bb2d6d443f2026fea3db742232d10ac
@@ -1048,7 +1084,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 2dffb17711613f953aef0ef5f41d1ad4
+    md5: 92dad882a6ef72840b0ee488618c3831
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1097,7 +1133,7 @@ html:
     md5: 5431f2e3aaba96cd5379ae227ab266ca
   Model\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Model
-    md5: 750f1ee181ee21f5131070020554f206
+    md5: 622e5226ca19dc55a13555525ef71b9f
   Notebook\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Notebook
     md5: 0311c29a320b11eef36f6478b767117b

@@ -18,6 +18,8 @@ block article
     - var imgpath = "" + require("../assets/img/Model--Overview_Osc.png")["default"]
     +image(1, imgpath, "Diagram of the oscillatory system", 100)
 
+    +carousel(2, "3000", 'Descriptive diagram of the oscillatory system. Click on the arrows to move between pictures.', 'Model--Osc_Ani1.png', 'Model--Osc_Ani2.png', 'Model--Osc_Ani3.png', 'Model--Osc_Ani4.png', 'Model--Osc_Ani5.png', 'Model--Osc_Ani6.png', 'Model--Osc_Ani7.png', 'Model--Osc_Ani8.png', 'Model--Osc_Ani9.png')
+
     :markdown-it(html)
         The presence of C4-HSL together with RhlR activates pRhl, which produces more RhlI synthase, which in turn creates more C4-HSL. The positive feedback loop amplifies the C4-HSL signal until enough AiiA has been synthesised. As the lactonase starts degrading the C4-HSL, the signal decreases. The negative feedback loop decreases the C4-HSL signal until no new protein is produced and the remaining active protein is broken down.
         
@@ -62,7 +64,7 @@ block article
         ## Priming of the oscillations
         Running the simulation with generic values for the kinetic parameters is useful to determine the general behaviour of the system. The first task was to see how just the oscillatory circuit presented in the previous paragraphs behaves. The simulation was run with both some initial amount of AHL, denoted "primed", and with no initial AHL, denoted "non-primed". The "primed" scenario is supposed to represent a system where AHL from surrounding cells enters the population in question, or when the oscillation is kickstarted by addition of AHL into the culture. The "non-primed" scenario is when the culture is left to itself, without any external stimulus from the researchers or other cells.
 
-    +carousel(2, 'Basic oscillatory circuit. Concentrations of RhlI (I), AiiA (A), MtrB (X) and C4-HSL (H) plotted over time','Model--Osc_Primed.png','Model--Osc_NotPrimed.png')
+    +carousel(3, "false", 'Basic oscillatory circuit. Concentrations of RhlI (I), AiiA (A), MtrB (X) and C4-HSL (H) plotted over time','Model--Osc_Primed.png','Model--Osc_NotPrimed.png')
     
     :markdown-it(html)
         The simulation shows that oscillations are indeed possible with this circuit. The oscillations start immediately when "primed", but take longer to form when not "primed". The leaky transcription is eventually enough to start the positive feedback loop, which starts the oscillations of the system. Since the culture is going to remain for some time, it can therefore be concluded that oscillations will start eventually, regardless of whether the initial AHL is present or not. Future simulations will however be "primed" with initial AHL. This conclusion does however eliminate any future system where the oscillations would be activated by an initial burst of the same AHL (in this case, the cognate AHL is C4-HSL) as the oscillations start regardless.
@@ -71,7 +73,7 @@ block article
         The second step is to create a system that can be induced. The initial design was to integrate a key part of the oscillatory circuit (RhlR) under an inducible promoter, and have the reporter gene under the pRhl promoter. The reporter gene in the final circuit would be MtrB, which in the knockout strain of Shewanella Oneidensis would complete the Mtr complex and allow it to produce electricity. While independently developed, this initial design is similar to the one used by the 2015 NYMU iGEM team. [NYMU-Taipei 2015](#citation5)
 
     - var imgpath = "" + require("../assets/img/Model--Overview_Ori.png")["default"]
-    +image(3, imgpath, "Diagram of the initial design of the oscillatory system", 100)
+    +image(4, imgpath, "Diagram of the initial design of the oscillatory system", 100)
   
     :markdown-it(html)
         The inducible promoter would be the pLux promoter, which together with LuxR can receive  3OC6-HSL from E. coli. When there is no 3OC6-HSL present in the sample, there should be no induction of pLux, which in turn would result in no transcription of RhlR. The oscillatory circuit is then incomplete and should not produce any signal. The RhlR concentration here is not static, but requires its own equation. The reporter gene "X" remains under the control of pRhl, but the induction of the pRhl promoter gains another term: the concentration of RhlR. The 3OC6-HSL concentration receives the notation "H2" The set of DDEs then becomes the following.
@@ -84,7 +86,7 @@ block article
 
         The simulation was run with different induction points, that is different timepoints at which the 3OC6-HSL (H2) was added to the system.
         
-    +carousel(4, 'Initial inducible oscillatory circuit at different induction points of 3OC6-HSL. Concentrations of RhlI (I), AiiA (A), MtrB (X), C4-HSL (H), 3OC6-HSL (H2) and LuxR (R) plotted over time', 'Model--Osc1_Induced.png','Model--Osc1_Induced50.png','Model--Osc1_Induced100.png','Model--Osc1_NotInduced.png')
+    +carousel(5, "false", 'Initial inducible oscillatory circuit at different induction points of 3OC6-HSL. Concentrations of RhlI (I), AiiA (A), MtrB (X), C4-HSL (H), 3OC6-HSL (H2) and LuxR (R) plotted over time', 'Model--Osc1_Induced.png','Model--Osc1_Induced50.png','Model--Osc1_Induced100.png','Model--Osc1_NotInduced.png')
     
     :markdown-it(html)
         When 3OC6-HSL is added to the system, the levels of RhlR rises to operational levels and the oscillations start. This is as desired from the design of the circuit.    However, when the induction time point is moved, the oscillations start with the same offset. The phase of oscillation is dependent on when the induction happens. 
@@ -95,7 +97,7 @@ block article
         The mistake of the initial design was to put the reporter gene "X", or in our case: MtrB, under the same promoter as the oscillation. A solution to this synchronization problem is to have one part of a two-component induction oscillate, while the other depends on the signal received from E. coli. The LuxR, 3OC6-HSL pair to induce the pLux promoter can work as an AND-gate, where it will only initiate transcription downstream of pLux when both 3OC6-HSL and LuxR are present. 
     
     - var imgpath = "" + require("../assets/img/Model--Overview_New.png")["default"]
-    +image(5, imgpath, "Diagram of the improved design of the oscillatory system", 100)
+    +image(6, imgpath, "Diagram of the improved design of the oscillatory system", 100)
 
     :markdown-it(html)
         This does not require any new genes in the system, but simply a rearrangement, where LuxR is placed under oscillation, and MtrB under the pLux promoter. The system of equations in this improved system is the following.
@@ -108,7 +110,7 @@ block article
 
         The simulation was run with different induction points. The parameters remained the same as in the simulation with the initial design.
 
-    +carousel(6, 'Improved inducible oscillatory circuit at different induction points of 3OC6-HSL. Concentrations of RhlI (I), AiiA (A), MtrB (X), C4-HSL (H), 3OC6-HSL (H2) and LuxR (R) plotted over time', 'Model--Osc2_Induced.png','Model--Osc2_Induced55.png','Model--Osc2_Induced100.png','Model--Osc2_NotInduced.png')
+    +carousel(7, "false", 'Improved inducible oscillatory circuit at different induction points of 3OC6-HSL. Concentrations of RhlI (I), AiiA (A), MtrB (X), C4-HSL (H), 3OC6-HSL (H2) and LuxR (R) plotted over time', 'Model--Osc2_Induced.png','Model--Osc2_Induced55.png','Model--Osc2_Induced100.png','Model--Osc2_NotInduced.png')
 
     :markdown-it(html)
         The oscillations of the system are active from the beginning, but no significant level of MtrB ("X") is produced. This allows the cells to synchronize as the levels of C4-HSL ("H") is oscillating from the very start, regardless of 3OC6-HSL ("H2") signals. When 3OC6-HSL is added to the system, the levels of MtrB oscillates with the rest of the system at much higher levels.
@@ -149,7 +151,7 @@ block article
         The best binding position gave a free energy of binding of -5,06kcal/mol and inhibition constant of 195.69 uM at 298.15 K.
 
     - var imgpath = "" + require("../assets/img/Model--inthl4.png")["default"]
-    +image(7, imgpath, "HL4-ideal in the binding pocket of AiiA", 60)
+    +image(8, imgpath, "HL4-ideal in the binding pocket of AiiA", 60)
 
     :markdown-it(html)
         ## HL6-ideal
@@ -160,7 +162,7 @@ block article
         The best binding position gave a free energy of binding of -5,16kcal/mol and inhibition constant of 164,60 uM at 298.15 K.
 
     - var imgpath = "" + require("../assets/img/Model--inthl6.png")["default"]
-    +image(8, imgpath, "HL6-ideal in the binding pocket of AiiA", 60)
+    +image(9, imgpath, "HL6-ideal in the binding pocket of AiiA", 60)
     
     :markdown-it(html)
 
@@ -172,7 +174,7 @@ block article
         The best binding position gave a free energy of binding of -5.25 kcal/mol and inhibition constant of 140.75 uM at 298.15 K.
 
     - var imgpath = "" + require("../assets/img/Model--inthl8.png")["default"]
-    +image(9, imgpath, "HTF-ideal in the binding pocket of AiiA", 60)
+    +image(10, imgpath, "HTF-ideal in the binding pocket of AiiA", 60)
 
     :markdown-it(html)
     
