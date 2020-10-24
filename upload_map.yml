@@ -265,12 +265,16 @@ assets:
     upload_filename: T--Stockholm--img--Collaborations--ijet.png
   assets\img\Collaborations--journal.png:
     link_URL: https://2020.igem.org/wiki/images/4/46/T--Stockholm--img--Collaborations--journal.png
-    md5: 06aad8ea989bbf3388933abbb79ab8f4
+    md5: 7805506dd60f06b7077c7bb81baf3350
     upload_filename: T--Stockholm--img--Collaborations--journal.png
   assets\img\Collaborations--los.png:
     link_URL: https://2020.igem.org/wiki/images/a/a0/T--Stockholm--img--Collaborations--los.png
     md5: b78fd0d19d0454a9b41109e4a62a3bc3
     upload_filename: T--Stockholm--img--Collaborations--los.png
+  assets\img\Collaborations--marburg.png:
+    link_URL: https://2020.igem.org/wiki/images/8/85/T--Stockholm--img--Collaborations--marburg.png
+    md5: 59d97d0cb1bf96b60365de087b851670
+    upload_filename: T--Stockholm--img--Collaborations--marburg.png
   assets\img\Collaborations--nic.png:
     link_URL: https://2020.igem.org/wiki/images/c/cf/T--Stockholm--img--Collaborations--nic.png
     md5: 86004b94ace030fdc21009755822b5cb
@@ -325,7 +329,7 @@ assets:
     upload_filename: T--Stockholm--img--Collaborations--wiki.png
   assets\img\Collaborations--wikipack.png:
     link_URL: https://2020.igem.org/wiki/images/a/a4/T--Stockholm--img--Collaborations--wikipack.png
-    md5: 0ed4d10cde154230cee068b9a631a6aa
+    md5: 2ebfdec430b9adeef19f973c127c067c
     upload_filename: T--Stockholm--img--Collaborations--wikipack.png
   assets\img\Contents--topimg1.png:
     link_URL: https://2020.igem.org/wiki/images/d/d6/T--Stockholm--img--Contents--topimg1.png
@@ -976,14 +980,14 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: d78dba4cb51cea7ffa8e63d2ef2737e3
+    md5: 015c262ef6fcfb62555efcc01309532a
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
     md5: 7e13dcacd950b63e1bc967f0f505b016
   Collaborations\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Collaborations
-    md5: b3f7c34dc6be2eb072696ece74cbe3bf
+    md5: f96d1472dccab2c3417b30899008cb15
   Contribution\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Contribution
     md5: 60bfb988f9efddf36365ea85f684669a
