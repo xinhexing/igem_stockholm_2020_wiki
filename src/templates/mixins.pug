@@ -88,7 +88,7 @@ mixin citation_book(citation, count)
             a.in-text(href=citation.Google_Books_URL target="_blank" rel="noopener") Google Books
         a.in-text(href="#intext" + counter) Back to text    
 
-mixin carnival(n, caption, first, ...slides)
+mixin carousel(n, caption, first, ...slides)
     #carouselExampleIndicators.carousel.slide.carousel-fade(data-ride='carousel', data-interval="false")
       ol.carousel-indicators
         li.active(data-target='#carouselExampleIndicators', data-slide-to='0')

@@ -59,7 +59,7 @@ for root, directories, files in os.walk('src/pages'):
             for i in range(len(contents)):
                 line = contents[i]
 
-                if "+image" in line:
+                if "+image" in line or "+carousel" in line:
                     arguments = re.search(r'\((.*?)\)', line)
                     if arguments is None:
                         print(filename, "failed test.")
