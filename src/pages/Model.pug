@@ -16,12 +16,12 @@ block article
         The oscillatory circuit consists of a receptor (RhlR) which can receive its cognate ligand (C4-HSL) to activate an inducible promoter (pRhl). An AHL synthase (RhlI) producing the cognate ligand is under the control of the inducible promoter, creating a positive feedback loop. Under the same promoter, a lactonase (AiiA) is also controlled, which degrades the cognate ligand, creating a negative feedback loop.
         
     - var imgpath = "" + require("../assets/img/Model--Overview_Osc.png")["default"]
-    +image(1, imgpath, "Caption", 100)
+    +image(1, imgpath, "Diagram of the oscillatory system", 100)
         
     :markdown-it(html)
         The presence of C4-HSL together with RhlR activates pRhl, which produces more RhlI synthase, which in turn creates more C4-HSL. The positive feedback loop amplifies the C4-HSL signal until enough AiiA has been synthesised. As the lactonase starts degrading the C4-HSL, the signal decreases. The negative feedback loop decreases the C4-HSL signal until no new protein is produced and the remaining active protein is broken down.
-
-        Since there is a delay from a transcription factor to activate the transcription of a protein, for that protein to fold into its correct shape and then for it to acts its function, the system doesn't reach as stable equilibrium, but oscillates between a state where the positive and the negative feedback loop dominates. As AHL is a signal molecule and free to diffuse across membranes, the oscillation in not contained to one cell, but is synchronized to the entire population of cells, allowing for any gene controlled by the oscillator to be greatly amplified across the colony at the same time periods. [https://doi.org/10.1038/nature08753]
+        
+        Since there is a delay from a transcription factor to activate the transcription of a protein, for that protein to fold into its correct shape and then for it to acts its function, the system doesn't reach as stable equilibrium, but oscillates between a state where the positive and the negative feedback loop dominates. As AHL is a signal molecule and free to diffuse across membranes, the oscillation in not contained to one cell, but is synchronized to the entire population of cells, allowing for any gene controlled by the oscillator to be greatly amplified across the colony at the same time periods [Danino et al., 2010](#citation1).
 
         The complete oscillatory circuit can be modelled with the following system of differential equations where C4-HSL is denoted "H" and the gene of interest, such as a reporter gene, is denoted "X".
 
@@ -30,15 +30,15 @@ block article
         $$ \frac{\partial [X]}{\partial t} = \frac{V_{max,i}}{K_m + [H]^2 } + \frac{V_{max,a} \times [H]^2}{K_m + [H]^2 } - \frac{V_{max,g} \times [X]}{K_{g} + [RhlI] + [AiiA] + [X] } $$
         $$ \frac{\partial [H]}{\partial t} = \frac{V_{max,H} \times [RhlI]}{K_H + [RhlI] } - \frac{k_{cat,g} \times [AiiA] \times [H]}{K_G+[AiiA]} $$
 
-        Each partial differential equation for change in protein concentration over time consists of three parts. The transcription of the uninduced pRhl promoter or the "leaky" transcription is here first in the equations. The activity of the uninduced promoter, sometimes denoted "a", or α0 [https://doi.org/10.1016/j.mbs.2012.01.001], here denoted "Vmax, i" is in the numerator, without any dependence on the inducer (AHL). It is also assumed that the receptor (RhlR) is present in excessive amounts, so this too is not found in this set of equations.
+        Each partial differential equation for change in protein concentration over time consists of three parts. The transcription of the uninduced pRhl promoter or the "leaky" transcription is here first in the equations. The activity of the uninduced promoter, sometimes denoted "a", or a0 [O'Brien et al. 2010](#citation2), here denoted "Vmax, i" is in the numerator, without any dependence on the inducer (AHL). It is also assumed that the receptor (RhlR) is present in excessive amounts, so this too is not found in this set of equations.
         
         $$ \frac{V_{max,i}}{K_m \times [H]^2 } $$
         
-        The second part of the equation is the induced transcription of the promoter. This is a Hill function with a cooperativity of 2, by the binding mechanism of RhlR to the promoter [https://doi.org/10.1038/nature07389]. 
+        The second part of the equation is the induced transcription of the promoter. This is a Hill function with a cooperativity of 2, by the binding mechanism of RhlR to the promoter [Stricker et al., 2008](#citation3). 
 
         $$ \frac{V_{max,a} \times [H]^2}{K_m + [H]^2 } $$
 
-        The third and final part is the degradation of the enzyme by the proteasome complex in the cell. The proteins in the circuit are all designed with an LVA tag, which is an ssRA tag that tags the protein for destruction. This causes the proteins to linger in the cell for shorter amounts of time, which is crucial for creating a fast oscillator. Slower repressilator circuits would have to resort to using the concentration drop in division to decrease protein levels [https://doi.org/10.1038/35002125]. This is avoided by using a degradation tag. Since all of our proteins will be expressed on a high copy number plasmid, only our proteins are important in the denominator for the degradation complex. The protein "X" is here chosen for the example.
+        The third and final part is the degradation of the enzyme by the proteasome complex in the cell. The proteins in the circuit are all designed with an LVA tag, which is an ssRA tag that tags the protein for destruction. This causes the proteins to linger in the cell for shorter amounts of time, which is crucial for creating a fast oscillator. Slower repressilator circuits would have to resort to using the concentration drop in division to decrease protein levels [Elowitz & Leibler., 2000](#citation4). This is avoided by using a degradation tag. Since all of our proteins will be expressed on a high copy number plasmid, only our proteins are important in the denominator for the degradation complex. The protein "X" is here chosen for the example.
 
         $$ - \frac{V_{max,g} \times [X]}{K_{g} + [RhlI] + [AiiA] + [X] } $$
 
@@ -50,7 +50,7 @@ block article
 
         $$ - \frac{k_{cat,g} \times [AiiA] \times [H]}{K_G+[AiiA]} $$
 
-        With a system of ODEs, the delay caused by transcription, translation and folding can be modelled by introducing intermediate species for the mRNA, the unfolded protein and the different folding species, each with their own enzymatic activity. While this provides a simulation with high external validity, it requires the kinetic parameters for the transition of one species to another, and with the partially folded proteins: their enzymatic activity as well [https://doi.org/10.1038/nature07389]. A simpler approach is to summarize all the interactions that have to occur before a protein is active with a time delay from induction of the gene to the final protein. This can be done with a system of DDEs, with the following additional equation that introduces the time delay. While this may not be as powerful at predicting experimental outcomes, it is easier to construct and uses less unknown variables [https://doi.org/10.1016/j.mbs.2012.01.001]. This changes the system of equations from a set of ODEs, to DDEs. These are significantly harder to solve analytically, and we have therefore resorted to solving them numerically in MATLAB.
+        With a system of ODEs, the delay caused by transcription, translation and folding can be modelled by introducing intermediate species for the mRNA, the unfolded protein and the different folding species, each with their own enzymatic activity. While this provides a simulation with high external validity, it requires the kinetic parameters for the transition of one species to another, and with the partially folded proteins: their enzymatic activity as well [Stricker et al., 2008](#citation3). A simpler approach is to summarize all the interactions that have to occur before a protein is active with a time delay from induction of the gene to the final protein. This can be done with a system of DDEs, with the following additional equation that introduces the time delay. While this may not be as powerful at predicting experimental outcomes, it is easier to construct and uses less unknown variables [O'Brien et al. 2010](#citation2). This changes the system of equations from a set of ODEs, to DDEs. These are significantly harder to solve analytically, and we have therefore resorted to solving them numerically in MATLAB.
 
         $$ \frac{\partial [RhlI]}{\partial t} = \frac{V_{max,i}}{K_m \times [H_{t-\tau}]^2 } + \frac{V_{max,a} \times [H_{t-\tau}]^2}{K_m + [H_{t-\tau}]^2 } - \frac{V_{max,g} \times [RhlI]}{K_{g} + [RhlI] + [AiiA] + [X]} $$
         $$ \frac{\partial [AiiA]}{\partial t} = \frac{V_{max,i}}{K_m + [H_{t-\tau}]^2 } + \frac{V_{max,a} \times [H_{t-\tau}]^2}{K_m + [H_{t-\tau}]^2 } - \frac{V_{max,g} \times [AiiA] }{K_{g} + [RhlI] + [AiiA] + [X]} $$
@@ -68,13 +68,13 @@ block article
         The simulation shows that oscillations are indeed possible with this circuit. The oscillations start immediately when "primed", but take longer to form when not "primed". The leaky transcription is eventually enough to start the positive feedback loop, which starts the oscillations of the system. Since the culture is going to remain for some time, it can therefore be concluded that oscillations will start eventually, regardless of whether the initial AHL is present or not. Future simulations will however be "primed" with initial AHL. This conclusion does however eliminate any future system where the oscillations would be activated by an initial burst of the same AHL (in this case, the cognate AHL is C4-HSL) as the oscillations start regardless.
     
         ## Initial design and induction
-        The second step is to create a system that can be induced. The initial design was to integrate a key part of the oscillatory circuit (RhlR) under an inducible promoter, and have the reporter gene under the pRhl promoter. The reporter gene in the final circuit would be MtrB, which in the knockout strain of Shewanella Oneidensis would complete the Mtr complex and allow it to produce electricity. While independently developed, this initial design is similar to the one used by the 2015 NYMU iGEM team. [http://2015.igem.org/Team:NYMU-Taipei]
+        The second step is to create a system that can be induced. The initial design was to integrate a key part of the oscillatory circuit (RhlR) under an inducible promoter, and have the reporter gene under the pRhl promoter. The reporter gene in the final circuit would be MtrB, which in the knockout strain of Shewanella Oneidensis would complete the Mtr complex and allow it to produce electricity. While independently developed, this initial design is similar to the one used by the 2015 NYMU iGEM team. [NYMU-Taipei 2015](#citation5)
 
     - var imgpath = "" + require("../assets/img/Model--Overview_Ori.png")["default"]
     +image(3, imgpath, "Caption", 100)
   
     :markdown-it(html)
-        The inducible promoter would be the pLux promoter, which together with LuxR can receive  3OC6-HSL from E. coli. When there is no 3OC6-HSL present in the sample, there should be no induction of pLux, which in turn would result in no transcription of RhlR. The oscillatory circuit is then incomplete and should not produce any signal. The RhlR concentration here is not static, but requires its own equation. The reporter gene "X" remains under the control of pRhl, but the induction of the pRhl promoter gains another term: the concentration of RhlR. The 3OC6-HSL concentration receives the notation "H2"The set of DDEs then becomes the following.
+        The inducible promoter would be the pLux promoter, which together with LuxR can receive  3OC6-HSL from E. coli. When there is no 3OC6-HSL present in the sample, there should be no induction of pLux, which in turn would result in no transcription of RhlR. The oscillatory circuit is then incomplete and should not produce any signal. The RhlR concentration here is not static, but requires its own equation. The reporter gene "X" remains under the control of pRhl, but the induction of the pRhl promoter gains another term: the concentration of RhlR. The 3OC6-HSL concentration receives the notation "H2" The set of DDEs then becomes the following.
 
         $$ \frac{\partial [RhlI]}{\partial t} = \frac{V_{max,i}}{K_m \times [H_{t-\tau}]^2 } + \frac{V_{max,a} \times [RhlR] \times [H_{t-\tau}]^2}{K_m + [H_{t-\tau}]^2 } - \frac{V_{max,g} \times [RhlI]}{K_{g} + [RhlI] + [AiiA] + [X]} $$
         $$ \frac{\partial [AiiA]}{\partial t} = \frac{V_{max,i}}{K_m + [H_{t-\tau}]^2 } + \frac{V_{max,a} \times [RhlR] \times [H_{t-\tau}]^2}{K_m + [H_{t-\tau}]^2 } - \frac{V_{max,g} \times [AiiA] }{K_{g} + [RhlI] + [AiiA] + [X]} $$
@@ -83,22 +83,20 @@ block article
         $$ \frac{\partial [H]}{\partial t} = \frac{V_{max,H} \times [RhlI]}{K_H + [RhlI] } - \frac{k_{cat,g} \times [AiiA] \times [H]}{K_G+[AiiA]} $$
 
         The simulation was run with different induction points, that is different timepoints at which the 3OC6-HSL (H2) was added to the system.
-    
-    +carousel(4, 'Osc1', 'Model--Osc1_Induced.png','Model--Osc1_Induced50.png','Model--Osc1_Induced100.png','Model--Osc1_NotInduced.png')
         
-    :markdown-it(html)
-        The inducible promoter would be the pLux promoter, which together with LuxR can receive  3OC6-HSL from E. coli. When there is no 3OC6-HSL present in the sample, there should be no induction of pLux, which in turn would result in no transcription of RhlR. The oscillatory circuit is then incomplete and should not produce any signal. The RhlR concentration here is not static, but requires its own equation. The reporter gene "X" remains under the control of pRhl, but the induction of the pRhl promoter gains another term: the concentration of RhlR. The 3OC6-HSL concentration receives the notation "H2"The set of DDEs then becomes the following.
-
-        $$ \frac{\partial [RhlI]}{\partial t} = \frac{V_{max,i}}{K_m \times [H_{t-\tau}]^2 } + \frac{V_{max,a} \times [RhlR] \times [H_{t-\tau}]^2}{K_m + [H_{t-\tau}]^2 } - \frac{V_{max,g} \times [RhlI]}{K_{g} + [RhlI] + [AiiA] + [X]} $$
-        $$ \frac{\partial [AiiA]}{\partial t} = \frac{V_{max,i}}{K_m + [H_{t-\tau}]^2 } + \frac{V_{max,a} \times [RhlR] \times [H_{t-\tau}]^2}{K_m + [H_{t-\tau}]^2 } - \frac{V_{max,g} \times [AiiA] }{K_{g} + [RhlI] + [AiiA] + [X]} $$
-        $$ \frac{\partial [X]}{\partial t} = \frac{V_{max,i}}{K_m + [H_{t-\tau}]^2 } + \frac{V_{max,a} \times [RhlR] \times [H_{t-\tau}]^2}{K_m + [H_{t-\tau}]^2 } - \frac{V_{max,g} \times [X]}{K_{g} + [RhlI] + [AiiA] + [X] } $$
-        $$ \frac{\partial [RhlR]}{\partial t} = \frac{V_{max,i}}{K_m + [H_{2,t-\tau}]^2 } + \frac{V_{max,a} \times [H_{2,t-\tau}]^2}{K_m + [H_{2,t-\tau}]^2 } - \frac{V_{max,g} \times [RhlR]}{K_{g} + [RhlR] } $$
-        $$ \frac{\partial [H]}{\partial t} = \frac{V_{max,H} \times [RhlI]}{K_H + [RhlI] } - \frac{k_{cat,g} \times [AiiA] \times [H]}{K_G+[AiiA]} $$
-
-        The simulation was run with different induction points, that is different timepoints at which the 3OC6-HSL (H2) was added to the system.
+    +carousel(4, 'Osc1', 'Model--Osc1_Induced.png','Model--Osc1_Induced50.png','Model--Osc1_Induced100.png','Model--Osc1_NotInduced.png')
         
     - var imgpath = "" + require("../assets/img/Model--Overview_New.png")["default"]
     +image(5, imgpath, "Caption", 100)
+    
+    :markdown-it(html)
+        When 3OC6-HSL is added to the system, the levels of RhlR rises to operational levels and the oscillations start. This is as desired from the design of the circuit.      However, when the induction time point is moved, the oscillations start with the same offset. The phase of oscillation is dependent on when the induction happens. 
+
+        This could pose a problem in large populations or large volumes where the transmission of the 3OC6-HSL signal might be diffusion limited. Some cells would encounter the signal before others, and initiate their oscillations before others. The system is not synchronized, which might lead to destructive interference and noise. Another circuit setup for inducing the electric signal would have to be made.
+
+        ## Improved design and induction
+        The mistake of the initial design was to put the reporter gene “X”, or in our case: MtrB, under the same promoter as the oscillation. A solution to this synchronization problem is to have one part of a two-component induction oscillate, while the other depends on the signal received from E. coli. The LuxR, 3OC6-HSL pair to induce the pLux promoter can work as an AND-gate, where it will only initiate transcription downstream of pLux when both 3OC6-HSL and LuxR are present. 
+
         
     :markdown-it(html)
         This does not require any new genes in the system, but simply a rearrangement, where LuxR is placed under oscillation, and MtrB under the pLux promoter. The system of equations in this improved system is the following.
@@ -121,15 +119,28 @@ block article
         ## Supplementary:
         The generic simulation was run with the following parameters:
 
-        // INSERT TABLE
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        |Description                                    |Variable   |Value  |
+        |-----------------------------------------------|-----------|-------|
+        |Basal expression rate of promoter, “leakiness” |Vmax,i     |0.01   |
+        |Maximum expression rate of promoter            |Vmax,a     |1      |
+        |Dissociation constant (protein)                |Km         |1      |
+        |Hills coefficient, “cooperativity”             |h          |2      |
+        |Turnover of AHL by AiiA                        |kcat,G     |10     |
+        |Dissociation constant of AiiA                  |KG         |10     |
+        |Dissociation constant (synthase)               |Vmax,H     |1      |
+        |Maximum protein degradation                    |KH         |0.5    |
+        |Dissociation constant for protein degradation  |Vmax,g     |1.3    |
+        |Maximum expression rate of promoter            |Kg         |0.5    |
+        [Table 1: Parameters used in DDE simulations]
     
     :markdown-it(html)
         # Molecular Dynamics
-        Molecular dynamics computations were used in order to estimate the binding energy of several N-acyl homoserine lactones (AHLs) to AiiA. AHLs are targeted by lactonases such as AiiA (originally found in bBacillus thuringiensis), which hydrolases their lactone bond upon binding. This results in quenching of quorum sensing signaling.  AutoDock [Morris et al., 2019](#citation1) was used to determine different binding positions and their respective docking energies. The conformation with the lowest binding energy was selected for comparison.
+        Molecular dynamics computations were used in order to estimate the binding energy of several N-acyl homoserine lactones (AHLs) to AiiA. AHLs are targeted by lactonases such as AiiA (originally found in bBacillus thuringiensis), which hydrolases their lactone bond upon binding. This results in quenching of quorum sensing signaling.  AutoDock [Morris et al., 2019](#citation6) was used to determine different binding positions and their respective docking energies. The conformation with the lowest binding energy was selected for comparison.
+        
+        Because AiiA is a metalloenzyme containing two Zinc atoms the default autodock software does not assign any partial charge and is not appropriate (the Zn coordination sphere does not give explicit bonds, which is a problem for the algorithm), a tetrahedral Zn specific force field (with directional potentials) was used to modelize the enzyme [Santos-Martins et al.,2014](#citation7) instead of the default forcefield. The Lamarckian Genetic Algorithm was chosen as the docking algorithm, with a maximum of 2500000 energy evaluations. Molecular dynamics algorithms take into account the geometric constraints of both molecules and determine the best binding position by varying atoms’ positions when possible and minimizing the free-energy of binding. The free-energy of binding is calculated thanks to an Amber force field by adding contributions that are intermolecular (Van der Waals, hydrogen bonds, desolvation and electrostatic energies) and intramolecular (torsional change in energy).
         
         In these computations, we investigated the affinity of C4-HSL (noted HL4_ideal), C8-HSL (noted HTF), C6-oxo-HSL (noted HL6-ideal) for AiiA (PDB entry 2a7m, 10.2210/pdb2A7M/pdb). 
-
-        Because AiiA is a metalloenzyme containing two Zinc atoms the default autodock software does not assign any partial charge and is not appropriate (the Zn coordination sphere does not give explicit bonds, which is a problem for the algorithm), a tetrahedral Zn specific force field (with directional potentials) was used to modelize the enzyme [Santos-Martins et al.,2014](#citation2) instead of the default forcefield. The Lamarckian Genetic Algorithm was chosen as the docking algorithm, with a maximum of 2500000 energy evaluations. Molecular dynamics algorithms take into account the geometric constraints of both molecules and determine the best binding position by varying atoms’ positions when possible and minimizing the free-energy of binding. The free-energy of binding is calculated thanks to an Amber force field by adding contributions that are intermolecular (Van der Waals, hydrogen bonds, desolvation and electrostatic energies) and intramolecular (torsional change in energy).
         
         ## HL4-ideal
         (N-[(3S)-2-oxotetrahydrofuran-3-yl]butanamid)
@@ -170,7 +181,7 @@ block article
         The binding energies and inhibition constants are summarized in table 1 below. From this molecular dynamics analysis, we can conclude that there are crosstalks between different types of AHLs and AiiA, which might be a problem in our circuit given that both C6 and C4 are present. For further improvement, C4 could be modified so that its interactions with AiiA are improved and favored compared to other lactones.  Another option would be to change the pair for other more specific molecules.    
     :markdown-it(html plugins=['markdown-it-multimd-table'])
 
-        |--|C4|C6|C8|
+        | |C4|C6|C8|
         |---| --------- | ---------- |-------|
         |Binding energy (kcal/mol)|-5.06|-5.16|-5.25|
         |Inhibition constant (µM)|195.69|164.60|140.75|
