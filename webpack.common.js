@@ -24,7 +24,6 @@ module.exports = {
     content: "./src/js/content.js",
     team: "./src/js/team.js",
     parts: "./src/js/parts.js",
-    primers: "./src/js/parts.js",
     human_practices: "./src/js/human_practices.js",
     medal_criteria: "./src/js/medal_criteria.js",
   },
@@ -57,11 +56,6 @@ module.exports = {
       filename: "Parts/index.html",
       template: "./src/pages/Parts.pug",
       chunks: ["parts"],
-    }),
-    new HTMLWebpackPlugin({
-      filename: "Primers/index.html",
-      template: "./src/pages/Primers.pug",
-      chunks: ["primers"],
     }),
     new HTMLWebpackPlugin({
       filename: "Human_Practices/index.html",

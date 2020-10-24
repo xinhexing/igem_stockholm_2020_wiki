@@ -4,7 +4,7 @@ html(lang="en")
   head
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
-    title Parts | iGEM Stockholm
+    title Parts & Primers | iGEM Stockholm
   body
     include ../templates/nav.pug
     .parent
@@ -17,9 +17,10 @@ html(lang="en")
       main
         .container
           .title
-            h1 Parts
+            h1 Parts & Primers
           .row
             .content.col
+                h1 Parts
                 :markdown-it(html plugins=['markdown-it-multimd-table'])
 
                   |Biobrick|Code|Construct|Aim|
@@ -47,5 +48,12 @@ html(lang="en")
                   |[BBa_K3440020](http://parts.igem.org/wiki/index.php/Part:BBa_K3440020)|Osc2|Pconst-RBS-RhlR-DT-Prhl-RBS-RhlI-RBS-AiiA-RBS-GFP-DT|GFP reporter of oscillation in E.coli|
                   |[BBa_K3440021](http://parts.igem.org/wiki/index.php/Part:BBa_K3440021)|Osc3|Plux-RBS-Mtrb-DT-Pconst-RBS-RhlR-DT-Prhl-RBS-RhlI-RBS-AiiA-RBS-LuxR-DT|Electricity production under oscillatory circuit in *Shewanella*.|
                   [Table 1: List of parts.]
-                  
+
+                h1 Primers
+                :markdown-it(html plugins=['markdown-it-multimd-table'])
+                  | This is | the table | header row |
+                  | ------  | --------- | ---------- |
+                  | 1       | 2         | 3          |
+                  | 4       | 5         | 6          |
+                  [Table 2: List of parts.]
       include ../templates/footer.pug
