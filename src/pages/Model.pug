@@ -17,7 +17,7 @@ block article
         
     - var imgpath = "" + require("../assets/img/Model--Overview_Osc.png")["default"]
     +image(1, imgpath, "Diagram of the oscillatory system", 100)
-        
+
     :markdown-it(html)
         The presence of C4-HSL together with RhlR activates pRhl, which produces more RhlI synthase, which in turn creates more C4-HSL. The positive feedback loop amplifies the C4-HSL signal until enough AiiA has been synthesised. As the lactonase starts degrading the C4-HSL, the signal decreases. The negative feedback loop decreases the C4-HSL signal until no new protein is produced and the remaining active protein is broken down.
         
@@ -87,16 +87,16 @@ block article
     +carousel(4, 'Initial inducible oscillatory circuit at different induction points of 3OC6-HSL. Concentrations of RhlI (I), AiiA (A), MtrB (X), C4-HSL (H), 3OC6-HSL (H2) and LuxR (R) plotted over time', 'Model--Osc1_Induced.png','Model--Osc1_Induced50.png','Model--Osc1_Induced100.png','Model--Osc1_NotInduced.png')
     
     :markdown-it(html)
-        When 3OC6-HSL is added to the system, the levels of RhlR rises to operational levels and the oscillations start. This is as desired from the design of the circuit.      However, when the induction time point is moved, the oscillations start with the same offset. The phase of oscillation is dependent on when the induction happens. 
+        When 3OC6-HSL is added to the system, the levels of RhlR rises to operational levels and the oscillations start. This is as desired from the design of the circuit.    However, when the induction time point is moved, the oscillations start with the same offset. The phase of oscillation is dependent on when the induction happens. 
 
         This could pose a problem in large populations or large volumes where the transmission of the 3OC6-HSL signal might be diffusion limited. Some cells would encounter the signal before others, and initiate their oscillations before others. The system is not synchronized, which might lead to destructive interference and noise. Another circuit setup for inducing the electric signal would have to be made.
 
         ## Improved design and induction
-        The mistake of the initial design was to put the reporter gene “X”, or in our case: MtrB, under the same promoter as the oscillation. A solution to this synchronization problem is to have one part of a two-component induction oscillate, while the other depends on the signal received from E. coli. The LuxR, 3OC6-HSL pair to induce the pLux promoter can work as an AND-gate, where it will only initiate transcription downstream of pLux when both 3OC6-HSL and LuxR are present. 
+        The mistake of the initial design was to put the reporter gene "X", or in our case: MtrB, under the same promoter as the oscillation. A solution to this synchronization problem is to have one part of a two-component induction oscillate, while the other depends on the signal received from E. coli. The LuxR, 3OC6-HSL pair to induce the pLux promoter can work as an AND-gate, where it will only initiate transcription downstream of pLux when both 3OC6-HSL and LuxR are present. 
     
     - var imgpath = "" + require("../assets/img/Model--Overview_New.png")["default"]
     +image(5, imgpath, "Diagram of the improved design of the oscillatory system", 100)
-        
+
     :markdown-it(html)
         This does not require any new genes in the system, but simply a rearrangement, where LuxR is placed under oscillation, and MtrB under the pLux promoter. The system of equations in this improved system is the following.
 
@@ -109,7 +109,7 @@ block article
         The simulation was run with different induction points. The parameters remained the same as in the simulation with the initial design.
 
     +carousel(6, 'Improved inducible oscillatory circuit at different induction points of 3OC6-HSL. Concentrations of RhlI (I), AiiA (A), MtrB (X), C4-HSL (H), 3OC6-HSL (H2) and LuxR (R) plotted over time', 'Model--Osc2_Induced.png','Model--Osc2_Induced55.png','Model--Osc2_Induced100.png','Model--Osc2_NotInduced.png')
-        
+
     :markdown-it(html)
         The oscillations of the system are active from the beginning, but no significant level of MtrB ("X") is produced. This allows the cells to synchronize as the levels of C4-HSL ("H") is oscillating from the very start, regardless of 3OC6-HSL ("H2") signals. When 3OC6-HSL is added to the system, the levels of MtrB oscillates with the rest of the system at much higher levels.
 
@@ -121,10 +121,10 @@ block article
     :markdown-it(html plugins=['markdown-it-multimd-table'])
         |Description                                    |Variable   |Value  |
         |-----------------------------------------------|-----------|-------|
-        |Basal expression rate of promoter, “leakiness” |Vmax,i     |0.01   |
+        |Basal expression rate of promoter, "leakiness" |Vmax,i     |0.01   |
         |Maximum expression rate of promoter            |Vmax,a     |1      |
         |Dissociation constant (protein)                |Km         |1      |
-        |Hills coefficient, “cooperativity”             |h          |2      |
+        |Hills coefficient, "cooperativity"             |h          |2      |
         |Turnover of AHL by AiiA                        |kcat,G     |10     |
         |Dissociation constant of AiiA                  |KG         |10     |
         |Dissociation constant (synthase)               |Vmax,H     |1      |
@@ -132,7 +132,7 @@ block article
         |Dissociation constant for protein degradation  |Vmax,g     |1.3    |
         |Maximum expression rate of promoter            |Kg         |0.5    |
         [Table 1: Parameters used in DDE simulations]
-    
+
     :markdown-it(html)
         # Molecular Dynamics
         Molecular dynamics computations were used in order to estimate the binding energy of several N-acyl homoserine lactones (AHLs) to AiiA. AHLs are targeted by lactonases such as AiiA (originally found in bBacillus thuringiensis), which hydrolases their lactone bond upon binding. This results in quenching of quorum sensing signaling.  AutoDock [Morris et al., 2019](#citation6) was used to determine different binding positions and their respective docking energies. The conformation with the lowest binding energy was selected for comparison.
@@ -179,12 +179,13 @@ block article
         The binding energies and inhibition constants are summarized in table 1 below. From this molecular dynamics analysis, we can conclude that there are crosstalks between different types of AHLs and AiiA, which might be a problem in our circuit given that both C6 and C4 are present. For further improvement, C4 could be modified so that its interactions with AiiA are improved and favored compared to other lactones.  Another option would be to change the pair for other more specific molecules.    
     :markdown-it(html plugins=['markdown-it-multimd-table'])
 
-        | |C4|C6|C8|
-        |---| --------- | ---------- |-------|
-        |Binding energy (kcal/mol)|-5.06|-5.16|-5.25|
-        |Inhibition constant (uM)|195.69|164.60|140.75|
+        |                         |C4    |C6    |C8    |
+        |-------------------------| ---- | ---- | ---- |
+        |Binding energy (kcal/mol)|-5.06 |-5.16 |-5.25 |
+        |Inhibition constant (uM) |195.69|164.60|140.75|
         [Table 2: Binding energies and inhibition constants for different AHLS]
+
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
 prepend citations
-    - var citations = [{"authors": "Morris, G. M., Huey, R., Lindstrom, W., Sanner, M. F., Belew, R. K., Goodsell, D. S., & Olson, A. J. (2009). ", "doi": "https://doi.org/10.1002/jcc.21256", "journal": "Journal of Computational Chemistry", "numbers": "30(16), 2785-2791. ", "title": "AutoDock4 and AutoDockTools4: Automated docking with selective receptor flexibility.", "type": "article"}, {"authors": "Santos-Martins, D., Forli, S., Ramos, M. J., & Olson, A. J. (2014). ", "doi": "https://doi.org/10.1021/ci500209e", "journal": "Journal of Chemical Information and Modeling", "numbers": "54(8), 2371-2379. ", "title": "AutoDock4Zn: An Improved AutoDock Force Field for Small-Molecule Docking to Zinc Metalloproteins.", "type": "article"}, {"authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Danino, T., Mondrag  n-Palomino, O., Tsimring, L., & Hasty, J. (2010). ", "doi": "https://doi.org/10.1038/nature08753", "journal": "Nature", "numbers": "463(7279), 326-330. ", "title": "A synchronized quorum of genetic clocks.", "type": "article"}, {"authors": "O-Brien, E. L., Van Itallie, E., & Bennett, M. R. (2012). ", "doi": "https://doi.org/10.1016/j.mbs.2012.01.001", "journal": "Mathematical Biosciences", "numbers": "236(1), 1-15. ", "title": "Modeling synthetic gene oscillators.", "type": "article"}, {"authors": "Stricker, J., Cookson, S., Bennett, M. R., Mather, W. H., Tsimring, L. S., & Hasty, J. (2008). ", "doi": "https://doi.org/10.1038/nature07389", "journal": "Nature", "numbers": "456(7221), 516-519. ", "title": "A fast, robust and tunable synthetic gene oscillator.", "type": "article"}, {"authors": "Elowitz, M. B., & Leibler, S. (2000). ", "doi": "https://doi.org/10.1038/35002125", "journal": "Nature", "numbers": "403(6767), 335-338. ", "title": "A synthetic oscillatory network of transcriptional regulators.", "type": "article"}, {"authors": "Michael, Sigmund, Amy, Jessica, Carryll, Albert, Emily, Eric, Kevin, Jane, Kathleen, Golden, Raymond, Shoi-Yi, Alvin, Huiru, Fiona. (n.d.).", "details": "Retrieved on May 4, 2020. from ", "title": "NYMU Taipei 2015. Fight the Blight: Defending the potatoes.", "type": "webpage", "url": "http://2015.igem.org/Team:NYMU-Taipei"}]
+    - var citations = [{"authors": "Danino, T., Mondrag  n-Palomino, O., Tsimring, L., & Hasty, J. (2010). ", "doi": "https://doi.org/10.1038/nature08753", "journal": "Nature", "numbers": "463(7279), 326-330. ", "title": "A synchronized quorum of genetic clocks.", "type": "article"}, {"authors": "O-Brien, E. L., Van Itallie, E., & Bennett, M. R. (2012). ", "doi": "https://doi.org/10.1016/j.mbs.2012.01.001", "journal": "Mathematical Biosciences", "numbers": "236(1), 1-15. ", "title": "Modeling synthetic gene oscillators.", "type": "article"}, {"authors": "Stricker, J., Cookson, S., Bennett, M. R., Mather, W. H., Tsimring, L. S., & Hasty, J. (2008). ", "doi": "https://doi.org/10.1038/nature07389", "journal": "Nature", "numbers": "456(7221), 516-519. ", "title": "A fast, robust and tunable synthetic gene oscillator.", "type": "article"}, {"authors": "Elowitz, M. B., & Leibler, S. (2000). ", "doi": "https://doi.org/10.1038/35002125", "journal": "Nature", "numbers": "403(6767), 335-338. ", "title": "A synthetic oscillatory network of transcriptional regulators.", "type": "article"}, {"authors": "Michael, Sigmund, Amy, Jessica, Carryll, Albert, Emily, Eric, Kevin, Jane, Kathleen, Golden, Raymond, Shoi-Yi, Alvin, Huiru, Fiona. (n.d.).", "details": "Retrieved on May 4, 2020. from ", "title": "NYMU Taipei 2015. Fight the Blight: Defending the potatoes.", "type": "webpage", "url": "http://2015.igem.org/Team:NYMU-Taipei"}, {"authors": "Morris, G. M., Huey, R., Lindstrom, W., Sanner, M. F., Belew, R. K., Goodsell, D. S., & Olson, A. J. (2009). ", "doi": "https://doi.org/10.1002/jcc.21256", "journal": "Journal of Computational Chemistry", "numbers": "30(16), 2785-2791. ", "title": "AutoDock4 and AutoDockTools4: Automated docking with selective receptor flexibility.", "type": "article"}, {"authors": "Santos-Martins, D., Forli, S., Ramos, M. J., & Olson, A. J. (2014). ", "doi": "https://doi.org/10.1021/ci500209e", "journal": "Journal of Chemical Information and Modeling", "numbers": "54(8), 2371-2379. ", "title": "AutoDock4Zn: An Improved AutoDock Force Field for Small-Molecule Docking to Zinc Metalloproteins.", "type": "article"}]
