@@ -1,3 +1,12 @@
+https://doi.org/10.1002/jcc.21256:
+  authors: 'Morris, G. M., Huey, R., Lindstrom, W., Sanner, M. F., Belew, R. K., Goodsell,
+    D. S., & Olson, A. J. (2009). '
+  doi: https://doi.org/10.1002/jcc.21256
+  journal: Journal of Computational Chemistry
+  numbers: '30(16), 2785-2791. '
+  title: 'AutoDock4 and AutoDockTools4: Automated docking with selective receptor
+    flexibility.'
+  type: article
 https://doi.org/10.1007/s00484-015-1117-4:
   authors: 'Allen, M. J., & Sheridan, S. C. (2015). '
   doi: https://doi.org/10.1007/s00484-015-1117-4
@@ -14,6 +23,14 @@ https://doi.org/10.1016/j.ijid.2019.08.003:
   numbers: '88, 127-134. '
   title: Investigating the impact of influenza on excess mortality in all ages in
     Italy during recent seasons (2013/14-2016/17 seasons).
+  type: article
+https://doi.org/10.1021/ci500209e:
+  authors: 'Santos-Martins, D., Forli, S., Ramos, M. J., & Olson, A. J. (2014). '
+  doi: https://doi.org/10.1021/ci500209e
+  journal: Journal of Chemical Information and Modeling
+  numbers: '54(8), 2371-2379. '
+  title: 'AutoDock4Zn: An Improved AutoDock Force Field for Small-Molecule Docking
+    to Zinc Metalloproteins.'
   type: article
 https://doi.org/10.1371/journal.pcbi.1000822:
   authors: 'Pinchuk, G. E., Hill, E. A., Geydebrekht, O. V., De Ingeniis, J., Zhang,
