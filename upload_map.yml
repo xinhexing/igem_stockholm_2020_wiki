@@ -488,13 +488,17 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/3/3e/T--Stockholm--img--Experiments--cloning.png
     md5: 02bec6252d13e7232b6e309118046a9b
     upload_filename: T--Stockholm--img--Experiments--cloning.png
+  assets\img\Experiments--fluorescence.png:
+    link_URL: https://2020.igem.org/wiki/images/e/eb/T--Stockholm--img--Experiments--fluorescence.png
+    md5: 55a1a7ded754bcdf3da78be793c4c3c0
+    upload_filename: T--Stockholm--img--Experiments--fluorescence.png
   assets\img\Experiments--growth_curve.png:
     link_URL: https://2020.igem.org/wiki/images/8/87/T--Stockholm--img--Experiments--growth_curve.png
     md5: 14e08c321d3017152a25d285c8c937ac
     upload_filename: T--Stockholm--img--Experiments--growth_curve.png
   assets\img\Experiments--mfc.png:
     link_URL: https://2020.igem.org/wiki/images/9/9a/T--Stockholm--img--Experiments--mfc.png
-    md5: 840bd5081673ab8f31d761afd84f2f05
+    md5: 26a85592da305f02c88f92bb0ff452d5
     upload_filename: T--Stockholm--img--Experiments--mfc.png
   assets\img\HP--building1.png:
     link_URL: https://2020.igem.org/wiki/images/5/58/T--Stockholm--img--HP--building1.png
@@ -972,7 +976,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 3b61aeaca754487ca867b286ad5cc717
+    md5: 2e8ac50788c25195b82980423ae87f17
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
