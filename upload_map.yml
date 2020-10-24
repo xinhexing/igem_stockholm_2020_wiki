@@ -524,10 +524,18 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/9/9a/T--Stockholm--img--Experiments--mfc.png
     md5: 695754b8caaf4769983c82dd0bbd4397
     upload_filename: T--Stockholm--img--Experiments--mfc.png
+  assets\img\HP--Amireza.png:
+    link_URL: https://2020.igem.org/wiki/images/d/d9/T--Stockholm--img--HP--Amireza.png
+    md5: 0d380fe295171c214159f4fe1d62a88d
+    upload_filename: T--Stockholm--img--HP--Amireza.png
   assets\img\HP--Industry- SARA.png:
     link_URL: https://2020.igem.org/wiki/images/6/6f/T--Stockholm--img--HP--Industry-_SARA.png
     md5: dd383647eee85dab4ddf2440335f0a92
     upload_filename: T--Stockholm--img--HP--Industry- SARA.png
+  assets\img\HP--Martin Gustafsson.png:
+    link_URL: https://2020.igem.org/wiki/images/9/96/T--Stockholm--img--HP--Martin_Gustafsson.png
+    md5: e42800b0ccd5572ad3236dc7cf89577e
+    upload_filename: T--Stockholm--img--HP--Martin Gustafsson.png
   assets\img\HP--Society-Nordic team.png:
     link_URL: https://2020.igem.org/wiki/images/0/0b/T--Stockholm--img--HP--Society-Nordic_team.png
     md5: 809d991de7cd3d0f636fbf4e0b71f442
@@ -1084,7 +1092,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 0653b674050e731a3598fd878a31d805
+    md5: 32d4c9c084220c2f1337101f41fe0cbb
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1115,7 +1123,7 @@ html:
     md5: a4b2baf225ef9801b96091bf3dd78499
   Human_Practices\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Human_Practices
-    md5: 52e312cea9fda11fabdb531d0070c31f
+    md5: aacc2fbea6ef88de1f1f06b0ff323dd7
   Implementation\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Implementation
     md5: 5fa57621cb86d491c24300de1b33e7f1
