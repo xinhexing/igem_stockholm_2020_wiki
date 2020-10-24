@@ -51,6 +51,8 @@ mixin imgCitation(name, number)
     p.text-center
         a(href="#citation" + number)= name
 
+// Normal citations
+
 mixin citation_article(citation, count)
     // year_published is present in the authors field
     - scholar = "https://scholar.google.com/scholar?q=" + citation.title
@@ -87,6 +89,44 @@ mixin citation_book(citation, count)
         if citation.Google_Books_URL && citation.Google_Books_URL != ""
             a.in-text(href=citation.Google_Books_URL target="_blank" rel="noopener") Google Books
         a.in-text(href="#intext" + counter) Back to text    
+
+// HP citations
+
+mixin hp_citation_article(citation, count)
+    // year_published is present in the authors field
+    - scholar = "https://scholar.google.com/scholar?q=" + citation.title
+    li(id= 'citation' + counter)
+        p.author= citation.authors
+        cite= citation.title
+        p
+            span.journalTitle= citation.journal
+            | 
+            span.journalInfo= citation.numbers
+        if citation.doi
+            a.in-text(href=citation.doi target="_blank" rel="noopener") CrossRef
+        a.in-text(href=scholar target="_blank" rel="noopener") Google Scholar
+
+mixin hp_citation_webpage(citation, count)
+    li(id= 'citation' + count)
+        // date of publication comes with authors/details 
+        // depending on presence of authors
+        // as per APA specifications
+        p.author= citation.authors
+        cite= citation.title
+        p
+            span.details= citation.details
+            a.in-text(href=citation.url target="_blank" rel="noopener")= citation.url
+
+mixin hp_citation_book(citation, count)
+    li(id= 'citation' + counter)
+        p.author= citation.authors + " " + citation.year_published
+        cite= citation.title
+        p
+            span.details= citation.publisher
+        if citation.Google_Books_URL && citation.Google_Books_URL != ""
+            a.in-text(href=citation.Google_Books_URL target="_blank" rel="noopener") Google Books
+
+// carousel
 
 mixin carousel(n, autoplay, caption, first, ...slides)
     div(id="carousel"+n class="carousel slide carousel-fade" data-ride="carousel" data-interval=autoplay)

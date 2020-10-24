@@ -85,14 +85,17 @@ body.dark {
   margin: 2.5rem 0;
   text-align: center;
   h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     font-size: 4rem;
     font-weight: 800;
   }
   p {
+    position: relative; left: 50%; transform: translateX(-50%);
     font-size: 1.1rem;
-    text-align: center;
+    text-align: justify;
+    max-width: 50rem;
   }
+  .center {text-align: center;}
 }
 
 // MAIN
@@ -188,7 +191,7 @@ body {
 
   article {padding: 0 calc(1rem + 1.2vw);}
 
-  h1, h2, h3, h4, h5, h6 {font-weight: 700;}
+  h1, h2, h3, h4, h5, h6 {font-weight: 700; text-align: left;}
 
   h1, h2 {
     scroll-margin-top: 120px;
@@ -479,5 +482,7 @@ body {
 }
 
 @include respond-below(xs) {
-  .title {h1 {font-size: 2rem;}}
+  .title {
+    h1 {font-size: 2rem; margin-bottom: 2rem;}
+  }
 }
