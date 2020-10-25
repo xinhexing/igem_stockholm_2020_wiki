@@ -17,12 +17,13 @@ block article
         
     - var imgpath = "" + require("../assets/img/Model--Overview_Osc.png")["default"]
     +image(1, imgpath, "Diagram of the oscillatory system", 100)
-
-    +carousel(2, "3000", 'Descriptive diagram of the oscillatory system. Click on the arrows to move between pictures.', 'Model--Osc_Ani1.png', 'Model--Osc_Ani2.png', 'Model--Osc_Ani3.png', 'Model--Osc_Ani4.png', 'Model--Osc_Ani5.png', 'Model--Osc_Ani6.png', 'Model--Osc_Ani7.png', 'Model--Osc_Ani8.png', 'Model--Osc_Ani9.png')
-
+    
     :markdown-it(html)
         The presence of C4-HSL together with RhlR activates pRhl, which produces more RhlI synthase, which in turn creates more C4-HSL. The positive feedback loop amplifies the C4-HSL signal until enough AiiA has been synthesised. As the lactonase starts degrading the C4-HSL, the signal decreases. The negative feedback loop decreases the C4-HSL signal until no new protein is produced and the remaining active protein is broken down.
         
+    +carousel(2, "3000", 'Descriptive diagram of the oscillatory system. Click on the arrows to move between pictures.', 'Model--Osc_Ani1.png', 'Model--Osc_Ani2.png', 'Model--Osc_Ani3.png', 'Model--Osc_Ani4.png', 'Model--Osc_Ani5.png', 'Model--Osc_Ani6.png', 'Model--Osc_Ani7.png', 'Model--Osc_Ani8.png', 'Model--Osc_Ani9.png')
+
+    :markdown-it(html)
         Since there is a delay from a transcription factor to activate the transcription of a protein, for that protein to fold into its correct shape and then for it to acts its function, the system doesn't reach as stable equilibrium, but oscillates between a state where the positive and the negative feedback loop dominates. As AHL is a signal molecule and free to diffuse across membranes, the oscillation in not contained to one cell, but is synchronized to the entire population of cells, allowing for any gene controlled by the oscillator to be greatly amplified across the colony at the same time periods [Danino et al., 2010](#citation1).
 
         The complete oscillatory circuit can be modelled with the following system of differential equations where C4-HSL is denoted "H" and the gene of interest, such as a reporter gene, is denoted "X".
