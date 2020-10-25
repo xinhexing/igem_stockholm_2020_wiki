@@ -7,6 +7,14 @@ https://doi.org/10.1002/jcc.21256:
   title: 'AutoDock4 and AutoDockTools4: Automated docking with selective receptor
     flexibility.'
   type: article
+https://doi.org/10.1007/s00253-011-3653-0:
+  authors: 'Brutinel, E. D., & Gralnick, J. A. (2011). '
+  doi: https://doi.org/10.1007/s00253-011-3653-0
+  journal: Applied Microbiology and Biotechnology
+  numbers: '93(1), 41-48. '
+  title: 'Shuttling happens: soluble flavin mediators of extracellular electron transfer
+    in Shewanella.'
+  type: article
 https://doi.org/10.1007/s00484-015-1117-4:
   authors: 'Allen, M. J., & Sheridan, S. C. (2015). '
   doi: https://doi.org/10.1007/s00484-015-1117-4
@@ -14,6 +22,13 @@ https://doi.org/10.1007/s00484-015-1117-4:
   numbers: '62(1), 57-67. '
   title: Mortality risks during extreme temperature events (ETEs) using a distributed
     lag non-linear model.
+  type: article
+https://doi.org/10.1016/B978-1-4377-7883-0.00004-3:
+  authors: 'Welker, R. W. (2012). '
+  doi: https://doi.org/10.1016/B978-1-4377-7883-0.00004-3
+  journal: Developments in Surface Contamination and Cleaning
+  numbers: '179-213. '
+  title: Size Analysis and Identification of Particles.
   type: article
 https://doi.org/10.1016/S0269-7491(00)00162-7:
   authors: 'Mackay, D., & Fraser, A. (2000). '
@@ -86,6 +101,14 @@ https://doi.org/10.1038/35002125:
   numbers: '403(6767), 335-338. '
   title: A synthetic oscillatory network of transcriptional regulators.
   type: article
+https://doi.org/10.1038/nature03661:
+  authors: 'Reguera, G., McCarthy, K. D., Mehta, T., Nicoll, J. S., Tuominen, M. T.,
+    & Lovley, D. R. (2005). '
+  doi: https://doi.org/10.1038/nature03661
+  journal: Nature
+  numbers: '435(7045), 1098-1101. '
+  title: Extracellular electron transfer via microbial nanowires.
+  type: article
 https://doi.org/10.1038/nature07389:
   authors: 'Stricker, J., Cookson, S., Bennett, M. R., Mather, W. H., Tsimring, L.
     S., & Hasty, J. (2008). '
@@ -100,6 +123,50 @@ https://doi.org/10.1038/nature08753:
   journal: Nature
   numbers: '463(7279), 326-330. '
   title: A synchronized quorum of genetic clocks.
+  type: article
+https://doi.org/10.1038/srep15159:
+  authors: 'Wang, L., Fan, D., Chen, W., & Terentjev, E. M. (2015). '
+  doi: https://doi.org/10.1038/srep15159
+  journal: Scientific Reports
+  numbers: '5(1). '
+  title: Bacterial growth, detachment and cell size control on polyethylene terephthalate
+    surfaces.
+  type: article
+https://doi.org/10.1073/pnas.1410551111:
+  authors: 'Pirbadian, S., Barchinger, S. E., Leung, K. M., Byun, H. S., Jangir, Y.,
+    Bouhenni, R. A., ... & El-Naggar, M. Y. (2014). '
+  doi: https://doi.org/10.1073/pnas.1410551111
+  journal: Proceedings of the National Academy of Sciences
+  numbers: '111(35), 12883-12888. '
+  title: Shewanella oneidensis MR-1 nanowires are outer membrane and periplasmic extensions
+    of the extracellular electron transport components.
+  type: article
+https://doi.org/10.1099/00221287-143-12-3703:
+  authors: 'McClean, K. H., Winson, M. K., Fish, L., Taylor, A., Chhabra, S. R., Camara,
+    M., ... & Williams, P. (1997). '
+  doi: https://doi.org/10.1099/00221287-143-12-3703
+  journal: Microbiology
+  numbers: '143(12), 3703-3711. '
+  title: 'Quorum sensing and Chromobacterium violaceum: exploitation of violacein
+    production and inhibition for the detection of N-acylhomoserine lactones.'
+  type: article
+https://doi.org/10.1111/j.1472-765X.2004.01448.x:
+  authors: 'Horakova, K., Greifova, M., Seemannova, Z., Gondova, B., & Wyatt, G. M.
+    (2004). '
+  doi: https://doi.org/10.1111/j.1472-765X.2004.01448.x
+  journal: Letters in Applied Microbiology
+  numbers: '38(3), 181-184. '
+  title: A comparison of the traditional method of counting viable cells and a quick
+    microplate method for monitoring the growth characteristics of Listeria monocytogenes.
+  type: article
+https://doi.org/10.1186/1475-2859-11-118:
+  authors: 'Jarmander, J., Gustavsson, M., Do, T.-H., Samuelson, P., & Larsson, G.
+    (2012). '
+  doi: https://doi.org/10.1186/1475-2859-11-118
+  journal: Microbial Cell Factories
+  numbers: '11(1), 118. '
+  title: A dual tag system for facilitated detection of surface expressed proteins
+    in Escherichia coli.
   type: article
 https://doi.org/10.1289/EHP6654:
   authors: 'Silva, A. V., Ringblom, J., Lindh, C., Scott, K., Jakobsson, K., &   berg,
@@ -126,4 +193,27 @@ https://doi.org/10.2307/3434280:
   journal: Environmental Health Perspectives
   numbers: '107(1), A24. '
   title: No POPs.
+  type: article
+https://doi.org/10.3389/fmicb.2012.00056:
+  authors: 'Coursolle, D., & Gralnick, J. A. (2012). '
+  doi: https://doi.org/10.3389/fmicb.2012.00056
+  journal: Frontiers in Microbiology
+  numbers: '3. '
+  title: Reconstruction of Extracellular Respiratory Pathways for Iron(III) Reduction
+    in Shewanella Oneidensis Strain MR-1.
+  type: article
+https://doi.org/10.3390/en12234593:
+  authors: 'Felseghi, R.-A., Carcadea, E., Raboaca, M. S., TRUFIN, C. N., & Filote,
+    C. (2019). '
+  doi: https://doi.org/10.3390/en12234593
+  journal: Energies
+  numbers: '12(23), 4593. '
+  title: Hydrogen Fuel Cell Technology for the Sustainable Future of Stationary Applications.
+  type: article
+https://doi.org/10.4103/1947-2714.100998:
+  authors: 'Yang, P.-C., & Mahmood, T. (2012). '
+  doi: https://doi.org/10.4103/1947-2714.100998
+  journal: North American Journal of Medical Sciences
+  numbers: '4(9), 429. '
+  title: 'Western blot: Technique, theory, and trouble shooting.'
   type: article
