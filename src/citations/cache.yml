@@ -15,6 +15,29 @@ https://doi.org/10.1007/s00484-015-1117-4:
   title: Mortality risks during extreme temperature events (ETEs) using a distributed
     lag non-linear model.
   type: article
+https://doi.org/10.1016/S0269-7491(00)00162-7:
+  authors: 'Mackay, D., & Fraser, A. (2000). '
+  doi: https://doi.org/10.1016/S0269-7491(00)00162-7
+  journal: Environmental Pollution
+  numbers: '110(3), 375-391. '
+  title: 'Bioaccumulation of persistent organic chemicals: mechanisms and models.'
+  type: article
+https://doi.org/10.1016/S0269-7491(99)00098-6:
+  authors: 'Jones, K. C., & de Voogt, P. (1999). '
+  doi: https://doi.org/10.1016/S0269-7491(99)00098-6
+  journal: Environmental Pollution
+  numbers: '100(1-3), 209-221. '
+  title: 'Persistent organic pollutants (POPs): state of the science.'
+  type: article
+https://doi.org/10.1016/j.envpol.2011.02.050:
+  authors: 'Bergknut, M., Laudon, H., Jansson, S., Larsson, A., Gocht, T., & Wiberg,
+    K. (2011). '
+  doi: https://doi.org/10.1016/j.envpol.2011.02.050
+  journal: Environmental Pollution
+  numbers: '159(6), 1592-1598. '
+  title: Atmospheric deposition, retention, and stream export of dioxins and PCBs
+    in a pristine boreal catchment.
+  type: article
 https://doi.org/10.1016/j.ijid.2019.08.003:
   authors: 'Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti,
     S., ... & Rizzo, C. (2019). '
@@ -23,6 +46,14 @@ https://doi.org/10.1016/j.ijid.2019.08.003:
   numbers: '88, 127-134. '
   title: Investigating the impact of influenza on excess mortality in all ages in
     Italy during recent seasons (2013/14-2016/17 seasons).
+  type: article
+https://doi.org/10.1016/j.marpolbul.2007.03.022:
+  authors: 'Rios, L. M., Moore, C., & Jones, P. R. (2007). '
+  doi: https://doi.org/10.1016/j.marpolbul.2007.03.022
+  journal: Marine Pollution Bulletin
+  numbers: '54(8), 1230-1237. '
+  title: Persistent organic pollutants carried by synthetic polymers in the ocean
+    environment.
   type: article
 https://doi.org/10.1016/j.mbs.2012.01.001:
   authors: 'O-Brien, E. L., Van Itallie, E., & Bennett, M. R. (2012). '
@@ -38,6 +69,15 @@ https://doi.org/10.1021/ci500209e:
   numbers: '54(8), 2371-2379. '
   title: 'AutoDock4Zn: An Improved AutoDock Force Field for Small-Molecule Docking
     to Zinc Metalloproteins.'
+  type: article
+https://doi.org/10.1021/es0621142:
+  authors: 'Evenset, A., Carroll, J., Christensen, G. N., Kallenborn, R., Gregor,
+    D., & Gabrielsen, G. W. (2007). '
+  doi: https://doi.org/10.1021/es0621142
+  journal: Environmental Science & Technology
+  numbers: '41(4), 1173-1179. '
+  title: Seabird Guano Is an Efficient Conveyer of Persistent Organic Pollutants (POPs)
+    to Arctic Lake Ecosystems.
   type: article
 https://doi.org/10.1038/35002125:
   authors: 'Elowitz, M. B., & Leibler, S. (2000). '
@@ -69,4 +109,11 @@ https://doi.org/10.1371/journal.pcbi.1000822:
   numbers: '6(6), e1000822. '
   title: 'Constraint-Based Model of Shewanella oneidensis MR-1 Metabolism: A Tool
     for Data Analysis and Hypothesis Generation.'
+  type: article
+https://doi.org/10.2307/3434280:
+  authors: 'Schmidt, C. W. (1999). '
+  doi: https://doi.org/10.2307/3434280
+  journal: Environmental Health Perspectives
+  numbers: '107(1), A24. '
+  title: No POPs.
   type: article
