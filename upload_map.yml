@@ -980,10 +980,18 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/e/e4/T--Stockholm--img--Results--cloning_6.png
     md5: 94cdcffca3d23bf74953eb4ce8b689fa
     upload_filename: T--Stockholm--img--Results--cloning_6.png
+  assets\img\Results--fluorescence.png:
+    link_URL: https://2020.igem.org/wiki/images/b/bb/T--Stockholm--img--Results--fluorescence.png
+    md5: 6b864a3da64e7f025192958f75df9b70
+    upload_filename: T--Stockholm--img--Results--fluorescence.png
   assets\img\Results--mCherry bar graph.png:
     link_URL: https://2020.igem.org/wiki/images/6/67/T--Stockholm--img--Results--mCherry_bar_graph.png
     md5: 5fd50d090f95ccccba207900fbd60b77
     upload_filename: T--Stockholm--img--Results--mCherry bar graph.png
+  assets\img\Results--pollutantconc.png:
+    link_URL: https://2020.igem.org/wiki/images/8/87/T--Stockholm--img--Results--pollutantconc.png
+    md5: a8d66e474e61d4f67aec73cf00c6a68b
+    upload_filename: T--Stockholm--img--Results--pollutantconc.png
   assets\img\Sponsors--benchling.png:
     link_URL: https://2020.igem.org/wiki/images/9/98/T--Stockholm--img--Sponsors--benchling.png
     md5: a247d86e7101998c69be5804cbf82eae
@@ -1175,7 +1183,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 026ff6615d2c1d5377f75c56402d7112
+    md5: c01c9cd3323cf23a7235e37653667ddc
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
