@@ -77,7 +77,7 @@ mixin citation_webpage(citation, count)
         cite= citation.title
         p
             span.details= citation.details
-            a.in-text(href=citation.url target="_blank" rel="noopener")= citation.url
+            a.in-text.url(href=citation.url target="_blank" rel="noopener")= citation.url
         a.in-text(href="#intext" + count) Back to text
 
 mixin citation_book(citation, count)
@@ -115,7 +115,7 @@ mixin hp_citation_webpage(citation, count)
         cite= citation.title
         p
             span.details= citation.details
-            a.in-text(href=citation.url target="_blank" rel="noopener")= citation.url
+            a.in-text.url(href=citation.url target="_blank" rel="noopener")= citation.url
 
 mixin hp_citation_book(citation, count)
     li(id= 'citation' + counter)

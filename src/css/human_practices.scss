@@ -372,7 +372,7 @@ body {
 // REFERENCES
 
 .content p, #references li {
-  a:not(.citation) {
+  a:not(.citation):not(.url) {
     position: relative;
     text-decoration: none;
     display: inline-block;
