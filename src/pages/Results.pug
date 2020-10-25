@@ -9,15 +9,94 @@ block headVars
 block article
 
     :markdown-it(html)
-
         # Cloning
-
+    - var imgpath = "" + require("../assets/img/Results--cloning_1.png")["default"]
+    +image(1, imgpath, "", 100)
+    :markdown-it(html)
+        asdasdasdasdasdasdasd
+    - var imgpath = "" + require("../assets/img/Results--cloning_2.png")["default"]
+    +image(2, imgpath, "", 100)
+    - var imgpath = "" + require("../assets/img/Results--cloning_3.png")["default"]
+    +image(3, imgpath, "", 100)
+    - var imgpath = "" + require("../assets/img/Results--cloning_4.png")["default"]
+    +image(4, imgpath, "", 100)
+    - var imgpath = "" + require("../assets/img/Results--cloning_5.png")["default"]
+    +image(5, imgpath, "", 100)
+    :markdown-it(html)
+        asdasdasdasdasd
+    - var imgpath = "" + require("../assets/img/Results--cloning_6.png")["default"]
+    +image(6, imgpath, "", 100)
+    :markdown-it(html)
+        asdasdasdasdasd
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        | Constructs                                                          | Code           | Size  | selection of sequence                                |
+        |---------------------------------------------------------------------|----------------|-------|------------------------------------------------------|
+        | Constitutive promoter-RFP                                           | Ctrl( Control) | 1069  | /                                                    |
+        | Constitutive promoter- LuxI- myc tag                                | A              | 1158  | A3 but resequence end of LuxI w/ new primers         |
+        | Promoter prmA- mcherry                                              | B              | 1492  | B7, B8                                               |
+        | Promoter bphR1- mcherry                                             | C              |  1361 | C3 but mismatch in promoter and gap after it         |
+        | Promoter Lux-GFP                                                    | D              | 1113  | D1                                                   |
+        | Promoter Rhl-GFP                                                    | E              | 1111  | E5                                                   |
+        | Promoter prmA-LuxI-myc tag                                          | F              | 1159  |  F5 (F7 has a mismatch)                              |
+        | Constitutive promoter- RhlI- myc tag                                | G              | 1045  | G7                                                   |
+        | Constitutive promoter-AiiA - myc tag                                | H              | 1189  | /                                                    |
+        | Constitutive promoter-RhlR - myc tag                                | J              | 1299  |  (J3 has a mismatch)                                 |
+        | RhlI-RBS-Aiia                                                       | K              | 1779  | K5,K11                                               |
+        | Constitutive promoter-bphR2 - myc tag                               | L              | 1443  |  L3                                                  |
+        | Promoter bphR1-LuxI-myc tag                                         | M              | 1288  |  M1                                                  |
+        | Constitutive promoter- GFP                                          | N              | 1266  |  N3                                                  |
+        | Constitutive promoter- RhlR- myc tag- Promoter Rhl-GFP              | O              | 2107  | O14,O19                                              |
+        | Constitutive promoter-LuxR - myc tag                                | P              | 1328  | /                                                    |
+        | Constitutive promoter- LuxR- myc tag- Promoter Lux-GFP              | Q              | 2135  | Q3                                                   |
+        | Constitutive promoter-bphR2-Myc tag -double terminator-Pbphr1--LuxI | plasmid 3.2    | 2493  | P3.2-4 but not sure ( need to resequence the middle) |
+    
+    :markdown-it(html)
         # Viability assays
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        | Constructs                                                          | Abbreviation        | Construct Detects |
+        |---------------------------------------------------------------------|---------------------|-------------------|
+        | Top 10 E. coli BL21 (no plasmid)                                    | Ctrl (Control)      |                   |
+        | Promoter prmA-LuxI-myc tag                                          | F                   | PFOS              |
+        | Constitutive promoter-bphR2 - myc tag - promoter bphR1-LuxI-myc tag | Plasmid 3.2 (P 3.2) |  PCB/1,1-biphenyl |
+    - var imgpath = "" + require("../assets/img/Results--fluorescence.png")["default"]
+    +image(7, imgpath, "", 100)
+    :markdown-it(html)
+        qweqweqweqweqweqweqwe
+    - var imgpath = "" + require("../assets/img/Results--pollutantconc.png")["default"]
+    +image(8, imgpath, "", 100)
+    :markdown-it(html)
+        qweqweqweqweqweqweqwe
 
         # Fluorescence
-        
-        # Western Blot
+        qweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqwe
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        | Construct                                              | Abbreviation | Fluorescent protein | Induced with AHL synthase constructs | Induced with synthetic AHL |
+        |--------------------------------------------------------|--------------|---------------------|--------------------------------------|----------------------------|
+        | constitutive promoter- GFP                             | N            | GFP                 |                  N/A                 |                            |
+        | constitutive promoter- RhlR- myc tag- promoter Rhl-GFP | O            | GFP                 | co-culture with G                    | 2 μM C4-HSL                |
+        | constitutive promoter- LuxR- myc tag- promoter Lux-GFP | Q            | GFP                 | co-culture with A                    | 2 μM 3OC6-HSL              |
+        |                                                                                                                                                                 |
+        | Constructs                                             | Abbreviation | Fluorescent protein | Induced with pollutants              |                            |
+        | promoter prmA- mCherry                                 | B            | mCherry             | 62.5 μM PFOS                         |                            |
+        | promoter bphR1- mCherry                                | C            | mCherry             | 10-4 M 1,1-biphenyl                  |                            |
+        |                        Controls                                                                                                                                 |
+        | constitutive promoter- LuxI- myc tag                   | A            |         N/A         |                  N/A                 |                            |
+        | constitutive promoter- RhlI- myc tag                   | G            |         N/A         |                  N/A                 |                            |
+    - var imgpath = "" + require("../assets/img/Results--GFP bar graph.png")["default"]
+    +imgNorm(imgpath, 100)
+    - var imgpath = "" + require("../assets/img/Results--mCherry bar graph.png")["default"]
+    +image(9, imgpath, "", 100)
+    - var imgpath = "" + require("../assets/img/Results--O14_GFP.png")["default"]
+    +image(10, imgpath, "", 70)
+    - var imgpath = "" + require("../assets/img/Results--O19_GFP.png")["default"]
+    +image(11, imgpath, "", 70)
+    - var imgpath = "" + require("../assets/img/Results--Q_GFP.png")["default"]
+    +image(12, imgpath, "", 70)
+    :markdown-it(html)
+        qweqweqweqweqweqweqwe
 
+        # Western Blot
+        qweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqwe
     :markdown-it(html plugins=['markdown-it-multimd-table'])
         | Constructs                                                  |  Code               |  Protein Tag |  Induced with pollutants (o/n) |  Protein Size + Myc-tag (kDa) | Correct Sequence |
         |-------------------------------------------------------------|---------------------|--------------|--------------------------------|-------------------------------|:----------------:|
@@ -33,9 +112,15 @@ block article
         | Constitutive promoter-bphR2 - myc tag - promoter bphR1-LuxI | Plasmid 3.2 (P 3.2) | c-Myc-tag    | 10-4 M 1,1-biphenyl            | 35.1                          | Partially        |
         | FtsH1Myc*                                                   | Pos Control         | c-Myc-tag    | N/A                            | 71.2                          | N/A              |
         | Constitutive promoter- GFP                                  | Neg Control         | None         | N/A                            | N/A                           | Yes              |
-    
     :markdown-it(html)
+        qweqweqweqweqweqweqweqweqwe
+    - var imgpath = "" + require("../assets/img/Results--WB-Coomassie-Stain.png")["default"]
+    +image(13, imgpath, "", 100)
+    :markdown-it(html)
+        qweqweqweqweqweqweqweqweqwe
+
         # Chromobacterium violaceum
+        qweqweqweqweqweqeqweqweqweqweqweqweqweqwe
     :markdown-it(html plugins=['markdown-it-multimd-table'])
         | 1                            | 2                 | 3                | 4                | 5              | 6              | 7               | 8               |
         |------------------------------|-------------------|------------------|------------------|----------------|----------------|-----------------|-----------------|
