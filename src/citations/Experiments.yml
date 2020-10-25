@@ -1,25 +1,29 @@
  
 # 1
-- doi: https://doi.org/10.1007/s00484-015-1117-4
-# 2
-- doi: https://doi.org/10.1016/j.ijid.2019.08.003
-# 3
 - book:
-    authors: "Ingalls, B. P."
-    year_published: 2013
-    title: "Mathematical modeling in systems biology: An introduction."
-    publisher: "MIT Press"
+    authors: "Lodish H, Berk A, Zipursky SL, et al"
+    year_published: 2000
+    title: "Molecular Cell Biology. 4th edition."
+    publisher: "New York: W. H. Freeman"
+# 2
+- doi: https://doi.org/10.1038/srep15159
+# 3
+- doi: https://doi.org/10.1111/j.1472-765X.2004.01448.x
 # 4
-- webpage:
-    published: "March 15, 2019"
-    title: "Agriculture: Crop production: Sugarcane. "
-    accessed: "June 22, 2020"
-    site_name: "TNAU Agritech Portal"
-    url: 'https://google.com'
+- doi: https://doi.org/10.1016/B978-1-4377-7883-0.00004-3
 # 5
-- webpage:
-    title: "Agriculture: Crop production: Sugarcane."
-    authors: "Author Name"
-    accessed: "June 22, 2020"
-    site_name: "TNAU Agritech Portal"
-    url: 'https://google.com'
+- doi: https://doi.org/10.4103/1947-2714.100998
+# 6 
+- doi: https://doi.org/10.1186/1475-2859-11-118
+# 7
+- doi: https://doi.org/10.1099/00221287-143-12-3703
+# 8
+- doi: https://doi.org/10.3390/en12234593
+# 9
+- doi: https://doi.org/10.1073/pnas.1410551111
+# 10
+- doi: https://doi.org/10.1038/nature03661
+# 11
+- doi: https://doi.org/10.1007/s00253-011-3653-0
+# 12
+- doi: https://doi.org/10.3389/fmicb.2012.00056

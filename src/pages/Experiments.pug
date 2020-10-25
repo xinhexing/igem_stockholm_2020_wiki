@@ -11,37 +11,96 @@ block article
     :markdown-it(html)
 
         # Cloning
+        Cloning can be used to get a specific DNA fragment into the <dfn> vector DNA ~ Small circular chromosome with DNA for functional regions such as origin of replication and a drug resistance gene</dfn> to form a recombinant DNA. This can be introduced into a host cell where the recombinant DNA will replicate and express the proteins. Two enzymes are used in this process <dfn>restriction enzymes ~ Enzymes that cuts DNA at specific sites by recognising 4-8 basepair sequences</dfn> and <dfn>DNA ligase ~ Enzyme that forms phosphodiester bonds between two complementary sticky end DNA fragments</dfn> [Lodish et al., 2000](#citation1).
+
+        The constructs were designed based on prior biobricks or based on literature. Due to the unavailability or late delivery of the biobricks we ordered our constructs from Integrated DNA Technologies (IDT). The constructs under a constitutive promoter had an additional <dfn> Myc tag ~ SsrA tag that tags the protein for degradation </dfn> in the sequence and the promoter specific sequences have either a <dfn> GFP ~ Green Fluorescent Protein often used as a reporter gene </dfn> or <dfn> mCherry ~ Red fluorescent protein based on GFP </dfn> sequence for easier characterization. The full list of constructs can be found in [Parts](https://2020.igem.org/Team:Stockholm/Parts).
+
+        To express these constructs, they were cloned into the standard vector plasmid pSB1C3. A [restriction Digest](https://2020.igem.org/wiki/images/b/ba/T--Stockholm--Restriction_digest.pdf) was performed on EcoRI and PstI sites in both the gene blocks and the plasmids. This was followed by [ligation](https://2020.igem.org/wiki/images/8/8f/T--Stockholm--Ligation.pdf). These plasmids were transformed into *E coli TOP10* and were selected on chloramphenicol plates for [colony PCR](https://2020.igem.org/wiki/images/3/33/T--Stockholm--Colony_PCR.pdf).
+
+        Transformation was primarily performed using [heat shock](https://2020.igem.org/wiki/images/d/da/T--Stockholm--Transformation.pdf) of chemically competent *E. coli TOP10*. However, when heat shock transformation was not possible, electroporation of electrocompetent E coli was done instead. *Shewanella Oneidensis* can be electroporated, but we opted for conjugation, where *E. coli MFDpir* was used to transfer plasmids to *Shewanella Oneidensis*. 
+
+        The samples from the colony PCR with the right size when run on an agarose gel were sent for sequencing to Microsynth which were re-checked with the original sequence which if matched were used for characterization.
+
     - var imgpath = "" + require("../assets/img/Experiments--cloning.png")["default"]
-    +image(1, imgpath, "", 100)
+    +image(1, imgpath, "Cloning workflow", 100)
     :markdown-it(html)
 
         # Viability assays
+        Viability assays were important for our project. In this series of experiments we aimed to investigate any alterations in the growth of our bacteria of interest when cultured with the chemicals of interest. 
+        
+        When cultured in a closed system, bacteria tend to have a characteristic growth curve (Figure 2). In the lag phase the bacteria adjust to the environment, while in the log phase they grow exponentially with high division rate. However, the log phase is followed by the stationary phase where the division rate is very low and the nutrients are limited. As a result of these facts, the death phase of the culture is followed [Wang, Fan, Chen & Terentjev, 2015](#citation2).
+
     - var imgpath = "" + require("../assets/img/Experiments--growth_curve.png")["default"]
-    +image(2, imgpath, "", 80)
+    +image(2, imgpath, "Characteristic bacteria growth curve", 80)
     :markdown-it(html)
 
+        Growth-based [viability assays](https://2020.igem.org/wiki/images/5/57/T--Stockholm--Viability_Assay.pdf) using microplate readers are a quite common technique nowadays. It has partially replaced the traditional methods and has reduced the cost of the experiment. The cultivation of the bacteria is performed in microplates and the growth curve is designed based on the absorbance values. It is a fast, easy and cheap technique to get accurate growth curves. Finally, it allow the user to set different chemical or biological conditions in each well [Horakova et al., 2004](#citation3). 
+
         # Fluorescence
+        Fluorescence emission occurs when a molecule absorbs light at high energy (i.e. short wavelength) and emits light at lower energy and usually visible wavelength [Welker, 2012](#citation4).
+
+        To characterise the activation of specific promoters in our circuit, genes coding for fluorescent proteins (GFP / mCherry) were inserted into some of our constructs. The fluorescence intensity of the constructs were quantified in whole cells, both in uninduced (i.e. to check for "leakiness" of the promoters) and induced conditions. [These measurements](https://2020.igem.org/wiki/images/6/6e/T--Stockholm--Fluorescence.pdf) were done in a microplate reader after calibration with fluorescent dyes, and adjusted for cell density. 
+
     - var imgpath = "" + require("../assets/img/Experiments--fluorescence.png")["default"]
-    +image(3, imgpath, "", 80)
+    +image(3, imgpath, "Basic fluorescense mechanism", 80)
     :markdown-it(html)
 
         # SDS Page and Western Blot
+        [Western Blots](https://2020.igem.org/wiki/images/b/b3/T--Stockholm--SDS_Page_and_Western_Blot.pdf) were essential in the characterization of our constructs. In order to ensure that our gene insert was in fact expressed and translated into the desired protein we needed a method to detect the proteins that were expressed by our cells. SDS PAGE is an electrophoresis based separation method for size based discrimination of proteins and western blotting utilises antibody specificity in order to detect a specific protein [Mahmood & Yang, 2012](#citation5).
+
+        In order to be able to distinguish our protein of interest from our host cell proteome we designed our gene sequences to include a myc-tag at the end of the protein sequence. The myc-tag is a 1.2 kDa protein and can be fused to the N-terminus or C-terminus of a protein  [Jarmander et al., 2012](#citation6).
+
+        With a monoclonal antibody specific for the Myc tag we would be able to determine the presence of our desired protein in different constructs in different conditions, such as with and without the presence of pollutants. A blue safe protein stain could be used in order to stain the general proteome of our samples. 
 
         # Chromobacterium violaceum
+        Quorum sensing is dependent on the interaction between a diffusible signal molecule and a transcriptional activator protein. A commonly used signal molecule is N-acylhomoserine lactones (AHLs) which differ in their sidechains (N-acyl). *Chromobacterium violaceum* is a gram-negative bacterium that can produce the characteristically purple pigment, violacein. The modified strain CV026, is inducible by synthetic AHL N-acyl side chains from C4-C8 in length, with varying degrees of sensitivity [McClean et al., 1997](#citation7).
+
+        *C. Violaceum* was going to be utilized for its capability to show the presence of a large variety of AHLs. This would be a quick indicator for any production of AHLs without having to test protein expression in Western blot. The performed experiments with C. Violaceum tested the needed levels of synthetic AHL for our cultures. 
+
+        [Chromobacterium protocol](https://drive.google.com/file/d/17IBCJ6UvMP6rLA7Zu7AN4d03Ve2kcd9Q/view?usp=sharing)
 
         # MFC
+        ## Introduction
+        A Microbial Fuel Cell (MFC) works similarly to a hydrogen fuel cell, but with microbes as the terminal electron donor. The decision to use MFCs as a biosensor in our project, and the people who influenced our design are outlined in our [Human Practices](https://2020.igem.org/Team:Stockholm/Human_Practices) page.
+
+        ## Hydrogen Fuel Cells
+        The hydrogen fuel cell generates electricity by turning hydrogen and oxygen into water via the following reaction, which is the reverse of the electrolysis reaction: 
+
+        $$ 2H_2 + O_2 \rightarrow 2H_2O + energy $$
+        This reaction occurs in two redox half-reactions. At the anode:
+        $$ H_2 \rightarrow H^+ + 2e^- $$
+        and the cathode half-reaction:
+        $$ \frac{1}{2} O_2 + 2H^+ + 2e^- \rightarrow 2H_2O $$
+
+        By constructing two chambers where one has access to hydrogen and the other to oxygen, the two half-reactions can take place in different locations as long as the other components (protons and electrons) can travel between the chambers. A selective membrane can be used that only allows protons to permeate to create an abundance of electrons at the anode. A conductive wire can connect the anode and cathode electrodes, which allows the electrons to pass through. The electrons cannot pass through any other way than the wire, and it is from that which the electricity in the form of direct current is generated [Felseghi et al., 2019](#citation8). 
+
+        ## Bacteria for producing electricity
+        In many biological systems, the energy used is in the form ATP which is formed by breaking down nutrients. The energy extracted from glycolysis and the Krebs cycle is not primarily in the form of ATP, but NADH, which is then used in the electron transport chain in oxidative phosphorylation. In some anaerobic bacteria such as *S. oneidensis*, an extracellular electron transport pathway still exists, but without oxygen as a terminal electron acceptor to form water, oxidized metals or other compounds can be reduced instead. This can result in electricity being generated as the reduced mediator can pass its electron on [Pirbadian et el., 2014](citation9). *S. oneidensis MR-1* can also form highly conductive nanowires that can carry charge far outside the immediate area of the cell and remove the need for specific mediators [Reguera et al., 2005](#citation10). This is in *S. oneidensis* done through a set of cytochromes that carries the electrons along the nanowire [Pirbadian et el., 2014](citation9).
+
+        ## Microbial Fuel Cells
+        Bacteria such as *S. oneidensis* catalyses the reduction of surrounding metals and uses them as terminal electron acceptors to get rid of electrons in their cytochromes which allows them to complete their extracellular electron transport for energy. This is a reaction catalyzed by the redox proteins in their respiratory chain, which also pumps protons out of the cell.
+
+        In our MFC, Shenwanella Oneidensis reduces the anode directly or via nanowires and the electrons then flow through the wire, creating a current [Brutinel & Gralnick](#citation11).
+
+        A simple design is the H-type MFC, which is structurally and conceptually similar to the hydrogen fuel cell. The hydrogen-rich anode chamber is replaced with the microbial growth chamber, where protons and electrons are generated through the extracellular electron transport rather than the metal catalysed hydrogen gas splitting. Water is formed at the air cathode where the electrons are rejoined with the protons and atmospheric oxygen.
+
     - var imgpath = "" + require("../assets/img/Experiments--mfc.png")["default"]
-    +image(4, imgpath, "", 100)
+    +image(4, imgpath, "Schematic of the H-type MFC", 100)
     :markdown-it(html)
-        sdfsdfsdfsdfsdfsdfsdf
+        
+        ## Setup
+        The electricity generation of Shewanella Oneidensis was measured in a Microbial Fuel Cell (MFC). A two chamber electrochemical fuel cell was repurposed to be used for this purpose. The electrodes in each chamber consisted of stacks of 2 heat treated square graphite paper with a side length of 1.5 cm. This allowed for a tight packing of the fuel cell, while still leaving space for the media to flow between the graphite pater and allow biofilm to grow there. Separating the chambers was a Nafion proton exchange membrane. The chamber walls were made from the thickness of the rubber gasket sealing the electrodes in place. The rubber gaskets secured the membrane in place and allowed for an airtight seal around the chambers. The graphite electrodes were connected to a gold plate, where electronics could be attached. A 1 kΩ resistor was put between the electrodes and the open circuit voltage was measured to then calculate the current. A battery tester from Landt instruments was used to collect and log the data. A detailed description of the assembly can be found in the  [Engineering](https://2020.igem.org/Team:Stockholm/Engineering#Design-MFC) page.
+
     - var imgpath = "" + require("../assets/img/Engineering--mfc_disassembled.png")["default"]
-    +image(5, imgpath, "", 100)
+    +image(5, imgpath, "Disassembled MFC", 100)
     :markdown-it(html)
-        sdfsdfsdfsdfsdfsdfsdf
+        
+        ## Experiments
+        The MFC was inoculated with 100 uL culture of Shewanella Oneidensis MR-1 directly at the anode before assembly. The fuel cell was then fed with media from a reservoir to the anode, and air to the cathode at a constant flow at 0.1 RPM, which corresponds to approximately 21 uL/min. Two runs were performed. One long run with the wildtype strain, where the media feed was exchanged (LB and M9) to determine biofilm growth, and one run with the MtrB knockout strain without any transformed plasmid to see both biofilm growth and electricity production without the crucial MtrB gene in the MFC. Some minimal growth is however expected, as MtrE can complement the complex, although with a lower efficiency than MtrB [Coursolle & Gralnick, 2012](#citation12). Only bacteria close to both the electrode and the proton exchange membrane should be able to generate current, so the amount of biofilm is proportional to the current produced. The media change is however done to confirm that biofilm has formed. Future experiments would include testing the electricity production of Shewanella Oneidensis MR-1 ΔMtrB with MtrB under an inducible promoter (pLux) and finally with the oscillatory circuit. The open circuit voltage was logged, which later could be converted into the current produced across the 1 kΩ resistor between electrodes. 
+
     - var imgpath = "" + require("../assets/img/Engineering--mfc.png")["default"]
-    +image(6, imgpath, "", 100)
+    +image(6, imgpath, "Assembled MFC setup. Green/1: pump, Yellow/2: air reservoir, Purple/3: media reservoir, Red/4: resistor, Cyan/5: MFC", 100)
     :markdown-it(html)
-        sdfsdfsdfsdfsdfsdfsdf
 
         # Protocols
 
