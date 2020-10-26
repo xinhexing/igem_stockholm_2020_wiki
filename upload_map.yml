@@ -1183,7 +1183,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 64fd5d1a7b8974e3c7cfd351e7ab188e
+    md5: 9765682851b726325893ffccf0244e5b
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1277,7 +1277,7 @@ html:
     md5: 6857b7a135c245fe4a159dc8b38ae764
   Team\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Team
-    md5: dcc4857d8e1112abba1a064e56ba4005
+    md5: 00cd81ea2a4319659be445a9b5fd1a78
   index.html:
     link_URL: https://2020.igem.org/Team:Stockholm
     md5: f1bea0b261d51c672b7db0a5e5db0746
