@@ -9,6 +9,49 @@ block headVars
 block article
 
     :markdown-it(html)
+    
+        # MFC
+        ## Introduction
+        A Microbial Fuel Cell (MFC) works similarly to a hydrogen fuel cell, but with microbes as the terminal electron donor. The decision to use MFCs as a biosensor in our project, and the people who influenced our design are outlined in our [Human Practices](https://2020.igem.org/Team:Stockholm/Human_Practices) page.
+
+        ## Hydrogen Fuel Cells
+        The hydrogen fuel cell generates electricity by turning hydrogen and oxygen into water via the following reaction, which is the reverse of the electrolysis reaction: 
+
+        $$ 2H_2 + O_2 \rightarrow 2H_2O + energy $$
+        This reaction occurs in two redox half-reactions. At the anode:
+        $$ H_2 \rightarrow H^+ + 2e^- $$
+        and the cathode half-reaction:
+        $$ \frac{1}{2} O_2 + 2H^+ + 2e^- \rightarrow 2H_2O $$
+
+        By constructing two chambers where one has access to hydrogen and the other to oxygen, the two half-reactions can take place in different locations as long as the other components (protons and electrons) can travel between the chambers. A selective membrane can be used that only allows protons to permeate to create an abundance of electrons at the anode. A conductive wire can connect the anode and cathode electrodes, which allows the electrons to pass through. The electrons cannot pass through any other way than the wire, and it is from that which the electricity in the form of direct current is generated [Felseghi et al., 2019](#citation8). 
+
+        ## Bacteria for producing electricity
+        In many biological systems, the energy used is in the form ATP which is formed by breaking down nutrients. The energy extracted from glycolysis and the Krebs cycle is not primarily in the form of ATP, but NADH, which is then used in the electron transport chain in oxidative phosphorylation. In some anaerobic bacteria such as *S. oneidensis*, an extracellular electron transport pathway still exists, but without oxygen as a terminal electron acceptor to form water, oxidized metals or other compounds can be reduced instead. This can result in electricity being generated as the reduced mediator can pass its electron on [Pirbadian et el., 2014](citation9). *S. oneidensis MR-1* can also form highly conductive nanowires that can carry charge far outside the immediate area of the cell and remove the need for specific mediators [Reguera et al., 2005](#citation10). This is in *S. oneidensis* done through a set of cytochromes that carries the electrons along the nanowire [Pirbadian et el., 2014](citation9).
+
+        ## Microbial Fuel Cells
+        Bacteria such as *S. oneidensis* catalyses the reduction of surrounding metals and uses them as terminal electron acceptors to get rid of electrons in their cytochromes which allows them to complete their extracellular electron transport for energy. This is a reaction catalyzed by the redox proteins in their respiratory chain, which also pumps protons out of the cell.
+
+        In our MFC, Shenwanella Oneidensis reduces the anode directly or via nanowires and the electrons then flow through the wire, creating a current [Brutinel & Gralnick](#citation11).
+
+        A simple design is the H-type MFC, which is structurally and conceptually similar to the hydrogen fuel cell. The hydrogen-rich anode chamber is replaced with the microbial growth chamber, where protons and electrons are generated through the extracellular electron transport rather than the metal catalysed hydrogen gas splitting. Water is formed at the air cathode where the electrons are rejoined with the protons and atmospheric oxygen.
+
+    - var imgpath = "" + require("../assets/img/Experiments--mfc.png")["default"]
+    +image(4, imgpath, "Schematic of the H-type MFC", 100)
+    :markdown-it(html)
+        
+        ## Setup
+        The electricity generation of Shewanella Oneidensis was measured in a Microbial Fuel Cell (MFC). A two chamber electrochemical fuel cell was repurposed to be used for this purpose. The electrodes in each chamber consisted of stacks of 2 heat treated square graphite paper with a side length of 1.5 cm. This allowed for a tight packing of the fuel cell, while still leaving space for the media to flow between the graphite pater and allow biofilm to grow there. Separating the chambers was a Nafion proton exchange membrane. The chamber walls were made from the thickness of the rubber gasket sealing the electrodes in place. The rubber gaskets secured the membrane in place and allowed for an airtight seal around the chambers. The graphite electrodes were connected to a gold plate, where electronics could be attached. A 1 kΩ resistor was put between the electrodes and the open circuit voltage was measured to then calculate the current. A battery tester from Landt instruments was used to collect and log the data. A detailed description of the assembly can be found in the  [Engineering](https://2020.igem.org/Team:Stockholm/Engineering#Design-MFC) page.
+
+    - var imgpath = "" + require("../assets/img/Experiments--MFC_Schematic.png")["default"]
+    +image(5, imgpath, "Schematic of the MFC", 100)
+    :markdown-it(html)
+        
+        ## Experiments
+        The MFC was inoculated with 100 uL culture of Shewanella Oneidensis MR-1 directly at the anode before assembly. The fuel cell was then fed with media from a reservoir to the anode, and air to the cathode at a constant flow at 0.1 RPM, which corresponds to approximately 21 uL/min. Two runs were performed. One long run with the wildtype strain, where the media feed was exchanged (LB and M9) to determine biofilm growth, and one run with the MtrB knockout strain without any transformed plasmid to see both biofilm growth and electricity production without the crucial MtrB gene in the MFC. Some minimal growth is however expected, as MtrE can complement the complex, although with a lower efficiency than MtrB [Coursolle & Gralnick, 2012](#citation12). Only bacteria close to both the electrode and the proton exchange membrane should be able to generate current, so the amount of biofilm is proportional to the current produced. The media change is however done to confirm that biofilm has formed. Future experiments would include testing the electricity production of Shewanella Oneidensis MR-1 ΔMtrB with MtrB under an inducible promoter (pLux) and finally with the oscillatory circuit. The open circuit voltage was logged, which later could be converted into the current produced across the 1 kΩ resistor between electrodes. 
+
+    - var imgpath = "" + require("../assets/img/Engineering--mfc.png")["default"]
+    +image(6, imgpath, "Assembled MFC setup. Green/1: pump, Yellow/2: air reservoir, Purple/3: media reservoir, Red/4: resistor, Cyan/5: MFC", 100)
+    :markdown-it(html)
 
         # Cloning
         Cloning can be used to get a specific DNA fragment into the <dfn> vector DNA ~ Small circular chromosome with DNA for functional regions such as origin of replication and a drug resistance gene</dfn> to form a recombinant DNA. This can be introduced into a host cell where the recombinant DNA will replicate and express the proteins. Two enzymes are used in this process <dfn>restriction enzymes ~ Enzymes that cuts DNA at specific sites by recognising 4-8 basepair sequences</dfn> and <dfn>DNA ligase ~ Enzyme that forms phosphodiester bonds between two complementary sticky end DNA fragments</dfn> [Lodish et al., 2000](#citation1).
@@ -60,49 +103,6 @@ block article
         *C. Violaceum* was going to be utilized for its capability to show the presence of a large variety of AHLs. This would be a quick indicator for any production of AHLs without having to test protein expression in Western blot. The performed experiments with C. Violaceum tested the needed levels of synthetic AHL for our cultures. 
 
         [Chromobacterium protocol (GOOGLE DRIVE)](https://drive.google.com/file/d/17IBCJ6UvMP6rLA7Zu7AN4d03Ve2kcd9Q/view?usp=sharing)
-
-        # MFC
-        ## Introduction
-        A Microbial Fuel Cell (MFC) works similarly to a hydrogen fuel cell, but with microbes as the terminal electron donor. The decision to use MFCs as a biosensor in our project, and the people who influenced our design are outlined in our [Human Practices](https://2020.igem.org/Team:Stockholm/Human_Practices) page.
-
-        ## Hydrogen Fuel Cells
-        The hydrogen fuel cell generates electricity by turning hydrogen and oxygen into water via the following reaction, which is the reverse of the electrolysis reaction: 
-
-        $$ 2H_2 + O_2 \rightarrow 2H_2O + energy $$
-        This reaction occurs in two redox half-reactions. At the anode:
-        $$ H_2 \rightarrow H^+ + 2e^- $$
-        and the cathode half-reaction:
-        $$ \frac{1}{2} O_2 + 2H^+ + 2e^- \rightarrow 2H_2O $$
-
-        By constructing two chambers where one has access to hydrogen and the other to oxygen, the two half-reactions can take place in different locations as long as the other components (protons and electrons) can travel between the chambers. A selective membrane can be used that only allows protons to permeate to create an abundance of electrons at the anode. A conductive wire can connect the anode and cathode electrodes, which allows the electrons to pass through. The electrons cannot pass through any other way than the wire, and it is from that which the electricity in the form of direct current is generated [Felseghi et al., 2019](#citation8). 
-
-        ## Bacteria for producing electricity
-        In many biological systems, the energy used is in the form ATP which is formed by breaking down nutrients. The energy extracted from glycolysis and the Krebs cycle is not primarily in the form of ATP, but NADH, which is then used in the electron transport chain in oxidative phosphorylation. In some anaerobic bacteria such as *S. oneidensis*, an extracellular electron transport pathway still exists, but without oxygen as a terminal electron acceptor to form water, oxidized metals or other compounds can be reduced instead. This can result in electricity being generated as the reduced mediator can pass its electron on [Pirbadian et el., 2014](citation9). *S. oneidensis MR-1* can also form highly conductive nanowires that can carry charge far outside the immediate area of the cell and remove the need for specific mediators [Reguera et al., 2005](#citation10). This is in *S. oneidensis* done through a set of cytochromes that carries the electrons along the nanowire [Pirbadian et el., 2014](citation9).
-
-        ## Microbial Fuel Cells
-        Bacteria such as *S. oneidensis* catalyses the reduction of surrounding metals and uses them as terminal electron acceptors to get rid of electrons in their cytochromes which allows them to complete their extracellular electron transport for energy. This is a reaction catalyzed by the redox proteins in their respiratory chain, which also pumps protons out of the cell.
-
-        In our MFC, Shenwanella Oneidensis reduces the anode directly or via nanowires and the electrons then flow through the wire, creating a current [Brutinel & Gralnick](#citation11).
-
-        A simple design is the H-type MFC, which is structurally and conceptually similar to the hydrogen fuel cell. The hydrogen-rich anode chamber is replaced with the microbial growth chamber, where protons and electrons are generated through the extracellular electron transport rather than the metal catalysed hydrogen gas splitting. Water is formed at the air cathode where the electrons are rejoined with the protons and atmospheric oxygen.
-
-    - var imgpath = "" + require("../assets/img/Experiments--mfc.png")["default"]
-    +image(4, imgpath, "Schematic of the H-type MFC", 100)
-    :markdown-it(html)
-        
-        ## Setup
-        The electricity generation of Shewanella Oneidensis was measured in a Microbial Fuel Cell (MFC). A two chamber electrochemical fuel cell was repurposed to be used for this purpose. The electrodes in each chamber consisted of stacks of 2 heat treated square graphite paper with a side length of 1.5 cm. This allowed for a tight packing of the fuel cell, while still leaving space for the media to flow between the graphite pater and allow biofilm to grow there. Separating the chambers was a Nafion proton exchange membrane. The chamber walls were made from the thickness of the rubber gasket sealing the electrodes in place. The rubber gaskets secured the membrane in place and allowed for an airtight seal around the chambers. The graphite electrodes were connected to a gold plate, where electronics could be attached. A 1 kΩ resistor was put between the electrodes and the open circuit voltage was measured to then calculate the current. A battery tester from Landt instruments was used to collect and log the data. A detailed description of the assembly can be found in the  [Engineering](https://2020.igem.org/Team:Stockholm/Engineering#Design-MFC) page.
-
-    - var imgpath = "" + require("../assets/img/Experiments--MFC_Schematic.png")["default"]
-    +image(5, imgpath, "Schematic of the MFC", 100)
-    :markdown-it(html)
-        
-        ## Experiments
-        The MFC was inoculated with 100 uL culture of Shewanella Oneidensis MR-1 directly at the anode before assembly. The fuel cell was then fed with media from a reservoir to the anode, and air to the cathode at a constant flow at 0.1 RPM, which corresponds to approximately 21 uL/min. Two runs were performed. One long run with the wildtype strain, where the media feed was exchanged (LB and M9) to determine biofilm growth, and one run with the MtrB knockout strain without any transformed plasmid to see both biofilm growth and electricity production without the crucial MtrB gene in the MFC. Some minimal growth is however expected, as MtrE can complement the complex, although with a lower efficiency than MtrB [Coursolle & Gralnick, 2012](#citation12). Only bacteria close to both the electrode and the proton exchange membrane should be able to generate current, so the amount of biofilm is proportional to the current produced. The media change is however done to confirm that biofilm has formed. Future experiments would include testing the electricity production of Shewanella Oneidensis MR-1 ΔMtrB with MtrB under an inducible promoter (pLux) and finally with the oscillatory circuit. The open circuit voltage was logged, which later could be converted into the current produced across the 1 kΩ resistor between electrodes. 
-
-    - var imgpath = "" + require("../assets/img/Engineering--mfc.png")["default"]
-    +image(6, imgpath, "Assembled MFC setup. Green/1: pump, Yellow/2: air reservoir, Purple/3: media reservoir, Red/4: resistor, Cyan/5: MFC", 100)
-    :markdown-it(html)
 
         # Protocols
 
