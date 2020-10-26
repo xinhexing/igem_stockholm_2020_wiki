@@ -2,7 +2,7 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Contribution"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "Our two cents"
     - var requireMathJax = false
     - var topimg = "contribution"
 
@@ -10,134 +10,20 @@ block article
 
     :markdown-it(html)
 
-        # Headings Contribution
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Headingwkfjnasf
+        # A standard modular system for pollutant biosensors
+        Using our modular system (Figure 1), we aimed to prove that our MFC biosensor can detect and distinguish between two pollutants at the same time. However, with modification of this modular system, various pollutants can be detected at the same time.
 
-        # Emphasis
-        This is regular text.
-
-        **This is bold text.**
-        __This is also bold text.__
-
-        *This is italic text.*
-        _This is also italix text.*
-
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
-    +image(1, imgpath, "Caption", 100)
+    - var imgpath = "" + require("../assets/img/Contribution--luxrhi.png")["default"]
+    +image(1, imgpath, "The Lux-Rhl modular system", 100)
 
     :markdown-it(html)
-        Back to regular text.
+        Hence, our suggested modular system can be used by any iGEM team to detect a specific pollutant with an electrical output, taking advantage of the MtrB gene. Any promoter of interest could be replaced at the Px position and as a result detect any compound needed. In silico testing of the system successfully showed that the proposed system would be functional, which is described in [modelling](https://2020.igem.org/Team:Stockholm/Model#SystemofDelayedDifferentialEquations-Improveddesignandinduction). Also, sub parts of this system were sequenced and characterized to prove that successful cloning is possible, seen in [results](https://2020.igem.org/Team:Stockholm/Results) However, due to time constraint the complete modular system wasn’t tested in real life conditions.
 
-        # Tables
+        # Troubleshooting Western Blot analysis for your proteins
+        During the whole experimental period, we tried to optimize our protocols to achieve the best possible results. Though, sometimes even after optimization, even if we had used the right controls, getting useful results proved to be difficult. Hence, we performed various cycles of troubleshooting. We created a troubleshooting checklist especially for Western blot, which can be found on the [engineering](https://2020.igem.org/Team:Stockholm/Engineering#Identifyaproblemtosolveati+1=troubleshooting) page. 
 
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
+        # Better characterization of the existing parts
+        During the summer we attempted to work with already existing parts. Biobricks such as bphR1, and prmA were added with <def>Myc tags ~ SsrA protein degradation tag</def> for easier characterization from future iGEM teams. These biobricks were characterized and sequenced to prove their efficacy, and can be seen in [parts](https://2020.igem.org/Team:Stockholm/Parts). Cloning and sequencing was successfully performed based on the [results](https://2020.igem.org/Team:Stockholm/Results#Cloning). 
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
-
-    :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
-
-    :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
-
-    :markdown-it(html)
-        **Example 3:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
-
-    :markdown-it(html)
-
-        # Definitions
-
-        <dfn>Term ~ Definition</dfn>
-
-        This can come <dfn>anywhere in ~ the text</dfn>.
-
-        # MathJax
-
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
-
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
-
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
-
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
-
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
-
-//- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
-
-prepend citations
-    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
+        # Lab on Screens 
+        This year, we also expanded our success further than the lab bench. A YouTube series beneficial not only for the iGEM community but to get more people interested in science was started with basic science experiments. We created the [Lab-on-Screens]( https://2020.igem.org/Team:Stockholm/Education#LabonScreens) series to provide a creative basis for future teams to work on. We hope that future teams will build on this platform to expand it even more. We are grateful already to be able to build upon it together with the Maastricht iGEM Team 2020. [Here’s the link to the channel, where you can watch our series!](https://www.youtube.com/watch?v=mIucsDY7Lp4&list=PLVaGAfKUErB1U-JNhz4FarIwh6PQAxsPk)

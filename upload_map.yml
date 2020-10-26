@@ -415,6 +415,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/5/5a/T--Stockholm--img--Contents--topimg_sustainable.png
     md5: 9e53e4be841ba78cccc6a165ceccdfa0
     upload_filename: T--Stockholm--img--Contents--topimg_sustainable.png
+  assets\img\Contribution--luxrhi.png:
+    link_URL: https://2020.igem.org/wiki/images/2/27/T--Stockholm--img--Contribution--luxrhi.png
+    md5: ebb64ec664d574d3f0b5b4804b6ca6af
+    upload_filename: T--Stockholm--img--Contribution--luxrhi.png
   assets\img\Description--balticsea.png:
     link_URL: https://2020.igem.org/wiki/images/b/b6/T--Stockholm--img--Description--balticsea.png
     md5: 962d66266f5a6749abb8881ae7037419
@@ -1183,7 +1187,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: cd95b92405a1f1c7e0ff39d4091f84aa
+    md5: d45b20c01f48bfe983c28b460335e721
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1193,7 +1197,7 @@ html:
     md5: 70327608e86d7809dc07b84311fde97b
   Contribution\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Contribution
-    md5: 47e35506604981e2f1ddb19cff39ee64
+    md5: bc24486be292fa70fed9cf28540931c5
   Description\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Description
     md5: 68b1d6d1135960152948f255353f0349
