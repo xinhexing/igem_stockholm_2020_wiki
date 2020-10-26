@@ -532,6 +532,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/0/0f/T--Stockholm--img--Engineering--wt.png
     md5: 1da9cadcc8fb05755019a4c4d99ed3a8
     upload_filename: T--Stockholm--img--Engineering--wt.png
+  assets\img\Experiments--MFC_Schematic.png:
+    link_URL: https://2020.igem.org/wiki/images/2/25/T--Stockholm--img--Experiments--MFC_Schematic.png
+    md5: bb86bf8ad0cdf78e69e318debca50b93
+    upload_filename: T--Stockholm--img--Experiments--MFC_Schematic.png
   assets\img\Experiments--cloning.png:
     link_URL: https://2020.igem.org/wiki/images/3/3e/T--Stockholm--img--Experiments--cloning.png
     md5: 02bec6252d13e7232b6e309118046a9b
@@ -1195,7 +1199,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: c0319c07c7ea7744ba4a25d6c1a58ca5
+    md5: 6a5f596a44ee02e319281538bb7c6213
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1223,7 +1227,7 @@ html:
     md5: c9ca3e5be24c3bacb75c8200131d8b34
   Experiments\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Experiments
-    md5: b59fbb3f7594c3c7f8a8c72029735f29
+    md5: c0c0125bd63be9825e08f09fb06427d9
   Human_Practices\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Human_Practices
     md5: 660322191346e975987bc0467b46510f
