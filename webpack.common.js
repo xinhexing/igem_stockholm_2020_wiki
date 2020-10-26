@@ -24,7 +24,7 @@ module.exports = {
     content: "./src/js/content.js",
     team: "./src/js/team.js",
     parts: "./src/js/parts.js",
-    poster: "./src/js/parts.js",
+    poster: "./src/js/poster.js",
     human_practices: "./src/js/human_practices.js",
     medal_criteria: "./src/js/medal_criteria.js",
   },
