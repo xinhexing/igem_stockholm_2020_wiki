@@ -80,6 +80,10 @@ block article
     :markdown-it(html)
         The viability assay shows that our host cells with or without the pollutant sensing constructs are not severely affected by the addition of pollutants in terms of their population growth. An effect on the growth curve can be seen for the highest concentrations for 1,1-biphenyl at 10<sup>-3</sup> M and for PFOS at 125 μM. This suggests that these concentrations may be in the range of toxicity threshold values for our bacterial cells. However, these concentrations are well above current concentrations of these pollutants in nature around the Baltic sea.   
 
+        # Characterization
+To make sure that our final sequence works perfectly we methodically divided the construct and added extra sequences that would help us with characterization such as fluorescence markers or myc tags. This was useful in troubleshooting the subparts of the final construct that needs more modeling and analysis to give out the desired proteins.
+Different techniques were applied to characterize the various constructs outlined in [Experiments](https://2020.igem.org/Team:Stockholm/Experiments).
+
         # Fluorescence
         Fluorescence intensity of the constructs was measured both in uninduced conditions; to obtain a threshold signalling level of the promoters, and in induced conditions; to assess the degree of activation of the promoter by the inducers (i.e. AHL and/or pollutants). Inducers were added to cultures along with the constructs to be tested, and incubated overnight (Table 3). Constructs not expressing fluorescent proteins were included as controls. The results are summarised in Figure x9 and 10.
 
@@ -102,11 +106,11 @@ block article
     - var imgpath = "" + require("../assets/img/Results--mCherry bar graph.png")["default"]
     +image(9, imgpath, "Net fluorescence intensity of constructs expressing (a) GFP and (b) mCherry. The values shown represent averages of 3 technical replicates, and have been adjusted for cell density. Error bars represent standard deviation", 100)
     - var imgpath = "" + require("../assets/img/Results--O14_GFP.png")["default"]
-    +image(10, imgpath, "", 70)
+    +image(10, imgpath, "GFP visualisation of construct O14 under UV light.", 70)
     - var imgpath = "" + require("../assets/img/Results--O19_GFP.png")["default"]
-    +image(11, imgpath, "", 70)
+    +image(11, imgpath, "GFP visualisation of construct O19 under UV light.", 70)
     - var imgpath = "" + require("../assets/img/Results--Q_GFP.png")["default"]
-    +image(12, imgpath, "GFP visualisation of constructs O14, O19 and Q under UV light.", 70)
+    +image(12, imgpath, "GFP visualisation of construct Q under UV light.", 70)
     :markdown-it(html)
         The green fluorescence intensity of constructs O and Q increased upon induction with synthetic C4-HSL and 3OC6-HSL, respectively (Figure 9a). This suggests that the synthetic AHL molecules could bind to RhlR (constitutively expressed by construct O) and LuxR (constitutively expressed by construct Q), which could subsequently induce their respective promoters (pRhl and pLux) and therefore induce higher GFP expression. Co-culturing constructs O and Q with constructs G (which constitutively expresses RhlI) and A (which constitutively expresses LuxI) respectively induced a similar increase in GFP expression. These results suggest that AHL molecules were produced by RhlI and LuxI, which could in turn bind to RhlR and LuxR and induce the specific promoters and expression of GFP. The results of this functionality assay are supported by the Western blot results, which showed the expression of Myc-tagged LuxI (A), RhlI (G) and LuxR (Q).
 
@@ -114,7 +118,7 @@ block article
 
 
         # Western Blot
-        The western blot (WB) protocol was adjusted throughout the experimental period for several factors in order to optimize the protocol and ensure optimal protein expression. A positive band corresponding to the right size suggests that the gene inserted for the desired protein has been successfully translated, although functional assays are required to confirm successful protein function. This was carried out for some of the constructs through fluorescence experiments such as construct Q (LuxR) induced by the protein expressed by construct A (LuxI). 
+        The western blot (WB) protocol was adjusted throughout the experimental period for several factors in order to optimize the protocol and ensure optimal protein expression. A positive band corresponding to the right size suggests that the gene inserted for the desired protein has been successfully translated, although functional assays are required to confirm successful protein function. This was carried out for some of the constructs through fluorescence experiments such as construct Q (LuxR) induced by the protein expressed by construct A (LuxI), see Figure 12.
 
         Several parameters were adjusted (see [engineering](https://2020.igem.org/Team:Stockholm/Engineering#Identifyaproblemtosolveati+1=troubleshooting) troubleshooting guide for WB) throughout the experimental period such as:
         * Cell culture density at lysis (in order to optimize protein expression according to cell growth phase)
@@ -143,6 +147,10 @@ block article
         [Table 4: The constructs used for the western blot experiment, induced and not induced by pollutants overnight.]
     
     :markdown-it(html)
+        
+        //WESTEN BLOT IMAGE HERE
+        //CAPTION: Western Blot of samples in table 4 with positive bands for positive control, LuxI, RhlI and LuxR in that order. M1 +, F5 + and P3.2 + were induced by pollutants according to table 4.
+    
         We used a blue safe protein stain to further troubleshoot the lack of positive bands for the constructs with correct sequences. Information of whether the general protein expression in the cell was inhibited due to the gene inserts themselves being unfavourable to our host cells could be explored through general staining of the proteome. It seemed that there was no prominent difference in the proteomic expression among different constructs. 
     - var imgpath = "" + require("../assets/img/Results--WB-Coomassie-Stain.png")["default"]
     +image(13, imgpath, "Blue safe protein staining of the constructs in table 4.", 100)
@@ -157,9 +165,8 @@ block article
 
 
         # Chromobacterium violaceum
-        Prepared stock solution of 100 μM C4-HSL and 3OC6-HSL in Milli-Q
-        Prepared agar with varying concentrations of AHL (C4-HSL and 3OC6-HSL)
-        Prepared well plate containing Chromobacterium and agar with AHL as follows:
+        We used a stock solution of 100 μM C4-HSL and 3OC6-HSL in Milli-Q to prepare agar with varying concentrations of AHL (C4-HSL and 3OC6-HSL)
+        A 48 well plate containing Chromobacterium and agar with AHL was prepared as follows:
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
         | 1                            | 2                 | 3                | 4                | 5              | 6              | 7               | 8               |
@@ -174,17 +181,31 @@ block article
         [Table 5: Caption goes here.]
 
     :markdown-it(html)
-        1. Readings from plate reader do not correspond to colour change in agar
-        1. Only the highest concentrations of 3OC6-HSL appeared to cause a colour change
-        1. No colour change observed on plate - possibly because AHL in stock solution has already degraded?
-        1. Observed purple color around AHL droplet (2µL of a 10mM AHL in acetonitrile) on plates, more for 3OC6 than C4. The immediate area around the droplet is empty, presumably due to acetonitrile toxicity.
-        1. No colour change for Chromobacterium culture in Eppendorf tubes
-        1. Plated o/d culture of Chromobacterium with o/d culture of A3 and G7 on 2 separate plates
-        1. Control: plated Chromobacterium only
-        1. Not much growth, no colour change observed
-        1. Prepared o/n cultures of Chromobacterium and TOP10 E.coli as control
-        1. Plated o/n culture of Chromobacterium with A3, G7, C4-HSL, 3OC6-HSL, TOP10 E.coli
-        1. No colour change observed on any plates - less growth, likely that cells plated from o/n culture were mostly dead
+        //INSERT CHROMOBAC GROWTH CURVE IMAGE
+        //INSERT 48 WELL PLATE IMAGE
+        
+        Readings from plate reader did not correspond to colour change in the agar wells. Only the highest concentrations of 3OC6-HSL appeared to cause a colour change. To troubleshoot this part we went on to do a preliminary test to check if there was any colour change seen in the presence of AHL. A plate with chromobacterium was grown onto which stock  AHL solution was spread. Unfortunately there was no color change observed. This could possibly be because the AHL in the stock solution had degraded as it was kept at room temperature.
+        
+        //INSERT IMAGE OF PLATES WITH GREEN BACKGROUND
+        //CAPTION: I don’t know what this one shows :(:(
+        
+        This experiment was repeated with chromobacterium plates using freshly prepared AHL (2µL of a 10mM AHL in acetonitrile) on plates, more for 3OC6 than C4. Purple colour was observed around the droplet areas. Also the immediate area around the droplet was found to be empty, presumably due to acetonitrile toxicity.
+
+        //INSERT IMAGE OF PLATES WITH ARTIFICIAL AHL ADDED
+        //CAPTION: Colour change seen on chromobacterium plates at 10mM AHL
+        
+        Once the concentration at which colour change was observed was found. The constructs were tested on the chromobacterium plates. Overnight cultures of A3 and G7 were tested on separate plates and a control of only chromobacterium plate was used. 
+        
+        //INSERT IMAGE WITH 3 PLATES
+        //CAPTION: Control with only chromobacterium, A3+chromobacterium and Chromobacterium+G7 Not much growth or color change was observed on any.
+        
+        A different experimental setup was planned with two plates on which chromobacterium and the AHL or bacteria were grown adjacent to each other. This consisted of the strains transformed e.coli A3, G7, control: top 10 E.coli, C4-HSL and 30C6-HSL.
+    
+        //INSERT IMAGE OF 2 PLATES + DRAWING
+        //CPATION: (a) plate setup for chromobacterium reaction comparison. (b) no color change observed on the plates.
+        
+        There was no colour change observed on any plates; this could possibly be due to the less growth of the chromobacterium and the top 10 E.coli as the cultures were almost 24 hr grown and the cells might have died before plating.
+Hence from the chromobacterium assay it was seen that pure AHL at a concentration of 10mM gave a clear colour change visible to naked eyes. However in case of the constructs there wasn’t a huge difference. Although from th western blot the same constructs A and G gave clear bands multiple times it could be concluded that the proteins were being formed but the concentration of the proteins formed were too low to be detected by the chromobacterium plates prepared. Further literature review to better this experiment is needed. 
 
         # MFC
         Both the wildtype strain of *S. oneidensis MR-1* (WT) and the MtrB knockout (KO) strain were cultivated in the MFC. The media was fed to the MFC from a reservoir, and the spent media from the outflow was returned to the reservoir. This was done to allow the experiment to run without much supervision, as the flow rate was still relatively high and would otherwise require refilling every day. The cathode reservoir was effectively open to the atmosphere.
