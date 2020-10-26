@@ -690,7 +690,7 @@ assets:
     upload_filename: T--Stockholm--img--Home--reef3.png
   assets\img\Home--reef4.png:
     link_URL: https://2020.igem.org/wiki/images/9/93/T--Stockholm--img--Home--reef4.png
-    md5: a23cd411463a9915891904f49e80a751
+    md5: a713587d6b0e0349dac38c8cd9bce191
     upload_filename: T--Stockholm--img--Home--reef4.png
   assets\img\Home--reef5.png:
     link_URL: https://2020.igem.org/wiki/images/6/68/T--Stockholm--img--Home--reef5.png
@@ -1168,7 +1168,7 @@ css:
     md5: c1e65a18b1f40a05788b5035036ef67c
   css\index.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/indexCSS?action=raw&ctype=text/css
-    md5: 224ee0c8c042de1861efb2d773feaf42
+    md5: 89ffce57d28d62735db09f7d04af50e5
   css\medal_criteria.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/medal_criteriaCSS?action=raw&ctype=text/css
     md5: b91c5283dd6de6e5dd5826e6c2c5cf9d
@@ -1183,7 +1183,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 136e00f4b75868abc1cdd0909ab4e575
+    md5: 7de2236d28e9b825bb5f37a18ba37cf9
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
