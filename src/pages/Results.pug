@@ -9,6 +9,33 @@ block headVars
 block article
 
     :markdown-it(html)
+        # MFC
+        Both the wildtype strain of *S. oneidensis MR-1* (WT) and the MtrB knockout (KO) strain were cultivated in the MFC. The media was fed to the MFC from a reservoir, and the spent media from the outflow was returned to the reservoir. This was done to allow the experiment to run without much supervision, as the flow rate was still relatively high and would otherwise require refilling every day. The cathode reservoir was effectively open to the atmosphere.
+
+        ## Wildtype strain
+        The biofilm growth of the wildtype strain was monitored for a total of 18 days (450 hours). The cultivation can be separated into four phases: two using LB to grow and confirm the biofilm growth, and two using M9 with lactate as the media feed to investigate the growth and biofilm integrity under lactate as the only carbon source. The calculated current for the entire run is shown in figure 14.
+
+    - var imgpath = "" + require("../assets/img/Results--MFC_WT2.png")["default"]
+    +image(1, imgpath, "Measurment of current over time in red, with the different phases in cyan.", 100)
+    :markdown-it(html)
+        The first phase with LB as the carbon source lasted for 260 hours. The anolyte reservoir consists of 40 mL LB media. At the initial addition of the culture to the MFC anode chamber, the current is high but rapidly drops to 0 as the excess bacteria is flushed out of the cell. After several days, the current generated starts to rise above noise levels. The current increases steadily, and is at the end at 20 μA, indicating that a successful biofilm had formed in the MFC. There is however a chance that the electricity is from cells in suspension rather than a biofilm, as the media is recycled in the reservoir.
+
+        To confirm that the current generated is from a biofilm, the reservoir with 40 mL LB media is exchanged for a new 1000 mL bottle of LB. When the bottles are changed, there is a steep drop in current. It does not drop to 0 completely, but stays at around 8-10 μA for 5 hours. This could be due to cells in suspension that were contributing to the current were removed with the fresh reservoir, or it could be due to parts of the biofilm detaching when the flow is stopped during the media change, as predicted by literature. After the initial lag phase, the current generated rapidly increased over the course of 25 hours to a peak current of 130 μA. It is after that fairly constant, perhaps having entered a stationary phase due to nutrient limitation (which can occur with a reservoir), but more likely due to other limitations related to the biofilm, such as density or biofouling of the electrode.
+
+        The third phase of the MFC run with wildtype *Shewanella Oneidensis* aimed to determine whether it could survive and produce electricity in M9 minimal media with lactic acid as the only carbon source. The LB media was exchanged for 1000 mL M9 media with lactate (instead of  glucose). Immediately after the media change, the current dropped rapidly, but started to plane out after a few hours.
+
+        The current generated did not recover after two days, so more lactic acid (1 mL, 10 mM) was added to the reservoir. In the following hours, the generated current increased to a steady level, indicating that substrate limitation was the cause for the low current after media change.
+
+        ## Knockout
+        The biofilm growth (or rather, the lack of it) of the MtrB knockout (KO) strain was monitored for 130 hours. The setup was identical to the first phase of the wildtype strain run, with the exception of more bacteria being added at inoculation.
+    - var imgpath = "" + require("../assets/img/Results--MFC_KO.png")["default"]
+    +image(2, imgpath, "Measurment of current over time in cyan.", 100)
+    :markdown-it(html)
+        The current starts off high but rapidly drops, similar to the wildtype run. Compared to the wildtype run however, the current doesn’t increase, but remains at a low level. A comparison between KO run and the initial part of the WT run can be seen in figure 16.
+    - var imgpath = "" + require("../assets/img/Results--MFC_Comparison.png")["default"]
+    +image(3, imgpath, "Comparison between the initial part of the WT current (in red) and the KO current (in blue) over time.", 100)
+    
+    :markdown-it(html)
         # Cloning
         Aim of the cloning experiment was to get our choice of insert/construct into the plasmid pSB1C3. If the recombinant DNA was inserted successfully they were selected using antibiotic plates. For controls we had:
         1. A negative control plate: Just the *TOP10 E.coli* cells were plated; nothing grew hence showing our plates with the antibiotics were selective
@@ -18,22 +45,22 @@ block article
         Restriction digest and ligation protocol was optimised  for our backbone and gene blocks and they can be found in the [notebook](https://2020.igem.org/Team:Stockholm/Notebook).
 
     - var imgpath = "" + require("../assets/img/Results--cloning_1.png")["default"]
-    +image(1, imgpath, "Transformed E. coli that took up the recombinant DNA", 100)
+    +image(4, imgpath, "Transformed E. coli that took up the recombinant DNA", 100)
     :markdown-it(html)
         The colonies that grew on the plate could either have the construct or could be an empty backbone. To find the correct colony a colony PCR was run. The ones with the correct size constructs run on an agarose gel are compiled here, for more information on the protocol check the [experiments](https://2020.igem.org/Team:Stockholm/Experiments) page.
         
     - var imgpath = "" + require("../assets/img/Results--cloning_2.png")["default"]
-    +image(2, imgpath, "Constructs with the right size for B, L, M, C, D and F", 100)
+    +image(5, imgpath, "Constructs with the right size for B, L, M, C, D and F", 100)
     - var imgpath = "" + require("../assets/img/Results--cloning_3.png")["default"]
-    +image(3, imgpath, "Constructs with the right size for G, J, H and F", 100)
+    +image(6, imgpath, "Constructs with the right size for G, J, H and F", 100)
     - var imgpath = "" + require("../assets/img/Results--cloning_4.png")["default"]
-    +image(4, imgpath, "Constructs with the right size for N,Q,P,O and plasmid 3.2", 100)
+    +image(7, imgpath, "Constructs with the right size for N,Q,P,O and plasmid 3.2", 100)
     - var imgpath = "" + require("../assets/img/Results--cloning_5.png")["default"]
-    +image(5, imgpath, "Constructs with the right size for Q, E, H", 100)
+    +image(8, imgpath, "Constructs with the right size for Q, E, H", 100)
     :markdown-it(html)
         For each construct multiple right size band samples were found, these were sent out for sequencing to find the sequence with no mis alignments or alignments that gave the same amino acid sequence as an output. 
     - var imgpath = "" + require("../assets/img/Results--cloning_6.png")["default"]
-    +image(6, imgpath, "Sequence comparison for construct O and F. ", 100)
+    +image(9, imgpath, "Sequence comparison for construct O and F. ", 100)
     :markdown-it(html)
         12 constructs were found to have the right alignments. 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
@@ -72,11 +99,11 @@ block article
         [Table 2: The following pollutant sensing constructs were used for the viability assay]
 
     - var imgpath = "" + require("../assets/img/Results--fluorescence.png")["default"]
-    +image(7, imgpath, "The growth curves of Top 10 E. coli BL21, construct F and plasmid 3.2. Samples were incubated in different concentrations of PFOS and 1,1-biphenyl for 18 h at 37°C. The red line represents the OD600 value and the blue line is after adjustment to the blank (well H7)", 100)
+    +image(10, imgpath, "The growth curves of Top 10 E. coli BL21, construct F and plasmid 3.2. Samples were incubated in different concentrations of PFOS and 1,1-biphenyl for 18 h at 37°C. The red line represents the OD600 value and the blue line is after adjustment to the blank (well H7)", 100)
     :markdown-it(html)
     
     - var imgpath = "" + require("../assets/img/Results--pollutantconc.png")["default"]
-    +image(8, imgpath, "Key to layout for figure x denoting samples and pollutant concentrations.", 100)
+    +image(11, imgpath, "Key to layout for figure x denoting samples and pollutant concentrations.", 100)
     :markdown-it(html)
         The viability assay shows that our host cells with or without the pollutant sensing constructs are not severely affected by the addition of pollutants in terms of their population growth. An effect on the growth curve can be seen for the highest concentrations for 1,1-biphenyl at 10<sup>-3</sup> M and for PFOS at 125 μM. This suggests that these concentrations may be in the range of toxicity threshold values for our bacterial cells. However, these concentrations are well above current concentrations of these pollutants in nature around the Baltic sea.   
 
@@ -104,13 +131,13 @@ block article
         [Table 3: Summary of fluorescence intensity quantification experiment]
     
     - var imgpath = "" + require("../assets/img/Results--mCherry bar graph.png")["default"]
-    +image(9, imgpath, "Net fluorescence intensity of constructs expressing (a) mCherry and (b) GFP. The values shown represent averages of 3 technical replicates, and have been adjusted for cell density. Error bars represent standard deviation", 100)
+    +image(12, imgpath, "Net fluorescence intensity of constructs expressing (a) mCherry and (b) GFP. The values shown represent averages of 3 technical replicates, and have been adjusted for cell density. Error bars represent standard deviation", 100)
     - var imgpath = "" + require("../assets/img/Results--O14_GFP.png")["default"]
-    +image(10, imgpath, "GFP visualisation of construct O14 under UV light.", 70)
+    +image(13, imgpath, "GFP visualisation of construct O14 under UV light.", 70)
     - var imgpath = "" + require("../assets/img/Results--O19_GFP.png")["default"]
-    +image(11, imgpath, "GFP visualisation of construct O19 under UV light.", 70)
+    +image(14, imgpath, "GFP visualisation of construct O19 under UV light.", 70)
     - var imgpath = "" + require("../assets/img/Results--Q_GFP.png")["default"]
-    +image(12, imgpath, "GFP visualisation of construct Q under UV light.", 70)
+    +image(15, imgpath, "GFP visualisation of construct Q under UV light.", 70)
     :markdown-it(html)
         The green fluorescence intensity of constructs O and Q increased upon induction with synthetic C4-HSL and 3OC6-HSL, respectively (Figure 9a). This suggests that the synthetic AHL molecules could bind to RhlR (constitutively expressed by construct O) and LuxR (constitutively expressed by construct Q), which could subsequently induce their respective promoters (pRhl and pLux) and therefore induce higher GFP expression. Co-culturing constructs O and Q with constructs G (which constitutively expresses RhlI) and A (which constitutively expresses LuxI) respectively induced a similar increase in GFP expression. These results suggest that AHL molecules were produced by RhlI and LuxI, which could in turn bind to RhlR and LuxR and induce the specific promoters and expression of GFP. The results of this functionality assay are supported by the Western blot results, which showed the expression of Myc-tagged LuxI (A), RhlI (G) and LuxR (Q).
 
@@ -153,7 +180,7 @@ block article
     
         We used a blue safe protein stain to further troubleshoot the lack of positive bands for the constructs with correct sequences. Information of whether the general protein expression in the cell was inhibited due to the gene inserts themselves being unfavourable to our host cells could be explored through general staining of the proteome. It seemed that there was no prominent difference in the proteomic expression among different constructs. 
     - var imgpath = "" + require("../assets/img/Results--WB-Coomassie-Stain.png")["default"]
-    +image(13, imgpath, "Blue safe protein staining of the constructs in table 4.", 100)
+    +image(16, imgpath, "Blue safe protein staining of the constructs in table 4.", 100)
     :markdown-it(html)
         The WB results can be interpreted in several ways. One interpretation is that the constructs lacking positive bands are in fact not expressing the desired proteins despite carrying the correct genetic inserts as confirmed by sanger sequencing. There are however several other assays one would like to perform before drawing that conclusion. Future experiments in order to troubleshoot the lack of protein expression could entail:
         * RNA extraction (in order to pinpoint where in the process of protein expression there is a problem)
@@ -206,34 +233,6 @@ block article
         
         There was no colour change observed on any plates; this could possibly be due to the less growth of the chromobacterium and the top 10 E.coli as the cultures were almost 24 hr grown and the cells might have died before plating.
         Hence from the chromobacterium assay it was seen that pure AHL at a concentration of 10mM gave a clear colour change visible to naked eyes. However in case of the constructs there wasn’t a huge difference. Although from th western blot the same constructs A and G gave clear bands multiple times it could be concluded that the proteins were being formed but the concentration of the proteins formed were too low to be detected by the chromobacterium plates prepared. Further literature review to better this experiment is needed. 
-
-        # MFC
-        Both the wildtype strain of *S. oneidensis MR-1* (WT) and the MtrB knockout (KO) strain were cultivated in the MFC. The media was fed to the MFC from a reservoir, and the spent media from the outflow was returned to the reservoir. This was done to allow the experiment to run without much supervision, as the flow rate was still relatively high and would otherwise require refilling every day. The cathode reservoir was effectively open to the atmosphere.
-
-        ## Wildtype strain
-        The biofilm growth of the wildtype strain was monitored for a total of 18 days (450 hours). The cultivation can be separated into four phases: two using LB to grow and confirm the biofilm growth, and two using M9 with lactate as the media feed to investigate the growth and biofilm integrity under lactate as the only carbon source. The calculated current for the entire run is shown in figure 14.
-
-    - var imgpath = "" + require("../assets/img/Results--MFC_WT2.png")["default"]
-    +image(14, imgpath, "Measurment of current over time in red, with the different phases in cyan.", 100)
-    :markdown-it(html)
-        The first phase with LB as the carbon source lasted for 260 hours. The anolyte reservoir consists of 40 mL LB media. At the initial addition of the culture to the MFC anode chamber, the current is high but rapidly drops to 0 as the excess bacteria is flushed out of the cell. After several days, the current generated starts to rise above noise levels. The current increases steadily, and is at the end at 20 μA, indicating that a successful biofilm had formed in the MFC. There is however a chance that the electricity is from cells in suspension rather than a biofilm, as the media is recycled in the reservoir.
-
-        To confirm that the current generated is from a biofilm, the reservoir with 40 mL LB media is exchanged for a new 1000 mL bottle of LB. When the bottles are changed, there is a steep drop in current. It does not drop to 0 completely, but stays at around 8-10 μA for 5 hours. This could be due to cells in suspension that were contributing to the current were removed with the fresh reservoir, or it could be due to parts of the biofilm detaching when the flow is stopped during the media change, as predicted by literature. After the initial lag phase, the current generated rapidly increased over the course of 25 hours to a peak current of 130 μA. It is after that fairly constant, perhaps having entered a stationary phase due to nutrient limitation (which can occur with a reservoir), but more likely due to other limitations related to the biofilm, such as density or biofouling of the electrode.
-
-        The third phase of the MFC run with wildtype *Shewanella Oneidensis* aimed to determine whether it could survive and produce electricity in M9 minimal media with lactic acid as the only carbon source. The LB media was exchanged for 1000 mL M9 media with lactate (instead of  glucose). Immediately after the media change, the current dropped rapidly, but started to plane out after a few hours.
-
-        The current generated did not recover after two days, so more lactic acid (1 mL, 10 mM) was added to the reservoir. In the following hours, the generated current increased to a steady level, indicating that substrate limitation was the cause for the low current after media change.
-
-
-        ## Knockout
-        The biofilm growth (or rather, the lack of it) of the MtrB knockout (KO) strain was monitored for 130 hours. The setup was identical to the first phase of the wildtype strain run, with the exception of more bacteria being added at inoculation.
-    - var imgpath = "" + require("../assets/img/Results--MFC_KO.png")["default"]
-    +image(15, imgpath, "Measurment of current over time in cyan.", 100)
-    :markdown-it(html)
-        The current starts off high but rapidly drops, similar to the wildtype run. Compared to the wildtype run however, the current doesn’t increase, but remains at a low level. A comparison between KO run and the initial part of the WT run can be seen in figure 16.
-    - var imgpath = "" + require("../assets/img/Results--MFC_Comparison.png")["default"]
-    +image(16, imgpath, "Comparison between the initial part of the WT current (in red) and the KO current (in blue) over time.", 100)
-    :markdown-it(html)
         
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.

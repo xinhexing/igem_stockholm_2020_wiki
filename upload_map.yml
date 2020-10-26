@@ -1203,7 +1203,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 46a509b16b1940466f53cb918b6f7f5e
+    md5: eef42acb0a4c15bcda8f3e324b6f2b25
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1231,7 +1231,7 @@ html:
     md5: c9ca3e5be24c3bacb75c8200131d8b34
   Experiments\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Experiments
-    md5: c0c0125bd63be9825e08f09fb06427d9
+    md5: 79668e44e70294de5265a01ad8ea63ea
   Human_Practices\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Human_Practices
     md5: 660322191346e975987bc0467b46510f
@@ -1282,7 +1282,7 @@ html:
     md5: aa0d865bdb8068a55e27631b099c3c62
   Results\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Results
-    md5: c5933a136cec923fe9cc1024a7fbc9e1
+    md5: 3a732fc7c9e68aeb9d54b9c762c111a4
   Safety\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Safety
     md5: c297441431555b6e3f8cef885f82a23e
