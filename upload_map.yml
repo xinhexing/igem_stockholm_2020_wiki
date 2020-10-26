@@ -972,6 +972,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/5/50/T--Stockholm--img--Results--WB-Coomassie-Stain.png
     md5: 4a0d2da9e68ec7a3a272aa6f73a1ce53
     upload_filename: T--Stockholm--img--Results--WB-Coomassie-Stain.png
+  assets\img\Results--WB.png:
+    link_URL: https://2020.igem.org/wiki/images/a/a4/T--Stockholm--img--Results--WB.png
+    md5: 9704947f84d808d9163db03d2fd98e36
+    upload_filename: T--Stockholm--img--Results--WB.png
   assets\img\Results--cloning_1.png:
     link_URL: https://2020.igem.org/wiki/images/5/55/T--Stockholm--img--Results--cloning_1.png
     md5: 50f491457913d8437467cf395c07e5c3
@@ -1199,7 +1203,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 6a5f596a44ee02e319281538bb7c6213
+    md5: 46a509b16b1940466f53cb918b6f7f5e
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
