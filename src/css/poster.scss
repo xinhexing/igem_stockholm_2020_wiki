@@ -1,0 +1,162 @@
+@import "_main.scss";
+
+// LIGHT MODE
+
+body {
+  header {background: $sky_light;}
+  .content {
+    p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_light;}
+    a {color: $highlight_light;}
+    table {
+      background: none;
+      border-color: $tableborder_light;
+      color: $item_light;
+      thead {th, td {border-color: $tableborder_light;}}
+      tbody {th, td {border-color: $tableborder_light;}}
+      tbody tr:nth-of-type(odd) {background-color: #0000001a;}
+      th, td {border-color: $tableborder_light;}
+    }
+  }
+}
+
+// DARK MODE
+
+body.dark {
+  header {background: $sky_dark;}
+  .content {
+    p, h1, h2, h3, h4, h5, h6, li, a, strong {color: $item_dark;}
+    a {color: $highlight_dark;}
+    table {
+      background: none;
+      border-color: $tableborder_dark;
+      color: $item_dark;
+      thead {th, td {border-color: $tableborder_dark;}}
+      tbody {th, td {border-color: $tableborder_dark;}}
+      tbody tr:nth-of-type(odd) {background-color: #ffffff1a;}
+      th, td {border-color: $tableborder_dark;}
+    }
+  }
+}
+
+// POSTER
+
+/*general poster wrapper */
+.poster_w{
+  float:left;
+  margin: 1% 2%;
+  padding: 0px;
+  width: 46%;
+  /*styling for all images */
+  img{ margin-bottom: 0px;width: 100%;}	
+  /*class for clearing between sections */
+  .clear{clear:both;}
+}
+
+.content {
+  /*rows*/
+  .row-poster {
+    clear: both; float:left; width:100%; cursor: pointer;
+    /*hide title, text and highlight images  by default*/
+    .section .info{ display: none;}
+  }
+  /*sections */
+  .row-poster .section { float:left; }	
+  /*styling for when the user hovers on the image on the content side*/
+  img:hover{opacity: 25%;}
+}
+
+.display {
+  /*sections */
+  #section_text .subsection{ float:left; }	
+  /*styling for when the user hovers on the image on the content side*/
+  img:hover{opacity: 100%;}
+}
+
+/*different section sizes*/
+  .poster_w.content .row-poster, .poster_w.display #section_text {
+  .full{ width: 99%; }	
+  .three_quarters { width:75%;}
+  .two_thirds{ width:66%;}
+  .half{ width:49.5%;}
+  .third{ width:33%;}
+  .quarter{ width:24%;}
+}
+
+/*mobile*/
+      
+@media only screen and (max-width: 850px){
+  .poster_w {width:100%;}
+  .display {margin-top: 2rem;}
+}
+
+// HEADER
+
+body {transition: background-color 0.3s;}
+
+header {
+  transition: background-color 0.3s;
+  position: relative;
+  padding: 10rem 0 0 0;
+}
+
+// MAIN
+
+.container {
+  .title {
+    text-align: center;
+    h1 {
+      margin: 2.5rem 0;
+      font-size: 4rem;
+      font-weight: 800;
+    }
+  }
+
+  .row {
+    padding-bottom: 4rem;
+    
+    .content {
+      h1, h2, h3, h4, h5, h6 {font-weight: 700;}
+      table {
+        border: 1px solid;
+        width: 100%;
+        margin-bottom: 1rem;
+        border-collapse: collapse;
+
+        thead {
+          th, td {
+            vertical-align: bottom;
+            border-bottom: 2px solid;
+          }
+        }
+
+        tbody {th, td {border: 1px solid;}}
+
+        th, td {
+          padding: 0.75rem;
+          vertical-align: center;
+          border: 1px solid;
+        }
+
+        a {&:hover {text-decoration: underline;}}
+
+        caption {
+          text-align: center;
+          font-style: italic;
+          margin-top: 15px;
+          padding-top: 0.75rem;
+          padding-bottom: 0.75rem;
+          caption-side: bottom;
+        }
+      }
+    }
+  }
+}
+
+// MEDIA QUERIES
+
+@include respond-below(md) {
+  .container{.title {h1 {font-size: 3rem;}}}
+}
+@include respond-below(xs) {
+  .container{.title {h1 {font-size: 2rem;}}}
+}

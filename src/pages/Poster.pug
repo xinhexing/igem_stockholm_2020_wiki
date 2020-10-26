@@ -13,12 +13,149 @@ html(lang="en")
           .wave.wave1
           .wave.wave2
           .wave.wave3
-
       main
         .container
           .title
             h1 Poster
           .row
             .content.col
+              // -Place the content of your poster inside this div-
+              .poster_w.content
+                // This is the first row of the poster, it contains the title section -
+                .row-poster
+                  //
+                    This creates a full width section with the id 'title' ,
+                    since it will be the default section loaded, we add the class 'first_text' -
+                  #title.section.full.first_text
+                    // Here is the image used for the full width section, the size is: 1200 x 200 pixels
+                    img(src='https://2020.igem.org/wiki/images/f/fb/T--Example--Poster_Title.png')
+                    //
+                      Info: Place the title and text for this section, it will appear when the user clicks on it
+                      since the first_text class is used above, this section will appear by default
+                    .info
+                      // Write the title of the section
+                      .title  Poster Title
+                      // Write the text explaining this section
+                      .text
+                        | You should list all authors and their affiliations here. You can also add the project&apos;s abstract.
+                // This is the second row of the poster, it contains the introduction section -
+                .row-poster
+                  // This creates a full width section with the id 'introduction' -
+                  #introduction.section.full
+                    // Here is the image used for the full width section, the size is: 1200 x 200 pixels
+                    img(src='https://2020.igem.org/wiki/images/6/6e/T--Example--Poster_Introduction.png')
+                    // Info: Place the title and text for this section, it will appear when the user clicks on it
+                    .info
+                      // Write the title of the section
+                      .title  Introduction 
+                      // Write the text explaining this section
+                      .text  Introduce your project and your team&apos;s goals.
+                // This is the third row of the poster, it contains the inspiration, problem and idea sections -
+                .row-poster
+                  // This creates a third width section with the id 'inspiration' -
+                  #inspiration.section.third
+                    // Here is the image used for the third width section, the size is:  400 x 200 pixels
+                    img(src='https://2020.igem.org/wiki/images/f/f3/T--Example--Poster_Inspiration.png')
+                    // Info: Place the title and text for this section, it will appear when the user clicks on it
+                    .info
+                      // Write the title of the section
+                      .title  Inspiration 
+                      // Write the text explaining this section
+                      .text
+                        | What inspired your team? What motivated you to work on this particular project?
+                  // This creates a third width section with the id 'problem' -
+                  #problem.section.third
+                    // Here is the image used for the third width section, the size is:  400 x 200 pixels
+                    img(src='https://2020.igem.org/wiki/images/c/c5/T--Example--Poster_Problem.png')
+                    // Info: Place the title and text for this section, it will appear when the user clicks on it
+                    .info
+                      // Write the title of the section
+                      .title  Problem 
+                      // Write the text explaining this section
+                      .text
+                        | What is the problem your team is working to solve? How does it affect the world?
+                  // This creates a third width section with the id 'idea' -
+                  #idea.section.third
+                    // Here is the image used for the third width section, the size is:  400 x 200 pixels
+                    img(src='https://2020.igem.org/wiki/images/9/90/T--Example--Poster_Idea.png')
+                    // Info: Place the title and text for this section, it will appear when the user clicks on it
+                    .info
+                      // Write the title of the section
+                      .title Idea 
+                      // Write the text explaining this section
+                      .text  How are you going to solve the problem? Where did the idea come from? 
+                // This is the fourth row of the poster, it contains the engineering section -
+                .row-poster
+                  // This creates a full width section with the id 'engineering' -
+                  #engineering.section.full
+                    img(src='https://2020.igem.org/wiki/images/0/02/T--Example--Poster_Engineering.png')
+                    // Info: Place the title and text for this section, it will appear when the user clicks on it
+                    .info
+                      // Write the title of the section
+                      .title  Engineering
+                      // Write the text explaining this section
+                      .text  Here you can explain the engineering process behind your project. 
+                // This is the fifth row of the poster, it contains the three nameless sections -
+                .row-poster
+                  // This creates a third width section with the id 'section_1' -
+                  #section_1.section.third
+                    // Here is the image used for the third width section, the size is:  400 x 200 pixels
+                    img(src='https://2020.igem.org/wiki/images/5/53/T--Example--Poster_Section1.png')
+                    // Info: Place the title and text for this section, it will appear when the user clicks on it
+                    .info
+                      // Write the title of the section
+                      .title  Section 1 
+                      // Write the text explaining this section
+                      .text
+                        | Use this section to explain whatever you would like! Suggestions: Safety, Human Practices, Measurement, etc.
+                  // This creates a third width section with the id 'section_2' -
+                  #section_2.section.third
+                    // Here is the image used for the third width section, the size is:  400 x 200 pixels
+                    img(src='https://2020.igem.org/wiki/images/e/ec/T--Example--Poster_Section2.png')
+                    // Info: Place the title and text for this section, it will appear when the user clicks on it
+                    .info
+                      // Write the title of the section
+                      .title  Section 2 
+                      // Write the text explaining this section
+                      .text
+                        | Use this section to explain whatever you would like! Suggestions: Safety, Human Practices, Measurement, etc.
+                  // This creates a third width section with the id 'section_3' -
+                  #section_3.section.third
+                    // Here is the image used for the third width section, the size is:  400 x 200 pixels
+                    img(src='https://2020.igem.org/wiki/images/9/9e/T--Example--Poster_Section3.png')
+                    // Info: Place the title and text for this section, it will appear when the user clicks on it
+                    .info
+                      // Write the title of the section
+                      .title  Section 3 
+                      // Write the text explaining this section
+                      .text
+                        | Use this section to explain whatever you would like! Suggestions: Safety, Human Practices, Measurement, etc.
+                // This is the sixth row of the poster, it contains the results and references sections -
+                .row-poster
+                  // This creates a two thirds width section with the id 'results' -
+                  #results.section.two_thirds
+                    // Here is the image used for the third width section, the size is:  800 x 200 pixels
+                    img(src='https://2020.igem.org/wiki/images/b/b0/T--Example--Poster_Results.png')
+                    // Info: Place the title and text for this section, it will appear when the user clicks on it
+                    .info
+                      // Write the title of the section
+                      .title  Results
+                      // Write the text explaining this section
+                      .text  What did your team achieve? What do you plan to work on moving forward? 
+                  // This creates a third width section with the id 'references' -
+                  #references.section.third
+                    // Here is the image used for the third width section, the size is:  400 x 200 pixels
+                    img(src='https://2020.igem.org/wiki/images/f/fa/T--Example--Poster_References.png')
+                    // Info: Place the title and text for this section, it will appear when the user clicks on it
+                    .info
+                      // Write the title of the section
+                      .title References and Acknowledgements
+                      // Write the text explaining this section
+                      .text
+                        | If not already cited in other sections of your poster, what literature sources did you reference on this poster? Who helped or advised you?
+              // This is where the selected content will be displayed - Don't change this section!
+              .poster_w.display
+                h3#section_title
+                p#section_text
 
       include ../templates/footer.pug
