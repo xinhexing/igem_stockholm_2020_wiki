@@ -2,7 +2,7 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Sustainable"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "S-POP and the future"
     - var requireMathJax = false
     - var topimg = "sustainable"
 
@@ -10,134 +10,50 @@ block article
 
     :markdown-it(html)
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+        # Overview
 
-        # Emphasis
-        This is regular text.
+        Water is an essential and a shared resource hence what ensues in the Baltic sea is tightly connected to all life on the planet. In the early stages of developing our project, S-POP, sustainability and environmental concerns were at the forefront. After consultations with advisors and professors we found the issue of persistent organic pollutants (POPs) to be a pressing problem. The health and environmental concerns of "forever chemicals" such as PCBs and PFOS were highlighted by some experts due to their toxicity in low levels and bioaccumulation in living organisms. Our team, consisting of students within Biotechnology, Toxicology, Health, and Chemical sciences, had the opportunity to create an interdisciplinary project. S-POP was created to detect several pollutants in a modular biosystem that could be adaptable to other compounds as well. With the adaptability and the usage of low cost parts, our system would increase the accessibility of water monitoring.
 
-        **This is bold text.**
-        __This is also bold text.__
+        # Sustainable development goals (SDGs)
 
-        *This is italic text.*
-        _This is also italix text.*
+        17 sustainable development goals were adopted by all UN member states in 2015. The 2030 SDG agenda provides a blueprint for a shared vision of peace and prosperity for the planet and humanity. The core of these 17 goals is an urgent call for action for a global partnership. Economic and social development must go hand in hand with global environmental protection and development. Actions must be taken to improve living standards and ensure the preservation of our oceans and forests [United Nations, n.d.-a](#citation1).
 
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
+        The main focus of S-POP is to prevent the pollution of oceans by "forever chemicals" that do not readily degrade naturally by monitoring these chemicals.. Therefore the following SDG targets were of special interest during the development of our project:
 
-        ~~Strikethrough~~
+        **"Target 6.1 : By 2030, achieve universal and equitable access to safe and affordable drinking water for all."** [United Nations, n.d.-b](#citation2)
+        
+        To ensure the safety of drinking water, monitoring and management of all persistent organic pollutants are vital. The current measurements of pollutants in water are performed with expensive equipment such as HPLC. With our system, monitoring water could become more accessible. This could aid with the signaled funding gap of 61 percent needed to achieve national drinking water and sanitation targets [United Nations, n.d.-b](#citation2). With lower cost less funds are needed for this specific issue. The S-POP system could be contained in a single device, leading to the accessibility of a water monitoring system for everyone.   
+        
+        **"Target 6.3 : By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally."** [United Nations, n.d.-b](#citation2)
+        
+        By utilizing our modular biosensor; it would give a more accurate overall picture of the problem. With a well informed idea of the waste output from industries pollution and dumping could be monitored. The S-POP system can be adapted to detect a variety of compounds, and can therefore be modified to detect the most relevant pollutants. With the adaptability and lower cost, the monitoring would be more readily available to more municipalities and companies. 
 
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
+        **"Target 6.3.1 : Proportion of wastewater safely treated."** [United Nations, n.d.-b](#citation2)
+       
+        Wastewater can be continually monitored for different pollutants without taking water samples. By reducing the cost of waste water management industries and corporations are financially incentivized to monitor pollution levels. 
 
-        # Links
-        [Google](https://google.com)
+        **"Target 6.6 : By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes."** [United Nations, n.d.-b](#citation2)
+        
+        By putting the S-POP system in a single device it would provide the opportunity of direct measurements on site, including hardly accessible sites.  With direct measurements some common sources of error linked with water samples e.g. transportation and degradation of compounds, can be avoided.
 
-        [Text goes in square brackets](Link-goes-in-parenthesis)
+        **"Target 3.9: By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination."** [United Nations, n.d.-c](#citation3)
+        
+        Faster and more accurate detection of pollutants will urge faster and more effective treatment of the water. Hence, less and less people will be exposed to these pollutants. Persistent organic pollutants are bioaccumulative, but by decreasing pollution levels there will also be a decrease in the risk of toxic effects.
 
-        # Blockquote
+        # Overall Impact
 
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
+        Overall, our suggested biosensor would have a positive feedback in different aspects of life including:
+        
+        ## Economic
+        With cheaper equipment, not only is it profitable for the general population but it will incentivize larger corporations to implement these technologies since the cost would be smaller than the current methods. This is cost reduction is due to improvement of both equipment and minimizing the needed labour.
 
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
+        ## Social
+        It's a part of our social and economic responsibility to improve current technologies and equipment to make it accessible for all. The world will improve faster if more people have the ability to monitor and test their water quality. With S-POP being an adaptable system it could be utilized for different situations. 
 
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
-    +image(1, imgpath, "Caption", 100)
-
-    :markdown-it(html)
-        Back to regular text.
-
-        # Tables
-
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
-
-    :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
-
-    :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
-
-    :markdown-it(html)
-        **Example 3:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
-
-    :markdown-it(html)
-
-        # Definitions
-
-        <dfn>Term ~ Definition</dfn>
-
-        This can come <dfn>anywhere in ~ the text</dfn>.
-
-        # MathJax
-
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
-
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
-
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
-
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
-
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
+        ## Global environmental
+        Water is essential and a shared resource, what happens in the Baltic sea is later connected to all life on the planet. In preventing more accumulation of pollutants in the Baltic sea the global environment will slowly improve. And with continued efforts in monitoring the pollution it will be more manageable to prevent and protect our environment.     
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
 prepend citations
-    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
+    - var citations = [{"details": "(n.d.). Retrieved on October 26, 2020. from ", "title": "THE 17 GOALS | Sustainable Development. United Nations.", "type": "webpage", "url": "https://sdgs.un.org/goals"}, {"details": "(n.d.). Retrieved on October 26, 2020. from ", "title": "Goal 6 | Department of Economic and Social Affairs. United Nations.", "type": "webpage", "url": "https://sdgs.un.org/goals/goal6"}, {"details": "(n.d.). Retrieved on October 26, 2020. from ", "title": "Goal 3 | Department of Economic and Social Affairs. United Nations.", "type": "webpage", "url": "https://sdgs.un.org/goals/goal3"}]
