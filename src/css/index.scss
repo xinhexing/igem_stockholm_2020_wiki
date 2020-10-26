@@ -39,6 +39,8 @@ body {
 
   .reef.bottom {filter: brightness(0.13);}
 
+  #group3 {h1, a {color: #3fa899;}}
+
 }
 
 // DARK MODE
@@ -70,6 +72,8 @@ body.dark {
   }
 
   .reef.bottom {filter: brightness(1.87);}
+
+  #group3 {h1, a {color: #76dbccff;}}
 
 }
 
@@ -150,6 +154,9 @@ body.dark {
     }
   }
 }
+
+#group2, #group4 {h1, a {color: $highlight_light;}}
+#group1, #group3, #group5 {h1, a {color: #76dbccff;}}
 
 // REEF
 .parallax_layer-reef {
