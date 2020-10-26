@@ -1203,7 +1203,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: 677768c3ab0c17a704ff8265aa84a92e
+    md5: c2f358275ef060f13872ce001a12ed17
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1213,7 +1213,7 @@ html:
     md5: 70327608e86d7809dc07b84311fde97b
   Contribution\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Contribution
-    md5: bc24486be292fa70fed9cf28540931c5
+    md5: a34cac5becd9a1a6eb6824293a69d6cd
   Description\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Description
     md5: 68b1d6d1135960152948f255353f0349
@@ -1225,13 +1225,13 @@ html:
     md5: ce69972704f3f2032578f89e563e9b9f
   Engineering\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Engineering
-    md5: 87ae8f64bf380ccea7ad14c8591efeb4
+    md5: 4715137769e9e52c67cfdbc3e7146368
   Entrepreneurship\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Entrepreneurship
     md5: c9ca3e5be24c3bacb75c8200131d8b34
   Experiments\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Experiments
-    md5: 0e789927ef3e7f48253df454eef1927b
+    md5: 09df61451aa20ab295433d6f5c604ee5
   Human_Practices\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Human_Practices
     md5: 660322191346e975987bc0467b46510f
@@ -1264,7 +1264,7 @@ html:
     md5: 442cf27c5e4857c9bb9340d6317e8901
   Parts\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Parts
-    md5: e07c5ec610cf9983a1c529bc58e1b6be
+    md5: f38bbb6a007ce41e83fc505d28c01d74
   Poster\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Poster
     md5: b0880bcd615097450eac50df60698377

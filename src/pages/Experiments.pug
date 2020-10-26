@@ -36,21 +36,21 @@ block article
         A simple design is the H-type MFC, which is structurally and conceptually similar to the hydrogen fuel cell. The hydrogen-rich anode chamber is replaced with the microbial growth chamber, where protons and electrons are generated through the extracellular electron transport rather than the metal catalysed hydrogen gas splitting. Water is formed at the air cathode where the electrons are rejoined with the protons and atmospheric oxygen.
 
     - var imgpath = "" + require("../assets/img/Experiments--mfc.png")["default"]
-    +image(4, imgpath, "Schematic of the H-type MFC", 100)
+    +image(1, imgpath, "Schematic of the H-type MFC", 100)
     :markdown-it(html)
         
         ## Setup
         The electricity generation of Shewanella Oneidensis was measured in a Microbial Fuel Cell (MFC). A two chamber electrochemical fuel cell was repurposed to be used for this purpose. The electrodes in each chamber consisted of stacks of 2 heat treated square graphite paper with a side length of 1.5 cm. This allowed for a tight packing of the fuel cell, while still leaving space for the media to flow between the graphite pater and allow biofilm to grow there. Separating the chambers was a Nafion proton exchange membrane. The chamber walls were made from the thickness of the rubber gasket sealing the electrodes in place. The rubber gaskets secured the membrane in place and allowed for an airtight seal around the chambers. The graphite electrodes were connected to a gold plate, where electronics could be attached. A 1 kΩ resistor was put between the electrodes and the open circuit voltage was measured to then calculate the current. A battery tester from Landt instruments was used to collect and log the data. A detailed description of the assembly can be found in the  [Engineering](https://2020.igem.org/Team:Stockholm/Engineering#Design-MFC) page.
 
     - var imgpath = "" + require("../assets/img/Experiments--MFC_Schematic.png")["default"]
-    +image(5, imgpath, "Schematic of the MFC", 100)
+    +image(2, imgpath, "Schematic of the MFC", 100)
     :markdown-it(html)
         
         ## Experiments
         The MFC was inoculated with 100 uL culture of Shewanella Oneidensis MR-1 directly at the anode before assembly. The fuel cell was then fed with media from a reservoir to the anode, and air to the cathode at a constant flow at 0.1 RPM, which corresponds to approximately 21 uL/min. Two runs were performed. One long run with the wildtype strain, where the media feed was exchanged (LB and M9) to determine biofilm growth, and one run with the MtrB knockout strain without any transformed plasmid to see both biofilm growth and electricity production without the crucial MtrB gene in the MFC. Some minimal growth is however expected, as MtrE can complement the complex, although with a lower efficiency than MtrB [Coursolle & Gralnick, 2012](#citation12). Only bacteria close to both the electrode and the proton exchange membrane should be able to generate current, so the amount of biofilm is proportional to the current produced. The media change is however done to confirm that biofilm has formed. Future experiments would include testing the electricity production of Shewanella Oneidensis MR-1 ΔMtrB with MtrB under an inducible promoter (pLux) and finally with the oscillatory circuit. The open circuit voltage was logged, which later could be converted into the current produced across the 1 kΩ resistor between electrodes. 
 
     - var imgpath = "" + require("../assets/img/Engineering--mfc.png")["default"]
-    +image(6, imgpath, "Assembled MFC setup. Green/1: pump, Yellow/2: air reservoir, Purple/3: media reservoir, Red/4: resistor, Cyan/5: MFC", 100)
+    +image(3, imgpath, "Assembled MFC setup. Green/1: pump, Yellow/2: air reservoir, Purple/3: media reservoir, Red/4: resistor, Cyan/5: MFC", 100)
     :markdown-it(html)
 
         # Cloning
@@ -67,7 +67,7 @@ block article
         Once all the constructs were inserted it was necessary to test if these transformed *E. coli TOP10* would be able to grow normally in the presence of the pollutants at varying concentrations for which we performed the viability test.
 
     - var imgpath = "" + require("../assets/img/Experiments--cloning.png")["default"]
-    +image(1, imgpath, "Cloning workflow", 100)
+    +image(4, imgpath, "Cloning workflow", 100)
     :markdown-it(html)
 
         # Viability assays
@@ -76,7 +76,7 @@ block article
         When cultured in a closed system, bacteria tend to have a characteristic growth curve (Figure 2). In the lag phase the bacteria adjust to the environment, while in the log phase they grow exponentially with high division rate. However, the log phase is followed by the stationary phase where the division rate is very low and the nutrients are limited. As a result of these facts, the death phase of the culture is followed [Wang, Fan, Chen & Terentjev, 2015](#citation2).
 
     - var imgpath = "" + require("../assets/img/Experiments--growth_curve.png")["default"]
-    +image(2, imgpath, "Characteristic bacteria growth curve", 80)
+    +image(5, imgpath, "Characteristic bacteria growth curve", 80)
     :markdown-it(html)
 
         Growth-based [viability assays](https://2020.igem.org/wiki/images/5/57/T--Stockholm--Viability_Assay.pdf) using microplate readers are a quite common technique nowadays. It has partially replaced the traditional methods and has reduced the cost of the experiment. The cultivation of the bacteria is performed in microplates and the growth curve is designed based on the absorbance values. It is a fast, easy and cheap technique to get accurate growth curves. Finally, it allow the user to set different chemical or biological conditions in each well [Horakova et al., 2004](#citation3). 
@@ -87,7 +87,7 @@ block article
         To characterise the activation of specific promoters in our circuit, genes coding for fluorescent proteins (GFP / mCherry) were inserted into some of our constructs. The fluorescence intensity of the constructs were quantified in whole cells, both in uninduced (i.e. to check for "leakiness" of the promoters) and induced conditions. [These measurements](https://2020.igem.org/wiki/images/6/6e/T--Stockholm--Fluorescence.pdf) were done in a microplate reader after calibration with fluorescent dyes, and adjusted for cell density. 
 
     - var imgpath = "" + require("../assets/img/Experiments--fluorescence.png")["default"]
-    +image(3, imgpath, "Basic fluorescense mechanism", 80)
+    +image(6, imgpath, "Basic fluorescense mechanism", 80)
     :markdown-it(html)
 
         # SDS Page and Western Blot
