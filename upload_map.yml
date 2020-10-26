@@ -417,7 +417,7 @@ assets:
     upload_filename: T--Stockholm--img--Contents--topimg_sustainable.png
   assets\img\Description--balticsea.png:
     link_URL: https://2020.igem.org/wiki/images/b/b6/T--Stockholm--img--Description--balticsea.png
-    md5: a3b10e37bb359dbf4d5b8d3f87cd3369
+    md5: 962d66266f5a6749abb8881ae7037419
     upload_filename: T--Stockholm--img--Description--balticsea.png
   assets\img\Description--josh-withers.jpg:
     link_URL: https://2020.igem.org/wiki/images/9/92/T--Stockholm--img--Description--josh-withers.jpg
@@ -1183,7 +1183,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: a231870ba0e9bde7c5003f6cc64fdf5f
+    md5: aff964b207a39c17acdf6ed600c8797a
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
