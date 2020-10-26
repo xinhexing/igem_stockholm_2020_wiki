@@ -443,6 +443,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/5/59/T--Stockholm--img--Description--shewanella.png
     md5: 18f5f10c422ca0468494d74f3c809d56
     upload_filename: T--Stockholm--img--Description--shewanella.png
+  assets\img\Design--PFOS_circuit.png:
+    link_URL: https://2020.igem.org/wiki/images/b/b6/T--Stockholm--img--Design--PFOS_circuit.png
+    md5: df160b8e85b3a31e3bf3bbf049da3726
+    upload_filename: T--Stockholm--img--Design--PFOS_circuit.png
   assets\img\Education--Amphiox games.png:
     link_URL: https://2020.igem.org/wiki/images/d/d1/T--Stockholm--img--Education--Amphiox_games.png
     md5: bd89be39b112a6ed64e98dcd827d43cb
@@ -465,7 +469,7 @@ assets:
     upload_filename: T--Stockholm--img--Education--toxinoff games.png
   assets\img\Engineering--PCB circuit.png:
     link_URL: https://2020.igem.org/wiki/images/3/3e/T--Stockholm--img--Engineering--PCB_circuit.png
-    md5: 997d00d12f626df43943a6afc0e830d8
+    md5: 43e980d57edf9f3a0987506a185b0e49
     upload_filename: T--Stockholm--img--Engineering--PCB circuit.png
   assets\img\Engineering--Shewanella Oneidensis MR-1 MtrB Knockout.png:
     link_URL: https://2020.igem.org/wiki/images/9/94/T--Stockholm--img--Engineering--Shewanella_Oneidensis_MR-1_MtrB_Knockout.png
@@ -936,6 +940,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/1/1c/T--Stockholm--img--Results--MFC_KO.png
     md5: 9fabce43d53985d2d3503b58e4e6585c
     upload_filename: T--Stockholm--img--Results--MFC_KO.png
+  assets\img\Results--MFC_Schematic.png:
+    link_URL: https://2020.igem.org/wiki/images/b/b4/T--Stockholm--img--Results--MFC_Schematic.png
+    md5: bb86bf8ad0cdf78e69e318debca50b93
+    upload_filename: T--Stockholm--img--Results--MFC_Schematic.png
   assets\img\Results--MFC_WT.png:
     link_URL: https://2020.igem.org/wiki/images/e/e4/T--Stockholm--img--Results--MFC_WT.png
     md5: 23311a04f61884334e5d6347bef9eb1d
@@ -1187,7 +1195,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: bcc55a75db6713b9b4d2d09f16321e6b
+    md5: c0319c07c7ea7744ba4a25d6c1a58ca5
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1266,7 +1274,7 @@ html:
     md5: aa0d865bdb8068a55e27631b099c3c62
   Results\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Results
-    md5: 94197f460716a25ef3a9368a2f69ec60
+    md5: c5933a136cec923fe9cc1024a7fbc9e1
   Safety\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Safety
     md5: c297441431555b6e3f8cef885f82a23e
@@ -1278,7 +1286,7 @@ html:
     md5: 37e06d6da38435f02ed06b8190311352
   Sustainable\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Sustainable
-    md5: d23345a9c4f6b248a6c7777bfb8141f4
+    md5: 712d23a265eaac054c17f4bec1e601da
   Team\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Team
     md5: 00cd81ea2a4319659be445a9b5fd1a78
