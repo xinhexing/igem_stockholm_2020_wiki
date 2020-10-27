@@ -976,9 +976,29 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/a/a4/T--Stockholm--img--Results--WB.png
     md5: 9704947f84d808d9163db03d2fd98e36
     upload_filename: T--Stockholm--img--Results--WB.png
+  assets\img\Results--chromo1.png:
+    link_URL: https://2020.igem.org/wiki/images/0/03/T--Stockholm--img--Results--chromo1.png
+    md5: 90a77bbb25130d4435c9b24b96b5a2ba
+    upload_filename: T--Stockholm--img--Results--chromo1.png
+  assets\img\Results--chromo2.png:
+    link_URL: https://2020.igem.org/wiki/images/f/fd/T--Stockholm--img--Results--chromo2.png
+    md5: a2b11018d89a8c358ad085e4aab5faaa
+    upload_filename: T--Stockholm--img--Results--chromo2.png
+  assets\img\Results--chromo3.png:
+    link_URL: https://2020.igem.org/wiki/images/6/6c/T--Stockholm--img--Results--chromo3.png
+    md5: 03b7e18dc797c63a5020d9450ba970b3
+    upload_filename: T--Stockholm--img--Results--chromo3.png
+  assets\img\Results--chromo4.png:
+    link_URL: https://2020.igem.org/wiki/images/f/f1/T--Stockholm--img--Results--chromo4.png
+    md5: 33bcb1888c2c21c036c1de4daf517058
+    upload_filename: T--Stockholm--img--Results--chromo4.png
+  assets\img\Results--chromo5.png:
+    link_URL: https://2020.igem.org/wiki/images/7/7d/T--Stockholm--img--Results--chromo5.png
+    md5: 255ff34cc29921364a217977be1f3465
+    upload_filename: T--Stockholm--img--Results--chromo5.png
   assets\img\Results--cloning_1.png:
     link_URL: https://2020.igem.org/wiki/images/5/55/T--Stockholm--img--Results--cloning_1.png
-    md5: 50f491457913d8437467cf395c07e5c3
+    md5: 2b993b4587048f8e1eddee762691df7c
     upload_filename: T--Stockholm--img--Results--cloning_1.png
   assets\img\Results--cloning_2.png:
     link_URL: https://2020.igem.org/wiki/images/5/5e/T--Stockholm--img--Results--cloning_2.png
@@ -1000,6 +1020,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/e/e4/T--Stockholm--img--Results--cloning_6.png
     md5: 94cdcffca3d23bf74953eb4ce8b689fa
     upload_filename: T--Stockholm--img--Results--cloning_6.png
+  assets\img\Results--fluor_eppis.png:
+    link_URL: https://2020.igem.org/wiki/images/c/c6/T--Stockholm--img--Results--fluor_eppis.png
+    md5: 71db13576be7132fa2753d8fd5fef284
+    upload_filename: T--Stockholm--img--Results--fluor_eppis.png
   assets\img\Results--fluorescence.png:
     link_URL: https://2020.igem.org/wiki/images/b/bb/T--Stockholm--img--Results--fluorescence.png
     md5: 6b864a3da64e7f025192958f75df9b70
@@ -1203,7 +1227,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: c2f358275ef060f13872ce001a12ed17
+    md5: 259f71a39ee7ce59b1376d574933b26e
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1282,7 +1306,7 @@ html:
     md5: aa0d865bdb8068a55e27631b099c3c62
   Results\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Results
-    md5: 3a732fc7c9e68aeb9d54b9c762c111a4
+    md5: e4ff7092f8a551c065244e677dbe9937
   Safety\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Safety
     md5: c297441431555b6e3f8cef885f82a23e
