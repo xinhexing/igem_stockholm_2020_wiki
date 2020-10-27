@@ -23,9 +23,9 @@ Several different quorum sensing molecules (QS) were considered and evaluated. T
     When considering the different sensing parts, we mainly looked at older iGEM projects to build on the foundation that others have paved. We decided to focus on persistent organic pollutants which are a current problem for the Baltic sea. This decision was based on literature and conversations with advisors and experts in the environmental field. We retained PCBs and PFOS as targets for our project . Regulations for the levels of PFOS have been developed in later years for Swedish water treatment plants. But the primary focus in wastewater treatment regulations is on heavy metals and nutrients not POPs [Petterson et al., 2020](#citation2). Since these pollutants are less prioritized more can pass into the environment. The current measurement method most commonly used for POPs is testing water samples in the lab.     
     
     In order to develop S-POP into a fully functioning system all components needed to be tested. To make these tasks more manageable the system was divided up into:
-    1. Detection
-    2. *S. oneidensis* oscillation-system
-    3. MFC
+    1.Detection
+    2.*S. oneidensis* oscillation-system
+    3.MFC
     
     For the detection of PFOS and PCBs the genetic constructs were separated into several smaller parts in order to check individual promoters and gene expression. Appropriate controls were used to check the function of each construct.
 
@@ -66,14 +66,39 @@ Several different quorum sensing molecules (QS) were considered and evaluated. T
         ### Rhl/R - characterization
         ### Full construct
         ## MFC
+        
+    In many biological systems, the energy used is in the form ATP which is formed by breaking down nutrients. The energy extracted from glycolysis and the Krebs cycle is not primarily in the form of ATP, but NADH, which is then used in the electron transport chain in oxidative phosphorylation. In some anaerobic bacteria such as *S. oneidensis*, an extracellular electron transport pathway still exists, but without oxygen as a terminal electron acceptor to form water, oxidized metals or other compounds can be reduced instead. This can result in electricity being generated as the reduced mediator can pass its electron on.[Pirbadian, S. et al, 2014](#citation3). A microbial fuel cell (MFC) is a fuel cell system that utilizes bio-electrochemistry to drive an electric current with bacteria[Schmidt-Rohr, K., 2020](#citation4)   
+    
         ### *Shewanella oneidensis* MR-1
+        
+    *Shewanella oneidensis* MR-1 is known as a “Dissimilatory Metal-Reducing Bacteria (DMRB)” due to its metal reducing ability that is coupled to their metabolism [Lloyd, J., 2003](#citation5). Dissimilatory metal reduction is a process used by microbes that conserves energy through oxidation of organic or inorganic electron donors and reduction of metals and metalloids. This process creates an electrochemical gradient which provides the chemical energy for growth. When used in an MFC the natural electrochemical gradient can provide a detectable electric signal. [Schicklberger, M., 2013](#citation6). *Shewanella Oneidensis* MR-1 can also form highly conductive nanowires that can carry charge far outside the immediate area of the cell and remove the need for specific mediators. [Reguera, G. et al, 2005](#citation7). This is in *Shewanella oneidensis* done through a set of cytochromes that carries the electrons along the nanowire [Pirbadian, S. et al, 2014](#citation3)  C-type cytochromes are utilized by *S. oneidensis* as electron transfer proteins and flavins to facilitate the electron transport process. This is a common strategy used by a variety of DMRB bacteria to transfer electrons to the cell surface. It’s a characteristic to have a high number of c-type cytochrome encoding genes for metal reducing bacteria [Beblawy, S. et al., 2018] (#citation8)., MtrB after transporting through the cytoplasmic membrane and across the periplasm becomes a part of a porin-cytochrome complex in the outer membrane in *S. oneidensis*. In MtrB-gene knockout studies *S. oneidensis* metal reducing capabilities are significantly diminished [Schuetz, B. et al., 2009](#citation9). By taking advantage of the essential nature of MtrB we can compare the electric output and biofilm formation in *S. oneidensis* MR-1; a wild type from and a MtrB knockout strain.
+    
+    *S. oneidensis* can thrive in both aerobic and anaerobic conditions (facultative bacteria) and can utilize common carbon sources for energy. To optimize the metal reducing capabilities and biofilm formation of some conditions should be fulfilled. For soley the survival of  *S. oneidensis* most carbon sources are sufficient, e.g. lactate and furumate. Under anaerobic conditions lactate is a preferable carbon source that benefits biofilm formation.[Pinchuk, G., 2011](#citation10))
+    
         ### Fuel cell design 
+        
+    Fuel cells convert chemical energy into electrical energy via a pair of redox reactions. These systems can have many different designs depending on the need. Included but not limited to, proton exchange membrane fuel cells, electro-galvanic fuel cells and zinc air battery. Two available setups for the MFC were a H-cell and a flow cell. An H-cell physically separates anodic and cathodic reactions by means of a porous membrane. An issue with the available H-cell setup was the distance between the two electrodes creating a large internal resistance. H-cells are more commonly used in systems with homogenous systems, meaning both electrode chambers contain either solution or gas. The H-cells are set up as a batch system while the flow cell has a continual flow. The flow cell setup available was deemed the most favorable for our system. A flow cell setup can be utilized as a hybrid system or homogeneous-system. The hybrid setup having one of the electrode sides exposed to gas and the other exposed to liquid. Separated by a porous membrane proton exchange is facilitated. The hybrid flow cell system was used. 
+    
+    For MFCs, special considerations need to be taken into account such as low flow rates, temperature and usage of solvents that the bacteria can survive in . *S. oneidensis* Biofilm formation is a vital aspect for the electric signal production leading to the prioritization of the conditions required for proper biofilm formation. 
+    
         ### Mediated/Undemediated
+        
+    Generally there are two categories of MFCs, mediated and unmediated. A mediated system relies on a chemical compound to facilitate electron transport to the anode. While an unmediated system relies on the bacterias active redox proteins and electron transport via the outer membrane directly to the anode. [Badwal, S., 2014](#citation11). In the early stages of this project both a mediated and an unmediated system were considered. For optimization of the MFC it was planned to test both but due to time constraints, only the unmediated system could be tested. As well as testing mediated and unmediated systems, the supplementation of ferric ions in the MFC had been planned since it can significantly increase the electricity generation neither was utilized [Wu, D. et al., 2013](#citation12).
+    
+        ### Size
+    
+    When designing the MFC two different sizings of fuel cells were particularly interesting. Some research has indicated that a higher power density can be produced in a mini-MFC with a chamber volume of ca 1mL. With the smaller distance to transport electrons the internal resistance decreases likely leading to a stronger signal. [Ringesen, B. et al., 2007](#citation13). Though after evaluating the available equipment it was decided to utilize an already established fuel cell. But for future research a point of interest should be a mini-MFC system.
+       
         ### Final design of the MFC
+        
     - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
-    +image(6, imgpath, "Caption", 100)
-
+    +image(6, imgpath, "Figure 6: Schematic of the MFC", 100)
+    
+    
     :markdown-it(html)
+    
+    The  hybrid fuel flow cell that was utilized in the setup, illustrated in (Figure 6). The cathode side exposed to air, while the anode side was in liquid solute. Both electrodes were carbon paper that had been thermally treated to be hydrophobic. Sandwiched between the anode and cathode is a proton exchange membrane. The catholyte, inflow of air and the analyte inflow of liquid media (LB) inoculated with wild type *S. oneidensis*. The bacteria naturally form a biofilm on the electrode. Since it is in a continuous flow cell, we were unable to disassemble it during runs.The biofilm was to be visually inspected after the runs were concluded.  When a biofilm forms on the electrode a detectable increase in voltage output should be visible. In similar MFC setups the external resistance ranged between 200-10kΩ. Due to limited available equipment an external resistance of 1kΩ was deemed most appropriate. 
+    
         # Emphasis
         This is regular text.
 
