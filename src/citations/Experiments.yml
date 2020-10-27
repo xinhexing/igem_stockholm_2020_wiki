@@ -1,29 +1,46 @@
- 
+# MFC
 # 1
+- doi: https://doi.org/10.3390/en12234593
+# 2
+- doi: https://doi.org/10.1073/pnas.1410551111
+# 3
+- doi: https://doi.org/10.1038/nature03661
+# 4
+- doi: https://doi.org/10.1007/s00253-011-3653-0
+# 5
+- doi: https://doi.org/10.3389/fmicb.2012.00056
+
+# Cloning
+# 6
 - book:
-    authors: "Lodish H, Berk A, Zipursky SL, et al"
+    authors: "Lodish, H., Berk, A., Zipursky, S. L., et al."
     year_published: 2000
     title: "Molecular Cell Biology. 4th edition."
     publisher: "New York: W. H. Freeman"
-# 2
-- doi: https://doi.org/10.1038/srep15159
-# 3
-- doi: https://doi.org/10.1111/j.1472-765X.2004.01448.x
-# 4
-- doi: https://doi.org/10.1016/B978-1-4377-7883-0.00004-3
-# 5
-- doi: https://doi.org/10.4103/1947-2714.100998
-# 6 
-- doi: https://doi.org/10.1186/1475-2859-11-118
+
+# Viability
 # 7
-- doi: https://doi.org/10.1099/00221287-143-12-3703
+- doi: https://doi.org/10.1038/srep15159
 # 8
-- doi: https://doi.org/10.3390/en12234593
+- doi: https://doi.org/10.1111/j.1472-765X.2004.01448.x
+
+# Fluorescence
 # 9
-- doi: https://doi.org/10.1073/pnas.1410551111
+- doi: https://doi.org/10.1016/B978-1-4377-7883-0.00004-3
+
+# SDS PAGE & Western Blot
 # 10
-- doi: https://doi.org/10.1038/nature03661
+- doi: https://doi.org/10.4103/1947-2714.100998
 # 11
-- doi: https://doi.org/10.1007/s00253-011-3653-0
+- doi: https://doi.org/10.1186/1475-2859-11-118
 # 12
-- doi: https://doi.org/10.3389/fmicb.2012.00056
+- webpage:
+    published: "October 7, 2020"
+    title: "UniProtKB - A0N2G3 (A0N2G3_HUMAN)"
+    accessed: "October 26, 2020"
+    site_name: "UniProt Consortium"
+    url: 'https://www.uniprot.org/uniprot/A0N2G3'
+
+# Chromobacterium
+# 13
+- doi: https://doi.org/10.1099/00221287-143-12-3703
