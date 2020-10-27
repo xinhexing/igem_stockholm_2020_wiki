@@ -20,20 +20,41 @@
 
 # Viability
 # 7
-- doi: https://doi.org/10.1038/srep15159
+- book:
+    authors: "Wahlberg, C."
+    year_published: 2016
+    title: "Organiska miljöföroreningar i avloppsvatten och slam från Henriksdal och Bromma - undersökningar 2014 och 2015"
+    publisher: "Stockholm Vatten"
 # 8
+- book:
+    authors: "Wahlberg, C."
+    year_published: 2018
+    title: "Organiska miljöföroreningar från hushåll till reningsverk"
+    publisher: "Stockholm Vatten"
+# 9
+- webpage:
+    published: "June 15, 2020"
+    title: "PFAS in drinking water and fish - risk management"
+    accessed: "October 26, 2020"
+    site_name: "Livsmedelsverket"
+    url: 'https://www.livsmedelsverket.se/en/food-and-content/oonskade-amnen/miljogifter/pfas-in-drinking-water-fish-risk-management?AspxAutoDetectCookieSupport=1'
+# 10
+- doi: https://doi.org/10.1289/EHP6654
+# 11
+- doi: https://doi.org/10.1038/srep15159
+# 12
 - doi: https://doi.org/10.1111/j.1472-765X.2004.01448.x
 
 # Fluorescence
-# 9
+# 13
 - doi: https://doi.org/10.1016/B978-1-4377-7883-0.00004-3
 
 # SDS PAGE & Western Blot
-# 10
+# 14
 - doi: https://doi.org/10.4103/1947-2714.100998
-# 11
+# 15
 - doi: https://doi.org/10.1186/1475-2859-11-118
-# 12
+# 16
 - webpage:
     published: "October 7, 2020"
     title: "UniProtKB - A0N2G3 (A0N2G3_HUMAN)"
@@ -42,5 +63,5 @@
     url: 'https://www.uniprot.org/uniprot/A0N2G3'
 
 # Chromobacterium
-# 13
+# 17
 - doi: https://doi.org/10.1099/00221287-143-12-3703
