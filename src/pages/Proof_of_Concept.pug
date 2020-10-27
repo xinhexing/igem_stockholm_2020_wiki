@@ -2,7 +2,7 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Proof of Concept"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "We swear it works"
     - var requireMathJax = false
     - var topimg = "proof"
 
@@ -12,7 +12,7 @@ block article
 
         # Overview
 
-        For the project S-POP, we decided to divide the parts into more manageable tasks and experiments. The two major parts of S-POP contained in the MFC, is the *E.coli* biosensor module and the *S. oneidensis* oscillation module. To demonstrate the feasibility of S-POP as a project we’ve highlighted the successful parts which are vital to the function of the system.
+        For the project S-POP, we decided to divide the parts into more manageable tasks and experiments. The two major parts of S-POP contained in the MFC, is the *E.coli* biosensor module and the *S. oneidensis* oscillation module. To demonstrate the feasibility of S-POP as a project we've highlighted the successful parts which are vital to the function of the system.
  
         Sanger sequencing was utilized to show successful insertion of desired gene constructs. To show the expression and activation of the different constructs, fluorescence tags (GFP, mCherry) and Myc-tags were used. The final *S. oneidensis* oscillation model was developed with the aid of numerical models and simulations. Voltage measurements were used to calculate the current production of the results from the MFC.
 
@@ -22,7 +22,7 @@ block article
 
         ## Successful gene insertion
 
-        Sanger sequencing was performed to evaluate if the genes of interest had been introduced into *E. coli*. Sequencing results showed that the vital sensing parts [BBa_K3440005](http://parts.igem.org/Part:BBa_K3440005) (prmA-LuxI-myc tag)  and [BBa_K3440018](http://parts.igem.org/Part:BBa_K3440018) (constitutive promoter-bphR2 - myc tag - promoter bphR1-LuxI) were successfully inserted. These regions include the pollutant sensing parts (prmA and bphR1/2) as well as the QS-signal producing part (LuxI). [In total 12 constructs were found to have the right alignments](https://2020.igem.org/Team:Stockholm/Results#Cloning) 
+        Sanger sequencing was performed to evaluate if the genes of interest had been introduced into *E. coli*. Sequencing results showed that the vital sensing parts [BBa_K3440005](http://parts.igem.org/Part:BBa_K3440005) (prmA-LuxI-myc tag) and [BBa_K3440018](http://parts.igem.org/Part:BBa_K3440018) (constitutive promoter-bphR2 - myc tag - promoter bphR1-LuxI) were successfully inserted. These regions include the pollutant sensing parts (prmA and bphR1/2) as well as the QS-signal producing part (LuxI). [In total 12 constructs were found to have the right alignments](https://2020.igem.org/Team:Stockholm/Results#Cloning) 
 
     - var imgpath = "" + require("../assets/img/Results--cloning_6.png")["default"]
     +image(1, imgpath, "Sequence comparison for construct O (top) and F (bottom)", 100)
