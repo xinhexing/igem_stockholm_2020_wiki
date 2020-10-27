@@ -120,10 +120,10 @@ block article
 
       ## MFC
 
-      We determined from literature on *Shewanella oneidensis*' metabolism that *S. oneidensis* could grow, using lactate as a carbon source to optimise electricity production [Pinchuk, 2010](#citation5). As a result, we chose lactate as an additive to our minimal M9 medium. We decided to check that *Shewanella oneidensis* MR1 could be used in our MFC set-up to give an electrical output thanks to its mtrb gene. In order to do so, we had to prove that a biofilm could grow on the anode and that this biofilm did not grow when the mtrb gene was knocked out. Thus, we acquired two strains of *S. oneidensis* MR1; a wild type from Ute Römling's lab at Karolinska Institutet, Stockholm, Sweden, and a mtrb knockout strain from Johannes Gescher, Karlsruhe Institute of Technology, Germany. We decided to monitor *S. oneidensis* biofilm growth by measuring the open cell voltage of the circuit with an imposed resistance of 1000 ohm. Thanks to Ohm's law U=RI, the current could then be determined.
+      We determined from literature on *Shewanella oneidensis*' metabolism that *S. oneidensis* could grow, using lactate as a carbon source to optimise electricity production [Pinchuk, 2010](#citation5). As a result, we chose lactate as an additive to our minimal M9 medium. We decided to check that *Shewanella oneidensis* MR1 could be used in our MFC set-up to give an electrical output thanks to its MtrB gene. In order to do so, we had to prove that a biofilm could grow on the anode and that this biofilm did not grow when the MtrB gene was knocked out. Thus, we acquired two strains of *S. oneidensis* MR1; a wild type from Ute Römling's lab at Karolinska Institutet, Stockholm, Sweden, and a MtrB knockout strain from Johannes Gescher, Karlsruhe Institute of Technology, Germany. We decided to monitor *S. oneidensis* biofilm growth by measuring the open cell voltage of the circuit with an imposed resistance of 1000 ohm. Thanks to Ohm's law U=RI, the current could then be determined.
 
       Our first experiment consisted in putting the wild type strain on the electrodes, then assembling the MFC with LB broth in a reservoir, and finally assembling the final circuit (Figure 6) and measuring the voltage continuously. After a few days, we changed the media for fresh LB and continued to monitor the voltage. We then changed the media for minimal M9 media with lactate as a carbon source and tried to check that the biofilm growth was enhanced after a period of adaptation to the new media.
-      Our second experiment was a control to check the necessity of having the MtrB gene for electricity production. We assembled the circuit with the mtrb knockout on the electrodes this time and measured current with LB as media.
+      Our second experiment was a control to check the necessity of having the MtrB gene for electricity production. We assembled the circuit with the MtrB knockout on the electrodes this time and measured current with LB as media.
 
     - var imgpath = "" + require("../assets/img/Engineering--mfc.png")["default"]
     +image(6, imgpath, "MFC setup, where 1/green is the pump; 2/yellow is the air bottle; 3/purple is the media bottle; 4/red is the resistor; and 5/blue is the MFC", 100)
@@ -132,15 +132,15 @@ block article
 
       # Analyse the results
       
-      Most of our constructs were successfully designed and transformed into *E. coli* TOP 10 cells. The sequencing results confirmed what our gels predicted for fifteen of our colonies. The specific results for each experiment (viability, transformation, Western blots, fluorescence) are presented in Results. We decided to focus on the MFC engineering [Results](https://2020.igem.org/Team:Stockholm/Results) here.
+      Most of our constructs were successfully designed and transformed into *E. coli* TOP 10 cells. The sequencing results confirmed what our gels predicted for fifteen of our colonies. The specific results for each experiment (viability, transformation, Western blots, fluorescence) are presented in [Results](https://2020.igem.org/Team:Stockholm/Results). We decided to focus on the MFC engineering results here.
       
       First, we observed with the open cell voltage over time curves that a biofilm could grow when *S.oneidensis*, wild-type was inoculated in the MFC and fed with an LB media (Figure 7). The voltage increased slowly and then underwent a high increase when the LB media was renewed. Seeing that the biofilm had grown, we changed the media to a minimal M9 media with regular lactate addition. As expected, the biofilm managed to adapt to this new media. At first, the voltage dropped and then it slowly grew back as it adapted. When we disassembled the MFC, we observed the biofilm directly on the membrane (Figure 9).
       
-      Those results were compared to the curves for the mtrb knockout strain (Figure 8). The Figure shows that the mtrb knockout could not produce a biofilm because it was unable to produce electricity, as predicted by literature. This result was confirmed when we disassembled the MFC and the membrane was free from any biofilm (Figure 9).
+      Those results were compared to the curves for the MtrB knockout strain (Figure 8). The Figure shows that the MtrB knockout could not produce a biofilm because it was unable to produce electricity, as predicted by literature. This result was confirmed when we disassembled the MFC and the membrane was free from any biofilm (Figure 9).
     - var imgpath = "" + require("../assets/img/Results--MFC_WT.png")["default"]
     +image(7, imgpath, "Current-time graph for Shewanella oneidensis MR-1 wildtype", 100)
     - var imgpath = "" + require("../assets/img/Results--MFC_Comparison.png")["default"]
-    +image(8, imgpath, "Current-time graph for Shewanella oneidensis MR-1 MtrB knockout (Cyan) and wildtype (red)", 100)
+    +image(8, imgpath, "Current-time graph for Shewanella oneidensis MR-1 MtrB knockout (cyan) and wildtype (red)", 100)
     - var imgpath = "" + require("../assets/img/Engineering--biofilm.png")["default"]
     +image(9, imgpath, "Membrane with A) no biofilm and B) biofilm", 100)
 
@@ -158,8 +158,8 @@ block article
       __Quick troubleshooting list to help you when a protein does not appear on a Western blot:__
       
       1. Optimize your Western Blot protocol
-          1. Make sure that you have appropriate positive and negative controls
-          2. Optimize your cell lysis
+          1. Make sure that you have appropriate positive and negative controls.
+          2. Optimize your cell lysis.
           3. Think that your intensity might be too low if you have several products on the same blot, and one is overexpressed compared to the others. In that case you can either have separate gels or stop exposing the overexpressed product.
           4. If your protein might be expressed in another growth phase, adjust the timing.
           5. In our case, some proteins were expressed in the presence of AHLs and contaminants (under inducible promoters). If such is the case for you, try to increase the levels of inducers.
@@ -168,7 +168,7 @@ block article
     
       3. Check your sequence. Sequencing your part is necessary, and you might as well do it before starting your Western Blots. The reason for this is that even if you have a band at the right size, it might still be another protein due to a substitution. Finally, if your western blot does not work, you can use sequencing to see if the problem is at the DNA level (a mutation to a stop codon could be an explanation).
     
-      4. Check your mRNA. If your DNA sequence is correct and you still don't have results on your blot, then you can try to see if the problem is at the RNA level by performing an RNA extraction.
+      4. Check your mRNA expression. If your DNA sequence is correct and you still don't have results on your blot, then you can try to see if the problem is at the RNA level by performing an RNA extraction.
     
       5. Run a background check on your proteins to understand how they are expressed in their original host, and if possible find a paper in which it was expressed in your host. In particular, check the location of the product and the level of expression obtained in literature.
     

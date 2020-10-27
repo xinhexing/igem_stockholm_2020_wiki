@@ -41,7 +41,7 @@ block article
         Aim of the cloning experiment was to get our choice of insert/construct into the plasmid pSB1C3. If the recombinant DNA was inserted successfully they were selected using antibiotic plates.
 
         For controls we had:
-        1. A negative control plate: Just the TOP10 *E.coli* cells were plated; nothing grew hence showing our plates with the antibiotics were selective
+        1. A negative control plate: Just the TOP10 *E.coli* cells were plated; nothing grew hence showing our plates with the antibiotics were selective.
         2. The backbone plasmid pSB1C3 with RFP in it was used to check successful ligation steps. Biobrick BBa_J04450 in pSB1C3 was used as our backbone, partial restriction digest could be easily detected with this backbone and the colonies picked for colony PCR could be narrowed down.
 
         Restriction digest and ligation protocol was optimised  for our backbone and gene blocks and they can be found in the [Notebook](https://2020.igem.org/Team:Stockholm/Notebook).
@@ -69,22 +69,22 @@ block article
         | Constructs                                                          | Code           | Size | Selection of sequence                        |
         |---------------------------------------------------------------------|----------------|------|----------------------------------------------|
         | Constitutive promoter-RFP                                           | Ctrl (Control) | 1069 | /                                            |
-        | Constitutive promoter- LuxI- myc tag                                | A              | 1158 | A3 but resequence end of LuxI w/ new primers |
+        | Constitutive promoter- LuxI- Myc tag                                | A              | 1158 | A3 but resequence end of LuxI w/ new primers |
         | Promoter prmA- mcherry                                              | B              | 1492 | B7, B8                                       |
         | Promoter bphR1- mcherry                                             | C              | 1361 | C3 but mismatch in promoter and gap after it |
         | Promoter Lux-GFP                                                    | D              | 1113 | D1                                           |
         | Promoter Rhl-GFP                                                    | E              | 1111 | E5                                           |
-        | Promoter prmA-LuxI-myc tag                                          | F              | 1159 | F5 (F7 has a mismatch)                       |
-        | Constitutive promoter- RhlI- myc tag                                | G              | 1045 | G7                                           |
-        | Constitutive promoter-AiiA - myc tag                                | H              | 1189 | /                                            |
-        | Constitutive promoter-RhlR - myc tag                                | J              | 1299 | (J3 has a mismatch)                          |
+        | Promoter prmA-LuxI-Myc tag                                          | F              | 1159 | F5 (F7 has a mismatch)                       |
+        | Constitutive promoter- RhlI- Myc tag                                | G              | 1045 | G7                                           |
+        | Constitutive promoter-AiiA - Myc tag                                | H              | 1189 | /                                            |
+        | Constitutive promoter-RhlR - Myc tag                                | J              | 1299 | (J3 has a mismatch)                          |
         | RhlI-RBS-Aiia                                                       | K              | 1779 | K5,K11                                       |
-        | Constitutive promoter-bphR2 - myc tag                               | L              | 1443 | L3                                           |
-        | Promoter bphR1-LuxI-myc tag                                         | M              | 1288 | M1                                           |
+        | Constitutive promoter-bphR2 - Myc tag                               | L              | 1443 | L3                                           |
+        | Promoter bphR1-LuxI-Myc tag                                         | M              | 1288 | M1                                           |
         | Constitutive promoter- GFP                                          | N              | 1266 | N3                                           |
-        | Constitutive promoter- RhlR- myc tag- Promoter Rhl-GFP              | O              | 2107 | O14,O19                                      |
-        | Constitutive promoter-LuxR - myc tag                                | P              | 1328 | /                                            |
-        | Constitutive promoter- LuxR- myc tag- Promoter Lux-GFP              | Q              | 2135 | Q3                                           |
+        | Constitutive promoter- RhlR- Myc tag- Promoter Rhl-GFP              | O              | 2107 | O14,O19                                      |
+        | Constitutive promoter-LuxR - Myc tag                                | P              | 1328 | /                                            |
+        | Constitutive promoter- LuxR- Myc tag- Promoter Lux-GFP              | Q              | 2135 | Q3                                           |
         | Constitutive promoter-bphR2-Myc tag -double terminator-Pbphr1--LuxI | plasmid 3.2    | 2493 | P3.2-4 (middle part should be resequenced)   |
         [Table 1: Summary of the cloning experiment.]
 
@@ -97,8 +97,8 @@ block article
         | Constructs                                                          | Code                | Construct Detects |
         |---------------------------------------------------------------------|---------------------|-------------------|
         | Top 10 *E. coli* BL21 (no plasmid)                                  | Ctrl (Control)      | N/A               |
-        | Promoter prmA-LuxI-myc tag                                          | F                   | PFOS              |
-        | Constitutive promoter-bphR2 - myc tag - promoter bphR1-LuxI-myc tag | Plasmid 3.2 (P 3.2) | PCB/1,1-biphenyl  |
+        | Promoter prmA-LuxI-Myc tag                                          | F                   | PFOS              |
+        | Constitutive promoter-bphR2 - Myc tag - promoter bphR1-LuxI-Myc tag | Plasmid 3.2 (P 3.2) | PCB/1,1-biphenyl  |
         [Table 2: The following pollutant sensing constructs were used for the viability assay]
         
         Initially, the pollutant concentration range used for the viability assays mimicked the concentration range of the pollutants as found in nature. The initial results suggested that our strains were not affected in terms of their population growth at concentrations this low. Hence, we aimed to find the threshold levels for these pollutants at which the growth would be affected, enabling us to set a maximum range for the pollutant concentration at which our strains and in turn our biosensor system would be capable of functioning. These results can be found below.
@@ -115,21 +115,21 @@ block article
         Once the survivability of the transformed cells in various concentrations of the pollutants was proven; characterization of these various constructs was the next step.
 
         # Characterization
-        To make sure that our final sequence was in fact expressed as well as functional we methodically divided the construct and added extra sequences that would help us with characterization such as fluorescence markers or myc tags. This was useful in troubleshooting the subparts of the final construct that needs more modeling and analysis to give out the desired proteins. Different techniques were applied to characterize the various constructs outlined in [Experiments](https://2020.igem.org/Team:Stockholm/Experiments).
+        To make sure that our final sequence was in fact expressed as well as functional we methodically divided the construct and added extra sequences that would help us with characterization such as fluorescence markers or Myc tags. This was useful in troubleshooting the subparts of the final construct that needs more modeling and analysis to give out the desired proteins. Different techniques were applied to characterize the various constructs outlined in [Experiments](https://2020.igem.org/Team:Stockholm/Experiments).
 
         # Fluorescence
-        Few of our constructs with the pollutant detection ability had mCherry sequence at the end and few of the constructs with the quorum sensing genes had GFP sequence. Fluorescence intensity of these constructs were measured both in uninduced conditions; to obtain a threshold signalling level of the promoters, and in induced conditions; to assess the degree of activation of the promoter by the inducers (i.e. AHL and/or pollutants). Inducers were added to cultures along with the constructs to be tested, and incubated overnight (Table 3). Constructs not expressing fluorescent proteins were included as controls. The results are summarised in Figure 12.
+        Some of our constructs with the pollutant detection ability had mCherry sequence at the end and some of the constructs with the quorum sensing genes had GFP sequence. Fluorescence intensity of these constructs were measured both in uninduced conditions; to obtain a threshold signalling level of the promoters, and in induced conditions; to assess the degree of activation of the promoter by the inducers (i.e. AHL and/or pollutants). Inducers were added to cultures along with the constructs to be tested, and incubated overnight (Table 3). Constructs not expressing fluorescent proteins were included as controls. The results are summarised in Figure 12.
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
         | Construct                                              | Code | Fluorescent protein | Induced with AHL synthase constructs | Induced with synthetic AHL | Induced with pollutants       |
         |--------------------------------------------------------|------|---------------------|--------------------------------------|----------------------------|-------------------------------|
         | constitutive promoter- GFP                             | N    | GFP                 | N/A                                  | N/A                        | N/A                           |
-        | constitutive promoter- RhlR- myc tag- promoter Rhl-GFP | O    | GFP                 | co-culture with G                    | 2 μM C4-HSL                | N/A                           |
-        | constitutive promoter- LuxR- myc tag- promoter Lux-GFP | Q    | GFP                 | co-culture with A                    | 2 μM 3OC6-HSL              | N/A                           |
+        | constitutive promoter- RhlR- Myc tag- promoter Rhl-GFP | O    | GFP                 | co-culture with G                    | 2 μM C4-HSL                | N/A                           |
+        | constitutive promoter- LuxR- Myc tag- promoter Lux-GFP | Q    | GFP                 | co-culture with A                    | 2 μM 3OC6-HSL              | N/A                           |
         | promoter prmA- mCherry                                 | B    | mCherry             | N/A                                  | N/A                        | 62.5 μM PFOS                  |
         | promoter bphR1- mCherry                                | C    | mCherry             | N/A                                  | N/A                        | 10<sup>-4</sup>M 1,1-biphenyl |
-        | constitutive promoter- LuxI- myc tag*                  | A*   | N/A                 | N/A                                  | N/A                        | N/A                           |
-        | constitutive promoter- RhlI- myc tag*                  | G*   | N/A                 | N/A                                  | N/A                        | N/A                           |
+        | constitutive promoter- LuxI- Myc tag*                  | A*   | N/A                 | N/A                                  | N/A                        | N/A                           |
+        | constitutive promoter- RhlI- Myc tag*                  | G*   | N/A                 | N/A                                  | N/A                        | N/A                           |
         [Table 3: Summary of fluorescence intensity quantification experiment. Constructs marked with an asterisk (*) are controls]
     
     - var imgpath = "" + require("../assets/img/Results--mCherry bar graph.png")["default"]
@@ -144,7 +144,7 @@ block article
 
         # Western Blot
 
-        The constructs with a myc tag at the end were characterized using the western blot technique. The protocol was adjusted throughout the experimental period for several factors in order to optimize the protocol and ensure optimal protein expression. A positive band corresponding to the right size suggests that the gene inserted for the desired protein has been successfully translated, although functional assays are required to confirm successful protein function. This was carried out for some of the constructs through fluorescence experiments such as construct Q (LuxR) induced by the protein expressed by construct A (LuxI) (Figure 14).
+        The constructs with a Myc tag at the end were characterized using the Western blot technique. The protocol was adjusted throughout the experimental period for several factors in order to optimize the protocol and ensure optimal protein expression. A positive band corresponding to the right size suggests that the gene inserted for the desired protein has been successfully translated, although functional assays are required to confirm successful protein function. This was carried out for some of the constructs through fluorescence experiments such as construct Q (LuxR) induced by the protein expressed by construct A (LuxI) (Figure 14).
 
         Several parameters were adjusted (see our [WB troubleshooting guide](https://2020.igem.org/Team:Stockholm/Engineering#Identifyaproblemtosolveati+1=troubleshooting)) throughout the experimental period:
         * Cell culture density at lysis (in order to optimize protein expression according to cell growth phase)
@@ -153,27 +153,27 @@ block article
         * Increased incubation time with antibodies
 
 
-        The results presented here are as obtained after several repeated trials. The same positive bands for the same samples appeared over several consecutive western blots and were hence reproducible (see [notebook](https://2020.igem.org/Team:Stockholm/Notebook) for all western blot results). In general, pollutant-inducible constructs were induced with the pollutants overnight.
+        The results presented here are as obtained after several repeated trials. The same positive bands for the same samples appeared over several consecutive Western blots and were hence reproducible (see [notebook](https://2020.igem.org/Team:Stockholm/Notebook) for all Western blot results). In general, pollutant-inducible constructs were induced with the pollutants overnight.
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
         | Constructs                                                  |  Code               |  Protein Tag |  Induced with pollutants (o/n) | Protein Size + Myc-tag (kDa)  | Correct Sequence    |
         |-------------------------------------------------------------|---------------------|--------------|--------------------------------|-------------------------------|---------------------|
-        | Constitutive promoter- LuxI- myc tag                        | A                   | c-Myc-tag    | N/A                            | 23.1                          | Yes*                |
-        | Constitutive promoter- RhlI- myc tag                        | G                   | c-Myc-tag    | N/A                            | 23.8                          | Yes*                |
-        | Constitutive promoter-LuxR - myc tag                        | P                   | c-Myc-tag    | N/A                            | 29.8                          | No                  |
-        | Constitutive promoter-RhlR - myc tag                        | J                   | c-Myc-tag    | N/A                            | 29.4                          | Mismatch            |
-        | Constitutive promoter- LuxR- myc tag- Promoter Lux-GFP      | Q                   | c-Myc-tag    | N/A                            | 29.8                          | Yes*                |
-        | Constitutive promoter- RhlR- myc tag- Promoter Rhl-GFP      | O                   | c-Myc-tag    | N/A                            | 28.8                          | Yes                 |
-        | Constitutive promoter-bphR2 - myc tag                       | L                   | c-Myc-tag    | N/A                            | 35.1                          | Yes                 |
-        | Promoter bphR1-LuxI-myc tag                                 | M                   | c-Myc-tag    | 10<sup>-4</sup> M 1,1-biphenyl | 23.1                          | Yes                 |
-        | Promoter prmA-LuxI-myc tag                                  | F                   | c-Myc-tag    | 62.5 μM PFOS                   | 23.1                          | Yes                 |
-        | Constitutive promoter-bphR2 - myc tag - promoter bphR1-LuxI | Plasmid 3.2 (P 3.2) | c-Myc-tag    | 10<sup>-4</sup> M 1,1-biphenyl | 35.1                          | Not fully sequenced |
+        | Constitutive promoter- LuxI- Myc tag                        | A                   | c-Myc-tag    | N/A                            | 23.1                          | Yes*                |
+        | Constitutive promoter- RhlI- Myc tag                        | G                   | c-Myc-tag    | N/A                            | 23.8                          | Yes*                |
+        | Constitutive promoter-LuxR - Myc tag                        | P                   | c-Myc-tag    | N/A                            | 29.8                          | No                  |
+        | Constitutive promoter-RhlR - Myc tag                        | J                   | c-Myc-tag    | N/A                            | 29.4                          | Mismatch            |
+        | Constitutive promoter- LuxR- Myc tag- Promoter Lux-GFP      | Q                   | c-Myc-tag    | N/A                            | 29.8                          | Yes*                |
+        | Constitutive promoter- RhlR- Myc tag- Promoter Rhl-GFP      | O                   | c-Myc-tag    | N/A                            | 28.8                          | Yes                 |
+        | Constitutive promoter-bphR2 - Myc tag                       | L                   | c-Myc-tag    | N/A                            | 35.1                          | Yes                 |
+        | Promoter bphR1-LuxI-Myc tag                                 | M                   | c-Myc-tag    | 10<sup>-4</sup> M 1,1-biphenyl | 23.1                          | Yes                 |
+        | Promoter prmA-LuxI-Myc tag                                  | F                   | c-Myc-tag    | 62.5 μM PFOS                   | 23.1                          | Yes                 |
+        | Constitutive promoter-bphR2 - Myc tag - promoter bphR1-LuxI | Plasmid 3.2 (P 3.2) | c-Myc-tag    | 10<sup>-4</sup> M 1,1-biphenyl | 35.1                          | Not fully sequenced |
         | FtsH1Myc**                                                  | Pos Control         | c-Myc-tag    | N/A                            | 71.2                          | N/A                 |
         | Constitutive promoter- GFP                                  | Neg Control         | None         | N/A                            | N/A                           | Yes                 |
         [Table 4: The constructs used for the western blot experiment, uninduced as well as induced (constructs M, F and P 3.2) by pollutants overnight. *Positive band corresponding to correct protein size on WB. **Obtained from Professor Ute Römling]
     
     :markdown-it(html)
-        The results presented here are as obtained after several repeated trials. The same positive bands for the same samples appeared over several consecutive WBs and were hence reproducible (see [notebook](https://2020.igem.org/Team:Stockholm/Notebook) for all WB results). The constructs, namely F and plasmid 3.2, designed to be induced by pollutants were tested in uninduced as well as induced conditions. The pollutant concentration used for induction corresponded to the maximum pollutant concentration threshold without an impact on their growth, as determined by the viability assay (Figure 10). Construct M, consisting only of the the bphR1 promoter, hence lacking the gene bphR2 was also tested in uninduced as well as induced conditions. This allowed for assessment of the potential inducibility of this promoter in absence of bphR2. Negative controls lacking a myc-tag as well as positive controls (confirmed myc tag on WB) were included.
+        The results presented here are as obtained after several repeated trials. The same positive bands for the same samples appeared over several consecutive WBs and were hence reproducible (see [notebook](https://2020.igem.org/Team:Stockholm/Notebook) for all WB results). The constructs, namely F and plasmid 3.2, designed to be induced by pollutants were tested in uninduced as well as induced conditions. The pollutant concentration used for induction corresponded to the maximum pollutant concentration threshold without an impact on their growth, as determined by the viability assay (Figure 10). Construct M, consisting only of the the bphR1 promoter, hence lacking the gene bphR2 was also tested in uninduced as well as induced conditions. This allowed for assessment of the potential inducibility of this promoter in absence of bphR2. Negative controls lacking a Myc-tag as well as positive controls (confirmed Myc tag on WB) were included.
 
     - var imgpath = "" + require("../assets/img/Results--WB.png")["default"]
     +image(14, imgpath, "WB results of samples in table 4 (the one right above this) with positive bands for positive control, LuxI (A), RhlI (G) and LuxR (Q) in that order. M + biphenyl, F + PFOS and P3.2 + biphenyl were induced by pollutants according to table 4", 100)
@@ -188,7 +188,7 @@ block article
 
     :markdown-it(html)
         The WB results can be interpreted in several ways. One interpretation is that the constructs lacking positive bands are in fact not expressing the desired proteins despite most of them carrying the correct genetic inserts as confirmed by sanger sequencing. There are however several other assays one would like to perform before drawing that conclusion. Future experiments in order to troubleshoot the lack of protein expression could entail:
-        * RNA extraction (in order to pinpoint where in the process of protein expression there could be a problem such as in the mRNA)
+        * RNA extraction (in order to pinpoint where in the process of protein expression there could be a problem such as in the mRNA).
         * Increasing the pollutant concentration for induction of constructs F and Plasmid 3.2.
         * Cell lysis at different time points in their growth phase, to analyse a potential change in protein expression corresponding to different time points.  
         * Probing for a host protein may also aid in understanding differences in total protein expression and could help in quantifying the protein expression for the positive bands.
@@ -234,7 +234,7 @@ block article
     :markdown-it(html)
         There was no colour change observed on any plates; this could possibly be due to the less growth of the *Chromobacterium* and the Top 10 *E.coli* as the cultures were grown for almost 24 hours and the cells might have died before plating.
 
-        Hence from the *Chromobacterium* assay it was seen that pure AHL at a concentration of 10mM gave a clear colour change visible to naked eyes. However in case of the constructs there wasn’t a huge difference. Although from the Western Blot the same constructs A and G gave clear bands multiple times it could be concluded that the proteins were being formed but the concentration of the proteins formed were too low to be detected by the *Chromobacterium* plates prepared. Further literature review to better this experiment is needed. 
+        Hence from the *Chromobacterium* assay it was seen that pure AHL at a concentration of 10mM gave a clear colour change visible to naked eyes. However in case of the constructs there wasn’t a huge difference. Although from the Western blot the same constructs A and G gave clear bands multiple times it could be concluded that the proteins were being formed but the concentration of the proteins formed were too low to be detected by the *Chromobacterium* plates prepared. Further literature review to better this experiment is needed to improve.
         
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 

@@ -46,7 +46,7 @@ block article
         
         ## Setup
         
-        The electricity generation of *Shewanella oneidensis* was measured in a Microbial Fuel Cell (MFC). A two chamber electrochemical fuel cell was repurposed to be used for this purpose. The electrodes in each chamber consisted of stacks of 2 heat treated square graphite paper with a side length of 1.5 cm. This allowed for a tight packing of the fuel cell, while still leaving space for the media to flow between the graphite pater and allow biofilm to grow there. Separating the chambers was a Nafion<sup>TM</sup> proton exchange membrane. The chamber walls were made from the thickness of the rubber gasket sealing the electrodes in place. The rubber gaskets secured the membrane in place and allowed for an airtight seal around the chambers. The graphite electrodes were connected to a gold plate, where electronics could be attached. A 1 kΩ resistor was put between the electrodes and the open circuit voltage was measured to then calculate the current. A battery tester from Landt instruments was used to collect and log the data. A detailed description of the assembly can be found in the [Engineering](https://2020.igem.org/Team:Stockholm/Engineering#Design-MFC) page.
+        The electricity generation of Shewanella oneidensis was measured in a Microbial Fuel Cell (MFC). A two chamber electrochemical fuel cell was repurposed to be used for this purpose. The electrodes in each chamber consisted of stacks of 2 heat treated square graphite paper with a side length of 1.5 cm. This allowed for a tight packing of the fuel cell, while still leaving space for the media to flow between the graphite paper and allow biofilm to grow there. Separating the chambers was a Nafion<sup>TM</sup> proton exchange membrane. The chamber walls were made from the thickness of the rubber gasket sealing the electrodes in place. The rubber gaskets secured the membrane in place and allowed for an airtight seal around the chambers. The graphite electrodes were connected to a gold plate, where electronics could be attached. A 1 kΩ resistor was put between the electrodes and the open circuit voltage was measured to then calculate the current. A battery tester from Landt instruments was used to collect and log the data. A detailed description of the assembly can be found in the [Engineering](https://2020.igem.org/Team:Stockholm/Engineering#Design-MFC) page.
 
     - var imgpath = "" + require("../assets/img/Experiments--MFC_Schematic.png")["default"]
     +image(2, imgpath, "Schematic of the MFC", 100)
@@ -62,15 +62,15 @@ block article
 
         # Cloning
 
-        Cloning can be used to get a specific DNA fragment (insert/construct) into the <dfn>vector DNA ~ Small circular chromosome with DNA for functional regions such as origin of replication and a drug resistance gene</dfn> to form a recombinant DNA. This can be introduced into a host cell where the recombinant DNA will replicate and express the proteins. Two enzymes are used in this process <dfn>restriction enzymes ~ Cuts DNA at specific sites by recognising 4-8 bp sequences</dfn> and <dfn>DNA ligase ~ Forms phosphodiester bonds between two complementary sticky end DNA fragments</dfn> [Lodish et al., 2000](#citation6). For our project to express these various types of  DNA sequences for RhlR, bphR1, LuxI, pRMA we used the cloning techniques.
+        Cloning can be used to get a specific DNA fragment (insert/construct) into the <dfn>vector DNA ~ Small circular chromosome with DNA for functional regions such as origin of replication and a drug resistance gene</dfn> to form a recombinant DNA. This can be introduced into a host cell where the recombinant DNA will replicate and express the proteins. Two enzymes are used in this process <dfn>restriction enzymes ~ Cuts DNA at specific sites by recognising 4-8 bp sequences</dfn> and <dfn>DNA ligase ~ Forms phosphodiester bonds between two complementary sticky end DNA fragments</dfn> [Lodish et al., 2000](#citation6). For our project to express these various types of  DNA sequences for RhlR, bphR1, LuxI, prmA we used the cloning techniques.
 
-        The constructs were designed based on prior biobricks or based on the literature available. Due to the unavailability or late delivery of the biobricks we ordered our constructs from IDT. The constructs under a constitutive promoter had an additional myc tag in the sequence and the promoter specific sequences have either a GFP or mCherry sequence for easier characterization. The full list of constructs can be found in [Parts](https://2020.igem.org/Team:Stockholm/Parts).
+        The constructs were designed based on prior BioBricks or based on the literature available. Due to the unavailability or late delivery of the biobricks we ordered our constructs from IDT. The constructs under a constitutive promoter had an additional Myc tag in the sequence and the promoter specific sequences have either a GFP or mCherry sequence for easier characterization. The full list of constructs can be found in [Parts](https://2020.igem.org/Team:Stockholm/Parts).
 
-        To express these constructs, they were cloned into the vector plasmid pSB1C3. [Restriction digestion](https://2020.igem.org/wiki/images/b/ba/T--Stockholm--Restriction_digest.pdf) was performed on EcoRI and PstI sites in both the gene blocks and the plasmids. This was followed by [ligation](https://2020.igem.org/wiki/images/8/8f/T--Stockholm--Ligation.pdf). These plasmids were transformed into Top10 *E. coli* and were selected on chloramphenicol plates for  [colony PCR](https://2020.igem.org/wiki/images/3/33/T--Stockholm--Colony_PCR.pdf).
+        To express these constructs, they were cloned into the vector plasmid pSB1C3. [Restriction digestion](https://2020.igem.org/wiki/images/b/ba/T--Stockholm--Restriction_digest.pdf) was performed on EcoRI and PstI sites in both the gene blocks and the plasmids. This was followed by [ligation](https://2020.igem.org/wiki/images/8/8f/T--Stockholm--Ligation.pdf). These plasmids were [transformed](https://2020.igem.org/wiki/images/d/da/T--Stockholm--Transformation.pdf) into Top10 *E. coli* and were selected on chloramphenicol plates for  [colony PCR](https://2020.igem.org/wiki/images/3/33/T--Stockholm--Colony_PCR.pdf).
 
         Transformation was primarily performed using [heat shock](https://2020.igem.org/wiki/images/d/da/T--Stockholm--Transformation.pdf) of chemically competent *E.coli* TOP10. However, when heat shock transformation was not possible, electroporation of electrocompetent *E.coli* was done instead.
 
-        The samples from the colony PCR with the right size when run on an agarose gel were sent for sequencing to Microsynth which were re-checked with the original sequence which if matched were used for characterization.
+        The samples from the colony PCR with the right size when run on an agarose gel were sent for sequencing to Microsynth AG which were re-checked with the original sequence which if matched were used for characterization.
 
         Once all the constructs were inserted it was necessary to test if these transformed TOP10 *E.coli* would be able to grow normally in the presence of the pollutants at varying concentrations for which we performed the viability test.
 
@@ -90,7 +90,7 @@ block article
 
         Growth-based [viability assays](https://2020.igem.org/wiki/images/5/57/T--Stockholm--Viability_Assay.pdf) using microplate readers are a quite common technique nowadays. It has partially replaced the traditional methods and has reduced the cost of the experiment. The cultivation of the bacteria is performed in microplates and the growth curve is designed based on the absorbance values. It is a fast, easy and cheap technique to get accurate growth curves. Finally, it allows the user to set different chemical or biological conditions in each well [Horakova et al., 2004](#citation12).
 
-        Characterization of the transformed *E.coli* cells is important to check if our genes of interest produced the right protein. For our project we mainly tested this using fluorescence for the constructs that had a GFP or mCherry after the gene of interest and a western blot for the genes that had a myc tag sequence. Few of the constructs produce N-acylhomoserine lactones (AHLs) which cause colour change in one of the *Chromobacterium violaceum* strain and is a way of easy characterization instead of using western blot techniques.
+        Characterization of the transformed *E.coli* cells is important to check if our genes of interest produced the right protein. For our project we mainly tested this using fluorescence for the constructs that had a GFP or mCherry after the gene of interest and a western blot for the genes that had a Myc tag sequence. Few of the constructs produce N-acylhomoserine lactones (AHLs) which cause colour change in one of the *Chromobacterium violaceum* strain and is a way of easy characterization instead of using western blot techniques.
 
         # Fluorescence
         
@@ -102,9 +102,9 @@ block article
     +image(6, imgpath, "Basic fluorescense mechanism", 80)
     :markdown-it(html)
 
-        # SDS Page and Western Blot
+        # SDS PAGE and Western Blot
         
-        [Western Blots](https://2020.igem.org/wiki/images/b/b3/T--Stockholm--SDS_Page_and_Western_Blot.pdf) were utilised for the characterization of our constructs. In order to ensure that our gene insert was in fact expressed and translated into the desired protein we needed a method to detect the proteins that were expressed by our cells. SDS PAGE is an electrophoresis based separation method for size based discrimination of proteins and western blotting utilises antibody specificity in order to detect a specific protein [Mahmood & Yang, 2012](#citation14).
+        [Western Blots](https://2020.igem.org/wiki/images/b/b3/T--Stockholm--SDS_Page_and_Western_Blot.pdf) were utilised for the characterization of our constructs. In order to ensure that our gene insert was in fact expressed and translated into the desired protein we needed a method to detect the proteins that were expressed by our cells. Sodium DodecylSulfate PolyAcrylamide GEl (SDS PAGE) is an electrophoresis based separation method for size based discrimination of proteins and western blotting utilises antibody specificity in order to detect a specific protein [Mahmood & Yang, 2012](#citation14).
 
         In order to be able to distinguish our protein of interest from our host cell proteome we designed our gene sequences to include a myc-tag at the end of the protein sequence. The myc-tag is a 1.2 kDa protein and can be fused to the N-terminus or C-terminus of a protein [Jarmander et al., 2012; UniProt Consortium, 2020](#citation15).
 
@@ -112,7 +112,7 @@ block article
 
 
         # Chromobacterium violaceum
-        Quorum sensing is dependent on the interaction between a diffusible signal molecule and a transcriptional activator protein. A commonly used signal molecule is N-acylhomoserine lactones (AHLs) which differ in their sidechains (N-acyl). *Chromobacterium violaceum* is a gram-negative bacterium that can produce the characteristically purple pigment, violacein. The modified strain CV026, is inducible by synthetic AHL N-acyl side chains from C4-C8 in length, with varying degrees of sensitivity [McClean et al., 1997](#citation17).
+        Quorum sensing is dependent on the interaction between a diffusible signal molecule and a transcriptional activator protein. A commonly used signal molecule is N-acylhomoserine lactones (AHLs) which differ in their sidechains (N-acyl). *Chromobacterium violaceum* is a Gram-negative bacterium that can produce the characteristically purple pigment, violacein. The modified strain CV026, is inducible by synthetic AHL N-acyl side chains from C4-C8 in length, with varying degrees of sensitivity [McClean et al., 1997](#citation17).
 
         *C. violaceum* was going to be utilized for its capability to show the presence of a large variety of AHLs. This would be a quick indicator for any production of AHLs without having to test protein expression in Western blot. The performed experiments with *C. violaceum* tested the needed levels of synthetic AHL for our cultures. All the characterised Top 10 *E.coli* and *Shewanella oneidensis* need to work in a microbial fuel cell, understanding the working of this system and getting a working MFC was an equally important part of our project.
         
@@ -124,7 +124,7 @@ block article
 
         [Restriction Digest](https://2020.igem.org/wiki/images/b/ba/T--Stockholm--Restriction_digest.pdf)
 
-        [SDS Page and Western Blot](https://2020.igem.org/wiki/images/b/b3/T--Stockholm--SDS_Page_and_Western_Blot.pdf)
+        [SDS PAGE and Western Blot](https://2020.igem.org/wiki/images/b/b3/T--Stockholm--SDS_Page_and_Western_Blot.pdf)
 
         [Heat Shock Transformation](https://2020.igem.org/wiki/images/d/da/T--Stockholm--Transformation.pdf)
 
