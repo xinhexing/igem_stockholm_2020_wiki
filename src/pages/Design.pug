@@ -9,16 +9,59 @@ block headVars
 block article
 
     :markdown-it(html)
-
+        # Introduction
+        
+        The engineering design is the primary step in the engineering cycle. The general workflow goes as follows: defining a problem, conducting background research, specifying requirements, brainstorming and developing a prototype solution. After these steps testing the solution, communicating and evaluating the results to improve the prototype based on the results. This process is similar to the usual scientific method where the focus is on answering a question but the engineering process instead develops a solution to a specific problem [Comparing the Engineering Design Process and the Scientific Method, n.d.](#citation1). In the design process for S-POP, we wanted to focus on being able to test our parts, modularity, and predictable behavior. Ensuring that all parts could be tested as smaller components was a necessity as our system is complex. In glossary literature research concerns were raised of the predictability and stability of biological systems. Therefore predictability became one of the points of interest for our project.  
+        
+    The S-POP-system was divided into two main components, the modular biosensor and *S. oneidensis* oscillation module, both which later on would be contained in a microbial fuel cell (MFC). By creating this modular biosensor, it would be possible to adapt the monitoring system to detect other compounds while maintaining the oscillation. 
+    
         # Biosensor
+        
+        The modular biosensor has gone through several design iterations, but the main idea of utilizing a biological sensing part (bioreceptor) in a modular system remained intact throughout the entire project. The modularity of the biosensor opens up the possibility of different uses for the system. With the modularity, other bioreceptors can be introduced and utilized to detect other compounds as well. By utilizing synthetic biology the biosensor could be adapted and optimized for other purposes.
+Several different quorum sensing molecules (QS) were considered and evaluated. The most important criteria regarding the choice of QS-molecules were mobility through cell membranes and low crosstalk with each other, as well as potential already existing systems in our strains. The QS-molecules are of great importance for the *S. oneidensis* oscillation-system, therefore the choice was more dependent on this system rather than the biosensor. Since the biosensor has fewer parts, it is more adaptable to the requirements imposed by the  *S. oneidensis* oscillation-system.
+
+    When considering the different sensing parts, we mainly looked at older iGEM projects to build on the foundation that others have paved. We decided to focus on persistent organic pollutants which are a current problem for the Baltic sea. This decision was based on literature and conversations with advisors and experts in the environmental field. We retained PCBs and PFOS as targets for our project . Regulations for the levels of PFOS have been developed in later years for Swedish water treatment plants. But the primary focus in wastewater treatment regulations is on heavy metals and nutrients not POPs [Petterson et al., 2020](#citation2). Since these pollutants are less prioritized more can pass into the environment. The current measurement method most commonly used for POPs is testing water samples in the lab.     
+    
+    In order to develop S-POP into a fully functioning system all components needed to be tested. To make these tasks more manageable the system was divided up into:
+    1. Detection
+    2. *S. oneidensis* oscillation-system
+    3. MFC
+    
+    For the detection of PFOS and PCBs the genetic constructs were separated into several smaller parts in order to check individual promoters and gene expression. Appropriate controls were used to check the function of each construct.
+
         ## Detection
         ### Detection of PFOS
         #### The prmA promoter system and its characterization
+        
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
+    +image(1, imgpath, "Caption", 100)
+
+    :markdown-it(html)
         #### Full construct
+        
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
+    +image(2, imgpath, "Caption", 100)
+
+    :markdown-it(html)
+    
         ### Detection of PCBs
         #### The bphR1/2 system and its characterization
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
+    +image(3, imgpath, "Caption", 100)
+
+    :markdown-it(html)
         #### Full construct
+        
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
+    +image(4, imgpath, "Caption", 100)
+
+    :markdown-it(html)
         ## *Shewanella oneidensis* oscillation module for electrical output  
+        
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
+    +image(5, imgpath, "Caption", 100)
+
+    :markdown-it(html)
         ### LuxI/R - characterization  
         ### Rhl/R - characterization
         ### Full construct
@@ -27,7 +70,10 @@ block article
         ### Fuel cell design 
         ### Mediated/Undemediated
         ### Final design of the MFC
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
+    +image(6, imgpath, "Caption", 100)
 
+    :markdown-it(html)
         # Emphasis
         This is regular text.
 
