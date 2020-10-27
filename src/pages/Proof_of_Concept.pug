@@ -10,132 +10,98 @@ block article
 
     :markdown-it(html)
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+        # Overview
 
-        # Emphasis
-        This is regular text.
+        For the project S-POP, we decided to divide the parts into more manageable tasks and experiments. The two major parts of S-POP contained in the MFC, is the *E.coli* biosensor module and the *S. oneidensis* oscillation module. To demonstrate the feasibility of S-POP as a project we’ve highlighted the successful parts which are vital to the function of the system.
+ 
+        Sanger sequencing was utilized to show successful insertion of desired gene constructs. To show the expression and activation of the different constructs, fluorescence tags (GFP, mCherry) and Myc-tags were used. The final *S. oneidensis* oscillation model was developed with the aid of numerical models and simulations. Voltage measurements were used to calculate the current production of the results from the MFC.
 
-        **This is bold text.**
-        __This is also bold text.__
+        # Biosensor
 
-        *This is italic text.*
-        _This is also italix text.*
+        The modular biosensor relies on a promoter region that is upregulated by the presence of specific pollutants. When the pollutant sensing parts are activated, a quorum sensing (QS) molecule, N-acyl homoserine lactones (AHLs) is produced.
 
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
+        ## Successful gene insertion
 
-        ~~Strikethrough~~
+        Sanger sequencing was performed to evaluate if the genes of interest had been introduced into *E. coli*. Sequencing results showed that the vital sensing parts [BBa_K3440005](http://parts.igem.org/Part:BBa_K3440005) (prmA-LuxI-myc tag)  and [BBa_K3440018](http://parts.igem.org/Part:BBa_K3440018) (constitutive promoter-bphR2 - myc tag - promoter bphR1-LuxI) were successfully inserted. These regions include the pollutant sensing parts (prmA and bphR1/2) as well as the QS-signal producing part (LuxI). [In total 12 constructs were found to have the right alignments](https://2020.igem.org/Team:Stockholm/Results#Cloning) 
 
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
-    +image(1, imgpath, "Caption", 100)
-
+    - var imgpath = "" + require("../assets/img/Results--cloning_6.png")["default"]
+    +image(1, imgpath, "Sequence comparison for construct O (top) and F (bottom)", 100)
     :markdown-it(html)
-        Back to regular text.
+    
+        ## Gene expression
 
-        # Tables
+        After the successful insertion of the gene fragment, it was essential to test the protein expression. The essential QS-molecule produced by the gene LuxI, under the constitutive promoter, was successfully expressed in *E. coli* as shown by [Western Blot results](https://2020.igem.org/Team:Stockholm/Results#WesternBlot).
 
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
+        ## Viability
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
-
+        To ensure of the *E. coli* biosensor module viability, tests with the specific pollutant in varying concentrations were performed. These [viability assays](https://2020.igem.org/Team:Stockholm/Results#Viabilityassays) started with similar levels to what could be found in the environment, but also higher pollutant concentrations were utilized. *E. coli* was not severely affected by the pollutants. 
+    - var imgpath = "" + require("../assets/img/Results--fluorescence.png")["default"]
+    +image(2, imgpath, "Growth curves of Top 10 E. coli BL21, constructs F and plasmid 3.2 with PFOS and biphenyls", 100)
     :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
+    
+        ## Pollution detection
 
+        After viability assays showing that  *E. coli* can survive with the chosen pollutants present, the inducibility of the promoters was checked. In tests with similar pollution levels found in the environment and the high levels neither induced the promoters. 
+
+        # *S. oneidensis* oscillation
+
+        ## *E. coli* successful gene insertion
+
+        Shewanella oneidensis requires conjugation or electroporation for optimal gene insertions. The following gene insertions were performed with E. coli as a representative organism. Firstly, the oscillation gene circuit insertion in *E. coli* was evaluated by Sanger sequencing. The parts, [BBa_K3440014](http://parts.igem.org/Part:BBa_K3440014) (Constitutive promoter- LuxR- myc tag-Inducible Promoter Lux-GFP) and [BBa_K3440012](http://parts.igem.org/Part:BBa_K3440012) (Constitutive promoter- RhlR- myc tag- inducible Promoter Rhl-GFP) respectively, were successfully inserted in *E. coli* and characterized. These parts are required for the oscillation to occur, with the exception of the GFP and myc-tag which was used to evaluate protein expression. The protein expression of LuxI, LuxR and RhlI; LuxR and RhlR could be induced by AHL and/or constructs expressing LuxI and RhlI. 
+        With these results as and the successful expression of LuxI and RhlI in co-cultures and with no synthetic AHL suggests successful binding to LuxR and RhlR respectively and induction of specific promoters and expression of GFP. The results of this functionality assay are supported by the [Western blot results](https://2020.igem.org/Team:Stockholm/Results#WesternBlot), which showed the expression of Myc-tagged Lux, RhlI  and LuxR.
+
+    - var imgpath = "" + require("../assets/img/Results--WB.png")["default"]
+    +image(3, imgpath, "WB results of constructs", 100)
     :markdown-it(html)
-        **Example 2:**
+        ## Modelling / simulations
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
+        A vital part of S-POP is the *S. oneidensis* oscillation-system within the microbial fuel cell. Due to complications stemming from COVID-19, we were not able to test the system on the bench. However, we showed success in modelling the system. After running models with generic kinetic values, a representative model was produced. These models evaluate different conditions and simulate applicable variations.  The [Model](https://2020.igem.org/Team:Stockholm/Model#SystemofDelayedDifferentialEquations) showed that an oscillation can be obtained and can therefore be used to distinguish and identify different pollutants depending on the period of the oscillations.
 
+    - var imgpath = "" + require("../assets/img/Model--Osc2_Induced55.png")["default"]
+    +image(4, imgpath, " Improved inducible oscillatory circuit at induction point T=55", 100)
     :markdown-it(html)
-        **Example 3:**
+    
+        ## Molecular dynamics
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
+        One crucial part of the oscillatory system was the protein AiiA, which is a lactonase that degrades AHLs. To determine the affinity of the lactonase, docking was performed using [molecular dynamics](https://2020.igem.org/Team:Stockholm/Model#MolecularDynamics), and the energies used to determine kinetic constants to the different AHLs used.
 
-        [Table 3: Caption goes here.]
-
+    - var imgpath = "" + require("../assets/img/Model--inthl4.png")["default"]
+    +image(5, imgpath, "HL4-ideal in the binding pocket of AiiA", 100)
     :markdown-it(html)
+    
+        # MFC
 
-        # Definitions
+        The electric output from [the microbial fuel cell](https://2020.igem.org/Team:Stockholm/Results#MFC) (MFC) relies on *S. oneidensis* forming a biofilm on the electrode. MtrB is a vital part of the biofilm attachment as well as the outer membrane electron transport that facilitates the redox reaction which creates the electric output. In the *S. oneidensis* wild strain MtrB is active and in the *S. oneidensis* MtrB-knockout is inactivated.
 
-        <dfn>Term ~ Definition</dfn>
+        ## *S. oneidensis* wild type
 
-        This can come <dfn>anywhere in ~ the text</dfn>.
+        When the *S. oneidensis* wildtype-strain was introduced into the MFC, a biofilm was clearly established. The voltage measurements also indicated steady electric outputs.
 
-        # MathJax
+    - var imgpath = "" + require("../assets/img/Results--MFC_WT2.png")["default"]
+    +image(6, imgpath, "Measurement of current over time in red, with the different phases in cyan", 100)
+    :markdown-it(html)
+    
+        ## *S. oneidensis* MtrB-knockout
 
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
+        On the other hand, when the *S. oneidensis* MtrB-knockout strain was introduced to the MFC under the same conditions as the wildtype, no biofilm was formed. The voltage measurements affirmed that the MtrB-knockout strain has a significantly lower electric output. 
 
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
+    - var imgpath = "" + require("../assets/img/Results--MFC_KO.png")["default"]
+    +image(7, imgpath, "Measurement of current over time in cyan", 100)
+    :markdown-it(html)
+    
+        The current production by the different strains are illustrated in Figure X These results indicate that when MtrB is inactivated in S. oneidensis, a decrease in voltage can be measured. By utilizing the MtrB-gene, an oscillatory curve can be produced from the activation/repression of the promoter as suggested by the modelling of the system. 
 
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
+    - var imgpath = "" + require("../assets/img/Results--MFC_Comparison.png")["default"]
+    +image(8, imgpath, "Comparison between the initial part of the WT current (in red) and the KO current (in blue) over time", 100)
+    :markdown-it(html)
+    
+        Current production over time, in MFC with *S. oneidensis* Wild Type (pink), MtrB KO (light blue)
 
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
+        # Conclusion
 
-        # Citations
+        The initial plan was that all the separate components would be merged into a functioning system after optimization and characterisation. However, this was not possible due to lack of time. With the foundation built by literature research and laboratory work, a prototype of the modular biosensor could be developed and tested. Even though not all components have been tested, the current findings show promising results. 
 
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
+        In the future, the biosensor module could be modified to detect other compounds as well, after appropriate adjustments of the system. The main challenge in the future will be to optimise the oscillation circuit to perform more accurate measurements of the levels of compounds in the sample.
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
