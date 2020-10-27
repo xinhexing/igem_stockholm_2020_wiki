@@ -5,9 +5,9 @@
     year_published: 2013
     title: "Managing the dioxin problem in the Baltic region with focus on sources to air and fish"
     publisher: "Naturvårdsverket"
-# 1
+# 2
 - doi: https://doi.org/10.1016/j.envpol.2011.02.050
-# 1
+# 3
 - webpage:
     published: "October, 2012"
     title: "The sensitivity of the Baltic Sea ecosystems to hazardous compounds"
@@ -16,30 +16,42 @@
     site_name: "Swedish Chemicals Agency - www.kemi.se"
     url: "https://www.kemi.se/download/18.6df1d3df171c243fb23960c4/1591097407345/pm-9-12-baltsens.pdf"
 
-# 1
-- doi: https://doi.org/10.1016/S0269-7491(99)00098-6
-# 2
-- doi: https://doi.org/10.1016/S0269-7491(00)00162-7
-# 3
-- doi: https://doi.org/10.2307/3434280
 # 4
-- doi: https://doi.org/10.1016/j.marpolbul.2007.03.022
+- doi: https://doi.org/10.1016/S0269-7491(99)00098-6
 # 5
+- doi: https://doi.org/10.1016/S0269-7491(00)00162-7
+# 6
+- doi: https://doi.org/10.2307/3434280
+# 7
+- doi: https://doi.org/10.1016/j.marpolbul.2007.03.022
+# 8
 - doi: https://doi.org/10.1021/es0621142
-# 1
+# 9:
+- webpage:
+    title: "Persistent organic pollutants (POPs)"
+    accessed: "October 26, 2020"
+    site_name: "World Health Organization"
+    url: "https://www.who.int/foodsafety/areas_work/chemical-risks/pops/en/"
+# 10
 - webpage:
     title: "Water pollution data in the Baltic Sea basin - a local to regional approach"
     accessed: "October 25, 2020"
     site_name: "Stockholm International Water Institute"
     url: "https://www.siwi.org/wp-content/uploads/2018/03/SWH-Policy-Brief-Baltic-Sea-pioneers_WEB.pdf"
-# 1
+# 11
+- webpage:
+    title: "Practices of Science: Scientific Error"
+    accessed: "October 26, 2020"
+    site_name: "Exploring Our Fluid Earth"
+    url: "https://manoa.hawaii.edu/exploringourfluidearth/physical/world-ocean/map-distortion/practices-science-scientific-error"
+# 12
 - webpage:
     published: "September 2, 2020"
     title: "Understanding the different PFAS methods available"
     accessed: "October 25, 2020"
     site_name: "Merit Laboratories, Inc"
     url: "https://www.meritlabs.com/blog/2020/9/2/understanding-the-different-pfas-methods-available"
-# 1
+# 13
 - webpage:
     title: "PFAS Analytical Methods Development and Sampling Research"
     accessed: "October 25, 2020"
