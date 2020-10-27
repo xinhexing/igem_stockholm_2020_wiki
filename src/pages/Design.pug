@@ -2,7 +2,7 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Design"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "S-POP in a nutshell"
     - var requireMathJax = false
     - var topimg = "design"
 
@@ -18,14 +18,14 @@ block article
         # Biosensor
         
         The modular biosensor has gone through several design iterations, but the main idea of utilizing a biological sensing part (bioreceptor) in a modular system remained intact throughout the entire project. The modularity of the biosensor opens up the possibility of different uses for the system. With the modularity, other bioreceptors can be introduced and utilized to detect other compounds as well. By utilizing synthetic biology the biosensor could be adapted and optimized for other purposes.
-Several different quorum sensing molecules (QS) were considered and evaluated. The most important criteria regarding the choice of QS molecules were mobility through cell membranes and low crosstalk with each other, as well as potential already existing systems in our strains. The QS molecules are of great importance for the *S. oneidensis* oscillation-system, therefore the choice was more dependent on this system rather than the biosensor. Since the biosensor has fewer parts, it is more adaptable to the requirements imposed by the  *S. oneidensis* oscillation-system.
+        Several different quorum sensing molecules (QS) were considered and evaluated. The most important criteria regarding the choice of QS molecules were mobility through cell membranes and low crosstalk with each other, as well as potential already existing systems in our strains. The QS molecules are of great importance for the *S. oneidensis* oscillation-system, therefore the choice was more dependent on this system rather than the biosensor. Since the biosensor has fewer parts, it is more adaptable to the requirements imposed by the  *S. oneidensis* oscillation-system.
 
         When considering the different sensing parts, we mainly looked at older iGEM projects to build on the foundation that others have paved. We decided to focus on persistent organic pollutants which are a current problem for the Baltic sea. This decision was based on literature and conversations with advisors and experts in the environmental field. We retained PCBs and PFOS as targets for our project . Regulations for the levels of PFOS have been developed in later years for Swedish water treatment plants. But the primary focus in wastewater treatment regulations is on heavy metals and nutrients not POPs [Petterson et al., 2020](#citation2). Since these pollutants are less prioritized more can pass into the environment. The current measurement method most commonly used for POPs is testing water samples in the lab.     
     
         In order to develop S-POP into a fully functioning system all components needed to be tested. To make these tasks more manageable the system was divided up into:
-        1.Detection
-        2.*S. oneidensis* oscillation-system
-        3.MFC
+        1. Detection
+        2. *S. oneidensis* oscillation-system
+        3. MFC
     
         For the detection of PFOS and PCBs the genetic constructs were separated into several smaller parts in order to check individual promoters and gene expression. Appropriate controls were used to check the function of each construct. Constructs used throughout the experiments are listed below.
 
@@ -34,24 +34,24 @@ Several different quorum sensing molecules (QS) were considered and evaluated. T
         #### The prmA promoter system and its characterization
         
         The bio-receptor for PFOS detection, prmA, is an inducible promoter from *Rhodococcus jostii* RHA1 that should be induced in the presence of 100μM PFOS. This genetic part is already established in the iGEM system and was designed by Nathan Young, from the 2019 USAFA iGEM team. [BBa_K2911000](BBa_K2911000). LuxI, the autoinducer synthase for AHL, to be inserted after the prmA in order to produce the chosen QS molecule, 3OC6HSL which would bind to LuxR in *S. oneidensis*. system [BBa_C0061](BBa_C0061). PrmA being a previously established part the functionality can  be tested by adding fluorescence (GFP) after prmA induction. 
-In the final system for PFOS detection, the QS molecule AHL produced in the PFOS-detection system which should bind to the QS recipient (LuxR) which induces the *S. oneidensis* oscillation system as illustrated in Figure 1.        
+        In the final system for PFOS detection, the QS molecule AHL produced in the PFOS-detection system which should bind to the QS recipient (LuxR) which induces the *S. oneidensis* oscillation system as illustrated in Figure 1.        
         
     - var imgpath = "" + require("Design--prma.png")["default"]
     +image(1, imgpath, "Figure 1: PFOS detection by prma promoter ", 100)
 
     :markdown-it(html)
     
-        1.(Pconst-RBS-GFP-DT)[BBa_K3440011](http://parts.igem.org/Part:BBa_K3440011)
+        1. (Pconst-RBS-GFP-DT)[BBa_K3440011](http://parts.igem.org/Part:BBa_K3440011)
         In order to evaluate if the desired genes had been inserted into *E. coli* and were expressed correctly, several different genetic constructs were utilized. A constitutive promoter was utilized. The constitutive promoter was checked by adding a region of fluorescent molecule (GFP) that will be expressed under a functional constitutive promoter.
         
-        2.(Pconst-RBS-LuxI-Myc-DT)[BBa_K3440000](http://parts.igem.org/Part:BBa_K3440000)       
+        2. (Pconst-RBS-LuxI-Myc-DT)[BBa_K3440000](http://parts.igem.org/Part:BBa_K3440000)       
         To show proper LuxI expression, it was put under a constitutive promoter and a Myc-tag added to LuxI to visualize expression with Western Blot.
         
-        3.(Pprma-RBS-mCherry-DT)[BBa_K3440002](http://parts.igem.org/Part:BBa_K3440002) 
+        3. (Pprma-RBS-mCherry-DT)[BBa_K3440002](http://parts.igem.org/Part:BBa_K3440002) 
         Firstly the bio-receptor, prmA, PFOS inducible promoter’s leakiness had to be evaluated. This was performed by tagging it with fluorescence (mCherry). Some leakiness is expected for promoters and by checking prmA by itself it is then possible to compare the results to the full construct.   
         
         #### Full construct
-        4.(Pprma-RBS-LuxI-Myc)[BBa_K3440005](http://parts.igem.org/Part:BBa_K3440005)  
+        4. (Pprma-RBS-LuxI-Myc)[BBa_K3440005](http://parts.igem.org/Part:BBa_K3440005)  
         The final construct for the PFOS detection module combines the prmA promoter and LuxI with a Myc-tag in the end to evaluate expression by Western blot. This construct was utilized to check that LuxI could be expressed under the prmA promoter while the expression in the presence/absence of PFOS was also tested.
         Figure 2 illustrates the full genetic construct utilized in PFOS detection. The activation of prmA by the presence of PFOS induces the expression of the QS molecule AHL (3OC6-HSL). 
         
@@ -73,12 +73,13 @@ In the final system for PFOS detection, the QS molecule AHL produced in the PFOS
         In order to evaluate if the genes of interest had been inserted into *E. coli* and were expressed correctly, several different genetic constructs were utilized. Firstly bphR2 expression was checked by putting under a constitutive promoter and a Myc-tag at the end of the construct to evaluate expression by performing Western Blot.
         
         6.(PbphR1-RBS-mCherry-DT)[BBa_K3440001](http://parts.igem.org/Part:BBa_K3440001)
-In order to evaluate the leakiness of bphR1 promoter as well as checking the expression in the presence/absence of 1,1-biphenyl, gene expressing fluorescent molecule (mCherry) was tagged on to the construct. 
+        In order to evaluate the leakiness of bphR1 promoter as well as checking the expression in the presence/absence of 1,1-biphenyl, gene expressing fluorescent molecule (mCherry) was tagged on to the construct. 
 
         7.(Pbphr1-RBS-LuxI-Myc)[BBa_K3440010](http://parts.igem.org/Part:BBa_K3440010)   
-To check the expression of LuxI under the bphR1 promoter a Myc-Tag was tagged to the construct. The construct was tested in the presence/absence of PCB to compare the expression, and expression evaluated with Western Blot.  
+        To check the expression of LuxI under the bphR1 promoter a Myc-Tag was tagged to the construct. The construct was tested in the presence/absence of PCB to compare the expression, and expression evaluated with Western Blot.  
+        
         8.(Pconst-RBS-bphR2-Myc-DT-Pbphr1-RBS-mCherry)[BBa_K3440017](http://parts.igem.org/Part:BBa_K3440007)
-The PCB detection relies on the activation of the bphR1 promoter by the expression of bphR2. bphR1 expression should be stronger in the presence of PCB. In order to evaluate the expression Myc-Tag and fluorescence (mCherry) was added to the construct.
+        The PCB detection relies on the activation of the bphR1 promoter by the expression of bphR2. bphR1 expression should be stronger in the presence of PCB. In order to evaluate the expression Myc-Tag and fluorescence (mCherry) was added to the construct.
 
         #### Full construct
         9.(Pconst-RBS-bphR2-Myc-DT-Pbphr1-RBS-LuxI)[BBa_K3440018](http://parts.igem.org/Part:BBa_K3440018)
@@ -110,7 +111,7 @@ The PCB detection relies on the activation of the bphR1 promoter by the expressi
         To show the expression of LuxR it was put under a constitutive promoter and tagged with a Myc-Tag and evaluated by Western Blot. In complex with HSL, LuxR binds to the Plux promoter, activating transcription. 
         
         12.(Pconst-RBS-LuxR-Myc-DT-Plux-RBS-GFP)[BBa_K3440014](http://parts.igem.org/Part:BBa_K3440014)
-In order to show that the LuxR can be expressed and activate the Plux promoter in presence of AHL. LuxR was put under a constitutive promoter and Plux tagged with fluorescence  (GFP) to evaluate expression of the entire construct.
+        In order to show that the LuxR can be expressed and activate the Plux promoter in presence of AHL. LuxR was put under a constitutive promoter and Plux tagged with fluorescence  (GFP) to evaluate expression of the entire construct.
 
         The full oscillation system requires the autoinducers LuxI and RhlI and their respective receptors LuxR and the RhlR to be fully functional, as well as their specific promoters Plux and Prhl. The entire system contains a lot of different genetic parts that needed to be characterized. Due to time constraints not all constructs were characterized. 
         
@@ -122,7 +123,8 @@ In order to show that the LuxR can be expressed and activate the Plux promoter i
     To check the expression of RhlI it was put under a constitutive promoter and tagged with a Myc-tag to evaluate the expression with Western Blot.
     
         15.(Pconst-RBS-RhlR-Myc-DT)[BBa_K3440008](http://parts.igem.org/Part:BBa_K3440008)
-By putting RhlR, activator protein, under a constitutive promoter and tagged with a Myc-tag the expression can be evaluated with Western Blot.  
+        By putting RhlR, activator protein, under a constitutive promoter and tagged with a Myc-tag the expression can be evaluated with Western Blot.  
+        
         16.(Pconst-RBS-RHlR-Myc-DT-Prhl-RBS-GFP)[BBa_K3440012](http://parts.igem.org/Part:BBa_K3440012)  
         To show that RhlR expression is dependent on the activation of Prhl promoter by AHL, Prhl tagged with fluorescent molecule (GFP) was used to evaluate leakage of the promoter. 
   
@@ -149,7 +151,7 @@ By putting RhlR, activator protein, under a constitutive promoter and tagged wit
 
         ## MFC
         
-    In many biological systems, the energy used is in the form ATP which is formed by breaking down nutrients. The energy extracted from glycolysis and the Krebs cycle is not primarily in the form of ATP, but NADH, which is then used in the electron transport chain in oxidative phosphorylation. In some anaerobic bacteria such as *S. oneidensis*, an extracellular electron transport pathway still exists, but without oxygen as a terminal electron acceptor to form water, oxidized metals or other compounds can be reduced instead. This can result in electricity being generated as the reduced mediator can pass its electron on.[Pirbadian, S. et al, 2014](#citation3). A microbial fuel cell (MFC) is a fuel cell system that utilizes bio-electrochemistry to drive an electric current with bacteria[Schmidt-Rohr, K., 2020](#citation4)   
+        In many biological systems, the energy used is in the form ATP which is formed by breaking down nutrients. The energy extracted from glycolysis and the Krebs cycle is not primarily in the form of ATP, but NADH, which is then used in the electron transport chain in oxidative phosphorylation. In some anaerobic bacteria such as *S. oneidensis*, an extracellular electron transport pathway still exists, but without oxygen as a terminal electron acceptor to form water, oxidized metals or other compounds can be reduced instead. This can result in electricity being generated as the reduced mediator can pass its electron on.[Pirbadian, S. et al, 2014](#citation3). A microbial fuel cell (MFC) is a fuel cell system that utilizes bio-electrochemistry to drive an electric current with bacteria[Schmidt-Rohr, K., 2020](#citation4)   
     
         ### *Shewanella oneidensis* MR-1
         
@@ -180,7 +182,7 @@ By putting RhlR, activator protein, under a constitutive promoter and tagged wit
     
     :markdown-it(html)
     
-    The  hybrid fuel flow cell that was utilized in the setup, illustrated in (Figure 6). The cathode side exposed to air, while the anode side was in liquid solute. Both electrodes were carbon paper that had been thermally treated to be hydrophobic. Sandwiched between the anode and cathode is a proton exchange membrane. The catholyte, inflow of air and the analyte inflow of liquid media (LB) inoculated with wild type *S. oneidensis*. The bacteria naturally form a biofilm on the electrode. Since it is in a continuous flow cell, we were unable to disassemble it during runs.The biofilm was to be visually inspected after the runs were concluded.  When a biofilm forms on the electrode a detectable increase in voltage output should be visible. In similar MFC setups the external resistance ranged between 200-10kΩ. Due to limited available equipment an external resistance of 1kΩ was deemed most appropriate. 
+        The  hybrid fuel flow cell that was utilized in the setup, illustrated in (Figure 6). The cathode side exposed to air, while the anode side was in liquid solute. Both electrodes were carbon paper that had been thermally treated to be hydrophobic. Sandwiched between the anode and cathode is a proton exchange membrane. The catholyte, inflow of air and the analyte inflow of liquid media (LB) inoculated with wild type *S. oneidensis*. The bacteria naturally form a biofilm on the electrode. Since it is in a continuous flow cell, we were unable to disassemble it during runs.The biofilm was to be visually inspected after the runs were concluded.  When a biofilm forms on the electrode a detectable increase in voltage output should be visible. In similar MFC setups the external resistance ranged between 200-10kΩ. Due to limited available equipment an external resistance of 1kΩ was deemed most appropriate. 
     
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
