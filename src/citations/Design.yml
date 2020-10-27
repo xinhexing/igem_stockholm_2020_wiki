@@ -1,18 +1,35 @@
- 
 # 1
-- doi: https://doi.org/10.1007/s00484-015-1117-4
-# 2
-- doi: https://doi.org/10.1016/j.ijid.2019.08.003
-# 3
-- book:
-    authors: "TEST Ingalls, B. P."
-    year_published: 2013
-    title: "Mathematical modeling in systems biology: An introduction."
-    publisher: "MIT Press"
-# 4
 - webpage:
-    published: "March 15, 2019"
-    title: "Agriculture: Crop production: Sugarcane. "
-    accessed: "June 22, 2020"
-    site_name: "TNAU Agritech Portal"
-    url: 'https://google.com'
+    published: "n.d"
+    title: "Comparing the engineering design process and the scientific method"
+    accessed: "October 27, 2020"
+    site_name: "Science Buddies"
+    url: ‘https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-compare-scientific-method’
+# 2
+- webpage:
+    published: "2020"
+    title: "Preliminära riktvärden för PFAS (poly- och perfluorerade alkylsubstanser) i mark och grundvatten"
+    accessed: "October 27, 2020"
+    site_name: "Statens geotekniska institut"
+    url: 'https://www.swedgeo.se/sv/om-sgi/vart-samhallsuppdrag/regeringsuppdrag/riktvarden-pfas/’
+#3
+- doi: https://doi.org/10.1073/pnas.1410551111
+# 4 
+- doi: https://doi.org/10.1021/acsomega.9b03352
+# 5 
+- doi: https://doi.org/10.1128/aem.03556-12
+# 6
+- doi: https://doi.org/10.1038/nature03661
+# 7
+- doi: https://doi.org/10.1111/mmi.14067
+# 8
+- doi: https://doi.org/10.1128/aem.01834-09
+# 9
+- doi: https://doi.org/10.1128/AEM.05382-11, link
+# 10
+- doi : https://doi.org/10.3389%2Ffchem.2014.00079
+# 11
+- doi: https://doi.org/10.1016/j.biortech.2012.09.106
+# 12
+- doi: https://doi.org/10.1016/j.jpowsour.2006.10.026
+ 
