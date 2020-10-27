@@ -12,7 +12,7 @@
     accessed: "October 27, 2020"
     site_name: "Statens geotekniska institut"
     url: 'https://www.swedgeo.se/sv/om-sgi/vart-samhallsuppdrag/regeringsuppdrag/riktvarden-pfas/’
-#3
+# 3
 - doi: https://doi.org/10.1073/pnas.1410551111
 # 4 
 - doi: https://doi.org/10.1021/acsomega.9b03352
@@ -27,7 +27,7 @@
 # 9
 - doi: https://doi.org/10.1128/AEM.05382-11, link
 # 10
-- doi : https://doi.org/10.3389%2Ffchem.2014.00079
+- doi: https://doi.org/10.3389%2Ffchem.2014.00079
 # 11
 - doi: https://doi.org/10.1016/j.biortech.2012.09.106
 # 12
