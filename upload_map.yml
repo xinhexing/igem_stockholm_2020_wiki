@@ -1030,7 +1030,7 @@ assets:
     upload_filename: T--Stockholm--img--Results--fluorescence.png
   assets\img\Results--mCherry bar graph.png:
     link_URL: https://2020.igem.org/wiki/images/6/67/T--Stockholm--img--Results--mCherry_bar_graph.png
-    md5: 60f9f46b367645770ba54101e891b5f4
+    md5: 0a0f5ff89605a2b516c845feb8b4d310
     upload_filename: T--Stockholm--img--Results--mCherry bar graph.png
   assets\img\Results--pollutantconc.png:
     link_URL: https://2020.igem.org/wiki/images/8/87/T--Stockholm--img--Results--pollutantconc.png
@@ -1227,7 +1227,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: a46d2e99f0cf6c59b112ff46a06aa2f8
+    md5: d5c7cb1b954a0a252f029021d3e3a50a
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1306,7 +1306,7 @@ html:
     md5: aa0d865bdb8068a55e27631b099c3c62
   Results\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Results
-    md5: 45da8936c6016e5caa1533c1f7017403
+    md5: 45c7cef52d55bd9e084ae69c7f527f35
   Safety\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Safety
     md5: c297441431555b6e3f8cef885f82a23e
