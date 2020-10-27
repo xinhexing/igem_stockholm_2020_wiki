@@ -417,7 +417,7 @@ assets:
     upload_filename: T--Stockholm--img--Contents--topimg_sustainable.png
   assets\img\Contribution--luxrhi.png:
     link_URL: https://2020.igem.org/wiki/images/2/27/T--Stockholm--img--Contribution--luxrhi.png
-    md5: ebb64ec664d574d3f0b5b4804b6ca6af
+    md5: b050c9b8fb9b03f78e78fc879618c468
     upload_filename: T--Stockholm--img--Contribution--luxrhi.png
   assets\img\Description--balticsea.png:
     link_URL: https://2020.igem.org/wiki/images/b/b6/T--Stockholm--img--Description--balticsea.png
@@ -447,6 +447,14 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/b/b6/T--Stockholm--img--Design--PFOS_circuit.png
     md5: df160b8e85b3a31e3bf3bbf049da3726
     upload_filename: T--Stockholm--img--Design--PFOS_circuit.png
+  assets\img\Design--bphr1.png:
+    link_URL: https://2020.igem.org/wiki/images/8/89/T--Stockholm--img--Design--bphr1.png
+    md5: b27793c409eb1a3cd110ef76b1b363c6
+    upload_filename: T--Stockholm--img--Design--bphr1.png
+  assets\img\Design--prma.png:
+    link_URL: https://2020.igem.org/wiki/images/1/13/T--Stockholm--img--Design--prma.png
+    md5: e82788237c817e77c4792d1da2a945e2
+    upload_filename: T--Stockholm--img--Design--prma.png
   assets\img\Education--Amphiox games.png:
     link_URL: https://2020.igem.org/wiki/images/d/d1/T--Stockholm--img--Education--Amphiox_games.png
     md5: bd89be39b112a6ed64e98dcd827d43cb
@@ -1227,7 +1235,7 @@ css:
     md5: 15b8c05c98804c1a9bdcea71b88b3c18
   css\team.css:
     link_URL: https://2020.igem.org/Template:Stockholm/css/teamCSS?action=raw&ctype=text/css
-    md5: bce8ffc25a64a2e3ce81ef9af51abbd3
+    md5: 3d19767f8dcb3270c0f7feca83ccb4ad
 html:
   Attributions\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Attributions
@@ -1243,7 +1251,7 @@ html:
     md5: 2e2e7398e429caf9a20c1c5341ddc946
   Design\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Design
-    md5: c05f3a12371cb1416997240c7c64c023
+    md5: 5899ca50409b7c575f5c926184a2ddf1
   Education\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Education
     md5: ce69972704f3f2032578f89e563e9b9f
@@ -1297,7 +1305,7 @@ html:
     md5: 2c5b14476fac2de693a38753f60d844a
   Proof_Of_Concept\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Proof_Of_Concept
-    md5: cafd1effa53e2924d8f22a6249283aef
+    md5: 5c9c91785b89224b0ffdf4ca564cb838
   Proof_of_Concept\index.html:
     link_URL: https://2020.igem.org/Team:Stockholm/Proof_of_Concept
     md5: bed78e6c7198b2b88beb56b75a004e9c
