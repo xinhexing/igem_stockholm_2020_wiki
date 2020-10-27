@@ -103,31 +103,74 @@ The PCB detection relies on the activation of the bphR1 promoter by the expressi
         To test the entire oscillation-system the individual genetic parts and their expression needed to be checked. a) LuxI/R b)RhlI/R and c) full construct For simplicity a majority of the constructs were to be tested in *E.coli*, with the exception of the final full construct, and a construct that utilised MtrB as a reporter gene. 
         
         ### LuxI/R - characterization  
+        10.(Plux-RBS-GFP)[BBa_K3440003](http://parts.igem.org/Part:BBa_K3440003) 
+        The expression of the promoter Plux is up-regulated by the LuxR activator protein complexed with the autoinducer HSL. In order to evaluate the leakiness of this promoter fluorescence (GFP) was tagged on to check expression.
+        
+        11.(Pconst-RBS-LuxR-Myc)[BBa_K3440013](http://parts.igem.org/Part:BBa_K3440013) 
+        To show the expression of LuxR it was put under a constitutive promoter and tagged with a Myc-Tag and evaluated by Western Blot. In complex with HSL, LuxR binds to the Plux promoter, activating transcription. 
+        
+        12.(Pconst-RBS-LuxR-Myc-DT-Plux-RBS-GFP)[BBa_K3440014](http://parts.igem.org/Part:BBa_K3440014)
+In order to show that the LuxR can be expressed and activate the Plux promoter in presence of AHL. LuxR was put under a constitutive promoter and Plux tagged with fluorescence  (GFP) to evaluate expression of the entire construct.
+
+        The full oscillation system requires the autoinducers LuxI and RhlI and their respective receptors LuxR and the RhlR to be fully functional, as well as their specific promoters Plux and Prhl. The entire system contains a lot of different genetic parts that needed to be characterized. Due to time constraints not all constructs were characterized. 
+        
         ### Rhl/R - characterization
+        13.(Prhl-RBS-GFP)[BBa_K3440004](http://parts.igem.org/Part:BBa_K3440004)
+        The promoter Prhl is activated by the RhlR activator protein in concert with the auto-inducer C4-HSL which is produced by RhlI. In order to evaluate the leakiness of this promoter fluorescence (GFP) was tagged on to check expression.
+        
+        14.(Pconst-RBS-RhlI-Myc)[BBa_K3440006](http://parts.igem.org/Part:BBa_K3440006)  
+    To check the expression of RhlI it was put under a constitutive promoter and tagged with a Myc-tag to evaluate the expression with Western Blot.
+    
+        15.(Pconst-RBS-RhlR-Myc-DT)[BBa_K3440008](http://parts.igem.org/Part:BBa_K3440008)
+By putting RhlR, activator protein, under a constitutive promoter and tagged with a Myc-tag the expression can be evaluated with Western Blot.  
+        16.(Pconst-RBS-RHlR-Myc-DT-Prhl-RBS-GFP)[BBa_K3440012](http://parts.igem.org/Part:BBa_K3440012)  
+        To show that RhlR expression is dependent on the activation of Prhl promoter by AHL, Prhl tagged with fluorescent molecule (GFP) was used to evaluate leakage of the promoter. 
+  
+        The full construct of the oscillation module can only produce an electrical output with *S. oneidensis* in a MFC.
+        
         ### Full construct
+        The oscillatory circuit consists of a receptor (RhlR) which can receive its cognate ligand (C4-HSL) to activate an inducible promoter (pRhl). An AHL synthase (RhlI) producing the cognate ligand is under the control of the inducible promoter, creating a positive feedback loop. Under the same promoter, a lactonase (AiiA) is also controlled, which degrades the cognate ligand, creating a negative feedback loop.
+        
+        The presence of C4-HSL together with RhlR activates pRhl, which produces more RhlI synthase, which in turn creates more C4-HSL. The positive feedback loop amplifies the C4-HSL signal until enough AiiA has been synthesised. As the lactonase starts degrading the C4-HSL, the signal decreases. The negative feedback loop decreases the C4-HSL signal until no new protein is produced and the remaining active protein is broken down.
+        
+        17.(Pconst-RBS-MtrB-Myc)[BBa_K3440016](http://parts.igem.org/Part:BBa_K3440016)
+        MtrB is an outer membrane protein, found in the extracellular iron oxide respiratory system in *S. oneidensis*, required for the metal reducing process. In order to perform a successful MtrB expression. it was put under a constitutive promoter and tagged with a Myc-tag. The expression of MtrB was evaluated by Western Blot. 
+        
+        18.(Pconst-RBS-AiiA-Myc)[BBa_K3440007](http://parts.igem.org/Part:BBa_K3440007)
+        AiiA is the coding region for autoinducer inactivation enzyme A which catalyzes the degradation of N-acyl-homoserine lactones (AHLs) --quorum sensing autoinducers. In order to check the expression of AiiA, it was put under a constitutive promoter and was tagged with a Myc-tag. Hence, its expression was evaluated by Western Blot.
+
+        19.(Pconst-RBS-LuxR-DT-Plux-RBS-MtrB-DT)[BBa_K3440019](http://parts.igem.org/Part:BBa_K3440019) 
+        This larger construct was designed to show that MtrB could be expressed by Plux in the presence of AHL. In our system, MtrB, expressed by *S. oneidensis*, acts as the reporter by increasing the production of current in a microbial fuel cell. 
+
+        20.(Pconst-RBS-RhlR-DT-Prhl-RBS-RhlI-RBS-AiiA-RBS-GFP-DT)[BBa_K3440020](http://parts.igem.org/Part:BBa_K3440020)   
+        The second to last construct in the oscillation system. This construct includes all the genes of interest except from the reporter MtrB gene. MtrB gene was exchanged by GFP gene in order to evaluate the expression of the oscillation-system in *E. coli* by fluorescence. This genetic modified *E.coli* strain would act as a representative construct that would not be dependent on *S. oneidensis*. MtrB as a reporter gene is the only viable option for *S.oneidensis* in a MFC, since it would produce an electric signal.     
+        21.(Plux-RBS-MtrB-DT-Pconst-RBS-RhlR-DT-Prhl-RBS-RhlI-RBS-AiiA-RBS-LuxR-DT)[BBa_K3440021](http://parts.igem.org/Part:BBa_K3440006)
+        The final construct for the *S. oneidensis* oscillation-system was to be implemented in a MFC with MtrB as the reporter gene producing electricity. 
+
         ## MFC
         
     In many biological systems, the energy used is in the form ATP which is formed by breaking down nutrients. The energy extracted from glycolysis and the Krebs cycle is not primarily in the form of ATP, but NADH, which is then used in the electron transport chain in oxidative phosphorylation. In some anaerobic bacteria such as *S. oneidensis*, an extracellular electron transport pathway still exists, but without oxygen as a terminal electron acceptor to form water, oxidized metals or other compounds can be reduced instead. This can result in electricity being generated as the reduced mediator can pass its electron on.[Pirbadian, S. et al, 2014](#citation3). A microbial fuel cell (MFC) is a fuel cell system that utilizes bio-electrochemistry to drive an electric current with bacteria[Schmidt-Rohr, K., 2020](#citation4)   
     
         ### *Shewanella oneidensis* MR-1
         
-    *Shewanella oneidensis* MR-1 is known as a “Dissimilatory Metal-Reducing Bacteria (DMRB)” due to its metal reducing ability that is coupled to their metabolism [Lloyd, J., 2003](#citation5). Dissimilatory metal reduction is a process used by microbes that conserves energy through oxidation of organic or inorganic electron donors and reduction of metals and metalloids. This process creates an electrochemical gradient which provides the chemical energy for growth. When used in an MFC the natural electrochemical gradient can provide a detectable electric signal. [Schicklberger, M., 2013](#citation6). *Shewanella Oneidensis* MR-1 can also form highly conductive nanowires that can carry charge far outside the immediate area of the cell and remove the need for specific mediators. [Reguera, G. et al, 2005](#citation7). This is in *Shewanella oneidensis* done through a set of cytochromes that carries the electrons along the nanowire [Pirbadian, S. et al, 2014](#citation3)  C-type cytochromes are utilized by *S. oneidensis* as electron transfer proteins and flavins to facilitate the electron transport process. This is a common strategy used by a variety of DMRB bacteria to transfer electrons to the cell surface. It’s a characteristic to have a high number of c-type cytochrome encoding genes for metal reducing bacteria [Beblawy, S. et al., 2018] (#citation8)., MtrB after transporting through the cytoplasmic membrane and across the periplasm becomes a part of a porin-cytochrome complex in the outer membrane in *S. oneidensis*. In MtrB-gene knockout studies *S. oneidensis* metal reducing capabilities are significantly diminished [Schuetz, B. et al., 2009](#citation9). By taking advantage of the essential nature of MtrB we can compare the electric output and biofilm formation in *S. oneidensis* MR-1; a wild type from and a MtrB knockout strain.
+        *Shewanella oneidensis* MR-1 is known as a “Dissimilatory Metal-Reducing Bacteria (DMRB)” due to its metal reducing ability that is coupled to their metabolism [Lloyd, J., 2003](#citation5). Dissimilatory metal reduction is a process used by microbes that conserves energy through oxidation of organic or inorganic electron donors and reduction of metals and metalloids. 
+        This process creates an electrochemical gradient which provides the chemical energy for growth. When used in an MFC the natural electrochemical gradient can provide a detectable electric signal. [Schicklberger, M., 2013](#citation6). *Shewanella Oneidensis* MR-1 can also form highly conductive nanowires that can carry charge far outside the immediate area of the cell and remove the need for specific mediators. [Reguera, G. et al, 2005](#citation7). This is in *Shewanella oneidensis* done through a set of cytochromes that carries the electrons along the nanowire [Pirbadian, S. et al, 2014](#citation3)  C-type cytochromes are utilized by *S. oneidensis* as electron transfer proteins and flavins to facilitate the electron transport process. This is a common strategy used by a variety of DMRB bacteria to transfer electrons to the cell surface. It’s a characteristic to have a high number of c-type cytochrome encoding genes for metal reducing bacteria [Beblawy, S. et al., 2018] (#citation8)., MtrB after transporting through the cytoplasmic membrane and across the periplasm becomes a part of a porin-cytochrome complex in the outer membrane in *S. oneidensis*. In MtrB-gene knockout studies *S. oneidensis* metal reducing capabilities are significantly diminished [Schuetz, B. et al., 2009](#citation9). By taking advantage of the essential nature of MtrB we can compare the electric output and biofilm formation in *S. oneidensis* MR-1; a wild type from and a MtrB knockout strain.
     
-    *S. oneidensis* can thrive in both aerobic and anaerobic conditions (facultative bacteria) and can utilize common carbon sources for energy. To optimize the metal reducing capabilities and biofilm formation of some conditions should be fulfilled. For soley the survival of  *S. oneidensis* most carbon sources are sufficient, e.g. lactate and furumate. Under anaerobic conditions lactate is a preferable carbon source that benefits biofilm formation.[Pinchuk, G., 2011](#citation10))
+        *S. oneidensis* can thrive in both aerobic and anaerobic conditions (facultative bacteria) and can utilize common carbon sources for energy. To optimize the metal reducing capabilities and biofilm formation of some conditions should be fulfilled. For soley the survival of  *S. oneidensis* most carbon sources are sufficient, e.g. lactate and furumate. Under anaerobic conditions lactate is a preferable carbon source that benefits biofilm formation.[Pinchuk, G., 2011](#citation10))
     
         ### Fuel cell design 
         
-    Fuel cells convert chemical energy into electrical energy via a pair of redox reactions. These systems can have many different designs depending on the need. Included but not limited to, proton exchange membrane fuel cells, electro-galvanic fuel cells and zinc air battery. Two available setups for the MFC were a H-cell and a flow cell. An H-cell physically separates anodic and cathodic reactions by means of a porous membrane. An issue with the available H-cell setup was the distance between the two electrodes creating a large internal resistance. H-cells are more commonly used in systems with homogenous systems, meaning both electrode chambers contain either solution or gas. The H-cells are set up as a batch system while the flow cell has a continual flow. The flow cell setup available was deemed the most favorable for our system. A flow cell setup can be utilized as a hybrid system or homogeneous-system. The hybrid setup having one of the electrode sides exposed to gas and the other exposed to liquid. Separated by a porous membrane proton exchange is facilitated. The hybrid flow cell system was used. 
+        Fuel cells convert chemical energy into electrical energy via a pair of redox reactions. These systems can have many different designs depending on the need. Included but not limited to, proton exchange membrane fuel cells, electro-galvanic fuel cells and zinc air battery. Two available setups for the MFC were a H-cell and a flow cell. An H-cell physically separates anodic and cathodic reactions by means of a porous membrane. An issue with the available H-cell setup was the distance between the two electrodes creating a large internal resistance. H-cells are more commonly used in systems with homogenous systems, meaning both electrode chambers contain either solution or gas. The H-cells are set up as a batch system while the flow cell has a continual flow. The flow cell setup available was deemed the most favorable for our system. A flow cell setup can be utilized as a hybrid system or homogeneous-system. The hybrid setup having one of the electrode sides exposed to gas and the other exposed to liquid. Separated by a porous membrane proton exchange is facilitated. The hybrid flow cell system was used. 
     
-    For MFCs, special considerations need to be taken into account such as low flow rates, temperature and usage of solvents that the bacteria can survive in . *S. oneidensis* Biofilm formation is a vital aspect for the electric signal production leading to the prioritization of the conditions required for proper biofilm formation. 
+        For MFCs, special considerations need to be taken into account such as low flow rates, temperature and usage of solvents that the bacteria can survive in . *S. oneidensis* Biofilm formation is a vital aspect for the electric signal production leading to the prioritization of the conditions required for proper biofilm formation. 
     
         ### Mediated/Undemediated
         
-    Generally there are two categories of MFCs, mediated and unmediated. A mediated system relies on a chemical compound to facilitate electron transport to the anode. While an unmediated system relies on the bacterias active redox proteins and electron transport via the outer membrane directly to the anode. [Badwal, S., 2014](#citation11). In the early stages of this project both a mediated and an unmediated system were considered. For optimization of the MFC it was planned to test both but due to time constraints, only the unmediated system could be tested. As well as testing mediated and unmediated systems, the supplementation of ferric ions in the MFC had been planned since it can significantly increase the electricity generation neither was utilized [Wu, D. et al., 2013](#citation12).
+        Generally there are two categories of MFCs, mediated and unmediated. A mediated system relies on a chemical compound to facilitate electron transport to the anode. While an unmediated system relies on the bacterias active redox proteins and electron transport via the outer membrane directly to the anode. [Badwal, S., 2014](#citation11). In the early stages of this project both a mediated and an unmediated system were considered. For optimization of the MFC it was planned to test both but due to time constraints, only the unmediated system could be tested. As well as testing mediated and unmediated systems, the supplementation of ferric ions in the MFC had been planned since it can significantly increase the electricity generation neither was utilized [Wu, D. et al., 2013](#citation12).
     
         ### Size
     
-    When designing the MFC two different sizings of fuel cells were particularly interesting. Some research has indicated that a higher power density can be produced in a mini-MFC with a chamber volume of ca 1mL. With the smaller distance to transport electrons the internal resistance decreases likely leading to a stronger signal. [Ringesen, B. et al., 2007](#citation13). Though after evaluating the available equipment it was decided to utilize an already established fuel cell. But for future research a point of interest should be a mini-MFC system.
+        When designing the MFC two different sizings of fuel cells were particularly interesting. Some research has indicated that a higher power density can be produced in a mini-MFC with a chamber volume of ca 1mL. With the smaller distance to transport electrons the internal resistance decreases likely leading to a stronger signal. [Ringesen, B. et al., 2007](#citation13). Though after evaluating the available equipment it was decided to utilize an already established fuel cell. But for future research a point of interest should be a mini-MFC system.
        
         ### Final design of the MFC
         
@@ -139,126 +182,6 @@ The PCB detection relies on the activation of the bphR1 promoter by the expressi
     
     The  hybrid fuel flow cell that was utilized in the setup, illustrated in (Figure 6). The cathode side exposed to air, while the anode side was in liquid solute. Both electrodes were carbon paper that had been thermally treated to be hydrophobic. Sandwiched between the anode and cathode is a proton exchange membrane. The catholyte, inflow of air and the analyte inflow of liquid media (LB) inoculated with wild type *S. oneidensis*. The bacteria naturally form a biofilm on the electrode. Since it is in a continuous flow cell, we were unable to disassemble it during runs.The biofilm was to be visually inspected after the runs were concluded.  When a biofilm forms on the electrode a detectable increase in voltage output should be visible. In similar MFC setups the external resistance ranged between 200-10kΩ. Due to limited available equipment an external resistance of 1kΩ was deemed most appropriate. 
     
-        # Emphasis
-        This is regular text.
-
-        **This is bold text.**
-        __This is also bold text.__
-
-        *This is italic text.*
-        _This is also italix text.*
-
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
-    +image(1, imgpath, "Caption", 100)
-
-    :markdown-it(html)
-        Back to regular text.
-
-        # Tables
-
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
-
-    :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
-
-    :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
-
-    :markdown-it(html)
-        **Example 3:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
-
-    :markdown-it(html)
-
-        # Definitions
-
-        <dfn>Term ~ Definition</dfn>
-
-        This can come <dfn>anywhere in ~ the text</dfn>.
-
-        # MathJax
-
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
-
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
-
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
-
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
-
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
 prepend citations
