@@ -1,10 +1,10 @@
+
 # 1
 - webpage:
-    published: "n.d"
     title: "Comparing the engineering design process and the scientific method"
     accessed: "October 27, 2020"
     site_name: "Science Buddies"
-    url: ‘https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-compare-scientific-method’
+    url: 'https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-compare-scientific-method'
 # 2
 - webpage:
     published: "2020"
@@ -19,19 +19,18 @@
 # 5 
 - doi: https://doi.org/10.1016/S0168-6445(03)00044-5
 # 6
-- doi: https://doi.org/10.1128/aem.03556-12
+- doi: http://dx.doi.org/10.1128/AEM.03556-12
 # 7
 - doi: https://doi.org/10.1038/nature03661
 # 8
 - doi: https://doi.org/10.1111/mmi.14067
 # 9
-- doi: https://doi.org/10.1128/aem.01834-09
+- doi: http://dx.doi.org/10.1128/AEM.01834-09
 # 10
-- doi: https://doi.org/10.1128/AEM.05382-11, link
+- doi: https://doi.org/10.1128/AEM.05382-11
 # 11
 - doi: https://doi.org/10.3389%2Ffchem.2014.00079
 # 12
 - doi: https://doi.org/10.1016/j.biortech.2012.09.106
 # 13
 - doi: https://doi.org/10.1016/j.jpowsour.2006.10.026
- 

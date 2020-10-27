@@ -10,8 +10,8 @@ block article
 
     :markdown-it(html)
         # Introduction
-        
-        The engineering design is the primary step in the engineering cycle. The general workflow goes as follows: defining a problem, conducting background research, specifying requirements, brainstorming and developing a prototype solution. After these steps testing the solution, communicating and evaluating the results to improve the prototype based on the results. This process is similar to the usual scientific method where the focus is on answering a question but the engineering process instead develops a solution to a specific problem [Comparing the Engineering Design Process and the Scientific Method, n.d.](#citation1). In the design process for S-POP, we wanted to focus on being able to test our parts, modularity, and predictable behavior. Ensuring that all parts could be tested as smaller components was a necessity as our system is complex. In glossary literature research concerns were raised of the predictability and stability of biological systems. Therefore predictability became one of the points of interest for our project.  
+          
+        The engineering design is the primary step in the engineering cycle. The general workflow goes as follows: defining a problem, conducting background research, specifying requirements, brainstorming and developing a prototype solution. After these steps testing the solution, communicating and evaluating the results to improve the prototype based on the results. This process is similar to the usual scientific method where the focus is on answering a question but the engineering process instead develops a solution to a specific problem [Comparing the Engineering Design Process and the Scientific Method, n.d.](#citation1). In the design process for S-POP, we wanted to focus on being able to test our parts, modularity, and predictable behavior. Ensuring that all parts could be tested as smaller components was a necessity as our system is complex. In glossary literature research concerns were raised of the predictability and stability of biological systems. Therefore predictability became one of the points of interest for our project.
         
         The S-POP-system was divided into two main components, the modular biosensor and *S. oneidensis* oscillation module, both which later on would be contained in a microbial fuel cell (MFC). By creating this modular biosensor, it would be possible to adapt the monitoring system to detect other compounds while maintaining the oscillation. 
     
@@ -20,7 +20,7 @@ block article
         The modular biosensor has gone through several design iterations, but the main idea of utilizing a biological sensing part (bioreceptor) in a modular system remained intact throughout the entire project. The modularity of the biosensor opens up the possibility of different uses for the system. With the modularity, other bioreceptors can be introduced and utilized to detect other compounds as well. By utilizing synthetic biology the biosensor could be adapted and optimized for other purposes.
         Several different quorum sensing molecules (QS) were considered and evaluated. The most important criteria regarding the choice of QS molecules were mobility through cell membranes and low crosstalk with each other, as well as potential already existing systems in our strains. The QS molecules are of great importance for the *S. oneidensis* oscillation-system, therefore the choice was more dependent on this system rather than the biosensor. Since the biosensor has fewer parts, it is more adaptable to the requirements imposed by the  *S. oneidensis* oscillation-system.
 
-        When considering the different sensing parts, we mainly looked at older iGEM projects to build on the foundation that others have paved. We decided to focus on persistent organic pollutants which are a current problem for the Baltic sea. This decision was based on literature and conversations with advisors and experts in the environmental field. We retained PCBs and PFOS as targets for our project . Regulations for the levels of PFOS have been developed in later years for Swedish water treatment plants. But the primary focus in wastewater treatment regulations is on heavy metals and nutrients not POPs [Petterson et al., 2020](#citation2). Since these pollutants are less prioritized more can pass into the environment. The current measurement method most commonly used for POPs is testing water samples in the lab.     
+        When considering the different sensing parts, we mainly looked at older iGEM projects to build on the foundation that others have paved. We decided to focus on persistent organic pollutants which are a current problem for the Baltic sea. This decision was based on literature and conversations with advisors and experts in the environmental field. We retained PCBs and PFOS as targets for our project . Regulations for the levels of PFOS have been developed in later years for Swedish water treatment plants. But the primary focus in wastewater treatment regulations is on heavy metals and nutrients not POPs [Petterson et al., 2020](#citation2). Since these pollutants are less prioritized more can pass into the environment. The current measurement method most commonly used for POPs is testing water samples in the lab.
     
         In order to develop S-POP into a fully functioning system all components needed to be tested. To make these tasks more manageable the system was divided up into:
         1. Detection
@@ -29,15 +29,15 @@ block article
     
         For the detection of PFOS and PCBs the genetic constructs were separated into several smaller parts in order to check individual promoters and gene expression. Appropriate controls were used to check the function of each construct. Constructs used throughout the experiments are listed below.
 
-        ## Detection
-        ### Detection of PFOS
-        #### The prmA promoter system and its characterization
+        # Detection
+        # Detection of PFOS
+        ## The prmA promoter system and its characterization
         
         The bio-receptor for PFOS detection, prmA, is an inducible promoter from *Rhodococcus jostii* RHA1 that should be induced in the presence of 100μM PFOS. This genetic part is already established in the iGEM system and was designed by Nathan Young, from the 2019 USAFA iGEM team. [BBa_K2911000](BBa_K2911000). LuxI, the autoinducer synthase for AHL, to be inserted after the prmA in order to produce the chosen QS molecule, 3OC6HSL which would bind to LuxR in *S. oneidensis*. system [BBa_C0061](BBa_C0061). PrmA being a previously established part the functionality can  be tested by adding fluorescence (GFP) after prmA induction. 
-        In the final system for PFOS detection, the QS molecule AHL produced in the PFOS-detection system which should bind to the QS recipient (LuxR) which induces the *S. oneidensis* oscillation system as illustrated in Figure 1.        
-        
-    - var imgpath = "" + require("Design--prma.png")["default"]
-    +image(1, imgpath, "Figure 1: PFOS detection by prma promoter ", 100)
+        In the final system for PFOS detection, the QS molecule AHL produced in the PFOS-detection system which should bind to the QS recipient (LuxR) which induces the *S. oneidensis* oscillation system as illustrated in Figure 1.
+
+    - var imgpath = "" + require("../assets/img/Design--prma.png")["default"]
+    +image(1, imgpath, "Figure 1: PFOS detection by prma promoter", 60)
 
     :markdown-it(html)
     
@@ -50,19 +50,19 @@ block article
         3. (Pprma-RBS-mCherry-DT)[BBa_K3440002](http://parts.igem.org/Part:BBa_K3440002) 
         Firstly the bio-receptor, prmA, PFOS inducible promoter’s leakiness had to be evaluated. This was performed by tagging it with fluorescence (mCherry). Some leakiness is expected for promoters and by checking prmA by itself it is then possible to compare the results to the full construct.   
         
-        #### Full construct
+        ## Full construct
         4. (Pprma-RBS-LuxI-Myc)[BBa_K3440005](http://parts.igem.org/Part:BBa_K3440005)  
         The final construct for the PFOS detection module combines the prmA promoter and LuxI with a Myc-tag in the end to evaluate expression by Western blot. This construct was utilized to check that LuxI could be expressed under the prmA promoter while the expression in the presence/absence of PFOS was also tested.
         Figure 2 illustrates the full genetic construct utilized in PFOS detection. The activation of prmA by the presence of PFOS induces the expression of the QS molecule AHL (3OC6-HSL). 
         
-    - var imgpath = "" + require("Design--PFOS_circuit.png")["default"]
+    - var imgpath = "" + require("../assets/img/Design--PFOS_circuit.png")["default"]
     +image(2, imgpath, "Figure 2: full PFOS construct", 100)
 
     :markdown-it(html)
         The QS molecule of interest would be transferred to the *S. oneidensis* oscillation-system and bound to LuxR. For the detection of PCBs, a similar system is utilized with the exception of the promoter region which can be adapted according to the application. However, the production and detection of the QS molecules is the common factor in the identification of PFOS and PCBs.
     
-        ### Detection of PCBs
-        #### The bphR1/2 system and its characterization
+        # Detection of PCBs
+        ## The bphR1/2 system and its characterization
         The initial plan was to use a group of PCBs for the testing of our experimental design. However, for safety reasons and according to the current regulation, it should be replaced by a similar but less hazardous compound. Hence, we decided to replace PCBs by 1,1-biphenyl as described in [Safety](https://2020.igem.org/Team:Stockholm/Safety). The bio-receptor used in the detection of 1,1-biphenyl is a combination of bphR1 promoter [BBa_K1155001](http://parts.igem.org/Part:BBa_K1155001), a positive regulator for bphR1 protein and bphR2 [BBa_K1413021](http://parts.igem.org/Part:BBa_K1413021). In the absence of 1,1-biphenyl, small amounts of bphR2 protein binds to bphR2 operator to repress bphR2 transcription (autorepression) and activate bphR1 weakly. When 1,1-biphenyl is present in the media, bphR2 protein binds to bphR1 operators to strongly activate their transcription. When the transcription is activated, the QS molecule would be produced and bind to LuxR in the *S. oneidensis*. system as illustrated in Figure 3.  
     - var imgpath = "" + require("../assets/img/Description--josh-withers.png")["default"]
     +image(3, imgpath, "Caption", 100)
@@ -81,29 +81,27 @@ block article
         8. (Pconst-RBS-bphR2-Myc-DT-Pbphr1-RBS-mCherry)[BBa_K3440017](http://parts.igem.org/Part:BBa_K3440007)
         The PCB detection relies on the activation of the bphR1 promoter by the expression of bphR2. bphR1 expression should be stronger in the presence of PCB. In order to evaluate the expression Myc-Tag and fluorescence (mCherry) was added to the construct.
 
-        #### Full construct
+        ## Full construct
         9. (Pconst-RBS-bphR2-Myc-DT-Pbphr1-RBS-LuxI)[BBa_K3440018](http://parts.igem.org/Part:BBa_K3440018)
         The full construct for PCB detection and expression of LuxI was to be inserted in *E. coli* and expression tested with *Chromobacterium Violaceum* that turns purple in the presence of AHLs.  This system is illustrated in (Figure 4), with a constitutive promoter that constantly induces bphR2, in the presence of PCBs, the bphR2 forms a complex with PCB. This complex upregulates the inducible promoter bphR1 which induces the expression of the QS molecule AHL (3OC6-HSL).
-        
-    - var imgpath = "" + require("Design--bphr1.png")["default"]
-    +image(4, imgpath, "Figure 4: PCB detection, full construct", 100)
+    
+    - var imgpath = "" + require("../assets/img/Design--bphr1.png")["default"]
+    +image(4, imgpath, "Figure 4: PCB detection, full construct", 80)
 
     :markdown-it(html)
         The sensing parts were separated from the oscillation system to simplify experimental design. The oscillation system was then also separated into several smaller parts in order to check the individual promoters, QS-molecule binding and QS-molecule production. The electrical output capabilities of *S. oneidensis* was tested separately within a MFC. 
         
-        ## *Shewanella oneidensis* oscillation module for electrical output
+        # *Shewanella oneidensis* oscillation module for electrical output
         The general concept of the oscillation circuit integrates the key part (RhlR) under an inducible promoter and has the reporter gene under the pRhl promoter. The reporter gene in the final circuit would be MtrB, which in the knockout strain of *S. oneidensis* would complete the Mtr complex and allow it to produce electricity. 
 
         The inducible promoter would be the pLux promoter, which together with LuxR can receive 3OC6-HSL from *E. coli*. When there is no 3OC6-HSL present in the sample, there should be no induction of pLux, which in turn would result in no transcription of RhlR. The oscillatory circuit is then incomplete and should not produce any signal. The RhlR concentration here is not static. To properly utilize *S. oneidensis* Oscillation-system illustrated in Figure 5, it was necessary to characterize all the parts involved in the genetic oscillator.
-
-        
-    - var imgpath = "" + require("fullosc.png")["default"]
+    - var imgpath = "" + require("../assets/img/Contribution--luxrhi.png")["default"]
     +image(5, imgpath, "Figure 5: Oscillation system in *S. oneidensis*", 100)
 
     :markdown-it(html)
         To test the entire oscillation-system the individual genetic parts and their expression needed to be checked. For simplicity a majority of the constructs were to be tested in *E.coli*, with the exception of the final full construct, and a construct that utilised MtrB as a reporter gene. 
         
-        ### LuxI/R - characterization  
+        ## LuxI/R - characterization
         10. (Plux-RBS-GFP)[BBa_K3440003](http://parts.igem.org/Part:BBa_K3440003) 
         The expression of the promoter Plux is up-regulated by the LuxR activator protein complexed with the autoinducer HSL. In order to evaluate the leakiness of this promoter fluorescence (GFP) was tagged on to check expression.
         
@@ -115,13 +113,13 @@ block article
 
         The full oscillation system requires the autoinducers LuxI and RhlI and their respective receptors LuxR and the RhlR to be fully functional, as well as their specific promoters Plux and Prhl. The entire system contains a lot of different genetic parts that needed to be characterized. Due to time constraints not all constructs were characterized. 
         
-        ### Rhl/R - characterization
+        ## Rhl/R - characterization
         13. (Prhl-RBS-GFP)[BBa_K3440004](http://parts.igem.org/Part:BBa_K3440004)
         The promoter Prhl is activated by the RhlR activator protein in concert with the auto-inducer C4-HSL which is produced by RhlI. In order to evaluate the leakiness of this promoter fluorescence (GFP) was tagged on to check expression.
         
-        14. (Pconst-RBS-RhlI-Myc)[BBa_K3440006](http://parts.igem.org/Part:BBa_K3440006)  
-    To check the expression of RhlI it was put under a constitutive promoter and tagged with a Myc-tag to evaluate the expression with Western Blot.
-    
+        14. (Pconst-RBS-RhlI-Myc)[BBa_K3440006](http://parts.igem.org/Part:BBa_K3440006)
+        To check the expression of RhlI it was put under a constitutive promoter and tagged with a Myc-tag to evaluate the expression with Western Blot.
+        
         15. (Pconst-RBS-RhlR-Myc-DT)[BBa_K3440008](http://parts.igem.org/Part:BBa_K3440008)
         By putting RhlR, activator protein, under a constitutive promoter and tagged with a Myc-tag the expression can be evaluated with Western Blot.  
         
@@ -130,7 +128,7 @@ block article
   
         The full construct of the oscillation module can only produce an electrical output with *S. oneidensis* in a MFC.
         
-        ### Full construct
+        ## Full construct
         The oscillatory circuit consists of a receptor (RhlR) which can receive its cognate ligand (C4-HSL) to activate an inducible promoter (pRhl). An AHL synthase (RhlI) producing the cognate ligand is under the control of the inducible promoter, creating a positive feedback loop. Under the same promoter, a lactonase (AiiA) is also controlled, which degrades the cognate ligand, creating a negative feedback loop.
         
         The presence of C4-HSL together with RhlR activates pRhl, which produces more RhlI synthase, which in turn creates more C4-HSL. The positive feedback loop amplifies the C4-HSL signal until enough AiiA has been synthesised. As the lactonase starts degrading the C4-HSL, the signal decreases. The negative feedback loop decreases the C4-HSL signal until no new protein is produced and the remaining active protein is broken down.
@@ -146,45 +144,46 @@ block article
 
         20. (Pconst-RBS-RhlR-DT-Prhl-RBS-RhlI-RBS-AiiA-RBS-GFP-DT)[BBa_K3440020](http://parts.igem.org/Part:BBa_K3440020)   
         The second to last construct in the oscillation system. This construct includes all the genes of interest except from the reporter MtrB gene. MtrB gene was exchanged by GFP gene in order to evaluate the expression of the oscillation-system in *E. coli* by fluorescence. This genetic modified *E.coli* strain would act as a representative construct that would not be dependent on *S. oneidensis*. MtrB as a reporter gene is the only viable option for *S.oneidensis* in a MFC, since it would produce an electric signal.     
-        21.(Plux-RBS-MtrB-DT-Pconst-RBS-RhlR-DT-Prhl-RBS-RhlI-RBS-AiiA-RBS-LuxR-DT)[BBa_K3440021](http://parts.igem.org/Part:BBa_K3440006)
+        21. (Plux-RBS-MtrB-DT-Pconst-RBS-RhlR-DT-Prhl-RBS-RhlI-RBS-AiiA-RBS-LuxR-DT)[BBa_K3440021](http://parts.igem.org/Part:BBa_K3440006)
         The final construct for the *S. oneidensis* oscillation-system was to be implemented in a MFC with MtrB as the reporter gene producing electricity. 
+        
+        # MFC
+        
+        In many biological systems, the energy used is in the form ATP which is formed by breaking down nutrients. The energy extracted from glycolysis and the Krebs cycle is not primarily in the form of ATP, but NADH, which is then used in the electron transport chain in oxidative phosphorylation. In some anaerobic bacteria such as *S. oneidensis*, an extracellular electron transport pathway still exists, but without oxygen as a terminal electron acceptor to form water, oxidized metals or other compounds can be reduced instead. This can result in electricity being generated as the reduced mediator can pass its electron on.[Pirbadian, S. et al, 2014](#citation3). A microbial fuel cell (MFC) is a fuel cell system that utilizes bio-electrochemistry to drive an electric current with bacteria[Schmidt-Rohr, K., 2020](#citation4).
 
-        ## MFC
+        ## *Shewanella oneidensis* MR-1
         
-        In many biological systems, the energy used is in the form ATP which is formed by breaking down nutrients. The energy extracted from glycolysis and the Krebs cycle is not primarily in the form of ATP, but NADH, which is then used in the electron transport chain in oxidative phosphorylation. In some anaerobic bacteria such as *S. oneidensis*, an extracellular electron transport pathway still exists, but without oxygen as a terminal electron acceptor to form water, oxidized metals or other compounds can be reduced instead. This can result in electricity being generated as the reduced mediator can pass its electron on.[Pirbadian, S. et al, 2014](#citation3). A microbial fuel cell (MFC) is a fuel cell system that utilizes bio-electrochemistry to drive an electric current with bacteria[Schmidt-Rohr, K., 2020](#citation4)   
-    
-        ### *Shewanella oneidensis* MR-1
+        *Shewanella oneidensis* MR-1 is known as a "Dissimilatory Metal-Reducing Bacteria (DMRB)" due to its metal reducing ability that is coupled to their metabolism [Lloyd, J., 2003](#citation5). Dissimilatory metal reduction is a process used by microbes that conserves energy through oxidation of organic or inorganic electron donors and reduction of metals and metalloids.
         
-        *Shewanella oneidensis* MR-1 is known as a “Dissimilatory Metal-Reducing Bacteria (DMRB)” due to its metal reducing ability that is coupled to their metabolism [Lloyd, J., 2003](#citation5). Dissimilatory metal reduction is a process used by microbes that conserves energy through oxidation of organic or inorganic electron donors and reduction of metals and metalloids. 
         This process creates an electrochemical gradient which provides the chemical energy for growth. When used in an MFC the natural electrochemical gradient can provide a detectable electric signal. [Schicklberger, M., 2013](#citation6). *Shewanella Oneidensis* MR-1 can also form highly conductive nanowires that can carry charge far outside the immediate area of the cell and remove the need for specific mediators. [Reguera, G. et al, 2005](#citation7). This is in *Shewanella oneidensis* done through a set of cytochromes that carries the electrons along the nanowire [Pirbadian, S. et al, 2014](#citation3)  C-type cytochromes are utilized by *S. oneidensis* as electron transfer proteins and flavins to facilitate the electron transport process. This is a common strategy used by a variety of DMRB bacteria to transfer electrons to the cell surface. It’s a characteristic to have a high number of c-type cytochrome encoding genes for metal reducing bacteria [Beblawy, S. et al., 2018] (#citation8)., MtrB after transporting through the cytoplasmic membrane and across the periplasm becomes a part of a porin-cytochrome complex in the outer membrane in *S. oneidensis*. In MtrB-gene knockout studies *S. oneidensis* metal reducing capabilities are significantly diminished [Schuetz, B. et al., 2009](#citation9). By taking advantage of the essential nature of MtrB we can compare the electric output and biofilm formation in *S. oneidensis* MR-1; a wild type from and a MtrB knockout strain.
     
         *S. oneidensis* can thrive in both aerobic and anaerobic conditions (facultative bacteria) and can utilize common carbon sources for energy. To optimize the metal reducing capabilities and biofilm formation of some conditions should be fulfilled. For soley the survival of  *S. oneidensis* most carbon sources are sufficient, e.g. lactate and furumate. Under anaerobic conditions lactate is a preferable carbon source that benefits biofilm formation.[Pinchuk, G., 2011](#citation10))
     
-        ### Fuel cell design 
+        ## Fuel cell design 
         
         Fuel cells convert chemical energy into electrical energy via a pair of redox reactions. These systems can have many different designs depending on the need. Included but not limited to, proton exchange membrane fuel cells, electro-galvanic fuel cells and zinc air battery. Two available setups for the MFC were a H-cell and a flow cell. An H-cell physically separates anodic and cathodic reactions by means of a porous membrane. An issue with the available H-cell setup was the distance between the two electrodes creating a large internal resistance. H-cells are more commonly used in systems with homogenous systems, meaning both electrode chambers contain either solution or gas. The H-cells are set up as a batch system while the flow cell has a continual flow. The flow cell setup available was deemed the most favorable for our system. A flow cell setup can be utilized as a hybrid system or homogeneous-system. The hybrid setup having one of the electrode sides exposed to gas and the other exposed to liquid. Separated by a porous membrane proton exchange is facilitated. The hybrid flow cell system was used. 
     
         For MFCs, special considerations need to be taken into account such as low flow rates, temperature and usage of solvents that the bacteria can survive in . *S. oneidensis* Biofilm formation is a vital aspect for the electric signal production leading to the prioritization of the conditions required for proper biofilm formation. 
     
-        ### Mediated/Undemediated
+        ## Mediated/Undemediated
         
         Generally there are two categories of MFCs, mediated and unmediated. A mediated system relies on a chemical compound to facilitate electron transport to the anode. While an unmediated system relies on the bacterias active redox proteins and electron transport via the outer membrane directly to the anode. [Badwal, S., 2014](#citation11). In the early stages of this project both a mediated and an unmediated system were considered. For optimization of the MFC it was planned to test both but due to time constraints, only the unmediated system could be tested. As well as testing mediated and unmediated systems, the supplementation of ferric ions in the MFC had been planned since it can significantly increase the electricity generation neither was utilized [Wu, D. et al., 2013](#citation12).
     
-        ### Size
+        ## Size
     
         When designing the MFC two different sizings of fuel cells were particularly interesting. Some research has indicated that a higher power density can be produced in a mini-MFC with a chamber volume of ca 1mL. With the smaller distance to transport electrons the internal resistance decreases likely leading to a stronger signal. [Ringesen, B. et al., 2007](#citation13). Though after evaluating the available equipment it was decided to utilize an already established fuel cell. But for future research a point of interest should be a mini-MFC system.
        
-        ### Final design of the MFC
+        ## Final design of the MFC
         
-    - var imgpath = "" + require("Experiments--MFC_schematic.png")["default"]
+    - var imgpath = "" + require("../assets/img/Experiments--MFC_Schematic.png")["default"]
     +image(6, imgpath, "Figure 6: Schematic of the MFC", 100)
     
     
     :markdown-it(html)
     
-        The  hybrid fuel flow cell that was utilized in the setup, illustrated in (Figure 6). The cathode side exposed to air, while the anode side was in liquid solute. Both electrodes were carbon paper that had been thermally treated to be hydrophobic. Sandwiched between the anode and cathode is a proton exchange membrane. The catholyte, inflow of air and the analyte inflow of liquid media (LB) inoculated with wild type *S. oneidensis*. The bacteria naturally form a biofilm on the electrode. Since it is in a continuous flow cell, we were unable to disassemble it during runs.The biofilm was to be visually inspected after the runs were concluded.  When a biofilm forms on the electrode a detectable increase in voltage output should be visible. In similar MFC setups the external resistance ranged between 200-10kΩ. Due to limited available equipment an external resistance of 1kΩ was deemed most appropriate. 
-    
+        The hybrid fuel flow cell that was utilized in the setup, illustrated in (Figure 6). The cathode side exposed to air, while the anode side was in liquid solute. Both electrodes were carbon paper that had been thermally treated to be hydrophobic. Sandwiched between the anode and cathode is a proton exchange membrane. The catholyte, inflow of air and the analyte inflow of liquid media (LB) inoculated with wild type *S. oneidensis*. The bacteria naturally form a biofilm on the electrode. Since it is in a continuous flow cell, we were unable to disassemble it during runs.The biofilm was to be visually inspected after the runs were concluded.  When a biofilm forms on the electrode a detectable increase in voltage output should be visible. In similar MFC setups the external resistance ranged between 200-10kΩ. Due to limited available equipment an external resistance of 1kΩ was deemed most appropriate.
+
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
 prepend citations
-    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"authors": "TEST Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
+    - var citations = [{"details": "(n.d.). Retrieved on October 27, 2020. from ", "title": "Comparing the engineering design process and the scientific method. Science Buddies.", "type": "webpage", "url": "https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-compare-scientific-method"}, {"details": "(2020). Retrieved on October 27, 2020. from ", "title": "Prelimin\u00c3\u00a4ra riktv\u00c3\u00a4rden f\u00c3\u00b6r PFAS (poly- och perfluorerade alkylsubstanser) i mark och grundvatten. Statens geotekniska institut.", "type": "webpage", "url": "https://www.swedgeo.se/sv/om-sgi/vart-samhallsuppdrag/regeringsuppdrag/riktvarden-pfas/"}, {"authors": "Pirbadian, S., Barchinger, S. E., Leung, K. M., Byun, H. S., Jangir, Y., Bouhenni, R. A., ... & El-Naggar, M. Y. (2014). ", "doi": "https://doi.org/10.1073/pnas.1410551111", "journal": "Proceedings of the National Academy of Sciences", "numbers": "111(35), 12883-12888. ", "title": "Shewanella oneidensis MR-1 nanowires are outer membrane and periplasmic extensions of the extracellular electron transport components.", "type": "article"}, {"authors": "Schmidt-Rohr, K. (2020). ", "doi": "https://doi.org/10.1021/acsomega.9b03352", "journal": "ACS Omega", "numbers": "5(5), 2221-2233. ", "title": "Oxygen Is the High-Energy Molecule Powering Complex Multicellular Life: Fundamental Corrections to Traditional Bioenergetics.", "type": "article"}, {"authors": "Lloyd, J. R. (2003). ", "doi": "https://doi.org/10.1016/S0168-6445(03)00044-5", "journal": "FEMS Microbiology Reviews", "numbers": "27(2-3), 411-425. ", "title": "Microbial reduction of metals and radionuclides.", "type": "article"}, {"authors": "Schicklberger, M., Sturm, G., & Gescher, J. (2012). ", "doi": "http://dx.doi.org/10.1128/AEM.03556-12", "journal": "Applied and Environmental Microbiology", "numbers": "79(4), 1150-1159. ", "title": "Genomic Plasticity Enables a Secondary Electron Transport Pathway in Shewanella oneidensis.", "type": "article"}, {"authors": "Reguera, G., McCarthy, K. D., Mehta, T., Nicoll, J. S., Tuominen, M. T., & Lovley, D. R. (2005). ", "doi": "https://doi.org/10.1038/nature03661", "journal": "Nature", "numbers": "435(7045), 1098-1101. ", "title": "Extracellular electron transfer via microbial nanowires.", "type": "article"}, {"authors": "Beblawy, S., Bursac, T., Paquete, C., Louro, R., Clarke, T. A., & Gescher, J. (2018). ", "doi": "https://doi.org/10.1111/mmi.14067", "journal": "Molecular Microbiology", "numbers": "109(5), 571-583. ", "title": "Extracellular reduction of solid electron acceptors by\n            Shewanella oneidensis.", "type": "article"}, {"authors": "Schuetz, B., Schicklberger, M., Kuermann, J., Spormann, A. M., & Gescher, J. (2009). ", "doi": "http://dx.doi.org/10.1128/AEM.01834-09", "journal": "Applied and Environmental Microbiology", "numbers": "75(24), 7789-7796. ", "title": "Periplasmic Electron Transfer via the c-Type Cytochromes MtrA and FccA of Shewanella oneidensis MR-1.", "type": "article"}, {"authors": "Pinchuk, G. E., Geydebrekht, O. V., Hill, E. A., Reed, J. L., Konopka, A. E., Beliaev, A. S., & Fredrickson, J. K. (2011). ", "doi": "https://doi.org/10.1128/AEM.05382-11", "journal": "Applied and Environmental Microbiology", "numbers": "77(23), 8234-8240. ", "title": "Pyruvate and Lactate Metabolism by Shewanella oneidensis MR-1 under Fermentation, Oxygen Limitation, and Fumarate Respiration Conditions.", "type": "article"}, {"authors": "Badwal, S. P. S., Giddey, S. S., Munnings, C., Bhatt, A. I., & Hollenkamp, A. F. (2014). ", "doi": "https://doi.org/10.3389%2Ffchem.2014.00079", "journal": "Frontiers in Chemistry", "numbers": "2. ", "title": "Emerging electrochemical energy conversion and storage technologies.", "type": "article"}, {"authors": "Wu, D., Xing, D., Lu, L., Wei, M., Liu, B., & Ren, N. (2013). ", "doi": "https://doi.org/10.1016/j.biortech.2012.09.106", "journal": "Bioresource Technology", "numbers": "135, 630-634. ", "title": "Ferric iron enhances electricity generation by Shewanella oneidensis MR-1 in MFCs.", "type": "article"}, {"authors": "Ringeisen, B. R., Ray, R., & Little, B. (2007). ", "doi": "https://doi.org/10.1016/j.jpowsour.2006.10.026", "journal": "Journal of Power Sources", "numbers": "165(2), 591-597. ", "title": "A miniature microbial fuel cell operating with an aerobic anode chamber.", "type": "article"}]
