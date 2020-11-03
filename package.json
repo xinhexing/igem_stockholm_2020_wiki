@@ -16,7 +16,7 @@
     "build:all": "npm-run-all prestart build",
     "postbuild": "python3 utils/postbuild.py",
     "wikisync": "python3.7 wikisync.py",
-    "publish": "npm-run-all build:all:win wikisync:win",
+    "publish": "npm-run-all build:all wikisync",
     "preprocess:win": "python utils/preprocess.py",
     "nav:win": "python utils/nav.py",
     "citations:win": "python utils/citations.py",
@@ -26,7 +26,8 @@
     "build:win": "webpack --config webpack.production.js",
     "build:all:win": "npm-run-all prestart:win build:win",
     "postbuild:win": "python utils/postbuild.py",
-    "wikisync:win": "python wikisync.py"
+    "wikisync:win": "python wikisync.py",
+    "publish:win": "npm-run-all build:all:win wikisync:win"
   },
   "repository": {
     "type": "git",
