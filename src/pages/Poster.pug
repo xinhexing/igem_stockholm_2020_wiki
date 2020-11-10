@@ -40,10 +40,7 @@ html(lang="en")
 
       /*sections */
       .poster_w.content .row .section, 
-      .poster_w.display #section_text .subsection{ float:left; }	
-      
-      /*display*/
-      .poster_w.display {margin-top: 10%}
+      .poster_w.display #section_text .subsection{ float:left; }
 
       /*different section sizes*/
       .poster_w.content .row .section.full,
@@ -128,11 +125,11 @@ html(lang="en")
                         img(src="https://2020.igem.org/wiki/images/1/1c/T--Stockholm--Poster_introduction_pic.png")
                         | Water is essential for life on our planet. Without clean water sources, the entire ecosystem suffers and there is no valuable solution in sight yet. To reach the Sustainable Development Goals (SDGs), the methods for monitoring aquatic pollutant concentrations need to be cheaper, more accessible and more accurate (1).
                         h2 The Problem
-                        | Persistent organic pollutants (POPs) like PCBs and PFOS are a group of problematic pollutants that are not readily degraded in the environment and bioaccumulate in aquatic organisms (2,3). Exposure to POPs can lead to reproductive disorders, neurobehavioral impairment, increased risk of cancer, genotoxicity and increased birth defects (4). The Baltic sea, which is landlocked and less resilient than other ecosystems due to lower biodiversity, is in great danger because of POP pollution (5,6,7).
+                        | Persistent organic pollutants (POPs) like PCBs and PFOS are a group of problematic pollutants that are not readily degraded in the environment and bioaccumulate in aquatic organisms (2, 3). Exposure to POPs can lead to reproductive disorders, neurobehavioral impairment, increased risk of cancer, genotoxicity and increased birth defects (4). The Baltic sea, which is landlocked and less resilient than other ecosystems due to lower biodiversity, is in great danger because of POP pollution (5, 6, 7).
                         h2 Our Solution
                         i Shewanella oneidensis 
-                        | produces an electrical output in anaerobic conditions through an electricity-producing gene which, when knocked out, can be reintroduced and controlled by an engineered plasmid. Induction of this gene using quorum sensing molecules produced by an engineered
-                        i E. coli
+                        | produces an electrical output in anaerobic conditions through an electricity-producing gene which, when knocked out, can be reintroduced and controlled by an engineered plasmid. Induction of this gene using quorum sensing molecules produced by an engineered 
+                        i E. coli 
                         | can couple electricity production to pollutant detection. For better detection, the signal-to-noise ratio can be improved by using an oscillatory circuit to control the current. The fully developed S-POP system can be used to continuously monitor pollutant concentrations and improve efforts for pollution prevention.
                         
                         h2 References
@@ -157,7 +154,7 @@ html(lang="en")
                         i E. coli 
                         | detection module and a 
                         i Shewanella oneidensis 
-                        | oscillatory electrical output module, linked to each other by quorum sensing signalling molecules. We created genetic circuits using SnapGene and optimised them until simulations confirmed we could get a unique oscillatory electrical output upon detection of a specific pollutant. Genetic circuits for detection were characterised using fluorescence measurements and Western blotting, while electricity production was measured by building a microbial fuel cell. The division of tasks is shown in Figure 1 below. For each experiment and simulation, we identified problems and solved them methodically so that scientifically correct results could be produced (Figure 2). This included the use of negative and positive controls as well as repetitions of measurements. A troubleshooting guide to Western Blotting was also created to help future teams.
+                        | oscillatory electrical output module, linked to each other by quorum sensing signalling molecules. We created genetic circuits using SnapGene and optimised them until simulations confirmed we could get a unique oscillatory electrical output upon detection of a specific pollutant. Genetic circuits for detection were characterised using fluorescence measurements and Western blotting, while electricity production was measured by building a microbial fuel cell. The division of tasks is shown in Figure 1 above. For each experiment and simulation, we identified problems and solved them methodically so that scientifically correct results could be produced (Figure 2). This included the use of negative and positive controls as well as repetitions of measurements. A troubleshooting guide to Western Blotting was also created to help future teams.
                         img(src='https://2020.igem.org/wiki/images/a/a0/T--Stockholm--Poster_Engineering--cycle.png')
                         p.caption Figure 2: Engineering cycle for our project
                   #model.section.half
@@ -172,7 +169,9 @@ html(lang="en")
                         i Shewanella oneidensis 
                         | mtrB knockout strain thanks to the co-existence of positive and negative feedback loops. These loops are controlled by the production and degradation of quorum sensing molecules emitted by 
                         i E. coli 
-                        | upon binding of pollutants. Our first system contained the feedback loops and electricity reporter parts under the same promoter. This led to time-dependent oscillation phases, which could be a problem since cells are spatially distributed and QS-signalling is diffusion dependent. To avoid destructive interferences, the genetic circuit was adjusted so that simulations proved that time-independent oscillations could be obtained. Higher levels of mtrB expression (i.e. higher current) were observed for pollutant-induced cells than from promoter leakiness.
+                        | upon binding of pollutants. Our first system contained the feedback loops and electricity reporter parts under the same promoter. This led to time-dependent oscillation phases, which could be a problem since cells are spatially distributed and QS-signalling is diffusion dependent. To avoid destructive interferences, the genetic circuit was adjusted so that oscillations without time-dependent phases could be obtained. Higher levels of mtrB expression (i.e. higher current) were observed in silico for induced cells than non-induced cells.
+                        img(src="https://2020.igem.org/wiki/images/8/85/T--Stockholm--Poster_model_osc2.gif")
+                        p.caption Figure 4: Simulation of oscillatory circuit
                 .row-poster
                   #mfc.section.third
                     img(src='https://2020.igem.org/wiki/images/b/be/T--Stockholm--Poster_mfc.png')
@@ -183,7 +182,7 @@ html(lang="en")
                         i S. oneidensis 
                         | MR-1 (WT) and the mtrB knockout (KO) strain were cultivated in the microbial fuel cell (MFC) we built and electricity production was monitored for 450 h.
                         img(src='https://2020.igem.org/wiki/images/1/16/T--Stockholm--Poster_Results--MFC_WT2.png')
-                        p.caption Figure 4: Measurement of current over time in red, with the different phases in cyan
+                        p.caption Figure 5: Measurement of current over time in red, with the different phases in cyan
                         p
                         | Initial addition of Lysogeny Broth (LB) growth medium resulted in a steady current increase to 20 μA over 260 h, suggesting that either a biofilm generated on the electrode or cells in suspension produced electricity. Addition of fresh LB resulted in a rapid current increase to 130 µA followed by a plateau. This confirmed successful biofilm growth and stabilization due to biofouling of the electrode and/or nutrient limitation in the chamber. Change to M9 medium  with lactic acid as the only carbon source resulted in, after an initial current drop, a steady increase upon addition of more lactic acid to the media, suggesting growth limitation by nutrient availability. The KO strain was grown in similar conditions and no electricity generation was observed, as hypothesized. The introduction of a circuit containing mtrB can be expected to re-establish controlled electricity production in the MFC.
                   #characterization.section.third
@@ -191,28 +190,34 @@ html(lang="en")
                     .info
                       .title Characterization 
                       .text
-                        | Successful gene insertion was confirmed through sequencing after cloning. Western Blots, fluorescence measurements, and i Chromobacterium reporter strain assays were used for functionality analysis and protein expression determination.
+                        | Successful gene insertion was confirmed through sequencing after cloning. Western Blots, fluorescence measurements, and 
+                        i Chromobacterium 
+                        | reporter strain assays were used for functionality analysis and protein expression determination.
                         
                         h2 Fluorescence
                         | The QS-construct, pConst-LuxR-pLux-GFP (Q) showed an increase in fluorescence intensity upon induction with the AHL synthase-producing construct and synthetic AHL (3O6C-HSL) respectively, in comparison with non-induced conditions. Similar results were observed for the homologue QS construct, pConst-RhlR-pRhl-GFP (O14, O19) which displayed increased fluorescence intensity upon induction with the AHL synthase-producing construct and synthetic AHL (C4-HSL). No significant difference was observed for the pollutant sensing promoters prmA (B7, B8) and bphR1 (C) in induced and non-induced conditions with associated pollutants PFOS and 1,1-biphenyl respectively.
                         img(src='https://2020.igem.org/wiki/images/2/2a/T--Stockholm--Poster_Results--mCherry_bar_graph.png')
-                        p.caption Figure 5: Net fluorescence intensity of constructs expressing (a) mCherry and (b) GFP. The values shown represent averages of 3 technical replicates, and have been adjusted for cell density. Error bars represent standard deviation
+                        p.caption Figure 6: Net fluorescence intensity of constructs expressing (a) mCherry and (b) GFP. The values shown represent averages of 3 technical replicates, and have been adjusted for cell density. Error bars represent standard deviation
                         img(src='https://2020.igem.org/wiki/images/6/60/T--Stockholm--Poster_Results--fluor_eppis.png')
-                        p.caption Figure 6: GFP visualisation of constructs O14, O19 and Q under UV light
+                        p.caption Figure 7: GFP visualisation of constructs O14, O19 and Q under UV light
 
                         h2 Western Blot
                         | In accordance with fluorescence results, positive bands for LuxI (A), RhlI (G) and LuxR (Q) were observed on the WB. No positive bands were noted for remaining constructs in non-induced as well as induced conditions.
                         img(src='https://2020.igem.org/wiki/images/f/f2/T--Stockholm--Poster_Results--WB.png')
-                        p.caption Figure 7: WB results of samples with positive bands for positive control, LuxI (A), RhlI (G) and LuxR (Q) in that order. M + biphenyl, F + PFOS and P3.2 + biphenyl were induced by pollutants
+                        p.caption Figure 8: WB results of samples with positive bands for positive control, LuxI (A), RhlI (G) and LuxR (Q) in that order. M + biphenyl, F + PFOS and P3.2 + biphenyl were induced by pollutants
 
                         h2 Chromobacterium Assay
                         i Chromobacterium violaceum 
-                        | CV026, an AHL reporter strain, was confirmed to produce violet pigment upon induction of 10 mM AHL. However, no color change was detected upon co-culturing of i C. violaceum with AHL producing constructs (LuxI and RhlI), perhaps due to the concentrations of AHL produced being below i C. violaceum sensitivity levels.
+                        | CV026, an AHL reporter strain, was confirmed to produce violet pigment upon induction of 10 mM AHL. However, no color change was detected upon co-culturing of 
+                        i C. violaceum 
+                        | with AHL producing constructs (LuxI and RhlI), perhaps due to the concentrations of AHL produced being below 
+                        i C. violaceum 
+                        | sensitivity levels.
                         
                         h2 Viability Assay
                         | Viability assays showed no notable impact in the survival and growth of our pollutant-sensing host organisms as well as Top 10 
                         i E. coli 
-                        | BL21 up to pollutant threshold values of 10-3 M of 1,1-biphenyl and 125 µM PFOS.
+                        | BL21 up to pollutant threshold values of 10<sup>-3</sup> M of 1,1-biphenyl and 125 µM PFOS.
                   #conclusion.section.third
                     img(src='https://2020.igem.org/wiki/images/5/51/T--Stockholm--Poster_conclusion.png')
                     .info
@@ -228,7 +233,7 @@ html(lang="en")
                       .title Implementation 
                       .text
                         img(src='https://2020.igem.org/wiki/images/3/33/T--Stockholm--Poster_Implementation--overview.png')
-                        p.caption Figure 8: Schematic of the two potential implementation locations of S-POP microbial fuel cells into the sewerage system
+                        p.caption Figure 9: Schematic of the two potential implementation locations of S-POP microbial fuel cells into the sewerage system
                         p
                         | S-POP has been designed as a modular biosensor to address the need for a rapid, reliable and economical system to detect and distinguish between the aquatic pollutants threatening our water bodies. The modularity of S-POP supports flexible implementation options. Future modifications could allow detection of various additional aquatic pollutants, whilst implementation of parallel systems enables multiple pollutant monitoring within the same aquatic environment.
                         p
