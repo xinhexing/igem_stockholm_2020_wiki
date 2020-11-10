@@ -7,6 +7,26 @@ html(lang="en")
     title Poster | iGEM Stockholm
     style(type="text/css").
         
+      #section_title {font-size: 3rem; margin-bottom: 1rem;}
+      .reference {font-size: 0.75rem; margin: 0;}
+      #section_text {text-align: justify;}
+      #section_text img {margin: 2rem 0;}
+      #section_text h2 {margin: 2rem 0 1rem 0}
+      #section_text h5 {margin: 1rem 0 0.5rem 0}
+      #section_text .caption {
+        margin: 0;
+        text-align: center;
+        font-style: italic;
+        font-size: 0.9rem;
+      }
+
+      .logo {
+        height: 20rem;
+        margin: 1rem 0;
+        background: center/auto 100% no-repeat;
+        background-image: url("https://2020.igem.org/wiki/images/1/18/T--Stockholm--Poster_project_dark.png");
+        transition: background-image 0.3s;
+      }
       /*general poster wrapper */
       .poster_w{
         float:left;
@@ -24,9 +44,6 @@ html(lang="en")
       
       /*display*/
       .poster_w.display {margin-top: 10%}
-
-      #section_title {font-size: 3rem; margin-bottom: 1rem;}
-      .reference {font-size: 0.75rem; margin: 0;}
 
       /*different section sizes*/
       .poster_w.content .row .section.full,
@@ -61,6 +78,9 @@ html(lang="en")
       .poster_w .clear{
         clear:both;
       }
+
+      /*dark mode*/
+      body.dark .logo {background-image: url("https://2020.igem.org/wiki/images/8/8f/T--Stockholm--Poster_project_light.png");}
       
       /*mobile*/
       @media only screen and (max-width: 850px){
@@ -79,34 +99,50 @@ html(lang="en")
       main
         .container
           .title
-            h1 Poster
+            h1 Poster: Team Stockholm
           .row
             .content.col
-              // -Place the content of your poster inside this div-
               .poster_w.content
-                // This is the first row of the poster, it contains the title section -
                 .row-poster
                   #title.section.full.first_text
                     img(src='https://2020.igem.org/wiki/images/3/34/T--Stockholm--Poster_title.png')
                     .info
-                      .title Title
+                      .title S-POP: A modular biosensor for the detection of POPs in water
                       .text
-                        | After centuries spent using oceans for waste management, we've finally realized impact of water pollution. Persistent Organic Pollutants (POPs), including PFOS (perfluorooctanesulfonic acid) and PCBs (polychlorinated biphenyls), have been of great concern, due to their toxicity in low concentrations and bioaccumulating properties that lead to alarming concentrations in the ecosystem. Current detection methods, which are performed by analyzing massive amounts of water samples in the lab, cannot properly measure the low levels of POPs nor differentiate between the various iterations that exist. Our project S-POP aims to solve this issue by creating a monitor containing two major parts, a modular E. coli biosensor coupled with a Microbial Fuel Cell. When E. coli is activated by the pollutant a Quorum sensing (QS) molecule is produced. Upregulated by the QS-molecule, engineered Shewanella oneidensis produces an oscillating electrical signal that corresponds to the type and quantity of pollutants in the sample.
+                        .logo
+                        | After centuries spent using oceans for waste management, we have finally realized the impact of water pollution. Persistent organic pollutants (POPs), including PFOS (perfluorooctanesulfonic acid) and PCBs (polychlorinated biphenyls), have been of great concern, due to their toxicity in low concentrations and bioaccumulating properties that lead to alarming concentrations in the ecosystem. Current detection methods, which are performed by analyzing massive amounts of water samples in the lab, cannot properly measure the low levels of POPs nor differentiate them. Our project, Sensing-Persistent Organic Pollutants (S-POP), aims to solve this issue by creating a monitor containing two major parts, a modular 
+                        i E. coli 
+                        | biosensor coupled with a microbial fuel cell (MFC). When 
+                        i E. coli 
+                        | is activated by the pollutant a quorum sensing (QS) molecule is produced. Upregulated by the QS-molecule, engineered 
+                        i Shewanella oneidensis 
+                        | produces an oscillating electrical signal that corresponds to the type and quantity of pollutants in the sample.
+                        h2 Authors and their Affiliated Institutions
+                        | Aditi Kallai (Karolinska Institute), Astha Kaul (Karolinska Institute), Athina Eleftheraki (Karolinska Institute), Corinna Mayer (Karolinska Institute), Hanna Mårtensson (KTH Royal Institute of Technology in Stockholm), Julie Cordier (KTH Royal Institute of Technology in Stockholm), Layung Wikanthi (Karolinska Institute), Richard Brunsell (KTH Royal Institute of Technology in Stockholm), Sofia Klangby (Uppsala University), Umme Hany Islam (Karolinska Institute), Victoria Muliadi (Karolinska Institute), Xinhe Xing (Karolinska Institute)
                 .row-poster
                   #introduction.section.full.first_text
                     img(src='https://2020.igem.org/wiki/images/2/2a/T--Stockholm--Poster_introduction.png')
                     .info
                       .title Introduction
                       .text
-                        | Persistent organic pollutants (POPs) are a group of especially problematic pollutants that are not readily degraded in the environment (1). Chemicals such as PCBs and PFOS are lipophilic or proteophilic and can be found in relatively high concentrations within aquatic organisms (2). Exposure to POPs can lead to reproductive disorders, neurobehavioural impairment, increased risk of cancer, genotoxicity and increased birth defects (3). Baltic sea, which is landlocked, is in great danger because of high pollution (4,5). Also, the Baltic sea ecosystem is described by lower biodiversity, making it less resilient than other ecosystems (6). Water is essential for life on our planet. Without clean water sources, the entire ecosystem suffers and there is no valuable solution in sight yet. For all nations to have the ability to reach SDG agreements and monitor pollutant concentrations the methods need to be cheaper, more accessible and more accurate (7). Shewanella oneidensis may produce an electrical output when triggered with QS molecules. This interaction may also lead to the creation of oscillatory circuits, which was our main inspiration for the detection of chemicals. Using a fully developed S-POP system, one could continually monitor pollutant concentrations and improve current pollution prevention.
-                        p 
-                        p.reference (1) Jones, K. C., & de Voogt, P. (1999). Persistent organic pollutants (POPs): state of the science.Environmental Pollution 100(1-3), 209-221.
-                        p.reference (2) Schmidt, C. W. (1999). No POPs. Environmental Health Perspectives 107(1), A24.
-                        p.reference (3) Persistent organic pollutants (POPs). World Health Organization. (n.d.). Retrieved on October 26, 2020. from https://www.who.int/foodsafety/areas_work/chemical-risks/pops/en/
-                        p.reference (4) Wiberg, K., Assefa, A. T., Sundqvist, K. L., Cousins, I. T., Johansson, J., McLachlan, M. S., . . . Cato, I. (2013). Managing the dioxin problem in the Baltic region with focus on sources to air and fish. Naturvårdsverket.
-                        p.reference (5) Bergknut, M., Laudon, H., Jansson, S., Larsson, A., Gocht, T., & Wiberg, K. (2011). Atmospheric deposition, retention, and stream export of dioxins and PCBs in a pristine boreal catchment. Environmental Pollution 159(6), 1592-1598.
-                        p.reference (6) Magnusson, K., & Norén, K. (October, 2012). The sensitivity of the Baltic Sea ecosystems to hazardous compounds. Swedish Chemicals Agency - www.kemi.se. Retrieved on October 25, 2020. from https://www.kemi.se/download/18.6df1d3df171c243fb23960c4/1591097407345/pm-9-12-baltsens.pdf
-                        p.reference (7) Practices of Science: Scientific Error. Exploring Our Fluid Earth. (n.d.). Retrieved on October 26, 2020. from https://manoa.hawaii.edu/exploringourfluidearth/physical/world-ocean/map-distortion/practices-science-scientific-error
+                        img(src="https://2020.igem.org/wiki/images/1/1c/T--Stockholm--Poster_introduction_pic.png")
+                        | Water is essential for life on our planet. Without clean water sources, the entire ecosystem suffers and there is no valuable solution in sight yet. To reach the Sustainable Development Goals (SDGs), the methods for monitoring aquatic pollutant concentrations need to be cheaper, more accessible and more accurate (1).
+                        h2 The Problem
+                        | Persistent organic pollutants (POPs) like PCBs and PFOS are a group of problematic pollutants that are not readily degraded in the environment and bioaccumulate in aquatic organisms (2,3). Exposure to POPs can lead to reproductive disorders, neurobehavioral impairment, increased risk of cancer, genotoxicity and increased birth defects (4). The Baltic sea, which is landlocked and less resilient than other ecosystems due to lower biodiversity, is in great danger because of POP pollution (5,6,7).
+                        h2 Our Solution
+                        i Shewanella oneidensis 
+                        | produces an electrical output in anaerobic conditions through an electricity-producing gene which, when knocked out, can be reintroduced and controlled by an engineered plasmid. Induction of this gene using quorum sensing molecules produced by an engineered
+                        i E. coli
+                        | can couple electricity production to pollutant detection. For better detection, the signal-to-noise ratio can be improved by using an oscillatory circuit to control the current. The fully developed S-POP system can be used to continuously monitor pollutant concentrations and improve efforts for pollution prevention.
+                        
+                        h2 References
+                        p.reference (1) Practices of Science: Scientific Error. Exploring Our Fluid Earth. (n.d.). Retrieved on October 26, 2020. from https://manoa.hawaii.edu/exploringourfluidearth/physical/world-ocean/map-distortion/practices-science-scientific-error
+                        p.reference (2) Jones, K. C., & de Voogt, P. (1999). Persistent organic pollutants (POPs): state of the science.Environmental Pollution 100(1-3), 209-221.
+                        p.reference (3) Schmidt, C. W. (1999). No POPs. Environmental Health Perspectives 107(1), A24.
+                        p.reference (4) Persistent organic pollutants (POPs). World Health Organization. (n.d.). Retrieved on October 26, 2020. from https://www.who.int/foodsafety/areas_work/chemical-risks/pops/en/
+                        p.reference (5) Wiberg, K., Assefa, A. T., Sundqvist, K. L., Cousins, I. T., Johansson, J., McLachlan, M. S., . . . Cato, I. (2013). Managing the dioxin problem in the Baltic region with focus on sources to air and fish. Naturvårdsverket.
+                        p.reference (6) Bergknut, M., Laudon, H., Jansson, S., Larsson, A., Gocht, T., & Wiberg, K. (2011). Atmospheric deposition, retention, and stream export of dioxins and PCBs in a pristine boreal catchment. Environmental Pollution 159(6), 1592-1598.
+                        p.reference (7) Magnusson, K., & Norén, K. (October, 2012). The sensitivity of the Baltic Sea ecosystems to hazardous compounds. Swedish Chemicals Agency - www.kemi.se. Retrieved on October 25, 2020. from https://www.kemi.se/download/18.6df1d3df171c243fb23960c4/1591097407345/pm-9-12-baltsens.pdf
 
                 .row-poster
                   #engineering.section.half
@@ -114,82 +150,147 @@ html(lang="en")
                     .info
                       .title Engineering
                       .text
-                        | We designed S-POP as a modular system made of an E. coli detection module and a Shewanella oneidensis oscillatory electrical output module, linked to each other by signalling quorum sensing molecules. We created genetic circuits using Snapgene and optimised them until numerical simulations confirmed we could get a unique oscillatory electrical output upon detection of a specific pollutant. Genetic circuits for detection were characterised using fluorescence measurements and Western Blotting, while electricity production was tested by building a Microbial Fuel Cell. A division of tasks is shown in Figure X below. For each experiment and simulation, we identified problems and solved them methodically so that scientifically correct results could be produced. This included the use of negative and positive controls as well as repetitions of measurements. A troubleshooting guide to Western blotting was also created to help future teams.
+                        img(src='https://2020.igem.org/wiki/images/7/75/T--Stockholm--Poster_Engineering--division.png')
+                        p.caption Figure 1: Division of engineering tasks
+                        p
+                        | We designed S-POP as a modular system made of an 
+                        i E. coli 
+                        | detection module and a 
+                        i Shewanella oneidensis 
+                        | oscillatory electrical output module, linked to each other by quorum sensing signalling molecules. We created genetic circuits using SnapGene and optimised them until simulations confirmed we could get a unique oscillatory electrical output upon detection of a specific pollutant. Genetic circuits for detection were characterised using fluorescence measurements and Western blotting, while electricity production was measured by building a microbial fuel cell. The division of tasks is shown in Figure 1 below. For each experiment and simulation, we identified problems and solved them methodically so that scientifically correct results could be produced (Figure 2). This included the use of negative and positive controls as well as repetitions of measurements. A troubleshooting guide to Western Blotting was also created to help future teams.
                         img(src='https://2020.igem.org/wiki/images/a/a0/T--Stockholm--Poster_Engineering--cycle.png')
+                        p.caption Figure 2: Engineering cycle for our project
                   #model.section.half
                     img(src='https://2020.igem.org/wiki/images/9/9d/T--Stockholm--Poster_model.png')
                     .info
                       .title Model 
                       .text
-                        | A system of delayed differential equations was used to predict whether our genetic circuit could create pollutant-specific electrical oscillations. Oscillations are established in a Shewanella oneidensis mtrB knockout strain thanks to the co-existence of positive and negative feedback loops controlled by the production and degradation of quorum sensing molecules emitted by E. coli upon binding of pollutants. Our first system contained the feedback loops and electricity reporter parts under the same promoter, which led to time-dependent oscillation phases, which could be a problem since cells are spatially distributed and QS-signalling is diffusion dependent. To avoid destructive interferences, the genetic circuit was adjusted and simulations proved that time-independent oscillations could be obtained, with higher levels for pollutant-induced cells than out of promoter leakiness.
                         img(src='https://2020.igem.org/wiki/images/5/56/T--Stockholm--Poster_modelanim.gif')
+                        p.caption Figure 3: Animated descriptive diagram of the oscillatory system
+                        p
+                        | A system of delayed differential equations was used to predict whether our genetic circuit could create pollutant-specific electrical oscillations. Oscillations are established in a 
+                        i Shewanella oneidensis 
+                        | mtrB knockout strain thanks to the co-existence of positive and negative feedback loops. These loops are controlled by the production and degradation of quorum sensing molecules emitted by 
+                        i E. coli 
+                        | upon binding of pollutants. Our first system contained the feedback loops and electricity reporter parts under the same promoter. This led to time-dependent oscillation phases, which could be a problem since cells are spatially distributed and QS-signalling is diffusion dependent. To avoid destructive interferences, the genetic circuit was adjusted so that simulations proved that time-independent oscillations could be obtained. Higher levels of mtrB expression (i.e. higher current) were observed for pollutant-induced cells than from promoter leakiness.
                 .row-poster
                   #mfc.section.third
                     img(src='https://2020.igem.org/wiki/images/b/be/T--Stockholm--Poster_mfc.png')
                     .info
                       .title MFC 
                       .text
-                        | The wildtype strain of S. oneidensis MR-1 (WT) and the MtrB knockout (KO) strain were cultivated in the MFC we built and electricity production was monitored for 450 h.
+                        | The wildtype strain of 
+                        i S. oneidensis 
+                        | MR-1 (WT) and the mtrB knockout (KO) strain were cultivated in the microbial fuel cell (MFC) we built and electricity production was monitored for 450 h.
                         img(src='https://2020.igem.org/wiki/images/1/16/T--Stockholm--Poster_Results--MFC_WT2.png')
-                        | Initial addition of LB resulted in a steady current increase to 20 µA over 260 h, suggesting that either a biofilm generated on the electrode or cells in suspension produced electricity. Addition of fresh LB resulted in a rapid current increase to 130 µA followed by a plateau, thus confirming successful biofilm growth and stabilization due to biofouling of the electrode or nutrient limitation in the chamber. Change to M9 minimal media with lactic acid as the only carbon source resulted in, after an initial current drop, a steady increase upon addition of more lactic acid to the media, suggesting growth limitation by nutrient availability. The KO strain was grown in similar conditions and  no electricity generation was observed, as expected. One can thus expect the introduction of a circuit containing mtrB to re-establish controlled electricity production in the MFC.
+                        p.caption Figure 4: Measurement of current over time in red, with the different phases in cyan
+                        p
+                        | Initial addition of Lysogeny Broth (LB) growth medium resulted in a steady current increase to 20 μA over 260 h, suggesting that either a biofilm generated on the electrode or cells in suspension produced electricity. Addition of fresh LB resulted in a rapid current increase to 130 µA followed by a plateau. This confirmed successful biofilm growth and stabilization due to biofouling of the electrode and/or nutrient limitation in the chamber. Change to M9 medium  with lactic acid as the only carbon source resulted in, after an initial current drop, a steady increase upon addition of more lactic acid to the media, suggesting growth limitation by nutrient availability. The KO strain was grown in similar conditions and no electricity generation was observed, as hypothesized. The introduction of a circuit containing mtrB can be expected to re-establish controlled electricity production in the MFC.
                   #characterization.section.third
                     img(src='https://2020.igem.org/wiki/images/f/f9/T--Stockholm--Poster_characterization.png')
                     .info
                       .title Characterization 
                       .text
-                        | Successful gene insertion was ensured through sequencing post cloning. WB, fluorescence and chromobacterium reporter stains were used for functionality analysis and determining protein expression.
+                        | Successful gene insertion was confirmed through sequencing after cloning. Western Blots, fluorescence measurements, and i Chromobacterium reporter strain assays were used for functionality analysis and protein expression determination.
                         
-                        h3 Fluorescence
-                        | QS-construct pConst-LuxR-pLux-GFP showed a significant fluorescence intensity increase upon induction with AHL synthase and synthetic AHL (3O6C-HSL) respectively, in comparison with non-induced conditions. Similar results were seen for the homologue QS construct pConst-RhlR-pRhl-GFP which showed fluorescence intensity increase upon AHL (C4-HSL) induction in different forms. The pollutant sensing promoters prmA and promoter bphR1 showed no significant difference between induced and non-induced conditions (with associated pollutant).
+                        h2 Fluorescence
+                        | The QS-construct, pConst-LuxR-pLux-GFP (Q) showed an increase in fluorescence intensity upon induction with the AHL synthase-producing construct and synthetic AHL (3O6C-HSL) respectively, in comparison with non-induced conditions. Similar results were observed for the homologue QS construct, pConst-RhlR-pRhl-GFP (O14, O19) which displayed increased fluorescence intensity upon induction with the AHL synthase-producing construct and synthetic AHL (C4-HSL). No significant difference was observed for the pollutant sensing promoters prmA (B7, B8) and bphR1 (C) in induced and non-induced conditions with associated pollutants PFOS and 1,1-biphenyl respectively.
                         img(src='https://2020.igem.org/wiki/images/2/2a/T--Stockholm--Poster_Results--mCherry_bar_graph.png')
+                        p.caption Figure 5: Net fluorescence intensity of constructs expressing (a) mCherry and (b) GFP. The values shown represent averages of 3 technical replicates, and have been adjusted for cell density. Error bars represent standard deviation
                         img(src='https://2020.igem.org/wiki/images/6/60/T--Stockholm--Poster_Results--fluor_eppis.png')
+                        p.caption Figure 6: GFP visualisation of constructs O14, O19 and Q under UV light
 
-                        h3 Western Blot
-                        | In accordance with fluorescence results, positive bands for LuxI, RhlI and LuxR were noted on the WB. No positive bands were noted for remaining constructs in non-induced as well as induced conditions.
+                        h2 Western Blot
+                        | In accordance with fluorescence results, positive bands for LuxI (A), RhlI (G) and LuxR (Q) were observed on the WB. No positive bands were noted for remaining constructs in non-induced as well as induced conditions.
                         img(src='https://2020.igem.org/wiki/images/f/f2/T--Stockholm--Poster_Results--WB.png')
+                        p.caption Figure 7: WB results of samples with positive bands for positive control, LuxI (A), RhlI (G) and LuxR (Q) in that order. M + biphenyl, F + PFOS and P3.2 + biphenyl were induced by pollutants
 
-                        h3 Chromobacterium Assay
-                        | Chromobacterium violaceum CV026, an AHL reporter strain, was established to produce violet pigment upon induction of 10 mM AHL. However, no color change was detected upon co-culturing of C. violaceum with AHL producing constructs (LuxI and RhlI), perhaps due to the concentrations of AHL produced being below C. violaceum sensitivity levels. 
+                        h2 Chromobacterium Assay
+                        i Chromobacterium violaceum 
+                        | CV026, an AHL reporter strain, was confirmed to produce violet pigment upon induction of 10 mM AHL. However, no color change was detected upon co-culturing of i C. violaceum with AHL producing constructs (LuxI and RhlI), perhaps due to the concentrations of AHL produced being below i C. violaceum sensitivity levels.
                         
-                        h3 Viability Assay
-                        | Viability assays showed survival and growth of our pollutant-sensing host organisms as well as Top 10 E. coli BL21 up to pollutant threshold values of 10-3 M of 1,1-biphenyl and 125 mM PFOS.
+                        h2 Viability Assay
+                        | Viability assays showed no notable impact in the survival and growth of our pollutant-sensing host organisms as well as Top 10 
+                        i E. coli 
+                        | BL21 up to pollutant threshold values of 10-3 M of 1,1-biphenyl and 125 µM PFOS.
                   #conclusion.section.third
                     img(src='https://2020.igem.org/wiki/images/5/51/T--Stockholm--Poster_conclusion.png')
                     .info
                       .title Conclusion
                       .text
-                        | The results from the MFC experiment suggest that the WT S. oneidensis strain could form a biofilm on the MFC anode rendering electricity production as opposed to the MtrB knock-out strain. Successful functionality of the QS signaling constructs was observed through fluorescence results and protein expression of the QS proteins; LuxI, RhlI and LuxR was observed through positive WB bands. The viability assay suggests survival and growth of our host cells at pollutant concentrations well above levels found in nature and industrial environments. Further experimentation is needed to draw conclusions in regards to the pollutant sensing genes.
+                        | The results from the MFC experiment suggest that the WT 
+                        i S. oneidensis 
+                        | strain could form a biofilm on the MFC anode rendering electricity production as opposed to the mtrB knock-out strain. Hence, reintroduction of mtrB containing circuits under the control of an inducible promoter would presumably generate electricity in a controlled manner upon promoter induction. Successful functionality of the QS signaling constructs was observed through fluorescence results and protein expression of the QS proteins; LuxI, RhlI and LuxR was observed through positive WB bands, suggesting viable QS transmission between the cellular modules. The viability assay suggests survival and growth of our host cells at pollutant concentrations well above levels found in nature and industrial environments. The pollutant sensing genes did not operate as hypothesized, and require further optimization.
                 .row-poster
                   #implementation.section.third
                     img(src='https://2020.igem.org/wiki/images/6/68/T--Stockholm--Poster_implementation.png')
                     .info
                       .title Implementation 
                       .text
-                        | S-POP, has been designed as a modular biosensor to address the need for a rapid, reliable and economical system to detect and distinguish between the aquatic pollutants engulfing our water bodies. The modularity of S-POP supports flexible implementation options. Future modifications can allow detection of various aquatic pollutants, whilst implementation of parallel systems permits multiple pollutant monitoring within the same aquatic environment. Bioethical safety measures are key in implementation, with focus on bacterial strain containment through filtration and sterilization as well as system maintenance and quality control through regular check-ups by experienced technicians. Quick source identification and continuous monitoring are crucial in ensuring early action for pollutant control and S-POP offers an on-the-spot, almost real-time detection system for this need. Implemented, S-POP could be a valuable tool for environmental agencies and industries to monitor pollutant levels both downstream and upstream of industries, water treatment plants and households.
                         img(src='https://2020.igem.org/wiki/images/3/33/T--Stockholm--Poster_Implementation--overview.png')
+                        p.caption Figure 8: Schematic of the two potential implementation locations of S-POP microbial fuel cells into the sewerage system
+                        p
+                        | S-POP has been designed as a modular biosensor to address the need for a rapid, reliable and economical system to detect and distinguish between the aquatic pollutants threatening our water bodies. The modularity of S-POP supports flexible implementation options. Future modifications could allow detection of various additional aquatic pollutants, whilst implementation of parallel systems enables multiple pollutant monitoring within the same aquatic environment.
+                        p
+                        | Bioethical safety measures are key in implementation, with focus on bacterial strain containment through filtration and sterilization as well as system maintenance and quality control through regular check-ups by experienced technicians. Quick source identification and continuous monitoring are crucial in ensuring early action for pollutant control and S-POP offers an on-the-spot, almost real-time detection system for this need. When implemented, S-POP could be a valuable tool for environmental agencies and industries to monitor pollutant levels both downstream and upstream of industries, water treatment plants, and households.
                   #contribution.section.third
                     img(src='https://2020.igem.org/wiki/images/6/6e/T--Stockholm--Poster_contribution.png')
                     .info
                       .title Contribution 
                       .text
-                        h3 Modular Biosensor System for Pollutants
-                        | S-POP offers a modular biosensor platform for future iGEM teams to adapt and modify for the detection and differentiation of multiple aquatic pollutants, with a standardized signalling output in the form of electricity production. The Shewanella module was designed to be adequate for all types of pollutants, while the E. coli detection module can easily be adapted to other pollutants with appropriate promoters.
+                        img(src='https://2020.igem.org/wiki/images/5/50/T--Stockholm--Poster_contr1.png')
+                        | S-POP offers a modular biosensor platform for future iGEM teams to adapt and modify for the detection and differentiation of multiple aquatic pollutants, with a standardized signalling output in the form of electricity production. The 
+                        i Shewanella oneidensis 
+                        | module was designed to be adequate for all types of pollutants, while the 
+                        i E. coli 
+                        | detection module can easily be adapted to other pollutants with appropriate promoters.
 
-                        h3 Characterization and Improvement of Biobricks
-                        | Additional characterization has been done, including improvement of biobricks from the registry such as prmA and bphR1 through addition of fluorescence markers and Myc-tags for WB and fluorescence characterization.  
+                        img(src='https://2020.igem.org/wiki/images/7/75/T--Stockholm--Poster_contr2.png')
+                        | Additional characterization of BioBricks such as pollutant-sensing promoters prmA and bphR1 was conducted, including improvement through addition of fluorescence markers and Myc-tags for WB and fluorescence characterization.  
 
-                        h3 Western Blot Troubleshooting Guide
-                        | A compilation of literature research, valuable feedback from experts in the field and numerous experimental trials and optimizations have resulted in a Western Blot guide, hopefully helpful to future iGEM teams and researchers when troubleshooting WBs.  
+                        img(src='https://2020.igem.org/wiki/images/c/c1/T--Stockholm--Poster_contr3.png')
+                        | A combination of literature research, valuable feedback from experts in the field and numerous experimental trials and optimizations resulted in a Western Blot guide that will hopefully prove helpful to future iGEM teams and researchers when troubleshooting WBs.
 
-                        h3 Lab on Screens
-                        | A youtube series has been created, aiming to make science accessible and fun through a series of DIY-experiments. We hoped to provide a creative platform for future iGEM teams to build upon and to interest audiences in science and synthetic biology.
+                        img(src='https://2020.igem.org/wiki/images/a/ac/T--Stockholm--Poster_contr4.png')
+                        | We created a YouTube series aiming to make science accessible and fun through a series of DIY-experiments. The goal was to provide a creative platform for future iGEM teams to build upon and to interest audiences in science and synthetic biology.
 
                   #attributions.section.third
                     img(src='https://2020.igem.org/wiki/images/2/21/T--Stockholm--Poster_attributions.png')
                     .info
                       .title Attributions 
                       .text
-                        | We would like to thank all the people that helped us during the journey either by providing valuable advice or by providing material. Special thanks to our PIs Prof. Johan Rockberg and Prof. Ute Römling, our instructors Maximilian Karlander and Aman Mebrahtu and our advisors Amirreza Khataee, Emma Vincent, Rasmus Bengtsson and Nerea Capon Lamelas. Also we would like to state the valuable attributions of Johannes Gescher, Melanie Knoll, Jonatan Martin Rodriguez, Martin Gustafsson, Rakel Wreland Lindström, Steffen Georg, João Pereira, Sudhanshu Pawar, Gunaratna Kuttuva Rajarao, Kristina Stark Fujii, Sara Villner, Åsa Andersson, Karin Norström, Sándor Bereczky, Vilma Lagebro, Stella Axelsson, Josephine Berg, Iida Tynkkynen, Stamatina Rentouli, Puck Norell and of the research staff on floor 3, Department of Protein Science, Albanova, KTH Royal Institute of Technology to our project. We would also like to thank iGEM Aalto-Helsinki, iGEM Uppsala, iGEM Bielefeld, iGEM BITS Goa and iGEM UCopenhagen for their excellent collaboration during iGEM year. Finally, we would like to acknowledge SGEM (Stockholm Genetically Engineered Machines), Ester Lisnati Jayadi and our Financial sponsors for their support!
+                        | We would like to thank all the people that helped us during the journey either by providing valuable advice or by providing material.
+
+                        h5 Supervisors
+                        | Prof. Johan Rockberg. Primary iGEM PI and the head of a research group at the Division of Protein Technology at KTH Royal Institute of Technology.
+                        | Prof. Ute Römling. Secondary iGEM PI and the head of a research group at the Department of Microbiology, Tumor and Cell Biology at Karolinska Institutet.
+
+                        h5 Instructors
+                        | Maximilian Karlander. Team member of iGEM Stockholm 2015 and Ph.D. student at the Department of Protein Technology at KTH Royal Institute of Technology.
+                        | Aman Mebrahtu. Team member of iGEM Stockholm 2016 and a Ph.D. student at the Department of Protein Technology at KTH Royal Institute of Technology
+
+                        h5 Advisors
+                        | Emma Vincent, researcher at the Institute of Environmental Medicine, Karolinska Institutet. Amirreza Khataee, postdoc researcher at the Division of Applied Electrochemistry at KTH Royal Institute of Technology. Nerea Capon Lamelas, team member of iGEM Stockholm 2019 and a Field Application Specialist at Promega Corporation. Rasmus Bengtsson, team member of iGEM Stockholm 2017 and a Graphic Designer and Marketing Communicator at TCO Development.
+
+                        h5 Lab Support
+                        | Johannes Gescher, Melanie Knoll, Jonatan Martin Rodriguez, Martin Gustafsson, Rakel Wreland Lindström, Steffen Georg, João Pereira, Sudhanshu Pawar, Gunaratna Kuttuva Rajarao, and research staff on floor 3, Department of Protein Science, Albanova, KTH Royal Institute of Technology.
+
+                        h5 iGEM Teams
+                        | iGEM Aalto-Helsinki, iGEM Uppsala, iGEM Bielefeld, iGEM BITS Goa, and iGEM UCopenhagen.
+
+                        h5 Human Practices Support
+                        | Kristina Stark Fujii, Sara Villner, Åsa Andersson, Karin Norström, Sándor Bereczky, Vilma Lagebro, Stella Axelsson, Josephine Berg, and Iida Tynkkynen.
+
+                        h5 Financial Advisors
+                        | Stamatina Rentouli and Puck Norell. 
+
+                        h5 Acknowledgments
+                        | SGEM (Stockholm Genetically Engineered Machine) and Ester Lisnati Jayadi.
+
+                        h5 Sponsors
+                        | KTH Royal Institute of Technology, KTH Opportunities Fund, KI Innovations AB, PN Biomedicine Grant (Medicinska Föreningen union, KI), Benchling, Integrated DNA Technologies, New England Biolabs, Red Bull, and SnapGene.
+                        img(src="https://2020.igem.org/wiki/images/6/6e/T--Stockholm--Poster_Sponsors.png")                        
+
                   .row-poster.tail
                   #tail.section.full.first_text.tail
                     img(src='https://2020.igem.org/wiki/images/a/a8/T--Stockholm--Poster_tail.png').tail
