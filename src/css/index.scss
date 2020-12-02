@@ -18,6 +18,8 @@ body {
     &::-webkit-scrollbar-thumb {background-color: $item_light;}
   }
 
+  #awards {background-color: $bg_light;}
+
   #group0 {
     background-image: url($title_light);
     .logo {background-image: url("../assets/img/Home--project_dark.png");}
@@ -51,6 +53,8 @@ body.dark {
     &::-webkit-scrollbar {background-color: $bg_dark;}
     &::-webkit-scrollbar-thumb {background-color: $item_dark;}
   }
+
+  #awards {background-color: $bg_dark;}
 
   #group0 {
     background-image: url($title_dark);
@@ -155,7 +159,18 @@ body.dark {
   }
 }
 
-#group2, #group4 {h1, a {color: $highlight_light;}}
+#awards {
+  transition: background-color 0.3s;
+  height: 30vh;
+  z-index: 10;
+  .content {
+    bottom: 5vh;
+    h2 {font-weight: 700; color: $highlight_light;}
+    h3 {font-size: 1.25rem;}
+  }
+}
+
+#awards, #group2, #group4 {h1, a {color: $highlight_light;}}
 #group1, #group3, #group5 {h1, a {color: #76dbccff;}}
 
 // REEF
@@ -200,6 +215,7 @@ body.dark {
 
 // MEDIA QUERIES
 @include respond-below(lg) {
+  #awards {height: 30vh;}
   #group0 {.logo {background: no-repeat center 25%/auto 55%;}}
   .parallax {
     perspective: none;
@@ -217,10 +233,13 @@ body.dark {
 }
 
 @include respond-below(md) {
+  #awards {height: 15vh;}
   .parallax {
     .parallax_layer-main {
       .content {
         h1 {font-size: 2rem;}
+        h2 {font-size: 1.8rem;}
+        h3 {font-size: 1.2rem;}
         p {font-size: 0.9rem;}
       }
     }
@@ -228,5 +247,9 @@ body.dark {
 }
 
 @include respond-below(xs) {
-  #group0 {h2 {font-size: 1.2rem;}}
+  #awards {height: 70vh;}
+  #group0 {
+    h2 {font-size: 1.2rem;}
+    h3 {font-size: 1.1rem;}
+  }
 }
